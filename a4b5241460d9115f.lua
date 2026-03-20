@@ -1,2 +1,10556 @@
--- This script was generated using the MoonVeil Obfuscator v1.4.5 [https://moonveil.cc]
-local cb,va,Sa,h,Yb,fb=bit32.bxor,getmetatable,pairs,type local qb,Z,La,bc,Oc,eb,ba,Jc,F,Tc,Ic,i_,Xb,Wa,V,tc,xc,Qa,cc,qc,ca;i_={};bc=(getfenv());F,V,qb=(string.char),(string.byte),(bit32 .bxor);Oc=function(ea,G)local U,rb,rc,xb;U={};rc,rb=function(Ja,ec,Hb)rb[Hb]=cb(ec,48110)-cb(Ja,38346)return rb[Hb]end,{};xb=rb[18163]or rc(3174,128001,18163)while xb~=29152 do if xb<46659 then if xb<12021 then if(U[1]>=0 and U[2]>U[3])or((U[1]<0 or U[1]~=U[1])and U[2]<U[3])then xb=48117 else xb=rb[-6696]or rc(36846,8872,-6696)end elseif xb<=12021 then U[2]=U[2]+U[1];U[4]=U[2]if U[2]~=U[2]then xb=rb[29505]or rc(47821,20754,29505)else xb=rb[15704]or rc(51650,56447,15704)end else xb,U[5]=rb[-20655]or rc(40204,35925,-20655),U[5]..F(qb(V(ea,(U[4]-170)+1),V(G,(U[4]-170)%#G+1)))end elseif xb<=48117 then if xb>46659 then return U[5]else U[5]='';U[2],U[1],xb,U[3]=170,1,64197,(#ea-1)+170 end else U[4]=U[2]if U[3]~=U[3]then xb=rb[12367]or rc(60971,101432,12367)else xb=rb[-2725]or rc(64297,49538,-2725)end end end end;ca=(select);xc=(function(...)return{[1]={...},[2]=ca('#',...)}end);Z=((function()local function x(Ga,Nb,wc)if Nb>wc then return end return Ga[Nb],x(Ga,Nb+1,wc)end return x end)());Wa,La=(string.gsub),(string.char);tc=(function(Tb)Tb=Wa(Tb,'[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]','')return(Tb:gsub('.',function(lc)if(lc=='=')then return''end local gb,za='',(('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'):find(lc)-1)for nb=6,1,-1 do gb=gb..(za%2^nb-za%2^(nb-1)>0 and'1'or'0')end return gb end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(Gc)if(#Gc~=8)then return''end local Ea=0 for qa=1,8 do Ea=Ea+(Gc:sub(qa,qa)=='1'and 2^(8-qa)or 0)end return La(Ea)end))end);qc,Ic,Jc,ba,eb,cc,Xb,Qa=bc[Oc('\219\133|\193\159i','\168\241\14')][Oc('&)\211\50$\200','SG\163')],bc[Oc('\239\166\155\245\188\142','\156\210\233')][Oc('\206\200\223','\189')],bc[Oc('\202-U\208\55@',"\185Y\'")][Oc('\165\190\179\162','\199\199')],bc[Oc('\159>\137d\207','\253W')][Oc('\143\223\3\138\202\31','\227\172k')],bc[Oc('\212\6\194\\\132','\182o')][Oc('T_YOJE','&,1')],bc[Oc('j\240|\170:','\b\153')][Oc('d\194h\199','\6\163')],bc[Oc('h\186~\183y','\28\219')][Oc('\135\2\228\135\f\254','\228m\138')],{};Tc=(function(vc)local ab=Qa[vc]if not(ab)then else return ab end local X,Ra,ga,ja,Vc=ba(1,11),ba(1,5),1,{},''while ga<=#vc do local Za=Jc(vc,ga);ga=ga+1 for da=8,(8)+7 do local I=nil if not(cc(Za,1)~=0)then if not(ga+1<=#vc)then else local m=qc(Oc('\159\232\147','\161'),vc,ga);ga=ga+2 local Oa,sa=#Vc-eb(m,5),cc(m,(Ra-1))+3;I=Ic(Vc,Oa,Oa+sa-1)end else if not(ga<=#vc)then else I=Ic(vc,ga,ga);ga=ga+1 end end Za=eb(Za,1)if I then ja[#ja+1]=I;Vc=Ic(Vc..I,-X)end end end local tb=Xb(ja);Qa[vc]=tb return tb end)local w_,Ac,Vb,Wc,mc,ub,_a,n_,K,pc,Na,C,Sc,Pa,B,S,oc,Va,Xa,o_,a_,hb,Ma,mb,Da,fa_,nc,f_,Xc,Ba=bc[Oc('\\\239X\243','(\150')],bc[Oc('\157\168\140\167\129','\237\203')],bc[Oc('\251\52\236)\236','\158F')],bc[Oc('\146\164\202\149\139\169\193\146','\230\203\164\224')],bc[Oc('\3\235,\a\234+','b\152_')],bc[Oc('a\221\48w\219(','\18\184\\')],bc[Oc('[\138\b\184\134\57I\155\29\183\143(','(\239|\213\227M')],bc[Oc('\218\28\243\192\6\230','\169h\129')][Oc('U\162\243^\172\245','3\205\129')],bc[Oc('\161\128\177\187\154\164','\210\244\195')][Oc('\133\56W\145\53L',"\240V\'")],bc[Oc('gH\24}R\r','\20<j')][Oc(',*=','_')],bc[Oc('\147\160*\137\186?','\224\212X')][Oc('\244\182\226\170','\150\207')],bc[Oc('\142\214\229\148\204\240','\253\162\151')][Oc('|\163~\185','\31\203')],bc[Oc('x\188n\177i','\f\221')][Oc('UuN\127','8\26')],bc[Oc('\176\55\166:\161','\196V')][Oc('\18\b\1\2','bi')],bc[Oc('\236,\250!\253','\152M')][Oc('\235m\248\233k\248','\136\31\157')],bc[Oc('_\171I\166N','+\202')][Oc('\251\236q\247\240v','\146\130\2')],bc[Oc('\r\231\27\234\28','y\134')][Oc('\214\161\246\214\175\236','\181\206\152')],bc[Oc('\128\206\196\228\150\213\223\229\134','\227\161\182\139')][Oc('\211\247\221\209\241\221','\176\133\184')],bc[Oc('+P\229X=K\254Y-','H?\151\55')][Oc('\17u\rp\f','h\28')],bc[Oc('p\21?\228f\14$\229v','\19zM\139')][Oc('&K\138!C\156','T.\249')],bc[Oc('5 1\211#;*\210\51','VOC\188')][Oc('\204\23\192\b\202','\175{')],bc[Oc('s\15\139r\15\145b','\20j\255')],bc[Oc('\180\245\162\175\228','\214\156')][Oc('94)','[')],bc[Oc('\157Z\139\0\205','\255\51')][Oc('1\186<\176','S\194')],bc[Oc('U\215C\141\5','7\190')][Oc('\21\146\25\151','w\243')],bc[Oc('\135)\145s\215','\229@')][Oc('f\239a\232p','\4\155')],bc[Oc('\200\128\222\218\152','\170\233')][Oc('\142y\22\149l\n','\252\n~')],bc[Oc('\31/\tuO','}F')][Oc('\253\209\231\248\196\251','\145\162\143')],bc[Oc('k\209}\139;','\t\184')][Oc('\198\"\50\209;%\215','\163ZF')],{[18728]={},[19866]={{5,6,false},{2,0,false},{10,2,false},{2,10,false},{9,2,true},{5,6,false},{9,2,true},{2,6,false},{10,4,false},{10,7,false},{5,6,false},{5,8,false},{2,1,false},{9,6,true},{9,6,true},{10,2,true},{0,8,true},{9,6,false},{8,5,true},{9,6,false},{2,0,true},{9,8,true},{10,7,true},{5,6,false},{5,6,false},{5,5,false},{8,2,false},{9,4,true},{9,5,false},{9,2,true},{5,1,false},{2,2,true},{2,6,false},{10,0,false},{9,7,true},{5,6,false},{5,6,false},{10,0,true},{9,10,true},{5,8,true},{10,10,true},{0,2,false},{2,2,true},{9,5,false},{8,0,false},{2,8,false},{5,6,false},{2,6,true},{9,6,false},{8,6,false},{5,6,false},{0,0,true},{5,6,false},{8,5,false},{9,2,true},{8,8,false},{8,6,true},{0,7,false},{9,10,false},{2,8,true},{5,7,true},{10,4,true},{0,2,true},{9,4,false},{5,6,false},{9,6,true},{5,8,false},{5,6,false},{0,6,false},{10,4,false},{9,4,true},{9,6,false},{9,2,true},{0,7,true},{10,0,true},{5,7,true},{8,6,false},{9,0,true},{5,6,false},{9,6,false},{5,6,false},{5,1,false},{0,4,false},{5,8,false},{5,6,false},{9,6,false},{10,6,true},{0,0,false},{10,4,false},{10,10,false},{9,0,true},{5,3,false},{9,1,false},{10,7,true},{0,10,true},{0,2,true},{9,6,false},{5,7,false},{5,7,true},{5,0,false},{5,8,false},{5,6,false},{0,4,true},{5,10,false},{5,6,false},{5,8,false},{10,6,false},{5,3,false},{0,8,false},{10,10,true},{0,5,true},{10,5,true},{9,4,true},{8,5,false},{5,6,false},{9,1,false},{9,1,true},{8,2,false},{5,6,false},{2,2,false},{8,5,false},{8,1,true},{2,6,false},{2,2,false},{2,10,true},{9,6,true},{2,7,true},{10,0,false},{8,10,true},{5,8,false},{5,6,false},{8,2,false},{5,6,false},{9,4,false},{5,4,true},{5,5,false},{0,8,true},{5,1,true},{5,5,false},{2,6,true},{0,2,false},{5,7,false},{5,7,true},{2,10,false},{9,7,false},{0,0,false},{10,6,true},{8,0,true},{5,5,false},{5,7,true},{10,1,false},{8,10,false},{8,5,true},{10,8,false},{9,1,false},{9,1,false},{5,6,false},{10,10,true},{0,5,false},{2,2,false},{0,10,true},{9,6,false},{8,2,true},{8,4,false},{8,8,false},{5,6,false},{9,5,true},{5,6,false},{9,6,false},{9,6,false},{5,6,true},{9,1,false},{10,2,true},{2,1,true},{5,6,false},{0,10,false},{5,6,false},{8,1,true},{2,8,true},{2,5,true},{5,6,true},{9,6,true},{8,1,false},{5,3,false},{9,1,false},{10,0,true},{5,7,true},{10,1,true},{2,6,false},{0,5,true},{10,1,false},{9,8,false},{5,4,true},{2,6,false},{2,4,false},{8,10,true},{2,0,false},{8,2,false},{5,6,false},{5,5,true},{9,6,false},{2,1,false},{8,1,true},{9,6,false},{5,6,false},{8,2,true},{5,6,false},{5,7,true},{5,8,false},{2,8,true},{5,7,true},{9,1,false},{2,7,false},{8,10,true},{10,6,true},{5,6,false},{0,10,true},{10,9,false},{9,8,false},{0,5,false},{5,3,false},{5,6,false},{8,6,false},{5,6,false},{2,4,false},{8,8,false},{10,8,false},{0,5,false},{5,4,true},{0,2,true},{0,10,false},{5,7,true},{8,8,true},{9,1,true},{9,8,false},{0,2,false},{9,4,true},{5,6,false},{9,7,false},{0,5,true},{9,6,false},{9,6,true},{5,6,true},{8,4,false},{0,7,true},{5,7,true},{2,8,true},{10,8,false},{5,3,false},{9,0,true},{8,5,true},{10,6,true},{8,2,false},{5,10,false},{10,6,false},{8,4,false}},[29387]={}}local Lb=(function(_c)local Ka=Ba[29387][_c]if(Ka)then return Ka end local xa=1 local function lb()local _d,Ha,Gb,Ub,gc,wb,M,Uc,Lc,jc,d_,D,O,Ca,ma,sc,Ec,ka,Ib,Y,t_,T,vb,J,la,H,Mc,Cc,Fa,z,E,Nc;vb,Mc=function(l_,ua,zb)Mc[l_]=cb(zb,18922)-cb(ua,63556)return Mc[l_]end,{};ma=Mc[-19534]or vb(-19534,21083,71962)repeat if ma>31127 then if ma>48452 then if ma>58181 then if ma<=61779 then if ma>59426 then if ma<61049 then if ma<=60922 then if E then ma=Mc[-14973]or vb(-14973,33439,96182)continue end ma=Mc[3602]or vb(3602,31142,80329)else ma,Gb=Mc[18913]or vb(18913,32944,63010),E continue end elseif ma<=61049 then Ib=0;Ub,ma,ka,z=74,16887,78,1 else ma,d_=Mc[19294]or vb(19294,25417,117056),Z(la[1],1,la[2])end elseif ma>58781 then if ma<=59037 then Ub=Ub+z;Ec=Ub if Ub~=Ub then ma=Mc[811]or vb(811,22846,68541)else ma=Mc[-14836]or vb(-14836,12770,42649)end else ma,Gb=Mc[-25027]or vb(-25027,46111,60971),nil end elseif ma<=58770 then if ma<=58753 then ma,T[56286]=Mc[28789]or vb(28789,25006,77089),jc[T[8334]+1]else _d=Lc;t_,Ca=B(_d),false;H,jc,ma,M=(_d)+206,1,27621,207 end else jc[(gc-136)],ma=d_,Mc[-10098]or vb(-10098,21045,64097)end elseif ma>62994 then if ma>63891 then la,ma=xc(Ub),Mc[8987]or vb(8987,13787,128792)continue elseif ma>63017 then la,ma=xc(nil),11902 else ma,T=41706,mb(Cc,143)continue end elseif ma>62540 then if ma<=62837 then T,ma=nil,10267 else Ib=Ib+ka;z=Ib if Ib~=Ib then ma=Mc[-8304]or vb(-8304,64363,61909)else ma=Mc[9254]or vb(9254,844,117360)end end elseif ma<=62407 then if ma<=62037 then ma,la=19401,nil else ma=Mc[-30541]or vb(-30541,49133,13426)continue end else ka=K(Oc('\226','\129')..Ib,_c,xa);ma,xa=Mc[25695]or vb(25695,4301,98557),xa+Ib end elseif ma<54544 then if ma<51962 then if ma<=51537 then if ma<50049 then if Cc==7 then ma=Mc[-18141]or vb(-18141,15725,41179)continue elseif Cc==1 then ma=Mc[19635]or vb(19635,1096,88152)continue elseif(Cc==5)then ma=Mc[-16605]or vb(-16605,14350,125985)continue else ma=Mc[-28802]or vb(-28802,17662,45145)continue end ma=Mc[768]or vb(768,47985,83964)elseif ma<=50049 then Ub,ma=nil,Mc[-17503]or vb(-17503,58369,49032)else ka=Ub;Ib[44526]=ka;S(t_,{});ma=Mc[-18894]or vb(-18894,36425,77220)end else J=J+Ha;gc=J if J~=J then ma=Mc[-6025]or vb(-6025,34783,91827)else ma=Mc[23368]or vb(23368,63140,24343)end end elseif ma>52990 then if ma<=53221 then ma,T[56286]=Mc[30895]or vb(30895,9099,126810),Xc(T[44526],0,16)else if Cc==2 then ma=Mc[2601]or vb(2601,36029,43238)continue elseif(Cc==10)then ma=Mc[12868]or vb(12868,34069,66780)continue else ma=Mc[-18736]or vb(-18736,9405,120452)continue end ma=Mc[19119]or vb(19119,45126,88841)end elseif ma>52637 then E=0;ka,ma,Ub,Ib=1,Mc[-9065]or vb(-9065,59841,26395),88,84 elseif ma<=51962 then Fa=K(Oc('\0','B'),_c,xa);xa,ma=xa+1,42596 else D=K(Oc('\f','N'),_c,xa);ma,xa=5789,xa+1 end elseif ma<=56750 then if ma>55268 then if ma>55837 then Gb=0;Ha,gc,T,ma=106,110,1,Mc[-13678]or vb(-13678,40153,69128)else ka=K(Oc('!T)','\29'),_c,xa);xa,ma=xa+4,Mc[-9976]or vb(-9976,21823,117941)end elseif ma<=55101 then if ma>54544 then if(M>=0 and t_>Ca)or((M<0 or M~=M)and t_<Ca)then ma=Mc[30401]or vb(30401,17102,47507)else ma=21350 end else d_=T[44526];la,E=nc(d_,30),Da(nc(d_,20),1023);T[56286]=jc[E+1];T[37350]=la if(la==2)then ma=Mc[5295]or vb(5295,65121,32651)continue else ma=Mc[-30853]or vb(-30853,46029,55028)continue end ma=Mc[-21025]or vb(-21025,56085,42968)end else ma,Ub=Mc[56]or vb(56,36022,96169),mb(ka,1812614433)continue end elseif ma>57486 then Cc=Ha if gc~=gc then ma=Mc[11764]or vb(11764,39895,38296)else ma=44403 end elseif ma<=57452 then if ma<=57233 then E=K(Oc('\188','\254'),_c,xa);xa,ma=xa+1,Mc[297]or vb(297,52137,57647)else T[56286]=jc[Xc(T[44526],0,24)+1];ma,T[37858]=Mc[-30704]or vb(-30704,58584,44695),Xc(T[44526],31,1)==1 end else ma,Ub=Mc[21606]or vb(21606,13315,99176),ka continue end elseif ma<=40719 then if ma>=36546 then if ma<38514 then if ma>=37365 then if ma>=37601 then if ma>37601 then ma,d_=Mc[25816]or vb(25816,37508,72119),la~=0 else ma,d_=Mc[-4559]or vb(-4559,33264,71355),nil end else gc=J if Gb~=Gb then ma=7232 else ma=20229 end end elseif ma>36546 then if d_==5 then ma=Mc[24898]or vb(24898,48670,5816)continue elseif(d_==10)then ma=Mc[-27347]or vb(-27347,53182,4846)continue else ma=Mc[-13330]or vb(-13330,7871,105759)continue end ma=Mc[27681]or vb(27681,56558,88910)else ma=Mc[-32084]or vb(-32084,57893,34459)continue end elseif ma>39726 then if ma>40611 then Ha,ma=mb(gc,1812614433),31369 continue else gc=gc+Cc;d_=gc if gc~=gc then ma=Mc[-8963]or vb(-8963,42761,46742)else ma=Mc[-31607]or vb(-31607,6253,81777)end end elseif ma<38763 then if(Cc>=0 and gc>T)or((Cc<0 or Cc~=Cc)and gc<T)then ma=41007 else ma=46484 end elseif ma>38763 then ma=Mc[-810]or vb(-810,38965,84132)continue else Ib=E if Ib==0 then ma=Mc[-8935]or vb(-8935,3740,123887)continue else ma=Mc[-1054]or vb(-1054,5126,67844)continue end ma=Mc[11527]or vb(11527,7521,88649)end elseif ma<33275 then if ma<32253 then if ma>31369 then if(jc>=0 and M>H)or((jc<0 or jc~=jc)and M<H)then ma=22382 else ma=2665 end else gc=Ha;T=Da(gc,255);Cc=Ba[19866][T+1];d_,la,E=Cc[1],Cc[2],Cc[3];Ib={[15044]=la,[15058]=0,[56286]=0,[1029]=0,[55596]=T,[64345]=0,[44526]=0,[37350]=0,[33427]=0,[50368]=0,[8334]=0,[37858]=0,[58449]=0,[45201]=0,[38090]=nil};S(t_,Ib)if(d_==9)then ma=Mc[8938]or vb(8938,54804,8681)continue else ma=Mc[-17156]or vb(-17156,22131,95919)continue end ma=60922 end elseif ma>32253 then H=0;ma,jc,Gb,J=5690,224,1,228 else Y=K(Oc('\160','\226'),_c,xa);xa,ma=xa+1,Mc[27212]or vb(27212,20797,85273)end elseif ma>34962 then if ma<=36293 then D=Ec;E=Ma(E,f_(Da(D,127),(z-84)*7))if not fa_(D,128)then ma=Mc[25046]or vb(25046,11390,76566)continue end ma=Mc[9488]or vb(9488,6766,102870)else M,ma=mb(H,254262613),17848 continue end elseif ma>33884 then if(ka>=0 and Ib>Ub)or((ka<0 or ka~=ka)and Ib<Ub)then ma=Mc[-24666]or vb(-24666,6646,122664)else ma=Mc[10961]or vb(10961,19647,86089)end elseif ma>33275 then ma,jc=2245,mb(J,143)continue else T[56286],ma=jc[T[58449]+1],Mc[20319]or vb(20319,16786,118109)end elseif ma>=43577 then if ma<=46352 then if ma>=44990 then if ma<=45869 then if ma<=44990 then ma,J=Mc[25035]or vb(25035,36597,73141),nil else ma,la=Mc[-10936]or vb(-10936,9452,99345),xc''continue end else la,ma=xc(mb(E,254262613)),Mc[19530]or vb(19530,28473,67676)continue end elseif ma<=43577 then d_,ma=Z(la[1],1,la[2]),Mc[-20957]or vb(-20957,45630,96765)else if(T>=0 and Ha>gc)or((T<0 or T~=T)and Ha<gc)then ma=Mc[-27874]or vb(-27874,25481,89414)else ma=Mc[-4602]or vb(-4602,49179,955)end end elseif ma<47676 then if ma<=46484 then Ha[(d_-140)],ma=lb(),Mc[25158]or vb(25158,52575,39508)else gc=K(Oc('\151\226\159','\171'),_c,xa);ma,xa=Mc[2294]or vb(2294,4028,122605),xa+4 end elseif ma<=47676 then jc=jc+Gb;Ha=jc if jc~=jc then ma=Mc[20797]or vb(20797,25060,90540)else ma=Mc[24347]or vb(24347,27733,44521)end else Ib,Ub=Da(nc(d_,10),1023),Da(nc(d_,0),1023);T[1029]=jc[Ib+1];T[64345],ma=jc[Ub+1],Mc[-18196]or vb(-18196,8362,125477)end elseif ma<=42505 then if ma>=41252 then if ma<=41706 then if ma<=41252 then if Cc==2 then ma=Mc[-14280]or vb(-14280,34737,80800)continue elseif Cc==5 then ma=Mc[26148]or vb(26148,35999,51625)continue elseif Cc==3 then ma=Mc[17982]or vb(17982,24966,83484)continue end ma=Mc[16122]or vb(16122,5429,105188)else Cc=T if(Cc==0)then ma=Mc[-20894]or vb(-20894,28452,91051)continue else ma=Mc[-7912]or vb(-7912,45303,58017)continue end ma=Mc[9556]or vb(9556,51994,86289)end else d_,ma=la,Mc[-16005]or vb(-16005,20454,120021)end elseif ma<=41007 then return{[32620]=Y,[2305]=t_,[32086]='',[49974]=Ha,[44379]=O,[21180]=wb}else E,ma=mb(Ib,254262613),Mc[5209]or vb(5209,62035,59496)continue end elseif ma<42974 then if ma<=42596 then D,ma=mb(Fa,143),Mc[-13704]or vb(-13704,20699,46713)continue else Nc,ma=nil,5092 end elseif ma>42974 then O,Uc,ma=Nc,nil,25821 else ma,T[56286]=Mc[11796]or vb(11796,51811,46306),jc[T[33427]+1]end elseif ma<17325 then if ma<6845 then if ma<4425 then if ma>=2245 then if ma>2665 then if ma<=2920 then la,ma=xc(nil),Mc[-1448]or vb(-1448,4392,127360)else gc,ma=nil,26867 end elseif ma>2330 then if Ca then ma=Mc[-12009]or vb(-12009,22366,44735)continue else ma=Mc[-11528]or vb(-11528,44432,95260)continue end ma=Mc[13022]or vb(13022,55456,29259)elseif ma<=2245 then J=jc;_d=Ma(_d,f_(Da(J,127),(H-64)*7))if not fa_(J,128)then ma=Mc[-32511]or vb(-32511,24671,115208)continue end ma=Mc[24959]or vb(24959,60714,6015)else J=J+Ha;gc=J if J~=J then ma=7232 else ma=20229 end end elseif ma>1627 then if(Ha>=0 and J>Gb)or((Ha<0 or Ha~=Ha)and J<Gb)then ma=Mc[2247]or vb(2247,5976,120624)else ma=Mc[-9969]or vb(-9969,54889,60103)end elseif ma>=1283 then if ma>1283 then la,ma=E,Mc[-24178]or vb(-24178,32836,88035)continue else _d=0;Ca,ma,t_,M=68,26803,64,1 end else if(Cc==8)then ma=Mc[-11989]or vb(-11989,29313,83242)continue else ma=Mc[-17558]or vb(-17558,52219,12984)continue end ma=Mc[-10962]or vb(-10962,36464,67839)end elseif ma<=5542 then if ma>=5092 then if ma<=5357 then if ma>5092 then ma=Mc[-19305]or vb(-19305,48481,63470)continue else O=K(Oc('b',' '),_c,xa);xa,ma=xa+1,18960 end else T[56286],ma=jc[T[50368]+1],Mc[8554]or vb(8554,55485,41520)end elseif ma>4425 then ma,d_=6383,nil else Ha=Ha+T;Cc=Ha if Ha~=Ha then ma=Mc[24308]or vb(24308,1703,81448)else ma=Mc[7534]or vb(7534,21239,70092)end end elseif ma<=6383 then if ma<5789 then Ha=jc if J~=J then ma=Mc[19245]or vb(19245,42713,42153)else ma=Mc[-6357]or vb(-6357,26302,42758)end elseif ma>5789 then la=K(Oc('\209','\147'),_c,xa);xa,ma=xa+1,8834 else ma,Ec=Mc[-7289]or vb(-7289,48839,40354),mb(D,143)continue end else Ib[15058]=Da(nc(gc,8),255);Ib[58449]=Da(nc(gc,16),255);Ib[8334],ma=Da(nc(gc,24),255),Mc[-11816]or vb(-11816,39321,67133)end elseif ma<=11902 then if ma<8970 then if ma<7532 then if ma<=6845 then M=M+jc;J=M if M~=M then ma=22382 else ma=31894 end else ma,Ha,Gb,J=8208,1,(_d)+222,223 end elseif ma>8208 then ma,d_=Mc[20540]or vb(20540,55395,51621),mb(la,143)continue elseif ma<=7532 then z=Ib if Ub~=Ub then ma=Mc[7298]or vb(7298,40641,86655)else ma=Mc[15117]or vb(15117,21799,97311)end else gc=J if Gb~=Gb then ma=Mc[19735]or vb(19735,23303,72427)else ma=2077 end end elseif ma<=9677 then if ma<9224 then Ub,ka=Da(nc(gc,8),16777215),nil;ka=if Ub<8388608 then Ub else Ub-16777216;ma,Ib[33427]=Mc[-5669]or vb(-5669,13154,127178),ka elseif ma<=9224 then ma,T[56286]=Mc[-24041]or vb(-24041,30430,69777),jc[T[44526]+1]else if(z>=0 and Ub>ka)or((z<0 or z~=z)and Ub<ka)then ma=Mc[-30575]or vb(-30575,55625,34816)else ma=Mc[-5575]or vb(-5575,31421,39868)end end elseif ma<=10267 then Cc=K(Oc('U','\23'),_c,xa);xa,ma=xa+1,Mc[-24567]or vb(-24567,14934,127441)else ma,E=61049,nil end elseif ma>=14771 then if ma>16482 then Ec=Ub if ka~=ka then ma=Mc[-18293]or vb(-18293,50146,38249)else ma=Mc[16318]or vb(16318,6201,85920)end elseif ma<=15609 then if ma<=14771 then Ib[15058]=Da(nc(gc,8),255);Ub=Da(nc(gc,16),65535);Ib[45201]=Ub;ka=nil;ka=if Ub<32768 then Ub else Ub-65536;Ib[50368],ma=ka,Mc[-32308]or vb(-32308,18007,124391)else if(Cc==3)then ma=Mc[22071]or vb(22071,19155,47891)continue else ma=Mc[-11709]or vb(-11709,38700,95139)continue end ma=Mc[25441]or vb(25441,47821,83072)end else ma,T[56286]=Mc[-16762]or vb(-16762,57397,43704),jc[T[15058]+1]end elseif ma>13807 then Ca,ma=false,Mc[-30681]or vb(-30681,5317,85716)elseif ma<12348 then Y,ma,Lc=sc,1283,nil elseif ma<=12348 then Ib=Da(nc(d_,10),1023);ma,T[1029]=Mc[10908]or vb(10908,37790,98129),jc[Ib+1]else Lc,ma=mb(_d,254262613),Mc[-26873]or vb(-26873,36444,70208)continue end elseif ma<23398 then if ma>20220 then if ma>=21397 then if ma>=22260 then if ma>22260 then ma,M=32848,nil else Fa=D;Ib=Ma(Ib,f_(Da(Fa,127),(Ec-74)*7))if(not fa_(Fa,128))then ma=Mc[-10224]or vb(-10224,42113,48665)continue else ma=Mc[-28019]or vb(-28019,50359,92794)continue end ma=Mc[-28266]or vb(-28266,16805,125332)end elseif ma<=21397 then if la==3 then ma=Mc[14394]or vb(14394,44588,88646)continue end ma=Mc[-2835]or vb(-2835,18368,115599)else ma,Ub=62540,nil end elseif ma>=20466 then if ma<=20466 then if(Gb>=0 and jc>J)or((Gb<0 or Gb~=Gb)and jc<J)then ma=Mc[9172]or vb(9172,19774,69066)else ma=Mc[8148]or vb(8148,43360,5727)end else jc,ma=nil,Mc[-32668]or vb(-32668,40147,57436)end elseif ma<=20229 then if(Ha>=0 and J>Gb)or((Ha<0 or Ha~=Ha)and J<Gb)then ma=Mc[12094]or vb(12094,64043,22341)else ma=62837 end else D,ma=nil,Mc[1116]or vb(1116,51544,46588)end elseif ma>18323 then if ma<19401 then if ma>18727 then ma,Nc=43390,mb(O,143)continue else t_=t_+M;H=t_ if t_~=t_ then ma=Mc[9666]or vb(9666,4015,91184)else ma=Mc[22812]or vb(22812,32407,71674)end end elseif ma>19401 then Gb=J;Ha=B(Gb);gc,ma,T,Cc=141,17459,(Gb)+140,1 else E=K(Oc('\194\154','\254'),_c,xa);ma,xa=Mc[-25641]or vb(-25641,15261,33758),xa+8 end elseif ma>=17848 then if ma<=18132 then if ma>17848 then Ca,ma=Gb,Mc[4480]or vb(4480,29882,61009)else H=M;jc=B(H);J,Ha,ma,Gb=137,1,37365,(H)+136 end else if(Cc==4)then ma=Mc[-10530]or vb(-10530,51652,88070)continue else ma=Mc[-16757]or vb(-16757,25733,46061)continue end ma=Mc[-18959]or vb(-18959,55112,45063)end elseif ma<17459 then T=gc;H=Ma(H,f_(Da(T,127),(Ha-224)*7))if(not fa_(T,128))then ma=Mc[-25904]or vb(-25904,23273,85063)continue else ma=Mc[-24141]or vb(-24141,45289,84739)continue end ma=Mc[28064]or vb(28064,37407,93565)elseif ma>17459 then J=K(Oc('\153','\219'),_c,xa);xa,ma=xa+1,33884 else d_=gc if T~=T then ma=Mc[-15287]or vb(-15287,34760,87633)else ma=Mc[2097]or vb(2097,36509,83105)end end elseif ma<26867 then if ma>25240 then if ma>=25821 then if ma<=25821 then wb=K(Oc('\213','\151'),_c,xa);xa,ma=xa+1,30579 else H=t_ if Ca~=Ca then ma=Mc[22175]or vb(22175,2383,93968)else ma=55101 end end elseif ma<=25344 then ma=Mc[-19375]or vb(-19375,17998,66906)continue else ma,Ec=Mc[-15859]or vb(-15859,30190,70317),nil end elseif ma<23878 then if ma<=23398 then Ha,ma=nil,47015 else ma,sc=12250,mb(Y,143)continue end elseif ma>=24616 then if ma>24616 then if(Cc==1)then ma=Mc[-22998]or vb(-22998,26015,122500)continue else ma=Mc[26177]or vb(26177,16096,77346)continue end ma=Mc[31989]or vb(31989,38425,72208)else la=d_;Gb=Ma(Gb,f_(Da(la,127),(Cc-106)*7))if(not fa_(la,128))then ma=Mc[24818]or vb(24818,12392,38131)continue else ma=Mc[-23514]or vb(-23514,13735,38598)continue end ma=Mc[19369]or vb(19369,208,81975)end else if(Cc==0)then ma=Mc[-20683]or vb(-20683,20551,79097)continue else ma=Mc[22100]or vb(22100,49994,83922)continue end ma=Mc[299]or vb(299,42817,90124)end elseif ma<29952 then if ma>27664 then if ma<=27667 then T[56286]=Xc(T[44526],0,1)==1;ma,T[37858]=Mc[-15321]or vb(-15321,24015,80262),Xc(T[44526],31,1)==1 else ma,la=37667,mb(E,143)continue end elseif ma>=27621 then if ma<=27621 then J=M if H~=H then ma=Mc[-17470]or vb(-17470,59743,8547)else ma=31894 end else gc,ma=mb(T,143),Mc[-12608]or vb(-12608,29466,34529)continue end else T=K(Oc('\218','\152'),_c,xa);ma,xa=27664,xa+1 end elseif ma>=30579 then if ma<30943 then ma,Uc=Mc[-10335]or vb(-10335,26827,82892),mb(wb,143)continue elseif ma>30943 then wb,sc,ma=Uc,nil,32253 else ma,J=20220,mb(Gb,254262613)continue end elseif ma>29952 then ma,la=57233,nil else T=t_[(gc-222)];Cc=T[15044]if(Cc==9)then ma=Mc[23020]or vb(23020,39728,82616)continue else ma=Mc[-17378]or vb(-17378,55247,31176)continue end ma=Mc[-17130]or vb(-17130,45920,90095)end until ma==49339 end local Zc=lb();Ba[29387][_c]=Zc return Zc end)local yb=(function(bb,wa)bb=Lb(bb)local Ya=hb()local function Sb(ia,Bb)local Qc=(function(...)return{...},ub('#',...)end)local ic;ic=(function(ta,sb,aa)if sb>aa then return end return ta[sb],ic(ta,sb+1,aa)end)local function Wb(Qb,Eb,kc,kb)local Bc,dc,q,oa,Ob,Rc,g,_b,Kc,na,Mb,pb,jb,L,A,Rb,Fc,P,y,u_,Hc,Zb,Kb,ya;P,oa={},function(Ia,Fb,s_)P[s_]=cb(Fb,31204)-cb(Ia,63108)return P[s_]end;Rc=P[4082]or oa(14345,127987,4082)repeat if Rc<33718 then if Rc>18185 then if Rc>25814 then if Rc<=29687 then if Rc<27262 then if Rc<=26263 then if Rc<26081 then if Rc>25894 then y=(function(...)for b_,Ab,j,db,Q,Dc,zc,Cb,Aa,W,v,hc,yc,ob,fc,Pb,r_,Pc,Ta,ac in...do Xa{b_,Ab,j,db,Q,Dc,zc,Cb,Aa,W,v,hc,yc,ob,fc,Pb,r_,Pc,Ta,ac}end Xa(-2)end);Kc[pb],Rc=Va(y),P[-10440]or oa(33873,94304,-10440)else Rc,Qb[Bc[8334]][Qb[Bc[15058]]]=P[23048]or oa(22422,49513,23048),Qb[Bc[58449]]end elseif Rc<26093 then Rc,Qb[Bc[15058]]=P[-32425]or oa(35388,73432,-32425),pb[Bc[1029]][Bc[64345]]elseif Rc<=26093 then Ob=na if Mb~=Mb then Rc=P[-5786]or oa(50786,39824,-5786)else Rc=P[-2662]or oa(35666,35688,-2662)end else Rc=P[-7722]or oa(41659,80615,-7722)continue end elseif Rc>=26517 then if Rc>26517 then Kb=Mb if A~=A then Rc=P[4255]or oa(51020,88515,4255)else Rc=2546 end else if(na>=0 and Hc>ya)or((na<0 or na~=na)and Hc<ya)then Rc=P[24612]or oa(39316,71922,24612)else Rc=P[-11716]or oa(4006,70909,-11716)end end elseif Rc<=26278 then dc,pb,y=u_ if h(dc)~=Oc('\253\\\213\204\239@\212\193','\155)\187\175')then Rc=P[32229]or oa(48693,11285,32229)continue end Rc=P[-22729]or oa(63129,32956,-22729)else if dc<=y then Rc=P[29710]or oa(44267,52716,29710)continue end Rc=P[8486]or oa(14494,40049,8486)end elseif Rc<28406 then if Rc>27407 then if Rc>28143 then Rb,dc,pb=Bc[56286],Bc[37858],Qb[Bc[15058]]if((pb==Rb)~=dc)then Rc=P[-19351]or oa(64770,46484,-19351)continue else Rc=P[-23462]or oa(47935,64127,-23462)continue end Rc=P[1709]or oa(34518,65065,1709)else if q>245 then Rc=P[2569]or oa(50857,51058,2569)continue else Rc=P[5245]or oa(5647,83148,5245)continue end Rc=P[13640]or oa(33442,62021,13640)end elseif Rc>27308 then if(Bc[8334]==235)then Rc=P[-4883]or oa(7159,88219,-4883)continue else Rc=P[-31369]or oa(38443,52395,-31369)continue end Rc=P[14892]or oa(45322,9965,14892)elseif Rc>27262 then Rc,pb[(na-241)]=P[-17523]or oa(57492,34143,-17523),Bb[Mb[58449]+1]else g+=Bc[50368];Rc=P[-31067]or oa(11608,35507,-31067)end elseif Rc<29225 then if Rc>28406 then g-=1;kc[g],Rc={[55596]=204,[15058]=mb(Bc[15058],155),[58449]=mb(Bc[58449],106),[8334]=0},P[22802]or oa(34097,62164,22802)else Rb=Bc[15058];dc,pb=Qb[Rb],nil;y=dc;pb=w_(y)==Oc('_\159\6S\143\25','1\234k')if not pb then Rc=P[-23042]or oa(36892,51585,-23042)continue end Rc=P[27749]or oa(4920,118166,27749)end elseif Rc>=29514 then if Rc<=29514 then Hc={pb(Qb[Rb+1],Qb[Rb+2])};Sc(Hc,1,dc,Rb+3,Qb)if Qb[Rb+3]~=nil then Rc=P[-20323]or oa(62119,11997,-20323)continue else Rc=P[-12306]or oa(22049,96526,-12306)continue end Rc=P[9613]or oa(52029,11472,9613)else y..=Qb[Mb];Rc=P[-20074]or oa(58812,12492,-20074)end else Rc,y=P[-27363]or oa(32333,85738,-27363),dc-1 end elseif Rc>32216 then if Rc>=32963 then if Rc>33268 then Rc,Qb[Bc[58449]]=P[18230]or oa(49694,13809,18230),Qb[Bc[8334]]-Bc[56286]elseif Rc>=33033 then if Rc<=33033 then Rb=va(dc)if Rb~=nil and Rb[Oc('\21F\214>|\205','J\25\191')]~=nil then Rc=P[12909]or oa(16479,81846,12909)continue elseif(h(dc)==Oc('\220\3\202\14\205','\168b'))then Rc=P[-9701]or oa(60904,56981,-9701)continue else Rc=P[-30835]or oa(52229,96063,-30835)continue end Rc=P[24559]or oa(27067,68221,24559)else if(Ob>=0 and Mb>A)or((Ob<0 or Ob~=Ob)and Mb<A)then Rc=P[-25275]or oa(23197,130187,-25275)else Rc=P[6724]or oa(12191,40955,6724)end end else Rb,dc,Rc=kc[g],nil,P[13248]or oa(51681,10182,13248)end elseif Rc>32615 then Qb[Bc[58449]],Rc=Qb[Bc[8334]][Qb[Bc[15058]]],P[-2638]or oa(61179,22046,-2638)elseif Rc<32500 then if(Bc[8334]==19)then Rc=P[-26353]or oa(30822,73692,-26353)continue else Rc=P[-29176]or oa(12462,94321,-29176)continue end Rc=P[16739]or oa(2643,93622,16739)elseif Rc<=32500 then Qb[Bc[15058]],Rc=nil,P[-402]or oa(60726,19145,-402)else Rc,dc[1029]=P[24300]or oa(55029,19096,24300),y end elseif Rc<30350 then if Rc>=29815 then if Rc>29815 then if(A>=0 and na>Mb)or((A<0 or A~=A)and na<Mb)then Rc=P[-26365]or oa(48135,34293,-26365)else Rc=4531 end else if q>17 then Rc=P[-16112]or oa(37424,80479,-16112)continue else Rc=P[-24575]or oa(10865,125835,-24575)continue end Rc=P[-17500]or oa(40405,64296,-17500)end elseif Rc<=29695 then dc=kb[49717];Rc,L=P[-10661]or oa(8910,124258,-10661),Rb+dc-1 else Rb,dc,pb,y=Bc[56286],Bc[37858],Qb[Bc[15058]],nil;y=w_(pb)==Oc('AQ\rO[\3M','#>b')if(y and(pb==Rb))~=dc then Rc=P[-29075]or oa(62602,32050,-29075)continue else Rc=P[26244]or oa(59521,37550,26244)continue end Rc=P[16850]or oa(55073,16580,16850)end elseif Rc>31171 then if Rc>31360 then g+=Bc[50368];Rc=P[-1786]or oa(21926,50041,-1786)else pb,Rc=L-dc+1,P[-10649]or oa(28710,51186,-10649)end elseif Rc>=30579 then if Rc>30579 then if Qb[Bc[15058]]<Qb[Bc[44526]]then Rc=P[-10731]or oa(59315,94477,-10731)continue else Rc=P[25042]or oa(46132,93270,25042)continue end Rc=P[3828]or oa(37119,1042,3828)else A=A+Kb;_b=A if A~=A then Rc=P[-5346]or oa(14004,71066,-5346)else Rc=P[-22651]or oa(28851,52850,-22651)end end else if q>23 then Rc=P[9138]or oa(55641,10473,9138)continue else Rc=P[16519]or oa(18179,36937,16519)continue end Rc=P[-12250]or oa(38322,853,-12250)end elseif Rc<21946 then if Rc<=19491 then if Rc<=19017 then if Rc<18958 then if Rc>18893 then if q>75 then Rc=P[13601]or oa(63321,60549,13601)continue else Rc=P[-7773]or oa(33101,48003,-7773)continue end Rc=P[-23525]or oa(28127,52018,-23525)elseif Rc>18218 then Hc=Wc(dc)if Hc==nil then Rc=P[-6008]or oa(37625,88186,-6008)continue end Rc=P[26836]or oa(17339,124229,26836)else if(Bc[8334]==37)then Rc=P[-14938]or oa(10717,118723,-14938)continue else Rc=P[-5625]or oa(36605,36489,-5625)continue end Rc=P[22126]or oa(32574,55505,22126)end elseif Rc<=18973 then if Rc>18958 then if(q>79)then Rc=P[-7474]or oa(22472,49443,-7474)continue else Rc=P[-19062]or oa(15627,93297,-19062)continue end Rc=P[2437]or oa(3221,92264,2437)else Rb,dc=nil,Qb[Bc[15058]];Rb=w_(dc)==Oc('\153j\149h\139v\148e','\255\31\251\v')if not Rb then Rc=P[-8795]or oa(46987,39505,-8795)continue end Rc=P[-25693]or oa(21723,73397,-25693)end else Qb[Rb+2]=Kb;Rc,Mb=P[3602]or oa(65339,46171,3602),Kb end elseif Rc>=19380 then if Rc>19380 then na,Rc=na..C(mb(Na(Hc,(Kb-155)+1),Na(ya,(Kb-155)%#ya+1))),P[29594]or oa(10906,121418,29594)else if(q>65)then Rc=P[-523]or oa(29603,51920,-523)continue else Rc=P[13920]or oa(21321,84558,13920)continue end Rc=P[-2314]or oa(22791,48922,-2314)end elseif Rc>19102 then ya=ya+Mb;A=ya if ya~=ya then Rc=P[18181]or oa(54722,28,18181)else Rc=36579 end else Rb=Bc[56286];Qb[Bc[58449]]=Ya[Rb]or Ba[18728][Rb];g+=1;Rc=P[-7487]or oa(7518,96945,-7487)end elseif Rc>=20959 then if Rc>21664 then if Rc<=21774 then g+=Bc[50368];Rc=P[21246]or oa(1666,97893,21246)else g+=Bc[50368];Rc=P[3618]or oa(38380,775,3618)end elseif Rc<21270 then if(q>161)then Rc=P[-32020]or oa(29409,70806,-32020)continue else Rc=P[-30294]or oa(49371,6545,-30294)continue end Rc=P[14255]or oa(195,95270,14255)elseif Rc>21270 then Rb,dc=Bc[15058],Bc[58449]-1 if(dc==-1)then Rc=P[-23383]or oa(55827,55666,-23383)continue else Rc=P[20924]or oa(35720,81068,20924)continue end Rc=P[-4645]or oa(6329,118685,-4645)else Qb[Rb+2]=Qb[Rb+3];g+=Bc[50368];Rc=P[-31449]or oa(8249,38876,-31449)end elseif Rc>20455 then Mb,A=Qb[Rb+2],nil;Ob=Mb;A=w_(Ob)==Oc('#\142|/\158c','M\251\17')if not A then Rc=P[-16215]or oa(47160,82073,-16215)continue end Rc=50176 elseif Rc>19833 then ya[(Ob-216)],Rc=Fc,P[14021]or oa(50709,19452,14021)elseif Rc<=19780 then Zb={[1]=Qb[Kb[58449]],[3]=1};Zb[2]=Zb;Rc,ya[(Ob-216)]=P[20833]or oa(19950,50453,20833),Zb else Hc,ya=o_(Kc[Bc],pb,Qb[Rb+1],Qb[Rb+2])if not Hc then Rc=P[25735]or oa(31774,67344,25735)continue end Rc=P[-171]or oa(47726,13958,-171)end elseif Rc<24134 then if Rc<22918 then if Rc<=22596 then if Rc<=22194 then if Rc<=21946 then if(Qb[Bc[15058]]==Qb[Bc[44526]])then Rc=P[-2709]or oa(60309,53218,-2709)continue else Rc=P[10957]or oa(8294,130018,10957)continue end Rc=P[-32205]or oa(53074,10421,-32205)else Rc,dc=P[30296]or oa(61661,62977,30296),Hc continue end else Rb,dc=Bc[15058],Bc[58449];pb,y=Ac(oc,Qb,'',Rb,dc)if not pb then Rc=P[-22548]or oa(15332,111985,-22548)continue end Rc=61958 end else Rb=Qb[Bc[8334]];Qb[Bc[58449]],Rc=if Rb then Rb else Qb[Bc[15058]]or false,P[20863]or oa(59808,20347,20863)end elseif Rc>=22937 then if Rc>=23709 then if Rc>23709 then if(Qb[Bc[15058]]<=Qb[Bc[44526]])then Rc=P[-14900]or oa(22931,39998,-14900)continue else Rc=P[12991]or oa(12946,118386,12991)continue end Rc=P[16970]or oa(39377,65332,16970)else Ya[Bc[56286]]=Qb[Bc[8334]];g+=1;Rc=P[17210]or oa(28452,51455,17210)end else g+=Bc[50368];Rc=P[-11126]or oa(511,96018,-11126)end elseif Rc<=22918 then dc[56286]=pb if Rb==2 then Rc=P[8226]or oa(31677,66637,8226)continue elseif Rb==3 then Rc=P[26933]or oa(40378,76095,26933)continue end Rc=P[13413]or oa(35542,63161,13413)else if(not(Mb<=dc))then Rc=P[3818]or oa(50320,86880,3818)continue else Rc=P[7000]or oa(34722,61765,7000)continue end Rc=P[25899]or oa(61507,26534,25899)end elseif Rc>=25625 then if Rc>25730 then if Rc>25771 then if(q>125)then Rc=P[5355]or oa(50052,37765,5355)continue else Rc=P[22346]or oa(55692,40550,22346)continue end Rc=P[32303]or oa(7497,96940,32303)else if(y<=dc)then Rc=P[31981]or oa(31631,39933,31981)continue else Rc=P[15536]or oa(60707,19142,15536)continue end Rc=P[19546]or oa(49420,14055,19546)end elseif Rc<=25671 then if Rc>25625 then dc,pb,y=Rb[Oc('\133\252\221\174\198\198','\218\163\180')](dc);Rc=P[-7589]or oa(26211,128878,-7589)else Mb,Rc=Mb..C(mb(Na(ya,(_b-7)+1),Na(na,(_b-7)%#na+1))),P[-11650]or oa(32613,96432,-11650)end else Qb[Bc[58449]],Rc=Qb[Bc[15058]]%Bc[56286],P[-16888]or oa(7125,97576,-16888)end elseif Rc<24645 then if Rc>24134 then g+=Bc[50368];Rc=P[13419]or oa(54490,16445,13419)else jb=false;g+=1 if(q>154)then Rc=P[25020]or oa(54950,14936,25020)continue else Rc=P[7329]or oa(10616,92884,7329)continue end Rc=P[-18768]or oa(49955,13510,-18768)end elseif Rc<25353 then g+=1;Rc=P[3894]or oa(45420,9863,3894)elseif Rc>25353 then Rb,dc=Bc[37350],Bc[56286];pb=Ya[dc]or Ba[18728][dc]if(Rb==1)then Rc=P[16075]or oa(7526,71195,16075)continue else Rc=P[-14515]or oa(10181,69818,-14515)continue end Rc=P[22479]or oa(19326,119194,22479)else Rb,dc,Rc,pb=Bc[37350],kc[g+1],P[-21579]or oa(24038,70012,-21579),nil end elseif Rc<=10053 then if Rc<=4753 then if Rc>=2546 then if Rc<=4220 then if Rc>3392 then if Rc<=3989 then g-=1;Rc,kc[g]=P[8819]or oa(16913,46580,8819),{[55596]=176,[15058]=mb(Bc[15058],47),[58449]=mb(Bc[58449],124),[8334]=0}else Zb=Kb[58449];Fc=u_[Zb]if Fc==nil then Rc=P[32754]or oa(61574,61532,32754)continue end Rc=P[-8520]or oa(37847,52446,-8520)end elseif Rc<=3332 then if Rc<=2618 then if Rc>2546 then if(q>208)then Rc=P[-14926]or oa(55091,50047,-14926)continue else Rc=P[-5620]or oa(43122,86676,-5620)continue end Rc=P[-22715]or oa(55687,16282,-22715)else if(Ob>=0 and Mb>A)or((Ob<0 or Ob~=Ob)and Mb<A)then Rc=P[22004]or oa(33932,72067,22004)else Rc=19491 end end else na,Rc=na..C(mb(Na(Hc,(Kb-180)+1),Na(ya,(Kb-180)%#ya+1))),P[-19105]or oa(14441,123418,-19105)end else Rb=va(dc)if Rb~=nil and Rb[Oc('I\a\202b=\209','\22X\163')]~=nil then Rc=P[8426]or oa(62617,24751,8426)continue elseif(h(dc)==Oc('?\157)\144.','K\252'))then Rc=P[-25926]or oa(45501,15929,-25926)continue else Rc=P[-24806]or oa(48090,81789,-24806)continue end Rc=P[-21830]or oa(34799,70466,-21830)end elseif Rc<=4553 then if Rc<=4531 then if Rc<=4224 then g-=1;Rc,kc[g]=P[-16952]or oa(18314,45421,-16952),{[55596]=221,[15058]=mb(Bc[15058],92),[58449]=mb(Bc[58449],235),[8334]=0}else Rc,ya=P[28819]or oa(37692,77730,28819),ya..C(mb(Na(y,(Ob-51)+1),Na(Hc,(Ob-51)%#Hc+1)))end else g+=Bc[50368];Rc=P[-22876]or oa(5372,32791,-22876)end else if Qb[Bc[15058]]<=Qb[Bc[44526]]then Rc=P[-7100]or oa(39891,84304,-7100)continue else Rc=P[-28794]or oa(23423,95303,-28794)continue end Rc=P[20494]or oa(21912,50035,20494)end elseif Rc<903 then if Rc<391 then if Rc>164 then if(A==2)then Rc=P[9644]or oa(56491,60735,9644)continue else Rc=P[14744]or oa(58027,33598,14744)continue end Rc=P[5394]or oa(50812,93767,5394)else dc,pb,y=Sa(dc);Rc=P[11604]or oa(57025,88164,11604)end elseif Rc>=632 then if Rc<=632 then if(ya==-2)then Rc=P[3881]or oa(12997,34805,3881)continue else Rc=P[7121]or oa(32582,72980,7121)continue end Rc=P[-31551]or oa(28297,54892,-31551)else g+=Bc[50368];Rc=P[-19993]or oa(158,95345,-19993)end else na=na+A;Ob=na if na~=na then Rc=P[15493]or oa(28671,51474,15493)else Rc=57174 end end elseif Rc<1381 then if Rc>903 then if(q>236)then Rc=P[-10124]or oa(17423,49429,-10124)continue else Rc=P[10232]or oa(8199,120051,10232)continue end Rc=P[32325]or oa(2222,93249,32325)else na,Rc=pb-1,P[15506]or oa(59753,12246,15506)end elseif Rc>=1397 then if Rc<=1397 then Rc,L=P[10879]or oa(49036,1705,10879),Rb+na-1 else if(q>242)then Rc=P[-9510]or oa(40044,86840,-9510)continue else Rc=P[30177]or oa(18821,75728,30177)continue end Rc=P[-6239]or oa(50993,12500,-6239)end else if q>24 then Rc=P[-1091]or oa(55085,50500,-1091)continue else Rc=P[14096]or oa(5699,88515,14096)continue end Rc=P[-5655]or oa(54153,17772,-5655)end elseif Rc>7790 then if Rc<=8853 then if Rc<=8233 then if Rc>=8060 then if Rc>8060 then if q>183 then Rc=P[28972]or oa(16305,71677,28972)continue else Rc=P[8329]or oa(2705,86960,8329)continue end Rc=P[-14820]or oa(44959,2418,-14820)else Rb,dc=Bc[15058],Bc[56286];L=Rb+6;pb,y=Qb[Rb],nil;y=w_(pb)==Oc('u\192\202\235g\220\203\230','\19\181\164\136')if y then Rc=P[-25840]or oa(51219,51205,-25840)continue else Rc=P[24294]or oa(39884,49957,24294)continue end Rc=P[-13083]or oa(35961,60316,-13083)end else pb,y=Rb[56286],Bc[56286];y=Oc(')S\219b\210\31^','\253\5V')..y;Hc='';na,Rc,Mb,ya=(#pb-1)+108,16665,1,108 end elseif Rc<=8496 then Qb[Bc[15058]],Rc=Qb[Bc[8334]]+Qb[Bc[58449]],P[-25002]or oa(19681,43012,-25002)else Vb'';Rc=P[11975]or oa(58837,56703,11975)end elseif Rc>9245 then if(q>91)then Rc=P[-19642]or oa(60629,22314,-19642)continue else Rc=P[295]or oa(19094,83956,295)continue end Rc=P[14488]or oa(45255,9306,14488)elseif Rc>9114 then if Bc[8334]==152 then Rc=P[17025]or oa(27935,69090,17025)continue else Rc=P[28204]or oa(30228,78870,28204)continue end Rc=P[-7769]or oa(64667,22654,-7769)else if(q>207)then Rc=P[28024]or oa(50838,19779,28024)continue else Rc=P[19548]or oa(4013,90294,19548)continue end Rc=P[3074]or oa(4743,33434,3074)end elseif Rc>=5245 then if Rc>6011 then if Rc>6155 then if q>80 then Rc=P[28477]or oa(18657,73990,28477)continue else Rc=P[7655]or oa(17988,33593,7655)continue end Rc=P[-12785]or oa(924,95607,-12785)else Vb'';Rc=P[-10206]or oa(24489,76047,-10206)end elseif Rc>=5934 then if Rc<=5934 then dc,pb,y=Rb[Oc('\212\n\171\255\48\176','\139U\194')](dc);Rc=P[27079]or oa(45552,80203,27079)else if(not jb)then Rc=P[-17698]or oa(25588,72338,-17698)continue else Rc=P[-29042]or oa(29665,39503,-29042)continue end Rc=P[8300]or oa(6093,83563,8300)end else Rc,Qb[Bc[8334]]=P[-3920]or oa(38197,712,-3920),Qb[Bc[58449]]+Bc[56286]end elseif Rc<=4913 then if Rc<4875 then if q>240 then Rc=P[-6763]or oa(61029,8470,-6763)continue else Rc=P[-27647]or oa(30950,130457,-27647)continue end Rc=P[17729]or oa(10425,35932,17729)elseif Rc>4875 then if(q>184)then Rc=P[22368]or oa(9850,37277,22368)continue else Rc=P[29056]or oa(46422,32869,29056)continue end Rc=P[30909]or oa(25158,54745,30909)else Bc[55596]=214;g+=1;Rc=P[942]or oa(976,95531,942)end elseif Rc>4959 then Rc,Qb[Bc[15058]]=P[-27476]or oa(40636,1623,-27476),Bc[56286]else Rb,dc,pb=Bc[8334],Bc[15058],Bc[56286];y=Qb[dc];Qb[Rb+1]=y;Qb[Rb]=y[pb];g+=1;Rc=P[3965]or oa(11535,35554,3965)end elseif Rc>=13893 then if Rc<15649 then if Rc<=14113 then if Rc<=14019 then if Rc>=13949 then if Rc>13949 then g+=Bc[50368];Rc=P[-19133]or oa(4268,33863,-19133)else Rb=Bc[56286];Qb[Bc[8334]][Rb]=Qb[Bc[58449]];g+=1;Rc=P[19969]or oa(52542,10961,19969)end else Sc(ya,1,na,Rb,Qb);Rc=P[-14517]or oa(4065,92420,-14517)end elseif Rc<=14101 then if q>37 then Rc=P[26233]or oa(54095,15523,26233)continue else Rc=P[12340]or oa(58200,257,12340)continue end Rc=P[1688]or oa(10084,37055,1688)else if(q>130)then Rc=P[14591]or oa(56232,59466,14591)continue else Rc=P[12134]or oa(23043,66769,12134)continue end Rc=P[-17262]or oa(3161,93116,-17262)end elseif Rc>=14800 then if Rc>14800 then dc[1029]=y;Hc,Rc=nil,P[-28770]or oa(50902,96548,-28770)else Kc[Bc]=nil;g+=1;Rc=P[30485]or oa(24460,47463,30485)end elseif Rc>14196 then if q>19 then Rc=P[32044]or oa(15484,73135,32044)continue else Rc=P[-1491]or oa(8734,78069,-1491)continue end Rc=P[-24846]or oa(54150,17817,-24846)else Sc(Qb,dc,dc+pb-1,Bc[44526],Qb[Rb]);g+=1;Rc=P[-10026]or oa(56536,14387,-10026)end elseif Rc>16665 then if Rc>=17259 then if Rc<=17259 then if(Bc[8334]==147)then Rc=P[6015]or oa(65091,25016,6015)continue else Rc=P[31746]or oa(38735,88835,31746)continue end Rc=P[-19023]or oa(14306,41221,-19023)else if q>29 then Rc=P[-968]or oa(44298,77782,-968)continue else Rc=P[-5949]or oa(22411,44964,-5949)continue end Rc=P[-28315]or oa(54331,17374,-28315)end elseif Rc>16672 then Qb[Bc[15058]],Rc=not Qb[Bc[58449]],P[17070]or oa(8459,38638,17070)else Qb[Bc[15058]]=B(Bc[44526]);g+=1;Rc=P[20032]or oa(917,95592,20032)end elseif Rc>16224 then if Rc<=16401 then if(Qb[Bc[15058]]==Qb[Bc[44526]])then Rc=P[-20051]or oa(8161,124335,-20051)continue else Rc=P[24693]or oa(42626,79929,24693)continue end Rc=P[-15665]or oa(28822,58473,-15665)else A=ya if na~=na then Rc=P[16896]or oa(65436,9774,16896)else Rc=P[-7873]or oa(55320,50331,-7873)end end elseif Rc>=16091 then if Rc>16091 then if q>14 then Rc=P[-4527]or oa(16434,87200,-4527)continue else Rc=P[-30701]or oa(58223,92940,-30701)continue end Rc=P[20989]or oa(34610,61653,20989)else if q>215 then Rc=P[-28330]or oa(51505,85338,-28330)continue else Rc=P[27945]or oa(19402,127602,27945)continue end Rc=P[17475]or oa(61604,25727,17475)end elseif Rc<=15649 then Mb=Wc(Hc)if(Mb==nil)then Rc=P[-3990]or oa(52779,10590,-3990)continue else Rc=P[-15163]or oa(24050,76496,-15163)continue end Rc=42942 else if _b==1 then Rc=P[29030]or oa(3713,94565,29030)continue elseif(_b==2)then Rc=P[8713]or oa(61885,43800,8713)continue else Rc=P[-21685]or oa(33114,129,-21685)continue end Rc=P[-32139]or oa(5753,39776,-32139)end elseif Rc>=12335 then if Rc>13324 then if Rc>13792 then Hc=Hc+na;Mb=Hc if Hc~=Hc then Rc=P[4287]or oa(39412,71826,4287)else Rc=26517 end elseif Rc>=13617 then if Rc<=13617 then if(q>27)then Rc=P[-15132]or oa(63271,4086,-15132)continue else Rc=P[-2591]or oa(7765,122274,-2591)continue end Rc=P[-28084]or oa(29256,58787,-28084)else g+=1;Rc=P[4588]or oa(57613,22240,4588)end else Rb=Bb[Bc[58449]+1];Rc,Qb[Bc[15058]]=P[-17790]or oa(39950,64481,-17790),Rb[2][Rb[3]]end elseif Rc>=13108 then if Rc<=13278 then if Rc>13108 then if q>107 then Rc=P[-8002]or oa(47054,2405,-8002)continue else Rc=P[-487]or oa(15557,34914,-487)continue end Rc=P[26282]or oa(46562,8965,26282)else if q>50 then Rc=P[25814]or oa(52631,96421,25814)continue else Rc=P[-28374]or oa(44696,9317,-28374)continue end Rc=P[21730]or oa(23602,48085,21730)end else g-=1;kc[g],Rc={[55596]=50,[15058]=mb(Bc[15058],114),[58449]=mb(Bc[58449],119),[8334]=0},P[-9922]or oa(14867,40438,-9922)end elseif Rc<=12335 then if(q>176)then Rc=P[-30299]or oa(9709,79048,-30299)continue else Rc=P[-13215]or oa(24167,84516,-13215)continue end Rc=P[-14396]or oa(65150,22929,-14396)else if(Kb>=0 and A>Ob)or((Kb<0 or Kb~=Kb)and A<Ob)then Rc=P[-28526]or oa(49959,38933,-28526)else Rc=P[18269]or oa(38283,48844,18269)end end elseif Rc<10958 then if Rc>10849 then g-=1;kc[g],Rc={[55596]=206,[15058]=mb(Bc[15058],226),[58449]=mb(Bc[58449],150),[8334]=0},P[-12802]or oa(53828,17887,-12802)elseif Rc>10774 then if(q>48)then Rc=P[3880]or oa(39395,96460,3880)continue else Rc=P[-2341]or oa(33844,80564,-2341)continue end Rc=P[24518]or oa(56927,14770,24518)elseif Rc<=10514 then Qb[Bc[8334]],Rc=Qb[Bc[58449]]-Qb[Bc[15058]],P[-5135]or oa(58500,20639,-5135)else if(q>156)then Rc=P[-128]or oa(2295,114111,-128)continue else Rc=P[-13327]or oa(52899,59608,-13327)continue end Rc=P[30029]or oa(15504,39019,30029)end elseif Rc>11789 then if Rc<=11839 then if q>169 then Rc=P[29880]or oa(10417,66989,29880)continue else Rc=P[17714]or oa(30438,77175,17714)continue end Rc=P[-13852]or oa(809,95436,-13852)else Rc,Qb[Bc[58449]]=P[-23398]or oa(27344,51755,-23398),Qb[Bc[8334]]/Qb[Bc[15058]]end elseif Rc>11417 then if(q>67)then Rc=P[32584]or oa(56634,91947,32584)continue else Rc=P[5901]or oa(12179,124301,5901)continue end Rc=P[-25542]or oa(61352,18755,-25542)elseif Rc<=10958 then g+=Bc[50368];Rc=P[-21787]or oa(27508,52367,-21787)else if(q>71)then Rc=P[20076]or oa(27641,49679,20076)continue else Rc=P[-25615]or oa(10714,86774,-25615)continue end Rc=P[-8100]or oa(31454,55857,-8100)end elseif Rc>50664 then if Rc<=58781 then if Rc>53422 then if Rc>55342 then if Rc<56120 then if Rc>=55688 then if Rc<=55688 then Rb=Qb[Bc[58449]];Qb[Bc[8334]],Rc=if Rb then Rb else Bc[56286]or false,P[-21462]or oa(59519,20370,-21462)else Sc(ya,1,dc,Rb+3,Qb);Qb[Rb+2]=Qb[Rb+3];g+=Bc[50368];Rc=P[-6380]or oa(56785,15156,-6380)end elseif Rc>55403 then y,Rc=na,P[7703]or oa(54732,9833,7703)continue else g-=1;Rc,kc[g]=P[-20137]or oa(12347,42974,-20137),{[55596]=165,[15058]=mb(Bc[15058],88),[58449]=mb(Bc[58449],153),[8334]=0}end elseif Rc>=57174 then if Rc<=57174 then if(A>=0 and na>Mb)or((A<0 or A~=A)and na<Mb)then Rc=P[-23348]or oa(18638,44065,-23348)else Rc=46593 end else Rc,y=39384,nil end elseif Rc>56120 then if(Qb[Bc[15058]])then Rc=P[-30584]or oa(39642,37842,-30584)continue else Rc=P[-7041]or oa(34409,61836,-7041)continue end Rc=P[-60]or oa(4039,92506,-60)else if q>188 then Rc=P[-28618]or oa(52197,50484,-28618)continue else Rc=P[10605]or oa(4428,33565,10605)continue end Rc=P[24599]or oa(42713,7740,24599)end elseif Rc<=54920 then if Rc<54321 then if Rc>53900 then g+=1;Rc=P[11812]or oa(59002,20893,11812)elseif Rc<=53597 then if(ya[3]>=Bc[15058])then Rc=P[21325]or oa(54818,91178,21325)continue else Rc=P[-9502]or oa(21820,124183,-9502)continue end Rc=P[30605]or oa(45954,83877,30605)else dc,pb,y=Sa(dc);Rc=P[13539]or oa(44264,74219,13539)end elseif Rc>=54362 then if Rc<=54362 then Hc,ya=dc(pb,y);y=Hc if y==nil then Rc=P[9166]or oa(23608,80697,9166)else Rc=P[-25401]or oa(58863,54799,-25401)end else if(q>206)then Rc=P[3322]or oa(43174,95788,3322)continue else Rc=P[26937]or oa(42805,41292,26937)continue end Rc=P[23665]or oa(671,94834,23665)end else if q>165 then Rc=P[2523]or oa(57306,93351,2523)continue else Rc=P[-30884]or oa(33837,48492,-30884)continue end Rc=P[16744]or oa(1641,94604,16744)end elseif Rc<=55126 then if Rc>=54990 then if Rc>54990 then g-=1;Rc,kc[g]=P[12746]or oa(50332,12407,12746),{[55596]=167,[15058]=mb(Bc[15058],237),[58449]=mb(Bc[58449],148),[8334]=0}else g-=1;Rc,kc[g]=P[-14714]or oa(2490,94045,-14714),{[55596]=223,[15058]=mb(Bc[15058],197),[58449]=mb(Bc[58449],132),[8334]=0}end else if(q>221)then Rc=P[5613]or oa(52388,85014,5613)continue else Rc=P[-3102]or oa(11753,91052,-3102)continue end Rc=P[25136]or oa(46350,8929,25136)end else y,Rc=L-Rb+1,P[31829]or oa(13610,67607,31829)end elseif Rc>52578 then if Rc>=53038 then if Rc<53358 then if Rc>53038 then Rc,Qb[Bc[15058]]=P[-29037]or oa(43958,3401,-29037),Qb[Bc[58449]]else Rc,Qb[Bc[15058]]=P[10616]or oa(15994,117350,10616),pb[Bc[1029]]end elseif Rc>53408 then Rb,dc,pb=mb(Bc[58449],185),mb(Bc[15058],141),mb(Bc[8334],169);y,Hc=dc==0 and L-Rb or dc-1,Qb[Rb];ya,na=Qc(Hc(ic(Qb,Rb+1,Rb+y)))if pb==0 then Rc=P[16361]or oa(37192,5285,16361)continue else Rc=P[-20008]or oa(23187,54906,-20008)continue end Rc=P[-13544]or oa(10959,93044,-13544)elseif Rc<=53358 then ya,na=dc[64345],Bc[64345];na=Oc('O\245*\4t\238\56','\155\163\167')..na;Mb='';Ob,Kb,Rc,A=(#ya-1)+7,1,41924,7 else if(q>46)then Rc=P[28520]or oa(25191,57160,28520)continue else Rc=P[30393]or oa(34495,57513,30393)continue end Rc=P[28700]or oa(59338,20781,28700)end elseif Rc<52918 then if Rc<=52742 then Bc=kc[g];Rc,q=P[3999]or oa(590,76532,3999),Bc[55596]else if q>214 then Rc=P[-14330]or oa(22570,66668,-14330)continue else Rc=P[-488]or oa(52144,16010,-488)continue end Rc=P[-11038]or oa(25116,54775,-11038)end elseif Rc>52918 then Rc,Qb[Bc[8334]]=P[-25682]or oa(57353,22508,-25682),Qb[Bc[15058]]*Qb[Bc[58449]]else Hc,ya=Qb[Rb+1],nil;na=Hc;ya=w_(na)==Oc('\150(U\154\56J','\248]8')if not ya then Rc=P[-26751]or oa(11745,90466,-26751)continue end Rc=20618 end elseif Rc<52154 then if Rc<=51088 then if Rc<=50759 then if Rc<=50734 then if q>85 then Rc=P[-31280]or oa(3388,72042,-31280)continue else Rc=P[14134]or oa(12307,35540,14134)continue end Rc=P[-2289]or oa(6453,97992,-2289)else if(not Qb[Bc[15058]])then Rc=P[6028]or oa(36978,59424,6028)continue else Rc=P[15378]or oa(52579,10886,15378)continue end Rc=P[18772]or oa(51890,10837,18772)end else Mb=Mb+Ob;Kb=Mb if Mb~=Mb then Rc=P[-27698]or oa(22274,128513,-27698)else Rc=P[11391]or oa(44140,7486,11391)end end elseif Rc>51260 then if(Qb[Bc[15058]]<Qb[Bc[44526]])then Rc=P[12704]or oa(27323,77949,12704)continue else Rc=P[-23059]or oa(25734,40647,-23059)continue end Rc=P[27581]or oa(46158,9121,27581)else Sc(kb[53834],1,dc,Rb,Qb);Rc=P[28963]or oa(56414,15281,28963)end elseif Rc<=52497 then if Rc>52346 then Mb=Mb+Ob;Kb=Mb if Mb~=Mb then Rc=P[30749]or oa(31498,73472,30749)else Rc=P[31976]or oa(26217,92933,31976)end elseif Rc<52163 then Rb,dc,pb=Bc[58449],Bc[15058],Bc[8334]-1 if(pb==-1)then Rc=P[22832]or oa(47629,48877,22832)continue else Rc=P[-20442]or oa(47093,257,-20442)continue end Rc=14196 elseif Rc<=52163 then Rc,ya[(Ob-216)]=P[-23512]or oa(3918,33461,-23512),Bb[Kb[58449]+1]else Rc,Qb[Bc[15058]]=P[-22308]or oa(34449,65140,-22308),Qb[Bc[8334]]*Bc[56286]end elseif Rc>52549 then Rb,dc=Bc[15058],Bc[58449];pb=dc-1 if pb==-1 then Rc=P[-28264]or oa(50363,95113,-28264)continue else Rc=P[8584]or oa(23934,92103,8584)continue end Rc=P[19732]or oa(52223,37412,19732)else g+=1;Rc=P[1730]or oa(61166,22017,1730)end elseif Rc<=62554 then if Rc<=60490 then if Rc>60070 then if Rc>60392 then Vb'';Rc=P[20877]or oa(43032,53505,20877)elseif Rc<=60389 then if Rc<=60097 then Kb=Wc(Mb)if Kb==nil then Rc=P[-28714]or oa(65135,36049,-28714)continue end Rc=19017 else if(q>168)then Rc=P[-10082]or oa(44508,93224,-10082)continue else Rc=P[13430]or oa(27390,94868,13430)continue end Rc=P[20409]or oa(1404,94871,20409)end else Mb=Hc if ya~=ya then Rc=P[-18070]or oa(5950,109092,-18070)else Rc=26517 end end elseif Rc<=59661 then if Rc<=59485 then if Rc<=59234 then if Rc>59051 then Qb[Rb]=Hc;Rc,dc=P[29599]or oa(23269,66291,29599),Hc else y=y+ya;na=y if y~=y then Rc=P[4935]or oa(49560,14195,4935)else Rc=44121 end end else g+=1;Rc=P[-15997]or oa(31093,56968,-15997)end else Rb=Bb[Bc[58449]+1];Rb[2][Rb[3]],Rc=Qb[Bc[15058]],P[-11488]or oa(14527,40018,-11488)end elseif Rc>60036 then g+=1;Rc=P[19012]or oa(63185,28212,19012)else g+=1;Rc=P[20171]or oa(58142,21745,20171)end elseif Rc>=61911 then if Rc>62225 then if Rc<=62336 then g+=1;Rc=P[13608]or oa(59025,24180,13608)else Vb(ya);Rc=P[19123]or oa(39344,2120,19123)end elseif Rc<61958 then g+=Bc[50368];Rc=P[-22655]or oa(7300,96415,-22655)elseif Rc>61958 then Rb,dc=nil,mb(Bc[45201],36022);Rb=if dc<32768 then dc else dc-65536;pb=Rb;Rc,Qb[mb(Bc[15058],115)]=P[829]or oa(63342,24705,829),pb else Rc,Qb[Bc[8334]]=P[888]or oa(29009,59060,888),y end elseif Rc>=61582 then if Rc>61582 then na=y if Hc~=Hc then Rc=P[10429]or oa(953,95580,10429)else Rc=P[21197]or oa(16365,68646,21197)end else na=na+A;Ob=na if na~=na then Rc=P[-8265]or oa(42176,96822,-8265)else Rc=29878 end end elseif Rc<=61023 then y,Rc=na,32615 continue else y,Rc=nil,34328 end elseif Rc<63859 then if Rc<=63410 then if Rc>=62729 then if Rc<63003 then if q>217 then Rc=P[24575]or oa(58170,60822,24575)continue else Rc=P[-19658]or oa(17142,85201,-19658)continue end Rc=P[17405]or oa(62727,25370,17405)elseif Rc<=63003 then if(q>237)then Rc=P[-13244]or oa(30591,46573,-13244)continue else Rc=P[-7620]or oa(60246,4082,-7620)continue end Rc=P[18938]or oa(45070,10209,18938)else g+=Bc[50368];Rc=P[13408]or oa(41873,5492,13408)end elseif Rc>62689 then if(Rb==3)then Rc=P[-32105]or oa(31182,36047,-32105)continue else Rc=P[12215]or oa(20011,121559,12215)continue end Rc=P[1459]or oa(25061,129025,1459)else if(q>13)then Rc=P[24742]or oa(57752,39037,24742)continue else Rc=P[14285]or oa(47107,56741,14285)continue end Rc=P[22993]or oa(58748,21143,22993)end elseif Rc>=63698 then if Rc>63698 then Hc,ya=dc(pb,y);y=Hc if y==nil then Rc=P[31359]or oa(64582,23513,31359)else Rc=53597 end else g+=Bc[50368];Rc=P[11241]or oa(61127,22106,11241)end else g+=Bc[50368];Rc=P[27412]or oa(30709,57608,27412)end elseif Rc>64765 then if Rc<65099 then if Rc>64808 then Hc,ya=dc(pb,y);y=Hc if y==nil then Rc=P[18280]or oa(25830,33053,18280)else Rc=P[-15344]or oa(32887,92288,-15344)end else ya[1]=ya[2][ya[3]];ya[2]=ya;ya[3]=1;Rc,u_[Hc]=P[16756]or oa(60197,94008,16756),nil end elseif Rc>65099 then y=Qb[Rb];Rc,na,ya,Hc=60392,1,dc,Rb+1 else Kb=Mb if A~=A then Rc=P[24162]or oa(21077,67523,24162)else Rc=33268 end end elseif Rc>=64164 then if Rc>64466 then if(q>6)then Rc=P[1227]or oa(61829,33286,1227)continue else Rc=P[25129]or oa(29696,92978,25129)continue end Rc=P[-30646]or oa(48791,9834,-30646)elseif Rc<=64164 then Qb[Bc[8334]][Bc[15058]+1],Rc=Qb[Bc[58449]],P[-4165]or oa(16295,39290,-4165)else if(q>231)then Rc=P[7225]or oa(63590,1342,7225)continue else Rc=P[-18352]or oa(22871,81215,-18352)continue end Rc=P[32183]or oa(44327,2810,32183)end elseif Rc>63859 then pb=kc[g+Bc[50368]]if Kc[pb]==nil then Rc=P[-612]or oa(52856,59321,-612)continue end Rc=P[-3723]or oa(25155,86674,-3723)else if(q>35)then Rc=P[-9086]or oa(57311,6548,-9086)continue else Rc=P[-18279]or oa(46456,62177,-18279)continue end Rc=P[27505]or oa(32012,56039,27505)end elseif Rc<42287 then if Rc>=38152 then if Rc<39537 then if Rc<=39077 then if Rc<38941 then if Rc>38152 then g+=Bc[50368];Rc=P[-32535]or oa(32070,56025,-32535)else if(q>223)then Rc=P[21293]or oa(40524,59041,21293)continue else Rc=P[-8276]or oa(24110,95924,-8276)continue end Rc=P[29108]or oa(8660,38703,29108)end elseif Rc>=38945 then if Rc<=38945 then dc,pb,y=Kc if(h(dc)~=Oc('\6\30\223\186\20\2\222\183','\96k\177\217'))then Rc=P[-13052]or oa(3568,126461,-13052)continue else Rc=P[-19714]or oa(22993,120092,-19714)continue end Rc=P[18514]or oa(43523,74702,18514)else Rb=va(dc)if Rb~=nil and Rb[Oc('\249\204\49\210\246*','\166\147X')]~=nil then Rc=P[-1522]or oa(49619,57978,-1522)continue elseif(h(dc)==Oc('\149\25\131\20\132','\225x'))then Rc=P[12792]or oa(64237,42769,12792)continue else Rc=P[25827]or oa(12695,114002,25827)continue end Rc=P[-22315]or oa(64473,94948,-22315)end else if(Rb==2)then Rc=P[-2407]or oa(20403,127361,-2407)continue else Rc=P[-10163]or oa(22715,121537,-10163)continue end Rc=P[22111]or oa(6777,110181,22111)end elseif Rc>39251 then Hc,ya=dc[1029],Bc[1029];ya=Oc('@\177Y\v\48\157\55','\148\231\212')..ya;na='';Mb,A,Ob,Rc=180,(#Hc-1)+180,1,P[-13957]or oa(27678,123137,-13957)elseif Rc>39157 then Qb[Bc[58449]]=Bc[8334]==1;g+=Bc[15058];Rc=P[28390]or oa(15734,39561,28390)elseif Rc<=39140 then g+=1;Rc=P[31808]or oa(60567,18538,31808)else g+=Bc[50368];Rc=P[2576]or oa(55705,16252,2576)end elseif Rc<=40755 then if Rc<=40064 then if Rc<39671 then if Rc<=39537 then a_(ya);Rc,Kc[Hc]=P[-22317]or oa(57476,92743,-22317),nil else Rb,dc=nil,mb(Bc[45201],37905);Rb=if dc<32768 then dc else dc-65536;pb=Rb;y=Eb[pb+1];Hc=y[32620];ya=B(Hc);Qb[mb(Bc[15058],100)]=Sb(y,ya);A,na,Rc,Mb=1,217,37704,(Hc)+216 end elseif Rc>39671 then ya[1]=ya[2][ya[3]];ya[2]=ya;ya[3]=1;Rc,u_[Hc]=P[-9968]or oa(53444,33662,-9968),nil else if(q>38)then Rc=P[-20706]or oa(36055,56656,-20706)continue else Rc=P[21757]or oa(40239,72954,21757)continue end Rc=P[-22620]or oa(42010,5117,-22620)end elseif Rc>40468 then if(q>241)then Rc=P[-7674]or oa(47370,90796,-7674)continue else Rc=P[29674]or oa(19152,46797,29674)continue end Rc=P[-20267]or oa(36950,1961,-20267)else if q>181 then Rc=P[-26886]or oa(55497,97841,-26886)continue else Rc=P[14696]or oa(13021,36204,14696)continue end Rc=P[-24231]or oa(32101,55992,-24231)end elseif Rc<41924 then if Rc<=41638 then Vb'';Rc=P[-1176]or oa(1299,115053,-1176)else dc,pb,y=u_ if(h(dc)~=Oc('\251\210\192\192\233\206\193\205','\157\167\174\163'))then Rc=P[-24735]or oa(59485,58886,-24735)continue else Rc=P[27323]or oa(34681,81843,27323)continue end Rc=P[-28993]or oa(65391,42913,-28993)end elseif Rc<=41924 then _b=A if Ob~=Ob then Rc=P[4870]or oa(27310,78236,4870)else Rc=P[21817]or oa(43827,63218,21817)end else if q>203 then Rc=P[30686]or oa(60061,35653,30686)continue else Rc=P[400]or oa(8974,72203,400)continue end Rc=P[-25248]or oa(20297,43180,-25248)end elseif Rc>=36453 then if Rc<36946 then if Rc>=36579 then if Rc>=36727 then if Rc<=36727 then dc,pb,y=Rb[Oc('\214\155+\253\161\48','\137\196B')](dc);Rc=P[-24668]or oa(19245,125927,-24668)else g-=1;kc[g],Rc={[55596]=5,[15058]=mb(Bc[15058],103),[58449]=mb(Bc[58449],54),[8334]=0},P[-15082]or oa(25351,54554,-15082)end else if(Mb>=0 and ya>na)or((Mb<0 or Mb~=Mb)and ya<na)then Rc=P[-15307]or oa(28929,42963,-15307)else Rc=47707 end end elseif Rc>36453 then Rc,Qb[Bc[58449]]=P[-13369]or oa(9841,37268,-13369),Qb[Bc[8334]]/Bc[56286]else if q>198 then Rc=P[26443]or oa(29788,78075,26443)continue else Rc=P[-1043]or oa(174,108678,-1043)continue end Rc=P[27852]or oa(12686,42849,27852)end elseif Rc<37313 then if Rc<=36946 then if(q>5)then Rc=P[4758]or oa(64474,50806,4758)continue else Rc=P[-28721]or oa(41074,93765,-28721)continue end Rc=P[27997]or oa(26772,52335,27997)else g+=Bc[50368];Rc=P[-19257]or oa(16430,47041,-19257)end elseif Rc<37704 then if(Bc[8334]==17)then Rc=P[-12101]or oa(62577,21568,-12101)continue else Rc=P[-12389]or oa(27022,47811,-12389)continue end Rc=P[-6351]or oa(38141,16,-6351)elseif Rc>37704 then g+=Bc[50368];Rc=P[21684]or oa(4979,33942,21684)else Ob=na if Mb~=Mb then Rc=P[19558]or oa(11289,35836,19558)else Rc=57174 end end elseif Rc<34551 then if Rc<=34328 then if Rc>=33821 then if Rc>33821 then Hc,ya=dc[1029],Bc[1029];ya=Oc('I\140\211\2\r\23>','\157\218^')..ya;na='';Ob,Mb,Rc,A=1,155,27109,(#Hc-1)+155 else Rc,Qb[Bc[15058]]=P[-6366]or oa(737,108301,-6366),pb end else Fc={[3]=Zb,[2]=Qb};Rc,u_[Zb]=P[26745]or oa(882,80953,26745),Fc end else g-=1;Rc,kc[g]=P[26952]or oa(30830,57217,26952),{[55596]=52,[15058]=mb(Bc[15058],141),[58449]=mb(Bc[58449],16),[8334]=0}end elseif Rc<=35549 then if Rc<=35212 then if Rc<=34551 then if(q>204)then Rc=P[-3811]or oa(40801,91245,-3811)continue else Rc=P[-28905]or oa(33939,91819,-28905)continue end Rc=P[29411]or oa(14342,39961,29411)else Rb[56286]=dc;Rc,Bc[55596]=P[13850]or oa(24849,55028,13850),188 end else if q>170 then Rc=P[5882]or oa(55801,2308,5882)continue else Rc=P[-9091]or oa(23101,37949,-9091)continue end Rc=P[25563]or oa(48608,6971,25563)end elseif Rc>35845 then if(q>60)then Rc=P[-7112]or oa(5767,83038,-7112)continue else Rc=P[-10381]or oa(63997,43737,-10381)continue end Rc=P[-2972]or oa(1580,94663,-2972)else dc,pb,y=Sa(dc);Rc=P[-22280]or oa(48812,91494,-22280)end elseif Rc<=47707 then if Rc>45620 then if Rc<=46458 then if Rc<46433 then if Rc<=45798 then g+=1;Rc=P[2972]or oa(50884,15967,2972)else if Bc[8334]==75 then Rc=P[-1269]or oa(22487,89682,-1269)continue elseif Bc[8334]==133 then Rc=P[-10881]or oa(4161,69460,-10881)continue elseif(Bc[8334]==208)then Rc=P[750]or oa(58145,24513,750)continue else Rc=P[17965]or oa(43897,45288,17965)continue end Rc=P[-885]or oa(6874,96829,-885)end elseif Rc>46442 then Rb,dc=nil,Qb[Bc[15058]];Rb=w_(dc)==Oc('<\168;\232.\180:\229','Z\221U\139')if(not Rb)then Rc=P[15394]or oa(41326,923,15394)continue else Rc=P[11168]or oa(27721,87539,11168)continue end Rc=37194 elseif Rc>46433 then if not(dc<=Mb)then Rc=P[-30674]or oa(21451,124869,-30674)continue end Rc=P[-4639]or oa(54994,20021,-4639)else if q>148 then Rc=P[8843]or oa(16546,45092,8843)continue else Rc=P[1883]or oa(9695,95128,1883)continue end Rc=P[-10313]or oa(37908,1007,-10313)end elseif Rc>47226 then Hc,Rc=Hc..C(mb(Na(pb,(A-108)+1),Na(y,(A-108)%#y+1))),P[-7197]or oa(65169,10893,-7197)elseif Rc>46593 then if q>114 then Rc=P[24016]or oa(11999,37640,24016)continue else Rc=P[-22761]or oa(61596,16402,-22761)continue end Rc=P[-26371]or oa(19841,43876,-26371)elseif Rc<=46511 then Rb=Eb[Bc[56286]+1];dc=Rb[32620];pb=B(dc);Qb[Bc[15058]]=Sb(Rb,pb);y,Rc,ya,Hc=242,61724,1,(dc)+241 else Kb=kc[g];g+=1;_b=Kb[15058]if(_b==0)then Rc=P[3969]or oa(25695,39419,3969)continue else Rc=P[-7871]or oa(14701,95253,-7871)continue end Rc=P[27467]or oa(60447,26054,27467)end elseif Rc<=44344 then if Rc<44110 then if Rc<42942 then Mb=kc[g];g+=1;A=Mb[15058]if(A==0)then Rc=P[-31338]or oa(9345,124929,-31338)continue else Rc=P[-30395]or oa(767,36012,-30395)continue end Rc=P[18002]or oa(1513,107516,18002)elseif Rc<=42942 then Qb[Rb+1]=Mb;Rc,Hc=P[-9930]or oa(35641,47011,-9930),Mb else g+=1;Rc=P[21837]or oa(62648,24659,21837)end elseif Rc<=44121 then if Rc<=44110 then Hc,Rc=Mb,48942 continue else if(ya>=0 and y>Hc)or((ya<0 or ya~=ya)and y<Hc)then Rc=P[-17809]or oa(60785,19092,-17809)else Rc=42287 end end else Qb[Bc[15058]],Rc=#Qb[Bc[58449]],P[-12995]or oa(15296,40283,-12995)end elseif Rc<=45454 then if Rc<=44613 then if Rc<=44378 then g+=1;Rc=P[-20472]or oa(38997,65448,-20472)else return ic(Qb,Rb,Rb+y-1)end else pb,Rc=ya,22918 continue end elseif Rc>45478 then Rb=Bc[37858]if((Qb[Bc[15058]]==nil)~=Rb)then Rc=P[32136]or oa(45358,95586,32136)continue else Rc=P[560]or oa(27054,130659,560)continue end Rc=P[-7187]or oa(9810,37301,-7187)else Rb=Bc[56286];Qb[Bc[8334]]=Qb[Bc[58449]][Rb];g+=1;Rc=P[11839]or oa(48495,6786,11839)end elseif Rc>=49386 then if Rc<50116 then if Rc<50002 then if Rc>49386 then if(Bc[8334]==232)then Rc=P[31870]or oa(15328,83650,31870)continue else Rc=P[-12843]or oa(49572,98050,-12843)continue end Rc=P[-27006]or oa(23397,48312,-27006)else g+=Bc[50368];Rc=P[-18885]or oa(61207,18666,-18885)end elseif Rc<=50002 then Rc,Qb[Bc[58449]]=P[-26455]or oa(63632,23659,-26455),Qb[Bc[15058]][Bc[8334]+1]else g+=1;Rc=P[-10550]or oa(57387,22478,-10550)end elseif Rc>=50396 then if Rc>50418 then Rb=Bc[15058];dc,pb=Qb[Rb],Qb[Rb+1];y=Qb[Rb+2]+pb;Qb[Rb+2]=y if(pb>0)then Rc=P[10319]or oa(32099,35190,10319)continue else Rc=P[-11046]or oa(20123,91804,-11046)continue end Rc=P[5112]or oa(32695,55626,5112)elseif Rc>50396 then g+=Bc[50368];Rc=P[-22004]or oa(49062,6521,-22004)else g+=Bc[50368];Rc=P[-8028]or oa(17538,45157,-8028)end elseif Rc>50116 then if(Hc>0)then Rc=P[17777]or oa(58515,4676,17777)continue else Rc=P[22467]or oa(63650,47732,22467)continue end Rc=P[13309]or oa(1481,95020,13309)else if(q>52)then Rc=P[19669]or oa(49576,13167,19669)continue else Rc=P[-7235]or oa(21385,41043,-7235)continue end Rc=P[-25097]or oa(39917,64768,-25097)end elseif Rc<48438 then if Rc>48010 then Vb'';Rc=P[-31309]or oa(23955,125853,-31309)elseif Rc>47989 then L,g,u_,Kc,Rc,jb=-1,1,_a({},{[Oc('\128\237\163\176\214\171','\223\178\206')]=Oc('+.',']')}),_a({},{[Oc('=+\197\r\16\205','bt\168')]=Oc('\206\214','\165')}),6011,false elseif Rc>47732 then Rb,dc,pb=Bc[56286],Bc[37858],Qb[Bc[15058]]if(pb==Rb)~=dc then Rc=P[-20740]or oa(29651,38449,-20740)continue else Rc=P[20719]or oa(56727,93277,20719)continue end Rc=P[32252]or oa(41778,5333,32252)else Rb,dc=Qb[Bc[15058]],nil;dc=w_(Rb)==Oc('*\188\204\55\56\160\205:','L\201\162T')if(not dc)then Rc=P[-28317]or oa(39496,73657,-28317)continue else Rc=P[-4040]or oa(5993,65912,-4040)continue end Rc=P[-4327]or oa(62563,57458,-4327)end elseif Rc<=49120 then if Rc>48942 then Ob={[1]=Qb[Mb[58449]],[3]=1};Ob[2]=Ob;pb[(na-241)],Rc=Ob,P[-28233]or oa(2510,105489,-28233)elseif Rc>48438 then dc[64345],Rc=Hc,P[-24948]or oa(13240,41379,-24948)else y,Hc=dc[56286],Bc[56286];Hc=Oc('\aK|L\202\184p','\211\29\241')..Hc;ya='';na,Rc,Mb,A=51,26093,(#y-1)+51,1 end elseif Rc>49140 then if(q>0)then Rc=P[-15822]or oa(17639,32873,-15822)continue else Rc=P[-26217]or oa(45794,53352,-26217)continue end Rc=P[-3164]or oa(9542,37593,-3164)else if(q>248)then Rc=P[227]or oa(55443,59397,227)continue else Rc=P[-23623]or oa(3200,73239,-23623)continue end Rc=P[2781]or oa(16057,42588,2781)end until Rc==61124 end return function(...)local uc,c,Db,ib,Ua,k,ha,ra,R,pa,p;Db,uc={},function(e_,N,Yc)Db[e_]=cb(N,28628)-cb(Yc,33928)return Db[e_]end;p=Db[20863]or uc(20863,96223,29402)repeat if p>=29692 then if p>=52646 then if p<=52646 then return ic(k,2,ra)else R,Ua=k[2],nil;ha=R;Ua=w_(ha)==Oc('\179\24\250\169\2\239','\192l\136')if(Ua==false)then p=Db[16135]or uc(16135,45628,7917)continue else p=Db[25071]or uc(25071,62930,41602)continue end p=Db[6301]or uc(6301,5059,35987)end elseif p>29692 then k,ra=ia[21180]+1,pa[Oc('B',',')]-ia[21180];ib[49717]=ra;Sc(pa,k,k+ra-1,1,ib[53834]);p=Db[-18651]or uc(-18651,90960,31256)else return Vb(R,0)end elseif p>=16324 then if p>16324 then R,p=w_(R),Db[-26015]or uc(-26015,92364,6036)else p=Db[-13511]or uc(-13511,109022,27402)continue end elseif p<=3572 then k,ra=Qc(Ac(Wb,c,ia[49974],ia[2305],ib))if k[1]then p=Db[20442]or uc(20442,65558,9876)continue else p=Db[-17834]or uc(-17834,94906,41573)continue end p=Db[15189]or uc(15189,15489,38681)else pa,c,ib=Pa(...),B(ia[44379]),{[49717]=0,[53834]={}};Sc(pa,1,ia[21180],0,c)if(ia[21180]<pa[Oc('\196','\170')])then p=Db[14602]or uc(14602,47448,52637)continue else p=Db[23651]or uc(23651,90760,31712)continue end p=3572 end until p==54920 end end return Sb(bb,wa)end)local Jb;Jb,Yb={[0]=0},function()Jb[0]=Jb[0]+1 return{[2]=Jb,[3]=Jb[0]}end;fb=yb return(function()return fb(Tc(tc'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'),{})end)()(...)
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "Silver Hub",
+    Icon = 0,
+    LoadingTitle = "Silver Hub",
+    LoadingSubtitle = "Blox Fruits",
+    Theme = "Default",
+    DisableRayfieldPrompts = false,
+    DisableBuildWarnings = false,
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = "SilverHub",
+        FileName = "Config",
+    },
+})
+
+local Tabs = {
+    MainTab        = Window:CreateTab("Main", 0),
+    OthersTab      = Window:CreateTab("Others", 0),
+    ItemsTab       = Window:CreateTab("Items", 0),
+    SettingsTab    = Window:CreateTab("Settings", 0),
+    LocalPlayerTab = Window:CreateTab("Local Player", 0),
+    StatsTab       = Window:CreateTab("Stats", 0),
+    SeaEventTab    = Window:CreateTab("Sea Event", 0),
+    SeaStackTab    = Window:CreateTab("Sea Stack", 0),
+    SeaSettingsTab = Window:CreateTab("Sea Settings", 0),
+    DragonDojoTab  = Window:CreateTab("Dragon Dojo", 0),
+    RaceTab        = Window:CreateTab("Race", 0),
+    CombatTab      = Window:CreateTab("Combat", 0),
+    RaidTab        = Window:CreateTab("Raid", 0),
+    EspTab         = Window:CreateTab("Esp", 0),
+    TeleportTab    = Window:CreateTab("Teleport", 0),
+    ShopTab        = Window:CreateTab("Shop", 0),
+    FruitTab       = Window:CreateTab("Fruit", 0),
+    MiscTab        = Window:CreateTab("Misc", 0),
+    ServerTab      = Window:CreateTab("Server", 0),
+}
+
+-- [[ Initialize Script Variables ]] --
+
+_G.GlobalDelay = 0.2
+
+_G.SelectWeapon = "Melee"
+_G.FarmLevelMethod = "Quest"
+_G.MasteryMethod = "Quest"
+
+_G.SelectedBoneFarmMethod = "No Quest"
+
+
+_G.FarmDistance = 35
+_G.PlayerTweenSpeed = 300
+_G.BringMob = true
+_G.BringMobMode = "Normal"
+_G.AttackAura = true
+
+_G.MasteryHealth = 25
+_G.AutoSetSpawnPoint = true
+_G.AutoRejoin = true
+
+_G.ActiveRaceV4 = true
+
+_G.SelectedFruitSkill = {"Z", "X", "C"}
+_G.SelectedGunSkill = {"Z", "X"}
+
+_G.DevilFruitSkillSeaEvent = {"Z", "X", "C"}
+_G.MeleeSkillSeaEvent = {"Z", "X", "C", "V"}
+_G.UseDevilFruitSkill = true
+_G.UseMeleeSkill = true
+_G.UseGunSkill = true
+_G.UseSwordSkill = true
+
+_G.SelectedBoat = "Guardian"
+_G.SelectedZone = "Zone 5"
+
+_G.StoreRarityFruit = "Common - Mythical"
+
+
+if game.PlaceId == 2753915549 then
+	World1 = true;
+elseif game.PlaceId == 4442272183 then
+	World2 = true;
+elseif game.PlaceId == 7449423635 then
+	World3 = true;
+end;
+
+-- [[ Declare Variables ]] --
+Workspace = game:GetService("Workspace");
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local Character
+local Humanoid
+local HumanoidRootPart
+local MyLevel
+
+local function SetupCharacter(char)
+    Character = char
+    Humanoid = char:WaitForChild("Humanoid")
+    HumanoidRootPart = char:WaitForChild("HumanoidRootPart")
+end
+
+if LocalPlayer.Character then
+    SetupCharacter(LocalPlayer.Character)
+end
+
+LocalPlayer.CharacterAdded:Connect(function(char)
+    SetupCharacter(char)
+end)
+
+MyLevel = LocalPlayer:WaitForChild("Data"):WaitForChild("Level").Value
+
+ReplicatedStorage = game.ReplicatedStorage
+Remotes = ReplicatedStorage.Remotes
+Enemies = Workspace.Enemies
+RunService = game:GetService("RunService")
+TweenService = game:GetService("TweenService")
+VirtualInputManager = game:GetService("VirtualInputManager")
+TeleportService = game:GetService("TeleportService");
+
+-- Config Section
+Tabs.SettingsTab:CreateSection("Configuration")
+
+Tabs.SettingsTab:CreateButton({
+    Name = "Save Config",
+    Callback = function()
+        Window:SaveConfiguration()
+        Rayfield:Notify({
+            Title = "Silver Hub",
+            Content = "Config saved!",
+            Duration = 3,
+        })
+    end,
+})
+
+Tabs.SettingsTab:CreateButton({
+    Name = "Reset Config",
+    Callback = function()
+        pcall(function()
+            local folder = "SilverHub"
+            local file = folder .. "/Config.rfld"
+            if isfile(file) then
+                delfile(file)
+                Rayfield:Notify({
+                    Title = "Silver Hub",
+                    Content = "Config reset! Rejoin to apply.",
+                    Duration = 4,
+                })
+            else
+                Rayfield:Notify({
+                    Title = "Silver Hub",
+                    Content = "No config file found.",
+                    Duration = 3,
+                })
+            end
+        end)
+    end,
+})
+
+-- Hachi Hub server hop setup
+local HttpService = game:GetService("HttpService")
+local ServerBrowser = ReplicatedStorage:WaitForChild("__ServerBrowser")
+local PlaceId_SH = game.PlaceId
+
+local antiSameServerFunctions = {}
+function antiSameServerFunctions:Init()
+    self.Folder = "SilverHub_ServerHop"
+    self.Path = self.Folder .. "/anti-same-server.json"
+    pcall(function()
+        if not isfolder(self.Folder) then makefolder(self.Folder) end
+        if not isfile(self.Path) then writefile(self.Path, "[]") end
+    end)
+end
+
+function antiSameServerFunctions:WriteFile(NewData)
+    pcall(function() writefile(self.Path, HttpService:JSONEncode(NewData)) end)
+    return {}
+end
+
+function antiSameServerFunctions:ReadFile()
+    local ok, data = pcall(function()
+        return HttpService:JSONDecode(readfile(self.Path))
+    end)
+    if ok and type(data) == "table" then return data end
+    return self:WriteFile({})
+end
+
+function antiSameServerFunctions:WriteJobId(JobId)
+    local list = self:ReadFile()
+    table.insert(list, JobId)
+    -- Keep last 50 only
+    while #list > 50 do table.remove(list, 1) end
+    self:WriteFile(list)
+end
+
+function antiSameServerFunctions:IsJobIdAlreadyExist(JobId)
+    return table.find(self:ReadFile(), JobId)
+end
+
+antiSameServerFunctions:Init()
+-- Write current server to anti-same list
+pcall(function() antiSameServerFunctions:WriteJobId(game.JobId) end)
+
+local serverFunctions = {}
+
+function serverFunctions.Hop()
+    local success, _ = pcall(function()
+        local AllServers = HttpService:JSONDecode(game:HttpGet(
+            "https://games.roblox.com/v1/games/" .. PlaceId_SH ..
+            "/servers/Public?cursor=&sortOrder=Desc&excludeFullGames=true&limit=100"
+        ))
+        for _, server in pairs(AllServers["data"]) do
+            if not antiSameServerFunctions:IsJobIdAlreadyExist(server["id"])
+               and server["maxPlayers"] > server["playing"] then
+                TeleportService:TeleportToPlaceInstance(PlaceId_SH, server["id"], LocalPlayer)
+                task.wait(2)
+                return
+            end
+        end
+    end)
+    if not success then
+        task.wait(3)
+        serverFunctions.Hop()
+    end
+end
+
+function serverFunctions.HopLowPlayer()
+    local success, err = pcall(function()
+        local allServers = {}
+        -- Method 1: ServerBrowser pages
+        pcall(function()
+            for i = 1, 20 do
+                local serversList = ServerBrowser:InvokeServer(i)
+                if serversList == nil then break end
+                for JobId, server in pairs(serversList) do
+                    if server.Count <= 1 and not antiSameServerFunctions:IsJobIdAlreadyExist(JobId) then
+                        table.insert(allServers, JobId)
+                    end
+                end
+            end
+        end)
+        -- Method 2: Roblox API
+        pcall(function()
+            local serversList = HttpService:JSONDecode(game:HttpGet(
+                "https://games.roblox.com/v1/games/" .. PlaceId_SH ..
+                "/servers/Public?sortOrder=Asc&limit=100"
+            ))
+            for _, server in pairs(serversList["data"]) do
+                if not antiSameServerFunctions:IsJobIdAlreadyExist(server["id"])
+                   and server["maxPlayers"] > server["playing"] then
+                    table.insert(allServers, server["id"])
+                end
+            end
+        end)
+        if #allServers > 0 then
+            local pick = allServers[math.random(1, #allServers)]
+            ServerBrowser:InvokeServer("teleport", pick)
+        else
+            serverFunctions.Hop()
+        end
+    end)
+    if not success then
+        task.wait(5)
+        serverFunctions.HopLowPlayer()
+    end
+end
+
+function serverFunctions.Rejoin()
+    TeleportService:Teleport(PlaceId_SH, LocalPlayer)
+end
+
+function serverFunctions.JoinJobId(jobId)
+    if jobId and jobId ~= "" then
+        pcall(function()
+            TeleportService:TeleportToPlaceInstance(PlaceId_SH, jobId, LocalPlayer)
+        end)
+    end
+end
+
+
+hookfunction(require(ReplicatedStorage.Effect.Container.Death),function() end)
+hookfunction(require(ReplicatedStorage:WaitForChild("GuideModule")).ChangeDisplayedNPC,function()end)
+hookfunction(error, function()end)
+hookfunction(warn, function()end)
+
+local CameraShaker = require(ReplicatedStorage.Util.CameraShaker)
+CameraShaker:Stop()
+
+function sendKeyEvent(skill)
+	local keyCode = typeof(skill) == "EnumItem" and skill or Enum.KeyCode[skill]
+	if not keyCode then return end
+
+	VirtualInputManager:SendKeyEvent(true, keyCode, false, game)
+	task.wait(0.05)
+	VirtualInputManager:SendKeyEvent(false, keyCode, false, game)
+end
+
+function CheckQuest()
+	if World1 then
+		if MyLevel == 1 or MyLevel <= 9 then
+			Mon = "Bandit";
+			LevelQuest = 1;
+			NameQuest = "BanditQuest1";
+			NameMon = "Bandit";
+			CFrameQuest = CFrame.new(1059.37195, 15.4495068, 1550.4231, 0.939700544, -0, -0.341998369, 0, 1, -0, 0.341998369, 0, 0.939700544);
+			CFrameMon = CFrame.new(1045.962646484375, 27.00250816345215, 1560.8203125);
+		elseif MyLevel == 10 or MyLevel <= 14 then
+			Mon = "Monkey";
+			LevelQuest = 1;
+			NameQuest = "JungleQuest";
+			NameMon = "Monkey";
+			CFrameQuest = CFrame.new(-1598.08911, 35.5501175, 153.377838, 0, 0, 1, 0, 1, -0, -1, 0, 0);
+			CFrameMon = CFrame.new(-1448.51806640625, 67.85301208496094, 11.46579647064209);
+		elseif MyLevel == 15 or MyLevel <= 29 then
+			Mon = "Gorilla";
+			LevelQuest = 2;
+			NameQuest = "JungleQuest";
+			NameMon = "Gorilla";
+			CFrameQuest = CFrame.new(-1598.08911, 35.5501175, 153.377838, 0, 0, 1, 0, 1, -0, -1, 0, 0);
+			CFrameMon = CFrame.new(-1129.8836669921875, 40.46354675292969, -525.4237060546875);
+		elseif MyLevel == 30 or MyLevel <= 39 then
+			Mon = "Pirate";
+			LevelQuest = 1;
+			NameQuest = "BuggyQuest1";
+			NameMon = "Pirate";
+			CFrameQuest = CFrame.new(-1141.07483, 4.10001802, 3831.5498, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627);
+			CFrameMon = CFrame.new(-1103.513427734375, 13.752052307128906, 3896.091064453125);
+		elseif MyLevel == 40 or MyLevel <= 59 then
+			Mon = "Brute";
+			LevelQuest = 2;
+			NameQuest = "BuggyQuest1";
+			NameMon = "Brute";
+			CFrameQuest = CFrame.new(-1141.07483, 4.10001802, 3831.5498, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627);
+			CFrameMon = CFrame.new(-1140.083740234375, 14.809885025024414, 4322.92138671875);
+		elseif MyLevel == 60 or MyLevel <= 74 then
+			Mon = "Desert Bandit";
+			LevelQuest = 1;
+			NameQuest = "DesertQuest";
+			NameMon = "Desert Bandit";
+			CFrameQuest = CFrame.new(894.488647, 5.14000702, 4392.43359, 0.819155693, -0, -0.573571265, 0, 1, -0, 0.573571265, 0, 0.819155693);
+			CFrameMon = CFrame.new(924.7998046875, 6.44867467880249, 4481.5859375);
+		elseif MyLevel == 75 or MyLevel <= 89 then
+			Mon = "Desert Officer";
+			LevelQuest = 2;
+			NameQuest = "DesertQuest";
+			NameMon = "Desert Officer";
+			CFrameQuest = CFrame.new(894.488647, 5.14000702, 4392.43359, 0.819155693, -0, -0.573571265, 0, 1, -0, 0.573571265, 0, 0.819155693);
+			CFrameMon = CFrame.new(1608.2822265625, 8.614224433898926, 4371.00732421875);
+		elseif MyLevel == 90 or MyLevel <= 99 then
+			Mon = "Snow Bandit";
+			LevelQuest = 1;
+			NameQuest = "SnowQuest";
+			NameMon = "Snow Bandit";
+			CFrameQuest = CFrame.new(1389.74451, 88.1519318, -1298.90796, -0.342042685, 0, 0.939684391, 0, 1, 0, -0.939684391, 0, -0.342042685);
+			CFrameMon = CFrame.new(1354.347900390625, 87.27277374267578, -1393.946533203125);
+		elseif MyLevel == 100 or MyLevel <= 119 then
+			Mon = "Snowman";
+			LevelQuest = 2;
+			NameQuest = "SnowQuest";
+			NameMon = "Snowman";
+			CFrameQuest = CFrame.new(1389.74451, 88.1519318, -1298.90796, -0.342042685, 0, 0.939684391, 0, 1, 0, -0.939684391, 0, -0.342042685);
+			CFrameMon = CFrame.new(1201.6412353515625, 144.57958984375, -1550.0670166015625);
+		elseif MyLevel == 120 or MyLevel <= 149 then
+			Mon = "Chief Petty Officer";
+			LevelQuest = 1;
+			NameQuest = "MarineQuest2";
+			NameMon = "Chief Petty Officer";
+			CFrameQuest = CFrame.new(-5039.58643, 27.3500385, 4324.68018, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-4881.23095703125, 22.65204429626465, 4273.75244140625);
+		elseif MyLevel == 150 or MyLevel <= 174 then
+			Mon = "Sky Bandit";
+			LevelQuest = 1;
+			NameQuest = "SkyQuest";
+			NameMon = "Sky Bandit";
+			CFrameQuest = CFrame.new(-4839.53027, 716.368591, -2619.44165, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268);
+			CFrameMon = CFrame.new(-4953.20703125, 295.74420166015625, -2899.22900390625);
+		elseif MyLevel == 175 or MyLevel <= 189 then
+			Mon = "Dark Master";
+			LevelQuest = 2;
+			NameQuest = "SkyQuest";
+			NameMon = "Dark Master";
+			CFrameQuest = CFrame.new(-4839.53027, 716.368591, -2619.44165, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268);
+			CFrameMon = CFrame.new(-5259.8447265625, 391.3976745605469, -2229.035400390625);
+		elseif MyLevel == 190 or MyLevel <= 209 then
+			Mon = "Prisoner";
+			LevelQuest = 1;
+			NameQuest = "PrisonerQuest";
+			NameMon = "Prisoner";
+			CFrameQuest = CFrame.new(5308.93115, 1.65517521, 475.120514, -0.0894274712, -0.00000000500292918, -0.995993316, 0.00000000160817859, 1, -0.00000000516744869, 0.995993316, -0.00000000206384709, -0.0894274712);
+			CFrameMon = CFrame.new(5098.9736328125, -0.3204058110713959, 474.2373352050781);
+		elseif MyLevel == 210 or MyLevel <= 249 then
+			Mon = "Dangerous Prisoner";
+			LevelQuest = 2;
+			NameQuest = "PrisonerQuest";
+			NameMon = "Dangerous Prisoner";
+			CFrameQuest = CFrame.new(5308.93115, 1.65517521, 475.120514, -0.0894274712, -0.00000000500292918, -0.995993316, 0.00000000160817859, 1, -0.00000000516744869, 0.995993316, -0.00000000206384709, -0.0894274712);
+			CFrameMon = CFrame.new(5654.5634765625, 15.633401870727539, 866.2991943359375);
+		elseif MyLevel == 250 or MyLevel <= 274 then
+			Mon = "Toga Warrior";
+			LevelQuest = 1;
+			NameQuest = "ColosseumQuest";
+			NameMon = "Toga Warrior";
+			CFrameQuest = CFrame.new(-1580.04663, 6.35000277, -2986.47534, -0.515037298, 0, -0.857167721, 0, 1, 0, 0.857167721, 0, -0.515037298);
+			CFrameMon = CFrame.new(-1820.21484375, 51.68385696411133, -2740.6650390625);
+		elseif MyLevel == 275 or MyLevel <= 299 then
+			Mon = "Gladiator";
+			LevelQuest = 2;
+			NameQuest = "ColosseumQuest";
+			NameMon = "Gladiator";
+			CFrameQuest = CFrame.new(-1580.04663, 6.35000277, -2986.47534, -0.515037298, 0, -0.857167721, 0, 1, 0, 0.857167721, 0, -0.515037298);
+			CFrameMon = CFrame.new(-1292.838134765625, 56.380882263183594, -3339.031494140625);
+		elseif MyLevel == 300 or MyLevel <= 324 then
+			Mon = "Military Soldier";
+			LevelQuest = 1;
+			NameQuest = "MagmaQuest";
+			NameMon = "Military Soldier";
+			CFrameQuest = CFrame.new(-5313.37012, 10.9500084, 8515.29395, -0.499959469, 0, 0.866048813, 0, 1, 0, -0.866048813, 0, -0.499959469);
+			CFrameMon = CFrame.new(-5411.16455078125, 11.081554412841797, 8454.29296875);
+		elseif MyLevel == 325 or MyLevel <= 374 then
+			Mon = "Military Spy";
+			LevelQuest = 2;
+			NameQuest = "MagmaQuest";
+			NameMon = "Military Spy";
+			CFrameQuest = CFrame.new(-5313.37012, 10.9500084, 8515.29395, -0.499959469, 0, 0.866048813, 0, 1, 0, -0.866048813, 0, -0.499959469);
+			CFrameMon = CFrame.new(-5802.8681640625, 86.26241302490234, 8828.859375);
+		elseif MyLevel == 375 or MyLevel <= 399 then
+			Mon = "Fishman Warrior";
+			LevelQuest = 1;
+			NameQuest = "FishmanQuest";
+			NameMon = "Fishman Warrior";
+			CFrameQuest = CFrame.new(61122.65234375, 18.497442245483, 1569.3997802734);
+			CFrameMon = CFrame.new(60878.30078125, 18.482830047607422, 1543.7574462890625);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(61163.8515625, 11.6796875, 1819.7841796875));
+			end;
+		elseif MyLevel == 400 or MyLevel <= 449 then
+			Mon = "Fishman Commando";
+			LevelQuest = 2;
+			NameQuest = "FishmanQuest";
+			NameMon = "Fishman Commando";
+			CFrameQuest = CFrame.new(61122.65234375, 18.497442245483, 1569.3997802734);
+			CFrameMon = CFrame.new(61922.6328125, 18.482830047607422, 1493.934326171875);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(61163.8515625, 11.6796875, 1819.7841796875));
+			end;
+		elseif MyLevel == 450 or MyLevel <= 474 then
+			Mon = "God's Guard";
+			LevelQuest = 1;
+			NameQuest = "SkyExp1Quest";
+			NameMon = "God's Guard";
+			CFrameQuest = CFrame.new(-4721.88867, 843.874695, -1949.96643, 0.996191859, -0, -0.0871884301, 0, 1, -0, 0.0871884301, 0, 0.996191859);
+			CFrameMon = CFrame.new(-4710.04296875, 845.2769775390625, -1927.3079833984375);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-4607.82275, 872.54248, -1667.55688));
+			end;
+		elseif MyLevel == 475 or MyLevel <= 524 then
+			Mon = "Shanda";
+			LevelQuest = 2;
+			NameQuest = "SkyExp1Quest";
+			NameMon = "Shanda";
+			CFrameQuest = CFrame.new(-7859.09814, 5544.19043, -381.476196, -0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, -0.422592998);
+			CFrameMon = CFrame.new(-7678.48974609375, 5566.40380859375, -497.2156066894531);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-7894.6176757813, 5547.1416015625, -380.29119873047));
+			end;
+		elseif MyLevel == 525 or MyLevel <= 549 then
+			Mon = "Royal Squad";
+			LevelQuest = 1;
+			NameQuest = "SkyExp2Quest";
+			NameMon = "Royal Squad";
+			CFrameQuest = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-7624.25244140625, 5658.13330078125, -1467.354248046875);
+		elseif MyLevel == 550 or MyLevel <= 624 then
+			Mon = "Royal Soldier";
+			LevelQuest = 2;
+			NameQuest = "SkyExp2Quest";
+			NameMon = "Royal Soldier";
+			CFrameQuest = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-7836.75341796875, 5645.6640625, -1790.6236572265625);
+		elseif MyLevel == 625 or MyLevel <= 649 then
+			Mon = "Galley Pirate";
+			LevelQuest = 1;
+			NameQuest = "FountainQuest";
+			NameMon = "Galley Pirate";
+			CFrameQuest = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381);
+			CFrameMon = CFrame.new(5551.02197265625, 78.90135192871094, 3930.412841796875);
+		elseif MyLevel >= 650 then
+			Mon = "Galley Captain";
+			LevelQuest = 2;
+			NameQuest = "FountainQuest";
+			NameMon = "Galley Captain";
+			CFrameQuest = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381);
+			CFrameMon = CFrame.new(5441.95166015625, 42.50205993652344, 4950.09375);
+		end;
+	elseif World2 then
+		if MyLevel == 700 or MyLevel <= 724 then
+			Mon = "Raider";
+			LevelQuest = 1;
+			NameQuest = "Area1Quest";
+			NameMon = "Raider";
+			CFrameQuest = CFrame.new(-429.543518, 71.7699966, 1836.18188, -0.22495985, 0, -0.974368095, 0, 1, 0, 0.974368095, 0, -0.22495985);
+			CFrameMon = CFrame.new(-728.3267211914062, 52.779319763183594, 2345.7705078125);
+		elseif MyLevel == 725 or MyLevel <= 774 then
+			Mon = "Mercenary";
+			LevelQuest = 2;
+			NameQuest = "Area1Quest";
+			NameMon = "Mercenary";
+			CFrameQuest = CFrame.new(-429.543518, 71.7699966, 1836.18188, -0.22495985, 0, -0.974368095, 0, 1, 0, 0.974368095, 0, -0.22495985);
+			CFrameMon = CFrame.new(-1004.3244018554688, 80.15886688232422, 1424.619384765625);
+		elseif MyLevel == 775 or MyLevel <= 799 then
+			Mon = "Swan Pirate";
+			LevelQuest = 1;
+			NameQuest = "Area2Quest";
+			NameMon = "Swan Pirate";
+			CFrameQuest = CFrame.new(638.43811, 71.769989, 918.282898, 0.139203906, 0, 0.99026376, 0, 1, 0, -0.99026376, 0, 0.139203906);
+			CFrameMon = CFrame.new(1068.664306640625, 137.61428833007812, 1322.1060791015625);
+		elseif MyLevel == 800 or MyLevel <= 874 then
+			Mon = "Factory Staff";
+			NameQuest = "Area2Quest";
+			LevelQuest = 2;
+			NameMon = "Factory Staff";
+			CFrameQuest = CFrame.new(632.698608, 73.1055908, 918.666321, -0.0319722369, 0.000000000896074881, -0.999488771, 0.000000000136326533, 1, 0.000000000892172336, 0.999488771, -0.000000000107732087, -0.0319722369);
+			CFrameMon = CFrame.new(73.07867431640625, 81.86344146728516, -27.470672607421875);
+		elseif MyLevel == 875 or MyLevel <= 899 then
+			Mon = "Marine Lieutenant";
+			LevelQuest = 1;
+			NameQuest = "MarineQuest3";
+			NameMon = "Marine Lieutenant";
+			CFrameQuest = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268);
+			CFrameMon = CFrame.new(-2821.372314453125, 75.89727783203125, -3070.089111328125);
+		elseif MyLevel == 900 or MyLevel <= 949 then
+			Mon = "Marine Captain";
+			LevelQuest = 2;
+			NameQuest = "MarineQuest3";
+			NameMon = "Marine Captain";
+			CFrameQuest = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268);
+			CFrameMon = CFrame.new(-1861.2310791015625, 80.17658233642578, -3254.697509765625);
+		elseif MyLevel == 950 or MyLevel <= 974 then
+			Mon = "Zombie";
+			LevelQuest = 1;
+			NameQuest = "ZombieQuest";
+			NameMon = "Zombie";
+			CFrameQuest = CFrame.new(-5497.06152, 47.5923004, -795.237061, -0.29242146, 0, -0.95628953, 0, 1, 0, 0.95628953, 0, -0.29242146);
+			CFrameMon = CFrame.new(-5657.77685546875, 78.96973419189453, -928.68701171875);
+		elseif MyLevel == 975 or MyLevel <= 999 then
+			Mon = "Vampire";
+			LevelQuest = 2;
+			NameQuest = "ZombieQuest";
+			NameMon = "Vampire";
+			CFrameQuest = CFrame.new(-5497.06152, 47.5923004, -795.237061, -0.29242146, 0, -0.95628953, 0, 1, 0, 0.95628953, 0, -0.29242146);
+			CFrameMon = CFrame.new(-6037.66796875, 32.18463897705078, -1340.6597900390625);
+		elseif MyLevel == 1000 or MyLevel <= 1049 then
+			Mon = "Snow Trooper";
+			LevelQuest = 1;
+			NameQuest = "SnowMountainQuest";
+			NameMon = "Snow Trooper";
+			CFrameQuest = CFrame.new(609.858826, 400.119904, -5372.25928, -0.374604106, 0, 0.92718488, 0, 1, 0, -0.92718488, 0, -0.374604106);
+			CFrameMon = CFrame.new(549.1473388671875, 427.3870544433594, -5563.69873046875);
+		elseif MyLevel == 1050 or MyLevel <= 1099 then
+			Mon = "Winter Warrior";
+			LevelQuest = 2;
+			NameQuest = "SnowMountainQuest";
+			NameMon = "Winter Warrior";
+			CFrameQuest = CFrame.new(609.858826, 400.119904, -5372.25928, -0.374604106, 0, 0.92718488, 0, 1, 0, -0.92718488, 0, -0.374604106);
+			CFrameMon = CFrame.new(1142.7451171875, 475.6398010253906, -5199.41650390625);
+		elseif MyLevel == 1100 or MyLevel <= 1124 then
+			Mon = "Lab Subordinate";
+			LevelQuest = 1;
+			NameQuest = "IceSideQuest";
+			NameMon = "Lab Subordinate";
+			CFrameQuest = CFrame.new(-6064.06885, 15.2422857, -4902.97852, 0.453972578, -0, -0.891015649, 0, 1, -0, 0.891015649, 0, 0.453972578);
+			CFrameMon = CFrame.new(-5707.4716796875, 15.951709747314453, -4513.39208984375);
+		elseif MyLevel == 1125 or MyLevel <= 1174 then
+			Mon = "Horned Warrior";
+			LevelQuest = 2;
+			NameQuest = "IceSideQuest";
+			NameMon = "Horned Warrior";
+			CFrameQuest = CFrame.new(-6064.06885, 15.2422857, -4902.97852, 0.453972578, -0, -0.891015649, 0, 1, -0, 0.891015649, 0, 0.453972578);
+			CFrameMon = CFrame.new(-6341.36669921875, 15.951770782470703, -5723.162109375);
+		elseif MyLevel == 1175 or MyLevel <= 1199 then
+			Mon = "Magma Ninja";
+			LevelQuest = 1;
+			NameQuest = "FireSideQuest";
+			NameMon = "Magma Ninja";
+			CFrameQuest = CFrame.new(-5428.03174, 15.0622921, -5299.43457, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213);
+			CFrameMon = CFrame.new(-5449.6728515625, 76.65874481201172, -5808.20068359375);
+		elseif MyLevel == 1200 or MyLevel <= 1249 then
+			Mon = "Lava Pirate";
+			LevelQuest = 2;
+			NameQuest = "FireSideQuest";
+			NameMon = "Lava Pirate";
+			CFrameQuest = CFrame.new(-5428.03174, 15.0622921, -5299.43457, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213);
+			CFrameMon = CFrame.new(-5213.33154296875, 49.73788070678711, -4701.451171875);
+		elseif MyLevel == 1250 or MyLevel <= 1274 then
+			Mon = "Ship Deckhand";
+			LevelQuest = 1;
+			NameQuest = "ShipQuest1";
+			NameMon = "Ship Deckhand";
+			CFrameQuest = CFrame.new(1037.80127, 125.092171, 32911.6016);
+			CFrameMon = CFrame.new(1212.0111083984375, 150.79205322265625, 33059.24609375);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(923.21252441406, 126.9760055542, 32852.83203125));
+			end;
+		elseif MyLevel == 1275 or MyLevel <= 1299 then
+			Mon = "Ship Engineer";
+			LevelQuest = 2;
+			NameQuest = "ShipQuest1";
+			NameMon = "Ship Engineer";
+			CFrameQuest = CFrame.new(1037.80127, 125.092171, 32911.6016);
+			CFrameMon = CFrame.new(919.4786376953125, 43.54401397705078, 32779.96875);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(923.21252441406, 126.9760055542, 32852.83203125));
+			end;
+		elseif MyLevel == 1300 or MyLevel <= 1324 then
+			Mon = "Ship Steward";
+			LevelQuest = 1;
+			NameQuest = "ShipQuest2";
+			NameMon = "Ship Steward";
+			CFrameQuest = CFrame.new(968.80957, 125.092171, 33244.125);
+			CFrameMon = CFrame.new(919.4385375976562, 129.55599975585938, 33436.03515625);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(923.21252441406, 126.9760055542, 32852.83203125));
+			end;
+		elseif MyLevel == 1325 or MyLevel <= 1349 then
+			Mon = "Ship Officer";
+			LevelQuest = 2;
+			NameQuest = "ShipQuest2";
+			NameMon = "Ship Officer";
+			CFrameQuest = CFrame.new(968.80957, 125.092171, 33244.125);
+			CFrameMon = CFrame.new(1036.0179443359375, 181.4390411376953, 33315.7265625);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(923.21252441406, 126.9760055542, 32852.83203125));
+			end;
+		elseif MyLevel == 1350 or MyLevel <= 1374 then
+			Mon = "Arctic Warrior";
+			LevelQuest = 1;
+			NameQuest = "FrostQuest";
+			NameMon = "Arctic Warrior";
+			CFrameQuest = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909);
+			CFrameMon = CFrame.new(5966.24609375, 62.97002029418945, -6179.3828125);
+			if _G.AutoFarmLevel and (CFrameQuest.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+				Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-6508.5581054688, 5000.034996032715, -132.83953857422));
+			end;
+		elseif MyLevel == 1375 or MyLevel <= 1424 then
+			Mon = "Snow Lurker";
+			LevelQuest = 2;
+			NameQuest = "FrostQuest";
+			NameMon = "Snow Lurker";
+			CFrameQuest = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909);
+			CFrameMon = CFrame.new(5407.07373046875, 69.19437408447266, -6880.88037109375);
+		elseif MyLevel == 1425 or MyLevel <= 1449 then
+			Mon = "Sea Soldier";
+			LevelQuest = 1;
+			NameQuest = "ForgottenQuest";
+			NameMon = "Sea Soldier";
+			CFrameQuest = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376);
+			CFrameMon = CFrame.new(-3028.2236328125, 64.67451477050781, -9775.4267578125);
+		elseif MyLevel >= 1450 then
+			Mon = "Water Fighter";
+			LevelQuest = 2;
+			NameQuest = "ForgottenQuest";
+			NameMon = "Water Fighter";
+			CFrameQuest = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376);
+			CFrameMon = CFrame.new(-3352.9013671875, 285.01556396484375, -10534.841796875);
+		end;
+	elseif World3 then
+		if MyLevel == 1500 or MyLevel <= 1524 then
+			Mon = "Pirate Millionaire";
+			LevelQuest = 1;
+			NameQuest = "PiratePortQuest";
+			NameMon = "Pirate Millionaire";
+			CFrameQuest = CFrame.new(-290.074677, 42.9034653, 5581.58984, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627);
+			CFrameMon = CFrame.new(-245.9963836669922, 47.30615234375, 5584.1005859375);
+		elseif MyLevel == 1525 or MyLevel <= 1574 then
+			Mon = "Pistol Billionaire";
+			LevelQuest = 2;
+			NameQuest = "PiratePortQuest";
+			NameMon = "Pistol Billionaire";
+			CFrameQuest = CFrame.new(-290.074677, 42.9034653, 5581.58984, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627);
+			CFrameMon = CFrame.new(-187.3301544189453, 86.23987579345703, 6013.513671875);
+		elseif MyLevel == 1575 or MyLevel <= 1599 then
+			Mon = "Dragon Crew Warrior";
+			LevelQuest = 1;
+			NameQuest = "AmazonQuest";
+			NameMon = "Dragon Crew Warrior";
+			CFrameQuest = CFrame.new(5832.83594, 51.6806107, -1101.51563, 0.898790359, -0, -0.438378751, 0, 1, -0, 0.438378751, 0, 0.898790359);
+			CFrameMon = CFrame.new(6141.140625, 51.35136413574219, -1340.738525390625);
+		elseif MyLevel == 1600 or MyLevel <= 1624 then
+			Mon = "Dragon Crew Archer [Lv. 1600]";
+			NameQuest = "AmazonQuest";
+			LevelQuest = 2;
+			NameMon = "Dragon Crew Archer";
+			CFrameQuest = CFrame.new(5833.1147460938, 51.60498046875, -1103.0693359375);
+			CFrameMon = CFrame.new(6616.41748046875, 441.7670593261719, 446.0469970703125);
+		elseif MyLevel == 1625 or MyLevel <= 1649 then
+			Mon = "Female Islander";
+			NameQuest = "AmazonQuest2";
+			LevelQuest = 1;
+			NameMon = "Female Islander";
+			CFrameQuest = CFrame.new(5446.8793945313, 601.62945556641, 749.45672607422);
+			CFrameMon = CFrame.new(4685.25830078125, 735.8078002929688, 815.3425903320312);
+		elseif MyLevel == 1650 or MyLevel <= 1699 then
+			Mon = "Giant Islander [Lv. 1650]";
+			NameQuest = "AmazonQuest2";
+			LevelQuest = 2;
+			NameMon = "Giant Islander";
+			CFrameQuest = CFrame.new(5446.8793945313, 601.62945556641, 749.45672607422);
+			CFrameMon = CFrame.new(4729.09423828125, 590.436767578125, -36.97627639770508);
+		elseif MyLevel == 1700 or MyLevel <= 1724 then
+			Mon = "Marine Commodore";
+			LevelQuest = 1;
+			NameQuest = "MarineTreeIsland";
+			NameMon = "Marine Commodore";
+			CFrameQuest = CFrame.new(2180.54126, 27.8156815, -6741.5498, -0.965929747, 0, 0.258804798, 0, 1, 0, -0.258804798, 0, -0.965929747);
+			CFrameMon = CFrame.new(2286.0078125, 73.13391876220703, -7159.80908203125);
+		elseif MyLevel == 1725 or MyLevel <= 1774 then
+			Mon = "Marine Rear Admiral [Lv. 1725]";
+			NameMon = "Marine Rear Admiral";
+			NameQuest = "MarineTreeIsland";
+			LevelQuest = 2;
+			CFrameQuest = CFrame.new(2179.98828125, 28.731239318848, -6740.0551757813);
+			CFrameMon = CFrame.new(3656.773681640625, 160.52406311035156, -7001.5986328125);
+		elseif MyLevel == 1775 or MyLevel <= 1799 then
+			Mon = "Fishman Raider";
+			LevelQuest = 1;
+			NameQuest = "DeepForestIsland3";
+			NameMon = "Fishman Raider";
+			CFrameQuest = CFrame.new(-10581.6563, 330.872955, -8761.18652, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213);
+			CFrameMon = CFrame.new(-10407.5263671875, 331.76263427734375, -8368.5166015625);
+		elseif MyLevel == 1800 or MyLevel <= 1824 then
+			Mon = "Fishman Captain";
+			LevelQuest = 2;
+			NameQuest = "DeepForestIsland3";
+			NameMon = "Fishman Captain";
+			CFrameQuest = CFrame.new(-10581.6563, 330.872955, -8761.18652, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213);
+			CFrameMon = CFrame.new(-10994.701171875, 352.38140869140625, -9002.1103515625);
+		elseif MyLevel == 1825 or MyLevel <= 1849 then
+			Mon = "Forest Pirate";
+			LevelQuest = 1;
+			NameQuest = "DeepForestIsland";
+			NameMon = "Forest Pirate";
+			CFrameQuest = CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247);
+			CFrameMon = CFrame.new(-13274.478515625, 332.3781433105469, -7769.58056640625);
+		elseif MyLevel == 1850 or MyLevel <= 1899 then
+			Mon = "Mythological Pirate";
+			LevelQuest = 2;
+			NameQuest = "DeepForestIsland";
+			NameMon = "Mythological Pirate";
+			CFrameQuest = CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247);
+			CFrameMon = CFrame.new(-13680.607421875, 501.08154296875, -6991.189453125);
+		elseif MyLevel == 1900 or MyLevel <= 1924 then
+			Mon = "Jungle Pirate";
+			LevelQuest = 1;
+			NameQuest = "DeepForestIsland2";
+			NameMon = "Jungle Pirate";
+			CFrameQuest = CFrame.new(-12680.3818, 389.971039, -9902.01953, -0.0871315002, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, -0.0871315002);
+			CFrameMon = CFrame.new(-12256.16015625, 331.73828125, -10485.8369140625);
+		elseif MyLevel == 1925 or MyLevel <= 1974 then
+			Mon = "Musketeer Pirate";
+			LevelQuest = 2;
+			NameQuest = "DeepForestIsland2";
+			NameMon = "Musketeer Pirate";
+			CFrameQuest = CFrame.new(-12680.3818, 389.971039, -9902.01953, -0.0871315002, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, -0.0871315002);
+			CFrameMon = CFrame.new(-13457.904296875, 391.545654296875, -9859.177734375);
+		elseif MyLevel == 1975 or MyLevel <= 1999 then
+			Mon = "Reborn Skeleton";
+			LevelQuest = 1;
+			NameQuest = "HauntedQuest1";
+			NameMon = "Reborn Skeleton";
+			CFrameQuest = CFrame.new(-9479.2168, 141.215088, 5566.09277, 0, 0, 1, 0, 1, -0, -1, 0, 0);
+			CFrameMon = CFrame.new(-8763.7236328125, 165.72299194335938, 6159.86181640625);
+		elseif MyLevel == 2000 or MyLevel <= 2024 then
+			Mon = "Living Zombie";
+			LevelQuest = 2;
+			NameQuest = "HauntedQuest1";
+			NameMon = "Living Zombie";
+			CFrameQuest = CFrame.new(-9479.2168, 141.215088, 5566.09277, 0, 0, 1, 0, 1, -0, -1, 0, 0);
+			CFrameMon = CFrame.new(-10144.1318359375, 138.62667846679688, 5838.0888671875);
+		elseif MyLevel == 2025 or MyLevel <= 2049 then
+			Mon = "Demonic Soul";
+			LevelQuest = 1;
+			NameQuest = "HauntedQuest2";
+			NameMon = "Demonic Soul";
+			CFrameQuest = CFrame.new(-9516.99316, 172.017181, 6078.46533, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-9505.8720703125, 172.10482788085938, 6158.9931640625);
+		elseif MyLevel == 2050 or MyLevel <= 2074 then
+			Mon = "Posessed Mummy";
+			LevelQuest = 2;
+			NameQuest = "HauntedQuest2";
+			NameMon = "Posessed Mummy";
+			CFrameQuest = CFrame.new(-9516.99316, 172.017181, 6078.46533, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-9582.0224609375, 6.251527309417725, 6205.478515625);
+		elseif MyLevel == 2075 or MyLevel <= 2099 then
+			Mon = "Peanut Scout";
+			LevelQuest = 1;
+			NameQuest = "NutsIslandQuest";
+			NameMon = "Peanut Scout";
+			CFrameQuest = CFrame.new(-2104.3908691406, 38.104167938232, -10194.21875, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-2143.241943359375, 47.72198486328125, -10029.9951171875);
+		elseif MyLevel == 2100 or MyLevel <= 2124 then
+			Mon = "Peanut President";
+			LevelQuest = 2;
+			NameQuest = "NutsIslandQuest";
+			NameMon = "Peanut President";
+			CFrameQuest = CFrame.new(-2104.3908691406, 38.104167938232, -10194.21875, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-1859.35400390625, 38.10316848754883, -10422.4296875);
+		elseif MyLevel == 2125 or MyLevel <= 2149 then
+			Mon = "Ice Cream Chef";
+			LevelQuest = 1;
+			NameQuest = "IceCreamIslandQuest";
+			NameMon = "Ice Cream Chef";
+			CFrameQuest = CFrame.new(-820.64825439453, 65.819526672363, -10965.795898438, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-872.24658203125, 65.81957244873047, -10919.95703125);
+		elseif MyLevel == 2150 or MyLevel <= 2199 then
+			Mon = "Ice Cream Commander";
+			LevelQuest = 2;
+			NameQuest = "IceCreamIslandQuest";
+			NameMon = "Ice Cream Commander";
+			CFrameQuest = CFrame.new(-820.64825439453, 65.819526672363, -10965.795898438, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+			CFrameMon = CFrame.new(-558.06103515625, 112.04895782470703, -11290.7744140625);
+		elseif MyLevel == 2200 or MyLevel <= 2224 then
+			Mon = "Cookie Crafter";
+			LevelQuest = 1;
+			NameQuest = "CakeQuest1";
+			NameMon = "Cookie Crafter";
+			CFrameQuest = CFrame.new(-2021.32007, 37.7982254, -12028.7295, 0.957576931, -0.0000000880302053, 0.288177818, 0.000000069301187, 1, 0.0000000751931211, -0.288177818, -0.000000052032135, 0.957576931);
+			CFrameMon = CFrame.new(-2374.13671875, 37.79826354980469, -12125.30859375);
+		elseif MyLevel == 2225 or MyLevel <= 2249 then
+			Mon = "Cake Guard";
+			LevelQuest = 2;
+			NameQuest = "CakeQuest1";
+			NameMon = "Cake Guard";
+			CFrameQuest = CFrame.new(-2021.32007, 37.7982254, -12028.7295, 0.957576931, -0.0000000880302053, 0.288177818, 0.000000069301187, 1, 0.0000000751931211, -0.288177818, -0.000000052032135, 0.957576931);
+			CFrameMon = CFrame.new(-1598.3070068359375, 43.773197174072266, -12244.5810546875);
+		elseif MyLevel == 2250 or MyLevel <= 2274 then
+			Mon = "Baking Staff";
+			LevelQuest = 1;
+			NameQuest = "CakeQuest2";
+			NameMon = "Baking Staff";
+			CFrameQuest = CFrame.new(-1927.91602, 37.7981339, -12842.5391, -0.96804446, 0.0000000422142143, 0.250778586, 0.0000000474911062, 1, 0.0000000149904711, -0.250778586, 0.0000000264211941, -0.96804446);
+			CFrameMon = CFrame.new(-1887.8099365234375, 77.6185073852539, -12998.3505859375);
+		elseif MyLevel == 2275 or MyLevel <= 2299 then
+			Mon = "Head Baker";
+			LevelQuest = 2;
+			NameQuest = "CakeQuest2";
+			NameMon = "Head Baker";
+			CFrameQuest = CFrame.new(-1927.91602, 37.7981339, -12842.5391, -0.96804446, 0.0000000422142143, 0.250778586, 0.0000000474911062, 1, 0.0000000149904711, -0.250778586, 0.0000000264211941, -0.96804446);
+			CFrameMon = CFrame.new(-2216.188232421875, 82.884521484375, -12869.2939453125);
+		elseif MyLevel == 2300 or MyLevel <= 2324 then
+			Mon = "Cocoa Warrior";
+			LevelQuest = 1;
+			NameQuest = "ChocQuest1";
+			NameMon = "Cocoa Warrior";
+			CFrameQuest = CFrame.new(233.22836303710938, 29.876001358032227, -12201.2333984375);
+			CFrameMon = CFrame.new(-21.55328369140625, 80.57499694824219, -12352.3876953125);
+		elseif MyLevel == 2325 or MyLevel <= 2349 then
+			Mon = "Chocolate Bar Battler";
+			LevelQuest = 2;
+			NameQuest = "ChocQuest1";
+			NameMon = "Chocolate Bar Battler";
+			CFrameQuest = CFrame.new(233.22836303710938, 29.876001358032227, -12201.2333984375);
+			CFrameMon = CFrame.new(582.590576171875, 77.18809509277344, -12463.162109375);
+		elseif MyLevel == 2350 or MyLevel <= 2374 then
+			Mon = "Sweet Thief";
+			LevelQuest = 1;
+			NameQuest = "ChocQuest2";
+			NameMon = "Sweet Thief";
+			CFrameQuest = CFrame.new(150.5066375732422, 30.693693161010742, -12774.5029296875);
+			CFrameMon = CFrame.new(165.1884765625, 76.05885314941406, -12600.8369140625);
+		elseif MyLevel == 2375 or MyLevel <= 2399 then
+			Mon = "Candy Rebel";
+			LevelQuest = 2;
+			NameQuest = "ChocQuest2";
+			NameMon = "Candy Rebel";
+			CFrameQuest = CFrame.new(150.5066375732422, 30.693693161010742, -12774.5029296875);
+			CFrameMon = CFrame.new(134.86563110351562, 77.2476806640625, -12876.5478515625);
+		elseif MyLevel == 2400 or MyLevel <= 2424 then
+			Mon = "Candy Pirate";
+			LevelQuest = 1;
+			NameQuest = "CandyQuest1";
+			NameMon = "Candy Pirate";
+			CFrameQuest = CFrame.new(-1150.0400390625, 20.378934860229492, -14446.3349609375);
+			CFrameMon = CFrame.new(-1310.5003662109375, 26.016523361206055, -14562.404296875);
+		elseif MyLevel == 2425 or MyLevel <= 2449 then
+			Mon = "Snow Demon";
+			LevelQuest = 2;
+			NameQuest = "CandyQuest1";
+			NameMon = "Snow Demon";
+			CFrameQuest = CFrame.new(-1150.0400390625, 20.378934860229492, -14446.3349609375);
+			CFrameMon = CFrame.new(-880.2006225585938, 71.24776458740234, -14538.609375);
+		elseif MyLevel == 2450 or MyLevel <= 2474 then
+			Mon = "Isle Outlaw";
+			LevelQuest = 1;
+			NameQuest = "TikiQuest1";
+			NameMon = "Isle Outlaw";
+			CFrameQuest = CFrame.new(-16547.748046875, 61.13533401489258, -173.41360473632812);
+			CFrameMon = CFrame.new(-16442.814453125, 116.13899993896484, -264.4637756347656);
+		elseif MyLevel == 2475 or MyLevel <= 2524 then
+			Mon = "Island Boy";
+			LevelQuest = 2;
+			NameQuest = "TikiQuest1";
+			NameMon = "Island Boy";
+			CFrameQuest = CFrame.new(-16547.748046875, 61.13533401489258, -173.41360473632812);
+			CFrameMon = CFrame.new(-16901.26171875, 84.06756591796875, -192.88906860351562);
+		elseif MyLevel == 2525 or MyLevel <= 2549 then
+			Mon = "Isle Champion";
+			LevelQuest = 2;
+			NameQuest = "TikiQuest2";
+			NameMon = "Isle Champion";
+			CFrameQuest = CFrame.new(-16539.078125, 55.68632888793945, 1051.5738525390625);
+			CFrameMon = CFrame.new(-16641.6796875, 235.7825469970703, 1031.282958984375);
+		elseif MyLevel == 2550 or MyLevel <= 2574 then
+			Mon = "Serpent Hunter";
+			LevelQuest = 1;
+			NameQuest = "TikiQuest3";
+			NameMon = "Serpent Hunter";
+			CFrameQuest = CFrame.new(-16661.890625, 105.2862319946289, 1576.69775390625);
+			CFrameMon = CFrame.new(-16587.896484375, 154.21299743652344, 1533.40966796875);
+		elseif MyLevel == 2575 or MyLevel <= 2599 then
+			Mon = "Skull Slayer";
+			LevelQuest = 2;
+			NameQuest = "TikiQuest3";
+			NameMon = "Skull Slayer";
+			CFrameQuest = CFrame.new(-16661.890625, 105.2862319946289, 1576.69775390625);
+			CFrameMon = CFrame.new(-16885.203125, 114.12911224365234, 1627.949951171875);
+		elseif MyLevel == 2600 or MyLevel <= 2624 then
+			Mon = "Reef Bandit";
+			LevelQuest = 1;
+			NameQuest = "SubmergedQuest1";
+			NameMon = "Reef Bandit";
+			CFrameQuest = CFrame.new(10782.134765625, -2087.722412109375, 9268.5205078125);
+			CFrameMon = CFrame.new(10918.134765625, -2115.56103515625, 9055.9892578125);
+		elseif MyLevel == 2625 or MyLevel <= 2649 then
+			Mon = "Coral Pirate";
+			LevelQuest = 2;
+			NameQuest = "SubmergedQuest1";
+			NameMon = "Coral Pirate";
+			CFrameQuest = CFrame.new(10782.134765625, -2087.722412109375, 9268.5205078125);
+			CFrameMon = CFrame.new(10656.0869140625, -2018.734375, 9258.4365234375);
+		elseif MyLevel == 2650 or MyLevel <= 2674 then
+			Mon = "Sea Chanter";
+			LevelQuest = 1;
+			NameQuest = "SubmergedQuest2";
+			NameMon = "Sea Chanter";
+			CFrameQuest = CFrame.new(10879.5546875, -2086.19921875, 10027.486328125);
+			CFrameMon = CFrame.new(10691.50390625, -2023.15234375, 10026.27734375);
+		elseif MyLevel == 2675 or MyLevel <= 2699 then
+			Mon = "Ocean Prophet";
+			LevelQuest = 2;
+			NameQuest = "SubmergedQuest2";
+			NameMon = "Ocean Prophet";
+			CFrameQuest = CFrame.new(10879.5546875, -2086.19921875, 10027.486328125);
+			CFrameMon = CFrame.new(10900.3876953125, -1973.1259765625, 10233.232421875);
+		elseif MyLevel == 2700 or MyLevel >= 2700 then
+			Mon = "Grand Devotee";
+			LevelQuest = 2;
+			NameQuest = "SubmergedQuest3";
+			NameMon = "Grand Devotee";
+			CFrameQuest = CFrame.new(9634.6875, -1992.443603515625, 9608.3154296875);
+			CFrameMon = CFrame.new(9653.1376953125, -1928.2684326171875, 9915.9423828125);
+		end;
+	end;
+end;
+-- task.spawn(function()
+-- 	ReplicatedStorage.Util.Sound.Storage.Other.DeathSound:Destroy();
+-- 	ReplicatedStorage.Effect.Container.Death:Destroy();
+-- 	ReplicatedStorage.Util.Sound.Storage.Other.SpawnSound:Destroy();
+-- 	ReplicatedStorage.Effect.Container.Spawn:Destroy();
+-- end);
+
+function getBackpack(v)
+  return LocalPlayer.Backpack:FindFirstChild(v) or LocalPlayer.Character:FindFirstChild(v)
+end
+function GetConnectionEnemies(a)
+    for i, v in pairs(ReplicatedStorage:GetChildren()) do
+        if
+            v:IsA("Model") and ((typeof(a) == "table" and table.find(a, v.Name)) or v.Name == a) and
+                v:FindFirstChild("Humanoid") and
+                v.Humanoid.Health > 0
+         then
+            return v
+        end
+    end
+    for i, v in next, Enemies:GetChildren() do
+        if
+            v:IsA("Model") and ((typeof(a) == "table" and table.find(a, v.Name)) or v.Name == a) and
+                v:FindFirstChild("Humanoid") and
+                v.Humanoid.Health > 0
+         then
+            return v
+        end
+    end
+end
+
+function Hop()
+	local module = (loadstring(game:HttpGet("https://raw.githubusercontent.com/raw-scriptpastebin/FE/main/Server_Hop_Settings")))();
+	module:Teleport(game.PlaceId);
+end;
+function isnil(thing)
+	return thing == nil;
+end;
+function round(n)
+	return math.floor(tonumber(n) + 0.5);
+end;
+function InitEspIsland()
+	for i, v in pairs(Workspace._WorldOrigin.Locations:GetChildren()) do
+		pcall(function()
+			if _G.EspIsland then
+				if v.Name ~= "Sea" then
+					if not v:FindFirstChild("EspIsland") then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspIsland";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(0, 200, 0, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = Enum.Font.GothamMedium;
+						name.TextSize = 14;
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = Enum.TextYAlignment.Top;
+						name.BackgroundTransparency = 1;
+						name.TextColor3 = Color3.fromRGB(255, 255, 255);
+					else
+						v.EspIsland.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " Distance";
+					end;
+				end;
+			elseif v:FindFirstChild("EspIsland") then
+				(v:FindFirstChild("EspIsland")):Destroy();
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspIsland then
+			InitEspIsland()
+		end
+	end;
+end);
+function InitEspPlayer()
+	for i, v in pairs(Players:GetChildren()) do
+		pcall(function()
+			if v.Character ~= nil then
+				if _G.EspPlayer then
+					if not v.Character.Head:FindFirstChild(("EspPlayer")) then
+						local bill = Instance.new("BillboardGui", v.Character.Head);
+						bill.Name = "EspPlayer";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v.Character.Head;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = Enum.Font.GothamSemibold;
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Text = v.Name .. " \n" .. round(((Character.Head.Position - v.Character.Head.Position)).Magnitude / 3) .. " Distance";
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						if v.Team == LocalPlayer.Team then
+							name.TextColor3 = Color3.fromRGB(50, 200, 50);
+						else
+							name.TextColor3 = Color3.fromRGB(200, 50, 50);
+						end;
+					else
+						v.Character.Head["EspPlayer"].TextLabel.Text = v.Name .. " | " .. round(((Character.Head.Position - v.Character.Head.Position)).Magnitude / 3) .. " Distance\nHealth : " .. round(v.Character.Humanoid.Health * 100 / v.Character.Humanoid.MaxHealth) .. "%";
+					end;
+				elseif v.Character.Head:FindFirstChild("EspPlayer") then
+					(v.Character.Head:FindFirstChild("EspPlayer")):Destroy();
+				end;
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspPlayer then
+			InitEspPlayer()
+		end
+	end;
+end);
+function InitEspChest()
+	for i, v in pairs(Workspace.ChestModels:GetChildren()) do
+		pcall(function()
+			if string.find(v.Name, "Chest") then
+				if _G.EspChest then
+					if string.find(v.Name, "Chest") then
+						if not v:FindFirstChild(("EspChest")) then
+							local bill = Instance.new("BillboardGui", v);
+							bill.Name = "EspChest";
+							bill.ExtentsOffset = Vector3.new(0, 1, 0);
+							bill.Size = UDim2.new(1, 200, 1, 30);
+							bill.Adornee = v;
+							bill.AlwaysOnTop = true;
+							local name = Instance.new("TextLabel", bill);
+							name.Font = Enum.Font.Nunito;
+							name.FontSize = "Size14";
+							name.TextWrapped = true;
+							name.Size = UDim2.new(1, 0, 1, 0);
+							name.TextYAlignment = "Top";
+							name.BackgroundTransparency = 1;
+							name.TextStrokeTransparency = 0.5;
+							if v.Name == "SilverChest" then
+								name.TextColor3 = Color3.fromRGB(109, 109, 109);
+								name.Text = "Silver Chest" .. " \n" .. round(((Character.Head.Position - v.RootPart.Position)).Magnitude / 3) .. " Distance";
+							end;
+							if v.Name == "GoldChest" then
+								name.TextColor3 = Color3.fromRGB(173, 158, 21);
+								name.Text = "Gold Chest" .. " \n" .. round(((Character.Head.Position - v.RootPart.Position)).Magnitude / 3) .. " Distance";
+							end;
+							if v.Name == "DiamondChest" then
+								name.TextColor3 = Color3.fromRGB(20, 200, 200);
+								name.Text = "Diamond Chest" .. " \n" .. round(((Character.Head.Position - v.RootPart.Position)).Magnitude / 3) .. " Distance";
+							end;
+						else
+							v["EspChest"].TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.RootPart.Position)).Magnitude / 3) .. " Distance";
+						end;
+					end;
+				elseif v:FindFirstChild("EspChest") then
+					(v:FindFirstChild("EspChest")):Destroy();
+				end;
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspChest then
+			InitEspChest()
+		end
+	end;
+end);
+function InitEspDevilFruit()
+	for i, v in pairs(Workspace:GetDescendants()) do
+		pcall(function()
+			if _G.EspDevilfruit then
+				if v.Name and string.find(v.Name, "Fruit") then
+					if not v.Handle:FindFirstChild(("EspDevilFruit")) then
+						local bill = Instance.new("BillboardGui", v.Handle);
+						bill.Name = "EspDevilFruit";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v.Handle;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = Enum.Font.GothamSemibold;
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(255, 255, 255);
+						name.Text = v.Name .. " \n" .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+						local rainbowColors = {
+							Color3.fromRGB(255, 0, 0),
+							Color3.fromRGB(255, 127, 0),
+							Color3.fromRGB(255, 255, 0),
+							Color3.fromRGB(0, 255, 0),
+							Color3.fromRGB(0, 0, 255),
+							Color3.fromRGB(75, 0, 130),
+							Color3.fromRGB(148, 0, 211)
+						};
+						local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut);
+						(coroutine.wrap(function()
+							while true do
+								for _, color in ipairs(rainbowColors) do
+									local tween = TweenService:Create(name, tweenInfo, {
+										TextColor3 = color
+									});
+									tween:Play();
+									tween.Completed:Wait();
+								end;
+							end;
+						end))();
+					else
+						v.Handle["EspDevilFruit"].TextLabel.Text = v.Name .. " \n" .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+					end;
+				end;
+			elseif v.Handle:FindFirstChild("EspDevilFruit") then
+				(v.Handle:FindFirstChild("EspDevilFruit")):Destroy();
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspDevilFruit then
+			InitEspDevilFruit()
+		end
+	end;
+end);
+function InitEspFlower()
+	for i, v in pairs(Workspace:GetChildren()) do
+		pcall(function()
+			if v.Name == "Flower2" or v.Name == "Flower1" then
+				if _G.EspFlower then
+					if not v:FindFirstChild(("EspFlower")) then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspFlower";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = Enum.Font.GothamSemibold;
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(255, 100, 100);
+						if v.Name == "Flower1" then
+							name.Text = "Blue Flower" .. " \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " Distance";
+							name.TextColor3 = Color3.fromRGB(40, 40, 255);
+						end;
+						if v.Name == "Flower2" then
+							name.Text = "Red Flower" .. " \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " Distance";
+							name.TextColor3 = Color3.fromRGB(255, 100, 100);
+						end;
+					else
+						v["EspFlower"].TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " Distance";
+					end;
+				elseif v:FindFirstChild("EspFlower") then
+					(v:FindFirstChild("EspFlower")):Destroy();
+				end;
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspFlower then
+			InitEspFlower()
+		end
+	end;
+end);
+function InitEspRealFruit()
+	for i, v in pairs(Workspace.AppleSpawner:GetChildren()) do
+		if v:IsA("Tool") then
+			if _G.EspRealFruit then
+				if not v.Handle:FindFirstChild(("EspRealFruit")) then
+					local bill = Instance.new("BillboardGui", v.Handle);
+					bill.Name = "EspRealFruit";
+					bill.ExtentsOffset = Vector3.new(0, 1, 0);
+					bill.Size = UDim2.new(1, 200, 1, 30);
+					bill.Adornee = v.Handle;
+					bill.AlwaysOnTop = true;
+					local name = Instance.new("TextLabel", bill);
+					name.Font = Enum.Font.GothamSemibold;
+					name.FontSize = "Size14";
+					name.TextWrapped = true;
+					name.Size = UDim2.new(1, 0, 1, 0);
+					name.TextYAlignment = "Top";
+					name.BackgroundTransparency = 1;
+					name.TextStrokeTransparency = 0.5;
+					name.TextColor3 = Color3.fromRGB(200, 70, 70);
+					name.Text = v.Name .. " \n" .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+				else
+					v.Handle["EspRealFruit"].TextLabel.Text = v.Name .. " " .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+				end;
+			elseif v.Handle:FindFirstChild("EspRealFruit") then
+				(v.Handle:FindFirstChild("EspRealFruit")):Destroy();
+			end;
+		end;
+	end;
+	for i, v in pairs(Workspace.PineappleSpawner:GetChildren()) do
+		if v:IsA("Tool") then
+			if _G.EspRealFruit then
+				if not v.Handle:FindFirstChild(("EspRealFruit")) then
+					local bill = Instance.new("BillboardGui", v.Handle);
+					bill.Name = "EspRealFruit";
+					bill.ExtentsOffset = Vector3.new(0, 1, 0);
+					bill.Size = UDim2.new(1, 200, 1, 30);
+					bill.Adornee = v.Handle;
+					bill.AlwaysOnTop = true;
+					local name = Instance.new("TextLabel", bill);
+					name.Font = Enum.Font.GothamSemibold;
+					name.FontSize = "Size14";
+					name.TextWrapped = true;
+					name.Size = UDim2.new(1, 0, 1, 0);
+					name.TextYAlignment = "Top";
+					name.BackgroundTransparency = 1;
+					name.TextStrokeTransparency = 0.5;
+					name.TextColor3 = Color3.fromRGB(255, 170, 0);
+					name.Text = v.Name .. " \n" .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+				else
+					v.Handle["EspRealFruit"].TextLabel.Text = v.Name .. " " .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+				end;
+			elseif v.Handle:FindFirstChild("EspRealFruit") then
+				(v.Handle:FindFirstChild("EspRealFruit")):Destroy();
+			end;
+		end;
+	end;
+	for i, v in pairs(Workspace.BananaSpawner:GetChildren()) do
+		if v:IsA("Tool") then
+			if _G.EspRealFruit then
+				if not v.Handle:FindFirstChild(("EspRealFruit")) then
+					local bill = Instance.new("BillboardGui", v.Handle);
+					bill.Name = "EspRealFruit";
+					bill.ExtentsOffset = Vector3.new(0, 1, 0);
+					bill.Size = UDim2.new(1, 200, 1, 30);
+					bill.Adornee = v.Handle;
+					bill.AlwaysOnTop = true;
+					local name = Instance.new("TextLabel", bill);
+					name.Font = Enum.Font.GothamSemibold;
+					name.FontSize = "Size14";
+					name.TextWrapped = true;
+					name.Size = UDim2.new(1, 0, 1, 0);
+					name.TextYAlignment = "Top";
+					name.BackgroundTransparency = 1;
+					name.TextStrokeTransparency = 0.5;
+					name.TextColor3 = Color3.fromRGB(240, 255, 10);
+					name.Text = v.Name .. " \n" .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+				else
+					v.Handle["EspRealFruit"].TextLabel.Text = v.Name .. " " .. round(((Character.Head.Position - v.Handle.Position)).Magnitude / 3) .. " Distance";
+				end;
+			elseif v.Handle:FindFirstChild("EspRealFruit") then
+				(v.Handle:FindFirstChild("EspRealFruit")):Destroy();
+			end;
+		end;
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspRealFruit then
+			InitEspRealFruit()
+		end
+	end;
+end);
+function InitEspMonster()
+	pcall(function()
+		if _G.EspMonster then
+			for i, v in pairs(Enemies:GetChildren()) do
+				if v:FindFirstChild("HumanoidRootPart") then
+					if not v:FindFirstChild("EspMonster") then
+						local BillboardGui = Instance.new("BillboardGui");
+						local TextLabel = Instance.new("TextLabel");
+						BillboardGui.Parent = v;
+						BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+						BillboardGui.Active = true;
+						BillboardGui.Name = "EspMonster";
+						BillboardGui.AlwaysOnTop = true;
+						BillboardGui.LightInfluence = 1;
+						BillboardGui.Size = UDim2.new(0, 200, 0, 50);
+						BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0);
+						TextLabel.Parent = BillboardGui;
+						TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+						TextLabel.BackgroundTransparency = 1;
+						TextLabel.Size = UDim2.new(0, 200, 0, 50);
+						TextLabel.Font = Enum.Font.GothamBold;
+						TextLabel.TextColor3 = Color3.fromRGB(120, 130, 230);
+						TextLabel.Text.Size = 35;
+					end;
+					local Dis = math.floor((HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude);
+					v.EspMonster.TextLabel.Text = v.Name .. " - " .. Dis .. " Distance";
+				end;
+			end;
+		else
+			for i, v in pairs(Enemies:GetChildren()) do
+				if v:FindFirstChild("EspMonster") then
+					v.EspMonster:Destroy();
+				end;
+			end;
+		end;
+	end);
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspMonster then
+			InitEspMonster()
+		end
+	end;
+end);
+function InitEspSeabeast()
+	pcall(function()
+		if _G.EspSeabeast then
+			for i, v in pairs(Workspace.SeaBeasts:GetChildren()) do
+				if v:FindFirstChild("HumanoidRootPart") then
+					if not v:FindFirstChild("EspSeabeasts") then
+						local BillboardGui = Instance.new("BillboardGui");
+						local TextLabel = Instance.new("TextLabel");
+						BillboardGui.Parent = v;
+						BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+						BillboardGui.Active = true;
+						BillboardGui.Name = "EspSeabeasts";
+						BillboardGui.AlwaysOnTop = true;
+						BillboardGui.LightInfluence = 1;
+						BillboardGui.Size = UDim2.new(0, 200, 0, 50);
+						BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0);
+						TextLabel.Parent = BillboardGui;
+						TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+						TextLabel.BackgroundTransparency = 1;
+						TextLabel.Size = UDim2.new(0, 200, 0, 50);
+						TextLabel.Font = Enum.Font.Gotham;
+						TextLabel.TextColor3 = Color3.fromRGB(60, 240, 120);
+						TextLabel.Text.Size = 35;
+					end;
+					local Dis = math.floor((HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude);
+					v.EspSeabeasts.TextLabel.Text = v.Name .. " - " .. Dis .. " Distance";
+				end;
+			end;
+		else
+			for i, v in pairs(Workspace.SeaBeasts:GetChildren()) do
+				if v:FindFirstChild("EspSeabeasts") then
+					v.EspSeabeasts:Destroy();
+				end;
+			end;
+		end;
+	end);
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspSeabeast then
+			InitEspSeabeast()
+		end
+	end;
+end);
+function InitEspNpc()
+	pcall(function()
+		if _G.EspNpc then
+			for i, v in pairs(Workspace.NPCs:GetChildren()) do
+				if v:FindFirstChild("HumanoidRootPart") then
+					if not v:FindFirstChild("EspNpc") then
+						local BillboardGui = Instance.new("BillboardGui");
+						local TextLabel = Instance.new("TextLabel");
+						BillboardGui.Parent = v;
+						BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+						BillboardGui.Active = true;
+						BillboardGui.Name = "EspNpc";
+						BillboardGui.AlwaysOnTop = true;
+						BillboardGui.LightInfluence = 1;
+						BillboardGui.Size = UDim2.new(0, 200, 0, 50);
+						BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0);
+						TextLabel.Parent = BillboardGui;
+						TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+						TextLabel.BackgroundTransparency = 1;
+						TextLabel.Size = UDim2.new(0, 200, 0, 50);
+						TextLabel.Font = Enum.Font.Cartoon;
+						TextLabel.TextColor3 = Color3.fromRGB(200, 60, 120);
+						TextLabel.Text.Size = 45;
+					end;
+					local Dis = math.floor((HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude);
+					v.EspNpc.TextLabel.Text = v.Name .. " - " .. Dis .. " Distance";
+				end;
+			end;
+		else
+			for i, v in pairs(Workspace.NPCs:GetChildren()) do
+				if v:FindFirstChild("EspNpc") then
+					v.EspNpc:Destroy();
+				end;
+			end;
+		end;
+	end);
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspNpc then
+			InitEspNpc()
+		end
+	end;
+end);
+function InitEspMirage()
+	for i, v in pairs(Workspace._WorldOrigin.Locations:GetChildren()) do
+		pcall(function()
+			if _G.EspMirage then
+				if v.Name == "Mirage Island" then
+					if not v:FindFirstChild("EspMirageIsland") then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspMirageIsland";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = "Code";
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(50, 180, 50);
+					else
+						v.EspMirageIsland.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " M";
+					end;
+				end;
+			elseif v:FindFirstChild("EspMirageIsland") then
+				(v:FindFirstChild("EspMirageIsland")):Destroy();
+			end;
+		end);
+	end;
+end
+
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspMirage then
+			InitEspMirage()
+		end
+	end;
+end);
+function InitEspKitsune()
+	for i, v in pairs(Workspace._WorldOrigin.Locations:GetChildren()) do
+		pcall(function()
+			if _G.EspKitsune then
+				if v.Name == "Kitsune Island" then
+					if not v:FindFirstChild("EspKitsuneIsland") then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspKitsuneIsland";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = "Code";
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(40, 40, 180);
+					else
+						v.EspKitsuneIsland.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " M";
+					end;
+				end;
+			elseif v:FindFirstChild("EspKitsuneIsland") then
+				(v:FindFirstChild("EspKitsuneIsland")):Destroy();
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspKitsune then
+			InitEspKitsune()
+		end
+	end;
+end);
+function InitEspFrozen()
+	for i, v in pairs(Workspace._WorldOrigin.Locations:GetChildren()) do
+		pcall(function()
+			if _G.EspFrozen then
+				if v.Name == "Frozen Dimension" then
+					if not v:FindFirstChild("EspFrozen") then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspFrozen";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = "Code";
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(50, 180, 255);
+					else
+						v.EspFrozen.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " M";
+					end;
+				end;
+			elseif v:FindFirstChild("EspFrozen") then
+				(v:FindFirstChild("EspFrozen")):Destroy();
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspFrozen then
+			InitEspFrozen()
+		end
+	end;
+end);
+function InitEspPRehistoric()
+	for i, v in pairs(Workspace._WorldOrigin.Locations:GetChildren()) do
+		pcall(function()
+			if _G.EspPrehistoric then
+				if v.Name == "Prehistoric Island" then
+					if not v:FindFirstChild("EspPrehistoric") then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspPrehistoric";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = "Code";
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(200, 50, 40);
+					else
+						v.EspPrehistoric.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " M";
+					end;
+				end;
+			elseif v:FindFirstChild("EspPrehistoric") then
+				(v:FindFirstChild("EspPrehistoric")):Destroy();
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspPrehistoric then
+			InitEspPRehistoric()
+		end
+	end;
+end);
+function InitEspDealer()
+	for i, v in pairs(Workspace.NPCs:GetChildren()) do
+		pcall(function()
+			if _G.EspAdvFruitDealer then
+				if v.Name == "Advanced Fruit Dealer" then
+					if not v:FindFirstChild("EspAdvanceFruitDealer") then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspAdvanceFruitDealer";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = "Code";
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(250, 50, 50);
+					else
+						v.EspAdvanceFruitDealer.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " M";
+					end;
+				end;
+			elseif v:FindFirstChild("EspAdvanceFruitDealer") then
+				(v:FindFirstChild("EspAdvanceFruitDealer")):Destroy();
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspAdvanceFruitDealer then
+			InitEspDealer()
+		end
+	end;
+end);
+function InitEspAura()
+	for i, v in pairs(Workspace.NPCs:GetChildren()) do
+		pcall(function()
+			if _G.EspAura then
+				if v.Name == "Master of Enhancement" then
+					if not v:FindFirstChild("EspAura") then
+						local bill = Instance.new("BillboardGui", v);
+						bill.Name = "EspAura";
+						bill.ExtentsOffset = Vector3.new(0, 1, 0);
+						bill.Size = UDim2.new(1, 200, 1, 30);
+						bill.Adornee = v;
+						bill.AlwaysOnTop = true;
+						local name = Instance.new("TextLabel", bill);
+						name.Font = "Code";
+						name.FontSize = "Size14";
+						name.TextWrapped = true;
+						name.Size = UDim2.new(1, 0, 1, 0);
+						name.TextYAlignment = "Top";
+						name.BackgroundTransparency = 1;
+						name.TextStrokeTransparency = 0.5;
+						name.TextColor3 = Color3.fromRGB(200, 55, 255);
+					else
+						v.EspAura.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " M";
+					end;
+				end;
+			elseif v:FindFirstChild("EspAura") then
+				(v:FindFirstChild("EspAura")):Destroy();
+			end;
+		end);
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspAura then
+			InitEspAura()
+		end
+	end;
+end);
+function InitEspGear()
+	if Workspace.Map:FindFirstChild("MysticIsland") then
+		for i, v in pairs(Workspace.Map.MysticIsland:GetChildren()) do
+			pcall(function()
+				if _G.EspGear then
+					if v.Name == "MeshPart" then
+						if not v:FindFirstChild("AutoFarmBlazeEmber") then
+							local bill = Instance.new("BillboardGui", v);
+							bill.Name = "EspGear";
+							bill.ExtentsOffset = Vector3.new(0, 1, 0);
+							bill.Size = UDim2.new(1, 200, 1, 30);
+							bill.Adornee = v;
+							bill.AlwaysOnTop = true;
+							local name = Instance.new("TextLabel", bill);
+							name.Font = "Code";
+							name.FontSize = "Size14";
+							name.TextWrapped = true;
+							name.Size = UDim2.new(1, 0, 1, 0);
+							name.TextYAlignment = "Top";
+							name.BackgroundTransparency = 1;
+							name.TextStrokeTransparency = 0.5;
+							name.TextColor3 = Color3.fromRGB(80, 245, 245);
+						else
+							v.EspGear.TextLabel.Text = v.Name .. "   \n" .. round(((Character.Head.Position - v.Position)).Magnitude / 3) .. " M";
+						end;
+					end;
+				elseif v:FindFirstChild("EspGear") then
+					(v:FindFirstChild("EspGear")):Destroy();
+				end;
+			end);
+		end;
+	end;
+end
+spawn(function()
+	while wait() do
+		task.wait(1)
+		if _G.EspGear then
+			InitEspGear()
+		end
+	end;
+end);
+function Click()
+	(game:GetService("VirtualUser")):CaptureController();
+	(game:GetService("VirtualUser")):Button1Down(Vector2.new(1280, 672));
+end;
+function AutoHaki()
+	if not Character:FindFirstChild("HasBuso") then
+		Remotes.CommF_:InvokeServer("Buso");
+	end;
+end;
+function UnEquipWeapon(wp)
+	if Character:FindFirstChild(wp) then
+		(Character:FindFirstChild(wp)).Parent = LocalPlayer.Backpack;
+	end;
+end;
+function EquipWeapon(val)
+	if not Character:FindFirstChild(val) then
+		if LocalPlayer.Backpack:FindFirstChild(val) then
+			Tool = LocalPlayer.Backpack:FindFirstChild(val);
+			Character.Humanoid:EquipTool(Tool);
+		end;
+	end;
+end;
+task.spawn(function()
+	for i, v in pairs(Workspace._WorldOrigin:GetChildren()) do
+		pcall(function()
+			if v.Name == "CurvedRing" or v.Name == "SlashHit" or v.Name == "SwordSlash" or v.Name == "SlashTail" or v.Name == "Sounds" then
+				v:Destroy();
+			end;
+		end);
+	end;
+end);
+function GetDistance(target)
+	return math.floor((target.Position - HumanoidRootPart.Position).Magnitude);
+end;
+function BTP(value)
+	pcall(function()
+		if (value.Position - HumanoidRootPart.Position).Magnitude >= 2000 and Character.Humanoid.Health > 0 then
+			repeat
+				wait();
+				HumanoidRootPart.CFrame = value;
+				Remotes.CommF_:InvokeServer("SetSpawnPoint");
+				HumanoidRootPart.CFrame = value;
+				Remotes.CommF_:InvokeServer("SetSpawnPoint");
+				wait();
+				Character.Head:Destroy();
+				HumanoidRootPart.CFrame = value;
+			until (value.Position - HumanoidRootPart.Position).Magnitude <= 2000 and Character.Humanoid.Health > 0;
+		end;
+	end);
+end;
+function InstantTp(value)
+	HumanoidRootPart.CFrame = value;
+end;
+function TweenBoat(pos)
+	local Boat = Workspace.Boats[_G.SelectedBoat];
+	if not Boat or (not Boat:FindFirstChild("VehicleSeat")) then
+		return {
+			Stop = function()
+			end
+		};
+	end;
+	local targetCFrame = pos;
+	if typeof(pos) == "Instance" and pos:IsA("BasePart") then
+		targetCFrame = pos.CFrame;
+	elseif typeof(pos) ~= "CFrame" then
+		return {
+			Stop = function()
+			end
+		};
+	end;
+	local startPosition = Boat.VehicleSeat.Position;
+	local endPosition = targetCFrame.Position;
+	local distance = (startPosition - endPosition).Magnitude;
+	local tween = nil;
+	local duration = distance / (_G.BoatTweenSpeed or 100);
+	local info = TweenInfo.new(duration, Enum.EasingStyle.Linear);
+	tween = TweenService:Create(Boat.VehicleSeat, info, {
+		CFrame = targetCFrame
+	});
+	if distance > 25 then
+		tween:Play();
+	else
+		warn("Jarak terlalu dekat, tween dibatalkan.");
+	end;
+	local StopTweenBoat = {};
+	function StopTweenBoat:Stop()
+		if tween and tween.PlaybackState == Enum.PlaybackState.Playing then
+			tween:Cancel();
+		end;
+	end;
+	return StopTweenBoat;
+end;
+function TweenPlayer(pos)
+	local distance = (HumanoidRootPart.Position - pos.Position).Magnitude
+	local time = distance / _G.PlayerTweenSpeed
+
+	local tweenInfo = TweenInfo.new(
+		time,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.Out
+	)
+
+	local tween = TweenService:Create(
+		HumanoidRootPart,
+		tweenInfo,
+		{ CFrame = pos }
+	)
+
+	tween:Play()
+
+	local stoppos = {};
+	function stoppos:Stop()
+		tween:Cancel();
+	end;
+
+	return stoppos;
+end
+-- function TweenPlayerOld(pos)
+-- 	task.spawn(function()
+-- 		pcall(function()
+-- 			if Character.Humanoid.Sit == true then
+-- 				Character.Humanoid.Sit = true;
+-- 			end;
+-- 			if LocalPlayer:DistanceFromCharacter(pos.Position) <= 50 then
+-- 				HumanoidRootPart.CFrame = pos;
+-- 				if Character:FindFirstChild("Root") then
+-- 					Character.Root:Destroy();
+-- 					wait();
+-- 					TweenPlayer(HumanoidRootPart.CFrame);
+-- 					wait();
+-- 				end;
+-- 				if Character:FindFirstChild("Root") then
+-- 					Character.Root:Remove();
+-- 				end;
+-- 			elseif not Character:FindFirstChild("Root") then
+-- 				local rootPart = Instance.new("Part", Character);
+-- 				rootPart.Size = Vector3.new(1, 0.5, 1);
+-- 				rootPart.Name = "Root";
+-- 				rootPart.Anchored = true;
+-- 				rootPart.Transparency = 1;
+-- 				rootPart.CanCollide = false;
+-- 				rootPart.CFrame = HumanoidRootPart.CFrame;
+-- 			end;
+-- 			local distance = (HumanoidRootPart.Position - pos.Position).Magnitude;
+-- 			local tweenInfo = TweenInfo.new(distance / _G.PlayerTweenSpeed, Enum.EasingStyle.Linear);
+-- 			local success, tweenError = pcall(function()
+-- 				local tween = TweenService:Create(Character.Root, tweenInfo, {
+-- 					CFrame = pos
+-- 				});
+-- 				tween:Play();
+-- 			end);
+-- 			if _G.StopTween == true then
+-- 				tween:Cancel();
+-- 			end;
+-- 			if not success then
+-- 				return tweenError;
+-- 			end;
+-- 			Character.Root.CFrame = HumanoidRootPart.CFrame;
+-- 			if success and Character:FindFirstChild("Root") then
+-- 				pcall(function()
+-- 					local distanceFromTarget = (HumanoidRootPart.Position - pos.Position).Magnitude;
+-- 					if distanceFromTarget >= 50 then
+-- 						task.spawn(function()
+-- 							pcall(function()
+-- 								if (Character.Root.Position - HumanoidRootPart.Position).Magnitude > 200 then
+-- 									Character.Root.CFrame = HumanoidRootPart.CFrame;
+-- 								else
+-- 									HumanoidRootPart.CFrame = Character.Root.CFrame;
+-- 								end;
+-- 							end);
+-- 						end);
+-- 					elseif distanceFromTarget >= 25 and distanceFromTarget < 40 then
+-- 						HumanoidRootPart.CFrame = pos;
+-- 					elseif distanceFromTarget < 25 then
+-- 						HumanoidRootPart.CFrame = pos;
+-- 					end;
+-- 				end);
+-- 			end;
+-- 			local stoppos = {};
+-- 			function stoppos:Stop()
+-- 				tween:Cancel();
+-- 			end;
+-- 			return stoppos;
+-- 		end);
+-- 	end);
+-- end;
+-- task.spawn(function()
+-- 	while task.wait() do
+-- 		pcall(function()
+-- 			HumanoidRootPart.CFrame = Character.Root.CFrame;
+-- 			if (Character.Root.Position - HumanoidRootPart.Position).Magnitude >= 1 then
+-- 				Character.Root.CFrame = HumanoidRootPart.CFrame;
+-- 			end;
+-- 		end);
+-- 	end;
+-- end);
+task.spawn(function()
+	RunService.RenderStepped:Connect(function()
+		pcall(function()
+			if setscriptable then
+				setscriptable(LocalPlayer, "SimulationRadius", true);
+			end;
+			if sethiddenproperty then
+				sethiddenproperty(LocalPlayer, "SimulationRadius", math.huge);
+			end;
+		end);
+	end);
+end);
+
+local Modules = ReplicatedStorage:WaitForChild("Modules");
+local Net = Modules:WaitForChild("Net");
+local RegisterAttack = Net:WaitForChild("RE/RegisterAttack");
+local RegisterHit = Net:WaitForChild("RE/RegisterHit");
+function AttackEnemy(Target, Table)
+	if Target then
+		RegisterAttack:FireServer(0);
+		RegisterHit:FireServer(Target, Table or {});
+	end;
+end;
+function AttackNearest()
+	local mon = {
+		nil,
+		{}
+	};
+	for _, Enemy in Enemies:GetChildren() do
+		if not mon[1] and Enemy:FindFirstChild("HumanoidRootPart") and LocalPlayer:DistanceFromCharacter(Enemy.HumanoidRootPart.Position) < 60 then
+			mon[1] = Enemy:FindFirstChild("HumanoidRootPart");
+		elseif Enemy:FindFirstChild("HumanoidRootPart") and LocalPlayer:DistanceFromCharacter(Enemy.HumanoidRootPart.Position) < 60 then
+			table.insert(mon[2], {
+				[1] = Enemy,
+				[2] = Enemy:FindFirstChild("HumanoidRootPart")
+			});
+		end;
+	end;
+	AttackEnemy(unpack(mon));
+	local player = {
+		nil,
+		{}
+	};
+	for _, Player in Players:GetChildren() do
+		if not player[1] and Player.Character:FindFirstChild("HumanoidRootPart") and LocalPlayer:DistanceFromCharacter(Player.Character.HumanoidRootPart.Position) < 60 then
+			player[1] = Player.Character:FindFirstChild("HumanoidRootPart");
+		elseif Player.Character:FindFirstChild("HumanoidRootPart") and LocalPlayer:DistanceFromCharacter(Player.Character.HumanoidRootPart.Position) < 60 then
+			table.insert(player[2], {
+				[1] = Player,
+				[2] = Player.Character:FindFirstChild("HumanoidRootPart")
+			});
+		end;
+	end;
+	AttackEnemy(unpack(player));
+end;
+function BladeHits()
+	AttackNearest();
+end;
+function Attack()
+	if not _G.AutoFarmFruitMastery or (not _G.AutoFarmGunMastery) then
+		BladeHits();
+	end;
+end;
+function Actived()
+	local tool = Character:FindFirstChildOfClass("Tool")
+	for i, v in next,getconnections(tool.Activated) do 
+		if typeof(v.Function) == 'function' then 
+			getupvalues(v.Function)
+		end 
+	end 
+end
+function AttackM1()
+	local tool = Character:FindFirstChildOfClass("Tool")
+	local LeftClickRemote = tool:FindFirstChild('LeftClickRemote');
+	if tool.ToolTip == "Blox Fruit" then
+		if LeftClickRemote then
+			Actived()
+			LeftClickRemote:FireServer(Vector3.new(0.01,-500,0.01),1,true);		
+			LeftClickRemote:FireServer(false)
+		end
+	end
+end
+function NormalAttack()
+	BladeHits();
+end;
+spawn(function()
+	while wait() do
+		pcall(function()
+			if UseSkill or UseGunSkill or _G.SeaSkill then
+				for i, v in pairs(LocalPlayer.PlayerGui.Notifications:GetChildren()) do
+					for _, Notif in pairs(v:GetChildren()) do
+						if string.find(Notif.Text, "Skill locked!") then
+							v:Destroy();
+						end;
+					end;
+				end;
+			end;
+		end)
+	end
+end);
+function EquipWeaponSword()
+	pcall(function()
+		for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+			if v.ToolTip == "Sword" and v:IsA("Tool") then
+				local ToolHumanoid = LocalPlayer.Backpack:FindFirstChild(v.Name);
+				Character.Humanoid:EquipTool(ToolHumanoid);
+			end;
+		end;
+	end);
+end;
+spawn(function()
+	local angle = 0;
+	while wait() do
+		if _G.SpinPosition then
+			local radius = 20;
+			local farmDistance = _G.FarmDistance;
+			local radian = math.rad(angle);
+			local x = math.cos(radian) * radius;
+			local z = math.sin(radian) * radius;
+			Pos = CFrame.new(x, farmDistance, z);
+			angle = (angle + 30) % 360;
+		else
+			Pos = CFrame.new(0, _G.FarmDistance, 0);
+		end;
+		wait(0);
+	end;
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if World1 then
+				if _G.AutoSaber or _G.AutoSecondSea or _G.AutoWardenSword or _G.AutoGreybeard or _G.AutoPole or _G.AutoSharkSaw then
+					if not HumanoidRootPart:FindFirstChild("BodyClip") then
+						local Noclip = Instance.new("BodyVelocity");
+						Noclip.Name = "BodyClip";
+						Noclip.Parent = HumanoidRootPart;
+						Noclip.MaxForce = Vector3.new(100000, 100000, 100000);
+						Noclip.Velocity = Vector3.new(0, 0, 0);
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if World1 then
+				if _G.AutoSaber or _G.AutoSecondSea or _G.AutoWardenSword or _G.AutoGreybeard or _G.AutoPole or _G.AutoSharkSaw then
+					for _, v in pairs(Character:GetDescendants()) do
+						if v:IsA("BasePart") then
+							v.CanCollide = false;
+						end;
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if World2 then
+				if _G.LawRaid or _G.AutoRengoku or _G.AutoThirdSea or _G.AutoDragonTrident or _G.AutoAttackSeabeasts or _G.AutoRaid then
+					if not HumanoidRootPart:FindFirstChild("BodyClip") then
+						local Noclip = Instance.new("BodyVelocity");
+						Noclip.Name = "BodyClip";
+						Noclip.Parent = HumanoidRootPart;
+						Noclip.MaxForce = Vector3.new(100000, 100000, 100000);
+						Noclip.Velocity = Vector3.new(0, 0, 0);
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if World2 then
+				if _G.AutoRengoku or _G.AutoThirdSea or _G.AutoDragonTrident or _G.AutoAttackSeabeasts or _G.AutoRaid then
+					for _, v in pairs(Character:GetDescendants()) do
+						if v:IsA("BasePart") then
+							v.CanCollide = false;
+						end;
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if World3 then
+				if _G.AutoPirateRaid or _G.AutoKillCakeprince or _G.TweenToKitsuneIsland or _G.TweenToFrozenDimension or _G.SummonForzenDimension or _G.SummonKitsuneIsland or _G.TweenToMirageIsland or _G.AutoTrain or _G.SailBoat or _G.AutoKillPlayerAfterTrial or _G.TweenToHighestMirage or _G.AutoTrial or _G.FindBlueGear or _G.AutoFarmBone or _G.AutoKillDoughking or _G.AutoSoulGuitar or _G.AutoTushita or _G.AutoEliteHunter or _G.AutoDarkDagger or _G.AutoHallowScythe or _G.AutoFarmKatakuri or _G.AutoBuddySword or _G.AutoRaid or _G.AutoSummonTyrantOfTheSkies or _G.AutoKillTyrantOfTheSkies or _G.AutoFarmFishCrewMember or _G.AutoFarmTerrorshark or _G.AutoFarmPiranha or _G.AutoFarmShark or _G.AutoCursedDualKatana or _G.AutoCursedDualKatanaYama or _G.AutoCursedDualKatanaTushita or _G.UpgradeDracoTrial or _G.AutoDracoV1 or _G.AutoDracoV2 or _G.AutoDracoV3 or _G.TeleportToDracoTrials or _G.SwapDracoRace or _G.UpgradeDragonTalon then
+					if not HumanoidRootPart:FindFirstChild("BodyClip") then
+						local Noclip = Instance.new("BodyVelocity");
+						Noclip.Name = "BodyClip";
+						Noclip.Parent = HumanoidRootPart;
+						Noclip.MaxForce = Vector3.new(100000, 100000, 100000);
+						Noclip.Velocity = Vector3.new(0, 0, 0);
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if World3 then
+				if _G.AutoPirateRaid or _G.AutoKillCakeprince or _G.TweenToKitsuneIsland or _G.TweenToFrozenDimension or _G.SummonForzenDimension or _G.SummonKitsuneIsland or _G.TweenToMirageIsland or _G.AutoTrain or _G.SailBoat or _G.AutoKillPlayerAfterTrial or _G.TweenToHighestMirage or _G.AutoTrial or _G.FindBlueGear or _G.AutoFarmBone or _G.AutoKillDoughking or _G.AutoSoulGuitar or _G.AutoTushita or _G.AutoEliteHunter or _G.AutoDarkDagger or _G.AutoHallowScythe or _G.AutoFarmKatakuri or _G.AutoBuddySword or _G.AutoRaid or _G.AutoSummonTyrantOfTheSkies or _G.AutoKillTyrantOfTheSkies or _G.AutoFarmFishCrewMember or _G.AutoFarmTerrorshark or _G.AutoFarmPiranha or _G.AutoFarmShark or _G.AutoCursedDualKatana or _G.AutoCursedDualKatanaYama or _G.AutoCursedDualKatanaTushita or _G.UpgradeDracoTrial or _G.AutoDracoV1 or _G.AutoDracoV2 or _G.AutoDracoV3 or _G.TeleportToDracoTrials or _G.SwapDracoRace or _G.UpgradeDragonTalon then
+					for _, v in pairs(Character:GetDescendants()) do
+						if v:IsA("BasePart") then
+							v.CanCollide = false;
+						end;
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if _G.AutoFarmLevel or _G.AutoFarmChestTween or _G.AutoElectricClaw or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.TeleportToPlayer or _G.TweenToFruit or _G.TeleportNPC or _G.AutoFarmMon or _G.AutoFarmAllBoss or _G.AutoFarmBoss or _G.AutoFarmSwordMastery or _G.AutoFarmMaterial or _G.AutoAttackMonDungeon or _G.AutoFarmCandy or _G.AutoFarmSeabeast then
+				if not HumanoidRootPart:FindFirstChild("BodyClip") then
+					local Noclip = Instance.new("BodyVelocity");
+					Noclip.Name = "BodyClip";
+					Noclip.Parent = HumanoidRootPart;
+					Noclip.MaxForce = Vector3.new(100000, 100000, 100000);
+					Noclip.Velocity = Vector3.new(0, 0, 0);
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			if _G.AutoFarmLevel or _G.AutoFarmChestTween or _G.AutoElectricClaw or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.TeleportToPlayer or _G.TweenToFruit or _G.TeleportNPC or _G.AutoFarmMon or _G.AutoFarmAllBoss or _G.AutoFarmBoss or _G.AutoFarmSwordMastery or _G.AutoFarmMaterial or _G.AutoAttackMonDungeon or _G.AutoFarmCandy or _G.AutoFarmSeabeast then
+				for _, v in pairs(Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						v.CanCollide = false;
+					end;
+				end;
+			end;
+		end
+	end);
+end);
+function StopTween(State)
+	if not State then
+		_G.StopTween = true;
+		TweenPlayer(HumanoidRootPart.CFrame);
+		if HumanoidRootPart:FindFirstChild("BodyClip") then
+			(HumanoidRootPart:FindFirstChild("BodyClip")):Destroy();
+		end;
+		_G.StopTween = false;
+	end;
+end;
+function RemoveAnimation(Mon)
+	Mon.Humanoid:ChangeState(11);
+	if Mon.Humanoid:FindFirstChild("Animator") then
+		Mon.Humanoid.Animator:Destroy();
+	end;
+end;
+function AttackTarget(v, bring, stateFn)
+	repeat
+		wait()
+		if not stateFn() then
+			return
+		end
+		AutoHaki()
+		EquipWeapon(_G.SelectedWeapon)
+		TweenPlayer(v.HumanoidRootPart.CFrame * Pos)
+		v.HumanoidRootPart.Size = Vector3.new(1,1,1)
+		if bring then
+			MonFarm = v.Name
+			PosMon = v.HumanoidRootPart.CFrame
+		end
+		Attack()
+	until not v or v.Humanoid.Health <= 0 or not v.Humanoid or not v.HumanoidRootPart or not v.Parent or _G.StopTween == true
+end
+function NonBlockAttackTarget(v, bring, stateFn)
+	if not stateFn() then
+		return
+	end
+	if not v or not v.Parent or not v:FindFirstChild("Humanoid") or v.Humanoid.Health <= 0 or _G.StopTween == true then
+		return
+	end
+	AutoHaki()
+	EquipWeapon(_G.SelectedWeapon)
+	TweenPlayer(v.HumanoidRootPart.CFrame * Pos)
+	v.HumanoidRootPart.Size = Vector3.new(1,1,1)
+	if bring then
+		MonFarm = v.Name
+		PosMon = v.HumanoidRootPart.CFrame
+	end
+	Attack()
+end
+spawn(function()
+	pcall(function()
+		while wait() do
+			for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+				if v:IsA("Tool") then
+					if v:FindFirstChild("RemoteFunctionShoot") then
+						SelectWeaponGun = v.Name;
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+InfoSection = Tabs.MainTab:CreateSection("Info");
+GameTimeParagraph = Tabs.MainTab:CreateLabel("Game Time: 0");
+spawn(function()
+	while task.wait(1) do
+		pcall(function()
+			local GameTime = math.floor(Workspace.DistributedGameTime + 0.5);
+			local Hour = math.floor(GameTime / 60 ^ 2) % 24;
+			local Minute = math.floor(GameTime / 60 ^ 1) % 60;
+			local Second = math.floor(GameTime / 60 ^ 0) % 60;
+			GameTimeParagraph:Set(tostring(Hour .. " Hours " .. Minute .. " Minute " .. Second .. " Second"));
+		end);
+	end;
+end);
+FpsParagraph = Tabs.MainTab:CreateLabel("Fps: 0");
+spawn(function()
+	while task.wait(1) do
+		pcall(function()
+			FpsParagraph:Set(tostring(Workspace:GetRealPhysicsFPS()));
+		end);
+	end;
+end);
+PingParagraph = Tabs.MainTab:CreateLabel("Ping: 0");
+spawn(function()
+	while task.wait(1) do
+		pcall(function()
+			PingParagraph:Set(tostring((game:GetService("Stats")).Network.ServerStatsItem["Data Ping"]:GetValueString()));
+		end);
+	end;
+end);
+DiscordServerParagraph = Tabs.MainTab:CreateLabel("Discord Server: https://discord.gg/wEZmsW7BXp");
+CopyDiscordServerLinkButton = Tabs.MainTab:CreateButton({
+	Name = "Copy Discord Server Link",
+	Callback = function()
+		setclipboard("https://discord.gg/wEZmsW7BXp");
+		Rayfield:Notify({
+			Title = "Notification",
+			Content = "Copied",
+			Duration = 3
+		});
+	end
+});
+LevelFarmSection = Tabs.MainTab:CreateSection("Level Farm");
+local WeaponList = {
+	"Melee",
+	"Sword",
+	"Blox Fruit"
+};
+ChooseWeaponDropdown = Tabs.MainTab:CreateDropdown({
+	Name = "Choose Weapon",
+	Options = WeaponList,
+	CurrentOption = {_G.SelectWeapon or "Melee"},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectWeapon = option;
+	end
+});
+ChooseWeaponDropdown:Set({"Melee"});
+function getWeapon(weapon)
+	for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+		if v.ToolTip == weapon then
+			if LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
+				return v.Name;
+			end;
+		end;
+	end;
+	return nil;
+end;
+function getToolTip()
+	for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+		return v.ToolTip
+	end;
+end
+task.spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+				if v.ToolTip == _G.SelectWeapon then
+					if LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
+						_G.SelectedWeapon = v.Name;
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+local LevelFarmMethodList = {
+	"Quest",
+	"No Quest",
+	"Nearest"
+};
+LevelFarmMethodDropdown = Tabs.MainTab:CreateDropdown({
+	Name = "Choose Method",
+	Options = LevelFarmMethodList,
+	CurrentOption = {"Quest"},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.FarmLevelMethod = option;
+	end
+});
+LevelFarmMethodDropdown:Set({"Quest"});
+AutoLevelFarmToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Farm Level",
+	Flag = "AutoFarmLevel",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmLevel = state;
+		StopTween(_G.AutoFarmLevel);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.FarmLevelMethod == "No Quest" and _G.AutoFarmLevel then
+			pcall(function()
+				CheckQuest();
+				if Enemies:FindFirstChild(Mon) then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+							if v.Name == Mon then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmLevel
+								end)
+							end;
+						end;
+					end;
+				else
+					local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+					if MyLevel >= 2600 then
+						if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+							TweenPlayer(travelPos);
+							if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+								Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+					else
+						TweenPlayer(CFrameMon);
+					end
+					UnEquipWeapon(_G.SelectedWeapon);
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.FarmLevelMethod == "Nearest" and _G.AutoFarmLevel then
+			pcall(function()
+				for i, v in pairs(Enemies:GetChildren()) do
+					if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+						if v.Name then
+							if (HumanoidRootPart.Position - (v:FindFirstChild("HumanoidRootPart")).Position).Magnitude <= 5000 then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmLevel
+								end)
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.FarmLevelMethod == "Quest" and _G.AutoFarmLevel then
+			pcall(function()
+				CheckQuest();
+				local QuestTitle = LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text;
+				if not string.find(QuestTitle, NameMon) then
+					Remotes.CommF_:InvokeServer("AbandonQuest");
+				end;
+				if LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+					Remotes.CommF_:InvokeServer("StartQuest", NameQuest, LevelQuest);
+				elseif LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+					if Enemies:FindFirstChild(Mon) then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								if v.Name == Mon then
+									AttackTarget(v, true, function()
+										return _G.AutoFarmLevel
+									end)
+								end;
+							end;
+						end;
+					else
+						local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+						if MyLevel >= 2600 then
+							if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+								TweenPlayer(travelPos);
+								if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+									Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+								end
+							else
+								TweenPlayer(CFrameMon);
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+						UnEquipWeapon(_G.SelectedWeapon);
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+MasteryFarmSection = Tabs.MainTab:CreateSection("Mastery Farm");
+MasteryMethodList = {};
+if World3 then
+	MasteryMethodList = {
+		"Quest",
+		"No Quest",
+		"Nearest",
+		"Cakeprince",
+		"Bones"
+	};
+elseif World2 or World1 then
+	MasteryMethodList = {
+		"Quest",
+		"No Quest",
+		"Nearest"
+	};
+end;
+MasteryMethodDropdown = Tabs.MainTab:CreateDropdown({
+	Name = "Choose Method",
+	Options = MasteryMethodList,
+	CurrentOption = {_G.MasteryMethod or "Quest"},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.MasteryMethod = option;
+	end
+});
+MasteryMethodDropdown:Set({"Quest"});
+AutoFruitMasteryToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Fruit Mastery",
+	Flag = "AutoFruitMastery",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmFruitMastery = state;
+		StopTween(_G.AutoFarmFruitMastery);
+	end
+});
+AutoGunMasteryToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Gun Mastery",
+	Flag = "AutoGunMastery",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmGunMastery = state;
+		StopTween(_G.AutoFarmGunMastery);
+	end
+});
+SwordList = {};
+local Inventory = Remotes.CommF_:InvokeServer("getInventory");
+task.spawn(function()
+	for i, v in ipairs(Inventory) do
+		if v.Type == "Sword" then
+			table.insert(SwordList, v.Name);
+		end;
+	end;
+end);
+ChooseSwordDropdown = Tabs.MainTab:CreateDropdown({
+	Name = "Choose Sword",
+	Options = SwordList,
+	CurrentOption = {},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedMasterySword = option;
+	end
+});
+function getInfoSword(SwordName)
+	if Character:FindFirstChild(SwordName) then
+		return true;
+	elseif LocalPlayer.Backpack:FindFirstChild(SwordName) then
+		return true;
+	end;
+	return false;
+end;
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.AutoFarmSwordMastery then
+				if not getInfoSword(_G.SelectedMasterySword) then
+					Remotes.CommF_:InvokeServer("LoadItem", _G.SelectedMasterySword);
+				end;
+			end;
+		end);
+	end;
+end);
+AutoSwordMasteryToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Sword Mastery",
+	Flag = "AutoSwordMastery",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmSwordMastery = state;
+		StopTween(_G.AutoFarmSwordMastery);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmSwordMastery and _G.MasteryMethod == "Quest" then
+			pcall(function()
+				CheckQuest();
+				local QuestTitle = LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text;
+				if not string.find(QuestTitle, NameMon) then
+					Remotes.CommF_:InvokeServer("AbandonQuest");
+				end;
+				if LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+					Remotes.CommF_:InvokeServer("StartQuest", NameQuest, LevelQuest);
+				elseif string.find(LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, NameMon) or LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+					if Enemies:FindFirstChild(Mon) then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+								if v.Name == Mon then
+									AttackTarget(v, true, function()
+										return _G.AutoFarmSwordMastery
+									end)
+								end;
+							end;
+						end;
+					else
+						local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+						if MyLevel >= 2600 then
+							if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+								TweenPlayer(travelPos);
+								if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+									Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+								end
+							else
+								TweenPlayer(CFrameMon);
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+						UnEquipWeapon(_G.SelectedMasterySword);
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmSwordMastery and _G.MasteryMethod == "No Quest" then
+			pcall(function()
+				CheckQuest();
+				if Enemies:FindFirstChild(Mon) then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == Mon and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+							AttackTarget(v, true, function()
+								return _G.AutoFarmSwordMastery
+							end)
+						end;
+					end;
+				else
+					local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+					if MyLevel >= 2600 then
+						if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+							TweenPlayer(travelPos);
+							if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+								Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+					else
+						TweenPlayer(CFrameMon);
+					end
+					UnEquipWeapon(_G.SelectedMasterySword);
+				end;
+			end);
+		elseif _G.AutoFarmSwordMastery and _G.MasteryMethod == "Bones" then
+			pcall(function()
+				TweenPlayer(BonePos);
+				if Enemies:FindFirstChild("Reborn Skeleton") or Enemies:FindFirstChild("Living Zombie") or Enemies:FindFirstChild("Demonic Soul") or Enemies:FindFirstChild("Posessed Mummy") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Reborn Skeleton" or v.Name == "Living Zombie" or v.Name == "Demonic Soul" or v.Name == "Posessed Mummy" then
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmSwordMastery
+								end)
+							end;
+						elseif ReplicatedStorage:FindFirstChild("Demonic Soul") then
+							TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+						end;
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmSwordMastery and _G.MasteryMethod == "Cakeprince" then
+			pcall(function()
+				local PosCake = CFrame.new(-2091.911865234375, 70.00884246826172, -12142.8359375);
+				TweenPlayer(PosCake);
+				if Enemies:FindFirstChild("Cookie Crafter") or Enemies:FindFirstChild("Cake Guard") or Enemies:FindFirstChild("Baking Staff") or Enemies:FindFirstChild("Head Baker") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Cookie Crafter" or v.Name == "Cake Guard" or v.Name == "Baking Staff" or v.Name == "Head Baker" then
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmSwordMastery
+								end)
+							end;
+						elseif ReplicatedStorage:FindFirstChild("Baking Staff") then
+							TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+						end;
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmSwordMastery and _G.MasteryMethod == "Nearest" then
+			pcall(function()
+				for i, v in pairs(Enemies:GetChildren()) do
+					if v.Name and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+						if (HumanoidRootPart.Position - (v:FindFirstChild("HumanoidRootPart")).Position).Magnitude <= 2000 then
+							AttackTarget(v, true, function()
+								return _G.AutoFarmSwordMastery
+							end)
+						end;
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmSwordMastery and _G.MasteryMethod == "Boss" then
+			if LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+				CheckBossQuest();
+				TweenPlayer(CFrameQBoss);
+				if (CFrameQBoss.Position - HumanoidRootPart.Position).Magnitude <= 5 then
+					Remotes.CommF_:InvokeServer("StartQuest", NameQuestBoss, QuestLvBoss);
+				end;
+			elseif LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+				pcall(function()
+					CheckBossQuest();
+					if Enemies:FindFirstChild(SelectBoss) then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v.Name == selectBoss and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmSwordMastery
+								end)
+							end;
+						end;
+					end;
+				end);
+			end;
+		end;
+	end;
+end);
+spawn(function()
+	while task.wait(0.2) do
+		if _G.AutoFarmFruitMastery and _G.MasteryMethod == "Quest" then
+			pcall(function()
+				CheckQuest();
+				local QuestTitle = LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text;
+				if not string.find(QuestTitle, NameMon) then
+					Remotes.CommF_:InvokeServer("AbandonQuest");
+				end;
+				if LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+					Remotes.CommF_:InvokeServer("StartQuest", NameQuest, LevelQuest);
+				elseif string.find(LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, NameMon) or LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+					if Enemies:FindFirstChild(Mon) then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+								if v.Name == Mon then
+									repeat
+										wait()
+										TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+										AutoHaki();
+										v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+										PosMon = v.HumanoidRootPart.CFrame;
+										MonFarm = v.Name;
+										AimBotSkillPosition = v.HumanoidRootPart.Position;
+										Skillaimbot = true;
+										if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+											EquipWeapon(LocalPlayer.Data.DevilFruit.Value);
+											Skillaimbot = true;
+											UseSkill = true;
+										else
+											UseSkill = false;
+											Skillaimbot = false;
+											EquipWeapon(_G.SelectedWeapon);
+											NormalAttack();
+										end;
+									until not _G.AutoFarmFruitMastery or not v.Humanoid or (not v.Parent) or v.Humanoid.Health == 0 or LocalPlayer.PlayerGui.Main.Quest.Visible == false or (not Enemies:FindFirstChild(v.Name)) or not _G.MasteryMethod == "Quest";
+									UseSkill = false;
+									Skillaimbot = false;
+								end;
+							end;
+						end;
+					else
+						UseSkill = false;
+						local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+						if MyLevel >= 2600 then
+							if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+								TweenPlayer(travelPos);
+								if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+									Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+								end
+							else
+								TweenPlayer(CFrameMon);
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+						UnEquipWeapon(SelectWeapon);
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmFruitMastery and _G.MasteryMethod == "No Quest" then
+			pcall(function()
+				CheckQuest();
+				if Enemies:FindFirstChild(Mon) then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == Mon and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+							repeat
+								wait();
+								TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+								AutoHaki();
+								v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+								PosMon = v.HumanoidRootPart.CFrame;
+								MonFarm = v.Name;
+								AimBotSkillPosition = v.HumanoidRootPart.Position;
+								if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+									EquipWeapon(LocalPlayer.Data.DevilFruit.Value);
+									UseSkill = true;
+									Skillaimbot = true;
+								else
+									UseSkill = false;
+									Skillaimbot = false;
+									EquipWeapon(_G.SelectedWeapon);
+									NormalAttack();
+								end;
+							until not _G.AutoFarmFruitMastery or not v.Humanoid or (not v.Parent) or v.Humanoid.Health == 0 or (not Enemies:FindFirstChild(v.Name)) or not _G.MasteryMethod == "No Quest";
+							UseSkill = false;
+							Skillaimbot = false;
+						end;
+					end;
+				else
+					UseSkill = false;
+					local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+					if MyLevel >= 2600 then
+						if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+							TweenPlayer(travelPos);
+							if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+								Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+					else
+						TweenPlayer(CFrameMon);
+					end
+					UnEquipWeapon(_G.SelectedWeapon);
+				end;
+			end);
+		elseif _G.AutoFarmFruitMastery and _G.MasteryMethod == "Bones" then
+			pcall(function()
+				TweenPlayer(BonePos);
+				if Enemies:FindFirstChild("Reborn Skeleton") or Enemies:FindFirstChild("Living Zombie") or Enemies:FindFirstChild("Demonic Soul") or Enemies:FindFirstChild("Posessed Mummy") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Reborn Skeleton" or v.Name == "Living Zombie" or v.Name == "Demonic Soul" or v.Name == "Posessed Mummy" then
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								repeat
+									wait();
+									TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+									AutoHaki();
+									v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+									PosMon = v.HumanoidRootPart.CFrame;
+									MonFarm = v.Name;
+									AimBotSkillPosition = v.HumanoidRootPart.Position;
+									if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+										EquipWeapon(LocalPlayer.Data.DevilFruit.Value);
+										UseSkill = true;
+										Skillaimbot = true;
+									else
+										UseSkill = false;
+										Skillaimbot = false;
+										EquipWeapon(_G.SelectedWeapon);
+										NormalAttack();
+									end;
+								until not _G.AutoFarmFruitMastery or not v.Humanoid or v.Humanoid.Health <= 0 or (not v.Parent) or (not Enemies:FindFirstChild(v.Name)) or not _G.MasteryMethod == "Bones";
+								UseSkill = false;
+								Skillaimbot = false;
+							end;
+						elseif ReplicatedStorage:FindFirstChild("Demonic Soul") then
+							TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+						end;
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmFruitMastery and _G.MasteryMethod == "Cakeprince" then
+			pcall(function()
+				local PosCake = CFrame.new(-2091.911865234375, 70.00884246826172, -12142.8359375);
+				TweenPlayer(PosCake);
+				if Enemies:FindFirstChild("Cookie Crafter") or Enemies:FindFirstChild("Cake Guard") or Enemies:FindFirstChild("Baking Staff") or Enemies:FindFirstChild("Head Baker") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Cookie Crafter" or v.Name == "Cake Guard" or v.Name == "Baking Staff" or v.Name == "Head Baker" then
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								repeat
+									wait();
+									TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+									AutoHaki();
+									v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+									PosMon = v.HumanoidRootPart.CFrame;
+									MonFarm = v.Name;
+									AimBotSkillPosition = v.HumanoidRootPart.Position;
+									if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+										EquipWeapon(LocalPlayer.Data.DevilFruit.Value);
+										UseSkill = true;
+										Skillaimbot = true;
+									else
+										UseSkill = false;
+										Skillaimbot = false;
+										EquipWeapon(_G.SelectedWeapon);
+										NormalAttack();
+									end;
+								until not _G.AutoFarmFruitMastery or not v.Humanoid or v.Humanoid.Health <= 0 or (not v.Parent) or (not Enemies:FindFirstChild(v.Name)) or not _G.MasteryMethod == "Cakeprince";
+								UseSkill = false;
+								Skillaimbot = false;
+							end;
+						elseif ReplicatedStorage:FindFirstChild("Baking Staff") then
+							TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+						end;
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmFruitMastery and _G.MasteryMethod == "Nearest" then
+			pcall(function()
+				for i, v in pairs(Enemies:GetChildren()) do
+					if v.Name and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+						if (HumanoidRootPart.Position - (v:FindFirstChild("HumanoidRootPart")).Position).Magnitude <= 2000 then
+							repeat
+								wait();
+								TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+								AutoHaki();
+								v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+								PosMon = v.HumanoidRootPart.CFrame;
+								MonFarm = v.Name;
+								AimBotSkillPosition = v.HumanoidRootPart.Position;
+								if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+									EquipWeapon(LocalPlayer.Data.DevilFruit.Value);
+									Skillaimbot = true;
+									UseSkill = true;
+								else
+									Skillaimbot = false;
+									UseSkill = false;
+									EquipWeapon(_G.SelectedWeapon);
+									NormalAttack();
+								end;
+							until not _G.AutoFarmFruitMastery or (not v.Parent) or not v.Humanoid or v.Humanoid.Health == 0 or not _G.MasteryMethod == "Nearest";
+							UseSkill = false;
+							Skillaimbot = false;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmGunMastery and _G.MasteryMethod == "Quest" then
+			pcall(function()
+				CheckQuest();
+				local QuestTitle = LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text;
+				if not string.find(QuestTitle, NameMon) then
+					Remotes.CommF_:InvokeServer("AbandonQuest");
+				end;
+				if LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+					Remotes.CommF_:InvokeServer("StartQuest", NameQuest, LevelQuest);
+				elseif string.find(LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, NameMon) or LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+					if Enemies:FindFirstChild(Mon) then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+								if v.Name == Mon then
+									repeat
+										wait();
+										TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+										AutoHaki();
+										v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+										v.HumanoidRootPart.Transparency = 1;
+										v.Humanoid.JumpPower = 0;
+										v.Humanoid.WalkSpeed = 0;
+										PosMon = v.HumanoidRootPart.CFrame;
+										MonFarm = v.Name;
+										AimBotSkillPosition = v.HumanoidRootPart.Position;
+										if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+											EquipWeapon(SelectWeaponGun);
+											local ShootPosition = HumanoidRootPart.CFrame * CFrame.new(0, (-15), 0);
+											(Character.Humanoid:FindFirstChild("")):InvokeServer("TAP", Vector3.new(ShootPosition));
+											UseGunSkill = true;
+											Skillaimbot = true;
+										else
+											UseGunSkill = false;
+											Skillaimbot = false;
+											EquipWeapon(_G.SelectedWeapon);
+										end;
+										NormalAttack();
+									until not _G.AutoFarmGunMastery or not v.Humanoid or (not v.Parent) or v.Humanoid.Health <= 0 or LocalPlayer.PlayerGui.Main.Quest.Visible == false or (not Enemies:FindFirstChild(v.Name)) or not _G.MasteryMethod == "Quest";
+									UseGunSkill = false;
+									Skillaimbot = false;
+								end;
+							end;
+						end;
+					else
+						UseGunSkill = false;
+						Skillaimbot = false;
+						local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+						if MyLevel >= 2600 then
+							if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+								TweenPlayer(travelPos);
+								if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+									Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+								end
+							else
+								TweenPlayer(CFrameMon);
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+						UnEquipWeapon(_G.SelectedWeapon)
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmGunMastery and _G.MasteryMethod == "No Quest" then
+			pcall(function()
+				CheckQuest();
+				if Enemies:FindFirstChild(Mon) then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == Mon and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+							repeat
+								wait();
+								TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+								AutoHaki();
+								v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+								v.HumanoidRootPart.Transparency = 1;
+								v.Humanoid.JumpPower = 0;
+								v.Humanoid.WalkSpeed = 0;
+								PosMon = v.HumanoidRootPart.CFrame;
+								MonFarm = v.Name;
+								AimBotSkillPosition = v.HumanoidRootPart.Position;
+								if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+									local ShootPosition = HumanoidRootPart.CFrame * CFrame.new(0, (-15), 0);
+									(Character.Humanoid:FindFirstChild("")):InvokeServer("TAP", Vector3.new(ShootPosition));
+									EquipWeapon(SelectWeaponGun);
+									UseGunSkill = true;
+									Skillaimbot = true;
+								else
+									Skillaimbot = false;
+									UseGunSkill = false;
+									EquipWeapon(_G.SelectedWeapon);
+								end;
+								NormalAttack();
+							until not _G.AutoFarmGunMastery or not v.Humanoid or (not v.Parent) or v.Humanoid.Health <= 0 or (not Enemies:FindFirstChild(v.Name)) or not _G.MasteryMethod == "No Quest";
+						end;
+					end;
+				else
+					UseGunSkill = false;
+					Skillaimbot = false;
+					local travelPos = CFrame.new(-16270.5595703125, 25.230144500732422, 1378.2950439453125)
+					if MyLevel >= 2600 then
+						if (CFrameMon.Position - HumanoidRootPart.Position).Magnitude > 10000 then
+							TweenPlayer(travelPos);
+							if (travelPos.Position - HumanoidRootPart.Position).Magnitude < 5 then
+								Net:WaitForChild("RF/SubmarineWorkerSpeak"):InvokeServer("TravelToSubmergedIsland")
+							end
+						else
+							TweenPlayer(CFrameMon);
+						end
+					else
+						TweenPlayer(CFrameMon);
+					end
+					UnEquipWeapon(_G.SelectedWeapon);
+				end;
+			end);
+		elseif _G.AutoFarmGunMastery and _G.MasteryMethod == "Bones" then
+			pcall(function()
+				TweenPlayer(BonePos);
+				if Enemies:FindFirstChild("Reborn Skeleton") or Enemies:FindFirstChild("Living Zombie") or Enemies:FindFirstChild("Demonic Soul") or Enemies:FindFirstChild("Posessed Mummy") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Reborn Skeleton" or v.Name == "Living Zombie" or v.Name == "Demonic Soul" or v.Name == "Posessed Mummy" then
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								repeat
+									wait();
+									TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+									AutoHaki();
+									v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+									v.HumanoidRootPart.Transparency = 1;
+									v.Humanoid.JumpPower = 0;
+									v.Humanoid.WalkSpeed = 0;
+									PosMon = v.HumanoidRootPart.CFrame;
+									MonFarm = v.Name;
+									AimBotSkillPosition = v.HumanoidRootPart.Position;
+									if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+										EquipWeapon(SelectWeaponGun);
+										local ShootPosition = HumanoidRootPart.CFrame * CFrame.new(0, (-15), 0);
+										(Character.Humanoid:FindFirstChild("")):InvokeServer("TAP", Vector3.new(ShootPosition));
+										UseGunSkill = true;
+										Skillaimbot = true;
+									else
+										UseGunSkill = false;
+										Skillaimbot = false;
+										EquipWeapon(_G.SelectedWeapon);
+									end;
+									NormalAttack();
+								until not _G.AutoFarmGunMastery or not v.Humanoid or not _G.MasteryMethod == "Bones" or v.Humanoid.Health <= 0 or (not v.Parent);
+								UseGunSkill = false;
+								Skillaimbot = false;
+							elseif ReplicatedStorage:FindFirstChild("Demonic Soul") then
+								TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+							end;
+						end;
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmGunMastery and _G.MasteryMethod == "Cakeprince" then
+			pcall(function()
+				local PosCake = CFrame.new(-2091.911865234375, 70.00884246826172, -12142.8359375);
+				TweenPlayer(PosCake);
+				if Enemies:FindFirstChild("Cookie Crafter") or Enemies:FindFirstChild("Cake Guard") or Enemies:FindFirstChild("Baking Staff") or Enemies:FindFirstChild("Head Baker") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Cookie Crafter" or v.Name == "Cake Guard" or v.Name == "Baking Staff" or v.Name == "Head Baker" then
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								repeat
+									wait();
+									TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+									AutoHaki();
+									v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+									v.HumanoidRootPart.Transparency = 1;
+									v.Humanoid.JumpPower = 0;
+									v.Humanoid.WalkSpeed = 0;
+									PosMon = v.HumanoidRootPart.CFrame;
+									MonFarm = v.Name;
+									AimBotSkillPosition = v.HumanoidRootPart.Position;
+									if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+										EquipWeapon(SelectWeaponGun);
+										local ShootPosition = HumanoidRootPart.CFrame * CFrame.new(0, (-15), 0);
+										(Character.Humanoid:FindFirstChild("")):InvokeServer("TAP", Vector3.new(ShootPosition));
+										UseGunSkill = true;
+										Skillaimbot = true;
+									else
+										UseGunSkill = false;
+										Skillaimbot = false;
+										EquipWeapon(_G.SelectedWeapon);
+									end;
+									NormalAttack();
+								until not _G.AutoFarmGunMastery or not v.Humanoid or not _G.MasteryMethod == "Cakeprince" or v.Humanoid.Health <= 0 or (not v.Parent);
+								UseGunSkill = false;
+								Skillaimbot = false;
+							elseif ReplicatedStorage:FindFirstChild("Cake Guard") then
+								TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+							end;
+						end;
+					end;
+				end;
+			end);
+		elseif _G.AutoFarmGunMastery and _G.MasteryMethod == "Nearest" then
+			pcall(function()
+				for i, v in pairs(Enemies:GetChildren()) do
+					if v.Name and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+						if (HumanoidRootPart.Position - (v:FindFirstChild("HumanoidRootPart")).Position).Magnitude <= 2000 then
+							repeat
+								wait();
+								TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+								AutoHaki();
+								v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+								v.HumanoidRootPart.Transparency = 1;
+								v.Humanoid.JumpPower = 0;
+								v.Humanoid.WalkSpeed = 0;
+								PosMon = v.HumanoidRootPart.CFrame;
+								MonFarm = v.Name;
+								AimBotSkillPosition = v.HumanoidRootPart.Position;
+								if v.Humanoid.Health <= v.Humanoid.MaxHealth * _G.MasteryHealth / 100 then
+									EquipWeapon(SelectWeaponGun);
+									local ShootPosition = HumanoidRootPart.CFrame * CFrame.new(0, (-15), 0);
+									(Character.Humanoid:FindFirstChild("")):InvokeServer("TAP", Vector3.new(ShootPosition));
+									UseGunSkill = true;
+									Skillaimbot = true;
+								else
+									UseGunSkill = false;
+									Skillaimbot = false;
+									AutoHaki();
+									EquipWeapon(_G.SelectedWeapon);
+								end;
+								NormalAttack();
+							until not _G.AutoFarmGunMastery or (not v.Parent) or not v.Humanoid or v.Humanoid.Health <= 0 or not _G.MasteryMethod == "Nearest";
+							UseGunSkill = false;
+							Skillaimbot = false;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+TyrantOfTheSkiesBossSection = Tabs.MainTab:CreateSection("Tyrant Of The Skies");
+TyrantOfTheSkiesEyesParagraph = Tabs.MainTab:CreateLabel("Eyes: 0/4");
+function checkEagleEye()
+	local islandModel = Workspace.Map.TikiOutpost.IslandModel;
+	local targetEyes = {
+		Eye1 = false,
+		Eye2 = false,
+		Eye3 = false,
+		Eye4 = false
+	};
+	for _, v in ipairs(islandModel:GetChildren()) do
+		if string.match(v.Name, "^Eye%d$") and targetEyes[v.Name] ~= nil then
+			if tonumber(v.Transparency) == 0 then
+				targetEyes[v.Name] = true;
+			end;
+		end;
+	end;
+	local eyeCount = 0
+    for _, found in pairs(targetEyes) do
+        if found then
+            eyeCount = eyeCount + 1
+        end
+    end
+    return eyeCount
+end;
+spawn(function()
+	while wait(1) do
+		TyrantOfTheSkiesEyesLabel:Set(tostring(checkEagleEye().."/4"))
+	end;
+end);
+function AttackGucci()
+	for _, model in pairs(Workspace.Map.TikiOutpost.IslandModel:GetChildren()) do
+		if model:FindFirstChild("EagleBossArena") then
+			for i, v in pairs(model.EagleBossArena:GetChildren()) do
+				if v.Name == "Tree" then
+					TweenPlayer(CFrame.new(v.WorldPivot.Position));
+					useAllSkill();
+				end;
+			end;
+		end;
+	end;
+end;
+AutoSummonTyrantOfTheSkiesToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Summon Boss",
+	Flag = "AutoSummonBoss",
+	Desc = "Auto Summon Tyrant Of The Skies",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoSummonTyrantOfTheSkies = state;
+		StopTween(_G.AutoSummonTyrantOfTheSkies);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoSummonTyrantOfTheSkies then
+			pcall(function()
+				if not Enemies:FindFirstChild("Tyrant of the Skies") then
+					if checkEagleEye() < 4 then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v.Name == "Serpent Hunter" or v.Name == "Skull Slayer" or v.Name == "Isle Champion" or v.Name == "Sun-kissed Warrior" then
+								if v.Humanoid and v.Humanoid.Health > 0 then
+									AttackTarget(v, true, function()
+										return _G.AutoSummonTyrantOfTheSkies
+									end)
+								end;
+							end;
+						end;
+					else
+						repeat
+							wait();
+							AttackGucci();
+						until Enemies:FindFirstChild("Tyrant of the Skies") or (not _G.AutoSummonTyrantOfTheSkies);
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+AutoKillTyrantOfTheSkiesToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Kill Tyrant Of The Skies",
+	Flag = "AutoKillTyrantOfTheSkies",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoKillTyrantOfTheSkies = state;
+		StopTween(_G.AutoKillTyrantOfTheSkies);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoKillTyrantOfTheSkies then
+			pcall(function()
+				if Enemies:FindFirstChild("Tyrant of the Skies") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Tyrant of the Skies" then
+							AttackTarget(v, true, function()
+								return _G.AutoKillTyrantOfTheSkies
+							end)
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+MonFarmSection = Tabs.MainTab:CreateSection("Mon Farm");
+tableMon = {};
+task.spawn(function()
+	if World1 then
+		tableMon = {
+			"Bandit",
+			"Monkey",
+			"Gorilla",
+			"Pirate",
+			"Brute",
+			"Desert Bandit",
+			"Desert Officer",
+			"Snow Bandit",
+			"Snowman",
+			"Chief Petty Officer",
+			"Sky Bandit",
+			"Dark Master",
+			"Toga Warrior",
+			"Gladiator",
+			"Military Soldier",
+			"Military Spy",
+			"Fishman Warrior",
+			"Fishman Commando",
+			"God's Guard",
+			"Shanda",
+			"Royal Squad",
+			"Royal Soldier",
+			"Galley Pirate",
+			"Galley Captain"
+		};
+	elseif World2 then
+		tableMon = {
+			"Raider",
+			"Mercenary",
+			"Swan Pirate",
+			"Factory Staff",
+			"Marine Lieutenant",
+			"Marine Captain",
+			"Zombie",
+			"Vampire",
+			"Snow Trooper",
+			"Winter Warrior",
+			"Lab Subordinate",
+			"Horned Warrior",
+			"Magma Ninja",
+			"Lava Pirate",
+			"Ship Deckhand",
+			"Ship Engineer",
+			"Ship Steward",
+			"Ship Officer",
+			"Arctic Warrior",
+			"Snow Lurker",
+			"Sea Soldier",
+			"Water Fighter"
+		};
+	elseif World3 then
+		tableMon = {
+			"Pirate Millionaire",
+			"Dragon Crew Warrior",
+			"Dragon Crew Archer",
+			"Female Islander",
+			"Giant Islander",
+			"Marine Commodore",
+			"Marine Rear Admiral",
+			"Fishman Raider",
+			"Fishman Captain",
+			"Forest Pirate",
+			"Mythological Pirate",
+			"Jungle Pirate",
+			"Musketeer Pirate",
+			"Reborn Skeleton",
+			"Living Zombie",
+			"Demonic Soul",
+			"Posessed Mummy",
+			"Peanut Scout",
+			"Peanut President",
+			"Ice Cream Chef",
+			"Ice Cream Commander",
+			"Cookie Crafter",
+			"Cake Guard",
+			"Baking Staff",
+			"Head Baker",
+			"Cocoa Warrior",
+			"Chocolate Bar Battler",
+			"Sweet Thief",
+			"Candy Rebel",
+			"Candy Pirate",
+			"Snow Demon",
+			"Isle Outlaw",
+			"Island Boy",
+			"Sun-kissed Warrior",
+			"Isle Champion",
+			"Ocean Prophet",
+			"Sea Chanter",
+			"Coral Pirate",
+			"Reef Bandit",
+		};
+	end;
+end);
+ChooseMonDropdown = Tabs.MainTab:CreateDropdown({
+	Name = "Choose Mon",
+	Options = tableMon,
+	CurrentOption = {},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedMon = option;
+	end
+});
+AutoMonFarmToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Farm Mon",
+	Flag = "AutoFarmMon",
+	Desc = "Auto Kill Mon When Spawn",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmMon = state;
+		StopTween(_G.AutoFarmMon);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmMon then
+			pcall(function()
+				if Enemies:FindFirstChild(_G.SelectedMon) then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == _G.SelectedMon then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmMon
+								end)
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+BerrySection = Tabs.MainTab:CreateSection("Berry");
+function getBerry()
+	local result = {};
+	for i, v in pairs(Workspace.Map:GetDescendants()) do
+		if string.find(v.Name, "{") and string.find(v.Name, "}") and v:FindFirstChild("Berries") then
+			for key, val in pairs(v.Berries:GetAttributes()) do
+				if string.find(key, "_BerryCFrame") then
+					table.insert(result, v);
+				end;
+			end;
+		end;
+	end;
+	return result;
+end;
+AutoCollectBerryToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Collect Berry",
+	Flag = "AutoCollectBerry",
+	Desc = "Auto Collect Berry",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoCollectBerry = state;
+		StopTween(_G.AutoCollectBerry);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(0.2)
+		if _G.AutoCollectBerry then
+			pcall(function()
+				for i, v in pairs(getBerry()) do
+					if v then
+						local berries = v.Berries:GetChildren();
+						if #berries > 0 then
+							for _, berry in pairs(berries) do
+								repeat
+									wait();
+									TweenPlayer(CFrame.new(berry.WorldPivot.Position));
+									if (berry.WorldPivot.Position - HumanoidRootPart.Position).Magnitude <= 8 then
+										sendKeyEvent("E");
+									end;
+								until not _G.AutoCollectBerry or (not berry.Parent);
+							end;
+						else
+							TweenPlayer(CFrame.new(v.WorldPivot.Position));
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+-- FishSection = Tabs.MainTab:Section({
+-- 	Name = "Fish Farm",
+-- 	TextXAlignment = "Left"
+-- });
+-- ClaimStarterPackButton = FishSection:CreateButton({
+-- 	Name = "Claim Starter Pack",
+-- 	Callback = function()
+-- 		(((ReplicatedStorage:WaitForChild("Modules")):WaitForChild("Net")):WaitForChild("RF/JobsRemoteFunction")):InvokeServer("FishingNPC", "Rod", "Check", "Fisherman");
+-- 		(((ReplicatedStorage:WaitForChild("Modules")):WaitForChild("Net")):WaitForChild("RF/JobsRemoteFunction")):InvokeServer("FishingNPC", "Bait", "Check", "Fisherman");
+-- 	end
+-- });
+-- AutoFarmFishToggle = FishSection:CreateToggle({
+-- 	Name = "Auto Farm Fish",
+-- 	Desc = "Auto Farm Fish",
+-- 	CurrentValue = false,
+-- 	Callback = function(state)
+-- 		_G.AutoFarmFish = state;
+-- 	end
+-- });
+-- Config:Register("AutoFarmFishToggle", AutoFarmFishToggle);
+-- LocalPlayer.PlayerGui.ChildAdded:Connect(function(child)
+-- 	if _G.AutoFarmFish then
+-- 		if child.Name == "Fishing_Reeling" then
+-- 			((ReplicatedStorage:WaitForChild("FishReplicated")):WaitForChild("FishingRequest")):InvokeServer("Catch", 1, 0, 1);
+-- 		end;
+-- 	end;
+-- end);
+-- spawn(function()
+-- 	while wait() do
+-- 		pcall(function()
+-- 			if _G.AutoFarmFish then
+-- 				if not (Character:FindFirstChild("Fishing Rod")):WaitForChild("Bobber") then
+-- 					((ReplicatedStorage:WaitForChild("FishReplicated")):WaitForChild("FishingRequest")):InvokeServer("CastLineAtLocation", Vector3.new(24.130386352539062, -4, 5280.6806640625), 100, true);
+-- 				end;
+-- 			end;
+-- 		end);
+-- 	end;
+-- end);
+-- AutoSellFishToggle = FishSection:CreateToggle({
+-- 	Name = "Auto Sell Fish",
+-- 	Desc = "Auto Sell Fish",
+-- 	CurrentValue = false,
+-- 	Callback = function(state)
+-- 		_G.AutoSellFish = state;
+-- 	end
+-- });
+-- Config:Register("AutoSellFishToggle", AutoSellFishToggle);
+-- spawn(function()
+-- 	while wait() do
+-- 		wait(_G.GlobalDelay)
+-- 		pcall(function()
+-- 			if _G.AutoSellFish then
+-- 				ReplicatedStorage:WaitForChild("Modules"):WaitForChild("Net"):WaitForChild("RF/JobsRemoteFunction"):InvokeServer("FishingNPC", "SellFish")
+-- 			end;
+-- 		end);
+-- 	end;
+-- end)
+-- AutoBuyBaitToggle = FishSection:CreateToggle({
+-- 	Name = "Auto Buy Bait",
+-- 	Desc = "Auto Buy Bait",
+-- 	CurrentValue = false,
+-- 	Callback = function(state)
+-- 		_G.AutoBuyBait = state;
+-- 	end
+-- });
+-- spawn(function()
+-- 	while wait() do
+-- 		wait(_G.GlobalDelay)
+-- 		pcall(function()
+-- 			if _G.AutoBuyBait then
+-- 				(((ReplicatedStorage:WaitForChild("Modules")):WaitForChild("Net")):WaitForChild("RF/Craft")):InvokeServer("Craft", "Basic Bait", {});
+-- 			end;
+-- 		end);
+-- 	end;
+-- end);
+BossSection = Tabs.MainTab:CreateSection("Boss Farm");
+BossStatusParagraph = Tabs.MainTab:CreateLabel("Boss Status: -");
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			if ReplicatedStorage:FindFirstChild(_G.SelectedBoss) or Enemies:FindFirstChild(_G.SelectedBoss) then
+				BossStatusParagraph:Set(tostring("Spawn!"));
+			else
+				BossStatusParagraph:Set(tostring("Not Spawn"));
+			end;
+		end);
+	end;
+end);
+tableBoss = {};
+task.spawn(function()
+	if World1 then
+		tableBoss = {
+			"The Gorilla King",
+			"Bobby",
+			"Yeti",
+			"Mob Leader",
+			"Vice Admiral",
+			"Warden",
+			"Chief Warden",
+			"Swan",
+			"Magma Admiral",
+			"Fishman Lord",
+			"Wysper",
+			"Thunder God",
+			"Cyborg",
+			"Saber Expert"
+		};
+	elseif World2 then
+		tableBoss = {
+			"Diamond",
+			"Jeremy",
+			"Fajita",
+			"Don Swan",
+			"Smoke Admiral",
+			"Cursed Captain",
+			"Darkbeard",
+			"Order",
+			"Awakened Ice Admiral",
+			"Tide Keeper"
+		};
+	elseif World3 then
+		tableBoss = {
+			"Stone",
+			"Island Empress",
+			"Kilo Admiral",
+			"Captain Elephant",
+			"Beautiful Pirate",
+			"rip_indra True Form",
+			"Longma",
+			"Soul Reaper",
+			"Cake Queen",
+			"Tyrant Of The Skies",
+		};
+	end;
+end);
+ChooseBossDropdown = Tabs.MainTab:CreateDropdown({
+	Name = "Choose Boss",
+	Options = tableBoss,
+	CurrentOption = {},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedBoss = option;
+	end
+});
+AutoFarmBossToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Farm Boss",
+	Flag = "AutoFarmBoss",
+	Desc = "Auto Kill Boss When Spawn",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmBoss = state;
+		StopTween(_G.AutoFarmBoss);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmBoss then
+			pcall(function()
+				if Enemies:FindFirstChild(_G.SelectedBoss) then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == _G.SelectedBoss then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmBoss
+								end)
+							end;
+						end;
+					end;
+				elseif ReplicatedStorage:FindFirstChild(_G.SelectedBoss) then
+					TweenPlayer((ReplicatedStorage:FindFirstChild(_G.SelectedBoss)).HumanoidRootPart.CFrame * CFrame.new(5, 10, 2));
+				end;
+			end);
+		end;
+	end;
+end);
+AutoFarmAllBossToggle = Tabs.MainTab:CreateToggle({
+	Name = "Auto Farm All Boss",
+	Flag = "AutoFarmAllBoss",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmAllBoss = state;
+		StopTween(_G.AutoFarmAllBoss);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmAllBoss then
+			pcall(function()
+				for i, boss in pairs(tableBoss) do
+					if Enemies:FindFirstChild(boss) then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v.Name == boss then
+								if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+									AttackTarget(v, true, function()
+										return _G.AutoFarmAllBoss
+									end)
+								end;
+							end;
+						end;
+					elseif ReplicatedStorage:FindFirstChild(boss) then
+						TweenPlayer((ReplicatedStorage:FindFirstChild(boss)).HumanoidRootPart.CFrame * CFrame.new(5, 10, 2));
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+EliteHunterSection = Tabs.OthersTab:CreateSection("Elite Hunter");
+EliteHunterParagraph = Tabs.OthersTab:CreateLabel("Elite Hunter Status: -");
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			if ReplicatedStorage:FindFirstChild("Diablo") or ReplicatedStorage:FindFirstChild("Deandre") or ReplicatedStorage:FindFirstChild("Urban") or Enemies:FindFirstChild("Diablo") or Enemies:FindFirstChild("Deandre") or Enemies:FindFirstChild("Urban") then
+				EliteHunterParagraph:Set(tostring("Spawn!"));
+			else
+				EliteHunterParagraph:Set(tostring("Not Spawn"));
+			end;
+		end);
+	end;
+end);
+EliteHunterProgressParagraph = Tabs.OthersTab:CreateLabel("Elite Hunter Progress: -");
+spawn(function()
+	while wait() do
+		pcall(function()
+			if World1 or World2 then
+				EliteHunterProgressParagraph:Set(tostring("Sea 3 Only"));
+			elseif World3 then
+				EliteHunterProgressParagraph:Set(tostring(Remotes.CommF_:InvokeServer("EliteHunter", "Progress")));
+			end;
+		end);
+	end;
+end);
+AutoEliteHunterToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Elite Hunter",
+	Flag = "AutoEliteHunter",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoEliteHunter = state;
+		StopTween(_G.AutoEliteHunter);
+	end
+});
+AutoEliteHunterHopToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Elite Hunter Hop",
+	Flag = "AutoEliteHunterHop",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoEliteHunterHop = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoEliteHunter and World3 then
+			pcall(function()
+				local QuestTitle = LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text;
+				if ReplicatedStorage:FindFirstChild("Diablo") or ReplicatedStorage:FindFirstChild("Deandre") or ReplicatedStorage:FindFirstChild("Urban") or Enemies:FindFirstChild("Diablo") or Enemies:FindFirstChild("Deandre") or Enemies:FindFirstChild("Urban") then
+					if LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+						TweenPlayer(CFrame.new(-5418.892578125, 313.74130249023, -2826.2260742188));
+						if (Vector3.new((-5418.892578125), 313.74130249023, (-2826.2260742188)) - HumanoidRootPart.Position).Magnitude <= 3 then
+							Remotes.CommF_:InvokeServer("EliteHunter");
+						end;
+					elseif LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+						if string.find(QuestTitle, "Diablo") or string.find(QuestTitle, "Deandre") or string.find(QuestTitle, "Urban") then
+							if Enemies:FindFirstChild("Diablo") or Enemies:FindFirstChild("Deandre") or Enemies:FindFirstChild("Urban") then
+								for i, v in pairs(Enemies:GetChildren()) do
+									if v.Name == "Diablo" or v.Name == "Deandre" or v.Name == "Urban" then
+										if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+											AttackTarget(v, true, function()
+												return _G.AutoEliteHunter
+											end)
+										end;
+									end;
+								end;
+							elseif ReplicatedStorage:FindFirstChild("Diablo") or ReplicatedStorage:FindFirstChild("Deandre") or ReplicatedStorage:FindFirstChild("Urban") then
+								for i, v in pairs(ReplicatedStorage:GetChildren()) do
+									if v.Name == "Diablo" or v.Name == "Deandre" or v.Name == "Urban" then
+										TweenPlayer(CFrame.new(v.WorldPivot.Position));
+									end;
+								end;
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoEliteHunterHop and World3 then
+			pcall(function()
+				if _G.AutoEliteHunter then
+					if not ReplicatedStorage:FindFirstChild("Diablo") and (not ReplicatedStorage:FindFirstChild("Deandre")) and (not ReplicatedStorage:FindFirstChild("Urban")) and (not Enemies:FindFirstChild("Diablo")) and (not Enemies:FindFirstChild("Deandre")) and (not Enemies:FindFirstChild("Urban")) then
+						Hop();
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+BoneFarmSection = Tabs.OthersTab:CreateSection("Bone Farm");
+local listBoneFarmMethod = {
+	"Quest",
+	"No Quest"
+};
+BoneFarmMethodDropdown = Tabs.OthersTab:CreateDropdown({
+	Name = "Choose Method",
+	Options = listBoneFarmMethod,
+	CurrentOption = {},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedBoneFarmMethod = option;
+	end
+});
+BoneFarmMethodDropdown:Set({"No Quest"});
+BoneCountParagraph = Tabs.OthersTab:CreateLabel("Bones Owned: -");
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			local Bones = GetCountMaterials("Bones");
+			BoneCountParagraph:Set(tostring(tostring(Bones)));
+		end);
+	end;
+end);
+AutoFarmBoneToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Farm Bone",
+	Flag = "AutoFarmBone",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmBone = state;
+		StopTween(_G.AutoFarmBone);
+	end
+});
+BonePos = CFrame.new(-9506.234375, 172.130615234375, 6117.0771484375);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.SelectedBoneFarmMethod == "No Quest" and _G.AutoFarmBone and World3 then
+			pcall(function()
+				if Enemies:FindFirstChild("Reborn Skeleton") or Enemies:FindFirstChild("Living Zombie") or Enemies:FindFirstChild("Demonic Soul") or Enemies:FindFirstChild("Posessed Mummy") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Reborn Skeleton" or v.Name == "Living Zombie" or v.Name == "Demonic Soul" or v.Name == "Posessed Mummy" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmBone
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-9506.234375, 172.130615234375, 6117.0771484375));
+				end;
+			end);
+		end;
+	end;
+end);
+BoneQuestPos = CFrame.new(-9516.99316, 172.017181, 6078.46533, 0, 0, -1, 0, 1, 0, 1, 0, 0);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.SelectedBoneFarmMethod == "Quest" and _G.AutoFarmBone and World3 then
+			pcall(function()
+				local QuestTitle = LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text;
+				if not string.find(QuestTitle, "Demonic Soul") then
+					Remotes.CommF_:InvokeServer("AbandonQuest");
+				end;
+				if LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+					TweenPlayer(BoneQuestPos);
+					if (BoneQuestPos.Position - HumanoidRootPart.Position).Magnitude <= 3 then
+						Remotes.CommF_:InvokeServer("StartQuest", "HauntedQuest2", 1);
+					end;
+				elseif LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+					if Enemies:FindFirstChild("Reborn Skeleton") or Enemies:FindFirstChild("Living Zombie") or Enemies:FindFirstChild("Demonic Soul") or Enemies:FindFirstChild("Posessed Mummy") then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+								if v.Name == "Reborn Skeleton" or v.Name == "Living Zombie" or v.Name == "Demonic Soul" or v.Name == "Posessed Mummy" then
+									if string.find(LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, "Demonic Soul") then
+										AttackTarget(v, true, function()
+											return _G.AutoFarmBone
+										end)
+									end;
+								end;
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+AutoRandomSurpriseToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Random Surprise",
+	Flag = "AutoRandomSurprise",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoRandomSurprise = state;
+		StopTween(_G.AutoRandomSurprise);
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoRandomSurprise then
+				Remotes.CommF_:InvokeServer("Bones", "Buy", 1, 1);
+			end;
+		end;
+	end);
+end);
+PirateRaidSection = Tabs.OthersTab:CreateSection("Pirate Raid");
+AutoPirateRaidToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Pirate Raid",
+	Flag = "AutoPirateRaid",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoPirateRaid = state;
+		StopTween(_G.AutoPirateRaid);
+	end
+});
+function getPirateRaidEnemies()
+	local PirateRaidPos = CFrame.new(-5515.08301, 343.112762, -3013.25171, 0.0679906458, 0.0000000121971047, -0.997685969, -0.0000000640159001, 1, 0.00000000786281706, 0.997685969, 0.000000063333168, 0.0679906458);
+	for _, v in pairs(Enemies:GetChildren()) do
+		if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+			local enemyPos = v.HumanoidRootPart.Position;
+			if (PirateRaidPos.Position - enemyPos).Magnitude <= 2000 then
+				if v then
+					return v;
+				else
+					return false;
+				end;
+			end;
+		end;
+	end;
+end;
+spawn(function()
+	while wait() do
+		wait(0.2)
+		if _G.AutoPirateRaid then
+			pcall(function()
+				for i, v in pairs(Enemies:GetChildren()) do
+					if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+						if v.Name then
+							if getPirateRaidEnemies() then
+								if (HumanoidRootPart.Position - (v:FindFirstChild("HumanoidRootPart")).Position).Magnitude <= 2000 then
+									AttackTarget(v, true, function()
+										return _G.AutoPirateRaid
+									end)
+								end;
+							else
+								TweenPlayer(CFrame.new(-5515.08301, 343.112762, -3013.25171, 0.0679906458, 0.0000000121971047, -0.997685969, -0.0000000640159001, 1, 0.00000000786281706, 0.997685969, 0.000000063333168, 0.0679906458));
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+ChestFarmSection = Tabs.OthersTab:CreateSection("Chest Farm");
+AutoFarmChestTweenToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Farm Chest Tween",
+	Flag = "AutoFarmChestTween",
+	Desc = "Tween to chest",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmChestTween = state;
+		StopTween(_G.AutoFarmChestTween);
+	end
+});
+AutoFarmChestInstantToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Farm Chest Instant",
+	Flag = "AutoFarmChestInstant",
+	Desc = "Instant to chest",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmChestInstant = state;
+		StopTween(_G.AutoFarmChestInstant);
+	end
+});
+AutoStopItemsToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Stop Items",
+	Flag = "AutoStopItems",
+	Desc = "Stop When Get God's Chalice or FoD",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoStopItems = state;
+		StopTween(_G.AutoStopItems);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.AutoStopItems then
+				if LocalPlayer.Backpack:FindFirstChild("God's Chalice") or Character:FindFirstChild("God's Chalice") or LocalPlayer.Backpack:FindFirstChild("Fist of Darkness") or Character:FindFirstChild("Fist of Darkness") then
+					AutoFarmChestInstantToggle:Set(false);
+					AutoFarmChestTweenToggle:Set(false);
+					TweenPlayer(HumanoidRootPart.CFrame);
+				end;
+			end;
+		end);
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.AutoFarmChestTween then
+				for i, v in pairs(Workspace.ChestModels:GetChildren()) do
+					if v.Name:find("Chest") then
+						repeat
+							wait();
+							TweenPlayer(v.RootPart.CFrame);
+						until _G.AutoFarmChestTween == false or (not v.Parent);
+						TweenPlayer(HumanoidRootPart.CFrame);
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.AutoFarmChestInstant then
+				for i, v in pairs(Workspace.ChestModels:GetChildren()) do
+					if v.Name:find("Chest") then
+						repeat
+							wait();
+							if v.Name == "DiamondChest" then
+								InstantTp(v.RootPart.CFrame);
+							elseif v.Name == "GoldChest" then
+								InstantTp(v.RootPart.CFrame);
+							elseif v.Name == "SilverChest" then
+								InstantTp(v.RootPart.CFrame);
+							end;
+						until not _G.AutoFarmChestInstant or (not v.Parent);
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+CakePrinceSection = Tabs.OthersTab:CreateSection("Cake Prince");
+CakePrinceStatusParagraph = Tabs.OthersTab:CreateLabel("Cake Prince Status: -");
+spawn(function()
+	while task.wait(5) do
+		pcall(function()
+			if World3 then
+				if string.len(Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 88 then
+					CakePrinceStatusParagraph:Set(tostring(string.sub(Remotes.CommF_:InvokeServer("CakePrinceSpawner"), 39, 41) .. " Remaining"));
+				elseif string.len(Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 87 then
+					CakePrinceStatusParagraph:Set(tostring(string.sub(Remotes.CommF_:InvokeServer("CakePrinceSpawner"), 39, 40) .. " Remaining"));
+				elseif string.len(Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 86 then
+					CakePrinceStatusParagraph:Set(tostring(string.sub(Remotes.CommF_:InvokeServer("CakePrinceSpawner"), 39, 39) .. " Remaining"));
+				else
+					CakePrinceStatusParagraph:Set(tostring("Cake Prince Status: Spawned!"));
+				end;
+			else
+				CakePrinceStatusParagraph:Set(tostring("Sea 3 only"));
+			end;
+		end);
+	end;
+end);
+AutoKatakuriToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Katakuri",
+	Flag = "AutoKatakuri",
+	Desc = "Auto Farm + Kill Cake Prince [ Sea 3 Only ]",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmKatakuri = state;
+		StopTween(_G.AutoFarmKatakuri);
+	end
+});
+AutoSpawnCakePrinceToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Spawn Cake Prince",
+	Flag = "AutoSpawnCakePrince",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoSpawnCakeprince = state;
+		StopTween(_G.AutoSpawnCakeprince);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoSpawnCakeprince and World3 then
+			wait(2);
+			Remotes.CommF_:InvokeServer("CakePrinceSpawner", true);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmKatakuri and World3 then
+			pcall(function()
+				if ReplicatedStorage:FindFirstChild("Cake Prince") or Enemies:FindFirstChild("Cake Prince") then
+					if Enemies:FindFirstChild("Cake Prince") then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v.Name == "Cake Prince" then
+								if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+									AttackTarget(v, true, function()
+										return _G.AutoFarmKatakuri
+									end)
+								end;
+							end;
+						end;
+					elseif Workspace.Map.CakeLoaf.BigMirror.Other.Transparency == 0 and ((CFrame.new((-1990.672607421875), 4532.99951171875, (-14973.6748046875))).Position - HumanoidRootPart.Position).Magnitude >= 2000 then
+						TweenPlayer(CFrame.new(-2151.82153, 149.315704, -12404.9053));
+					end;
+				elseif Enemies:FindFirstChild("Cookie Crafter") or Enemies:FindFirstChild("Cake Guard") or Enemies:FindFirstChild("Baking Staff") or Enemies:FindFirstChild("Head Baker") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Cookie Crafter" or v.Name == "Cake Guard" or v.Name == "Baking Staff" or v.Name == "Head Baker" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return _G.AutoFarmKatakuri
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-2091.911865234375, 70.00884246826172, -12142.8359375));
+				end;
+			end);
+		end;
+	end;
+end);
+AutoKillCakePrinceToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Kill Cake Prince",
+	Flag = "AutoKillCakePrince",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoKillCakeprince = state;
+		StopTween(_G.AutoKillCakeprince);
+	end
+});
+AutoKillDoughKingToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Kill Dough King",
+	Flag = "AutoKillDoughKing",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoKillDoughking = state;
+		StopTween(_G.AutoKillDoughking);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoKillCakeprince and World3 then
+			pcall(function()
+				if Enemies:FindFirstChild("Cake Prince") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Cake Prince" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoKillCakeprince
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoKillDoughking and World3 then
+			pcall(function()
+				if Enemies:FindFirstChild("Dough King") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Dough King" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoKillDoughking
+								end)
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+MaterialsSection = Tabs.OthersTab:CreateSection("Materials");
+MaterialList = {};
+task.spawn(function()
+	if World1 then
+		MaterialList = {
+			"Magma Ore",
+			"Angel Wings",
+			"Leather",
+			"Scrap Metal"
+		};
+	elseif World2 then
+		MaterialList = {
+			"Radioactive",
+			"Mystic Droplet",
+			"Magma Ore",
+			"Leather",
+			"Ectoplasm",
+			"Scrap Metal"
+		};
+	elseif World3 then
+		MaterialList = {
+			"Leather",
+			"Scrap Metal",
+			"Conjured Cocoa",
+			"Dragon Scale",
+			"Gunpowder",
+			"Fish Tail",
+			"Mini Tusk"
+		};
+	end;
+end);
+function getConfigMaterial(Material)
+	if Material == "Radioactive" and World2 then
+		MaterialMon = {
+			"Factory Staff"
+		};
+		MaterialPos = CFrame.new(-507.7895202636719, 72.99479675292969, -126.45632934570312);
+	elseif Material == "Mystic Droplet" and World2 then
+		MaterialMon = {
+			"Water Fighter"
+		};
+		MaterialPos = CFrame.new(-3352.9013671875, 285.01556396484375, -10534.841796875);
+	elseif Material == "Magma Ore" and World1 then
+		MaterialMon = {
+			"Military Spy"
+		};
+		MaterialPos = CFrame.new(-5850.2802734375, 77.28675079345703, 8848.6748046875);
+	elseif Material == "Magma Ore" and World2 then
+		MaterialMon = {
+			"Lava Pirate"
+		};
+		MaterialPos = CFrame.new(-5234.60595703125, 51.953372955322266, -4732.27880859375);
+	elseif Material == "Angel Wings" and World1 then
+		MaterialMon = {
+			"Royal Soldier"
+		};
+		MaterialPos = CFrame.new(-7827.15625, 5606.912109375, -1705.5833740234375);
+	elseif Material == "Leather" and World1 then
+		MaterialMon = {
+			"Pirate"
+		};
+		MaterialPos = CFrame.new(-1211.8792724609375, 4.787090301513672, 3916.83056640625);
+	elseif Material == "Leather" and World2 then
+		MaterialMon = {
+			"Marine Captain"
+		};
+		MaterialPos = CFrame.new(-2010.5059814453125, 73.00115966796875, -3326.620849609375);
+	elseif Material == "Leather" and World3 then
+		MaterialMon = {
+			"Jungle Pirate"
+		};
+		MaterialPos = CFrame.new(-11975.78515625, 331.7734069824219, -10620.0302734375);
+	elseif Material == "Ectoplasm" and World2 then
+		MaterialMon = {
+			"Ship Deckhand",
+			"Ship Engineer",
+			"Ship Steward",
+			"Ship Officer"
+		};
+		MaterialPos = CFrame.new(911.35827636719, 125.95812988281, 33159.5390625);
+	elseif Material == "Scrap Metal" and World1 then
+		MaterialMon = {
+			"Brute"
+		};
+		MaterialPos = CFrame.new(-1132.4202880859375, 14.844913482666016, 4293.30517578125);
+	elseif Material == "Scrap Metal" and World2 then
+		MaterialMon = {
+			"Mercenary"
+		};
+		MaterialPos = CFrame.new(-972.307373046875, 73.04473876953125, 1419.2901611328125);
+	elseif Material == "Scrap Metal" and World3 then
+		MaterialMon = {
+			"Pirate Millionaire"
+		};
+		MaterialPos = CFrame.new(-289.6311950683594, 43.8282470703125, 5583.66357421875);
+	elseif Material == "Conjured Cocoa" and World3 then
+		MaterialMon = {
+			"Chocolate Bar Battler"
+		};
+		MaterialPos = CFrame.new(744.7930908203125, 24.76934242248535, -12637.7255859375);
+	elseif Material == "Dragon Scale" and World3 then
+		MaterialMon = {
+			"Dragon Crew Warrior"
+		};
+		MaterialPos = CFrame.new(5824.06982421875, 51.38640213012695, -1106.694580078125);
+	elseif Material == "Gunpowder" and World3 then
+		MaterialMon = {
+			"Pistol Billionaire"
+		};
+		MaterialPos = CFrame.new(-379.6134338378906, 73.84449768066406, 5928.5263671875);
+	elseif Material == "Fish Tail" and World3 then
+		MaterialMon = {
+			"Fishman Captain"
+		};
+		MaterialPos = CFrame.new(-10961.0126953125, 331.7977600097656, -8914.29296875);
+	elseif Material == "Mini Tusk" and World3 then
+		MaterialMon = {
+			"Mithological Pirate"
+		};
+		MaterialPos = CFrame.new(-13516.0458984375, 469.8182373046875, -6899.16064453125);
+	end;
+end;
+MaterialDropdown = Tabs.OthersTab:CreateDropdown({
+	Name = "Choose Material",
+	Options = MaterialList,
+	CurrentOption = {},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedMaterial = option;
+	end
+});
+MaterialDropdown:Select(MaterialList[1]);
+AutoFarmMaterialToggle = Tabs.OthersTab:CreateToggle({
+	Name = "Auto Farm Material",
+	Flag = "AutoFarmMaterial",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmMaterial = state;
+		StopTween(_G.AutoFarmMaterial);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmMaterial then
+			pcall(function()
+				getConfigMaterial(_G.SelectedMaterial);
+				for i, mon in pairs(MaterialMon) do
+					if Enemies:FindFirstChild(mon) then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v.Name == mon then
+								if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+									AttackTarget(v, true, function()
+										return _G.AutoFarmMaterial
+									end)
+								end;
+							end;
+						end;
+					else
+						UnEquipWeapon(_G.SelectedWeapon);
+						local Distance = (Vector3.new(MaterialPos) - HumanoidRootPart.Position).Magnitude;
+						if Distance > 18000 and _G.SelectedMaterial == "Ectoplasm" then
+							Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(923.21252441406, 126.9760055542, 32852.83203125));
+						end;
+						TweenPlayer(MaterialPos);
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+SettingsSection = Tabs.SettingsTab:CreateSection("Settings");
+SpinPositionToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Spin Position",
+	Flag = "SpinPosition",
+	Desc = "Spin Position When Farm",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.SpinPosition = state;
+	end
+});
+FarmDistanceSlider = Tabs.SettingsTab:CreateSlider({
+	Name = "Farm Distance",
+	Range = {10, 50}, Increment = 1, CurrentValue = 35,
+	Callback = function(value)
+		_G.FarmDistance = value;
+	end
+});
+FarmDistanceSlider:Set(35);
+PlayerTweenSpeedSlider = Tabs.SettingsTab:CreateSlider({
+	Name = "Player Tween Speed",
+	Range = {50, 350}, Increment = 1, CurrentValue = 300,
+	Callback = function(value)
+		_G.PlayerTweenSpeed = value;
+	end
+});
+PlayerTweenSpeedSlider:Set(300);
+BringMobToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Bring Mob",
+	Flag = "BringMob",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.BringMob = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.BringMob then
+			pcall(function()
+				for i, v in pairs(Enemies:GetChildren()) do
+					if (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude <= 10000 then
+						if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and (not string.find(v.Name, "Boss")) and v.Name == MonFarm and (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude <= BringMobDistance then
+							v.PrimaryPart.CFrame = PosMon;
+							v.Humanoid.JumpPower = 0
+							v.Humanoid.WalkSpeed = 0
+							v.HumanoidRootPart.Size = Vector3.new(1,1,1)
+							v.HumanoidRootPart.CanCollide = false
+							v.Head.CanCollide = false
+							v.PrimaryPart.CanCollide = true;
+							if v.Humanoid:FindFirstChild("Animator") then
+								v.Humanoid.Animator:Destroy()
+							end
+							v.Humanoid:ChangeState(11)
+							v.Humanoid:ChangeState(14)
+							LocalPlayer.SimulationRadius = math.huge
+						end;
+					end
+				end;
+			end);
+		end;
+	end;
+end);
+local BringList = {
+	"Low",
+	"Normal",
+	"High",
+	"Ultra"
+};
+BringMobDropdown = Tabs.SettingsTab:CreateDropdown({
+	Name = "Bring Mob",
+	Options = BringList,
+	CurrentOption = {_G.BringMobMode or "Normal"},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.BringMobMode = option;
+	end
+});
+BringMobDropdown:Set({"Normal"});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.BringMob then
+			pcall(function()
+				if _G.BringMobMode == "Low" then
+					BringMobDistance = 150;
+				elseif _G.BringMobMode == "Normal" then
+					BringMobDistance = 250;
+				elseif _G.BringMobMode == "High" then
+					BringMobDistance = 800;
+				elseif _G.BringMobMode == "Ultra" then
+					BringMobDistance = 2000;
+				end;
+			end);
+		end;
+	end;
+end);
+AttackAuraToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Atatck Aura",
+	Flag = "AtatckAura",
+	Desc = "Attack Nearest Enemies",
+	Value = _G.AttackAura or false,
+	Callback = function(state)
+		_G.AttackAura = state;
+	end
+});
+spawn(function()
+	while wait() do
+		if _G.AttackAura and (not _G.AutoFarmFruitMastery) and (not _G.AutoFarmGunMastery) then
+			pcall(function()
+				Attack();
+			end);
+		end;
+	end
+end);
+GraphicSettingSection = Tabs.SettingsTab:CreateSection("Graphic");
+HideNotificationToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Hide Notification",
+	Flag = "HideNotification",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.HideNotification = state;
+	end
+});
+spawn(function()
+	while wait(0.2) do
+		local Notif = LocalPlayer.PlayerGui.Notifications;
+		if _G.HideNotification then
+			Notif.Enabled = false;
+		else
+			Notif.Enabled = true;
+		end;
+	end;
+end);
+HideDamageTextToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Hide Damage Text",
+	Flag = "HideDamageText",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.HideDamageText = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.HideDamageText then
+			ReplicatedStorage.Assets.GUI.DamageCounter.Enabled = false;
+		else
+			ReplicatedStorage.Assets.GUI.DamageCounter.Enabled = true;
+		end;
+	end;
+end);
+BlackScreenToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Black Screen",
+	Flag = "BlackScreen",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.BlackScreen = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.BlackScreen then
+			LocalPlayer.PlayerGui.Main.Blackscreen.Size = UDim2.new(500, 0, 500, 500);
+		else
+			LocalPlayer.PlayerGui.Main.Blackscreen.Size = UDim2.new(1, 0, 500, 500);
+		end;
+	end;
+end);
+WhiteScreenToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "White Screen",
+	Flag = "WhiteScreen",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.WhiteScreen = state;
+	end
+});
+spawn(function()
+	while _G.WhiteScreen do
+		wait(_G.GlobalDelay)
+		if _G.WhiteScreen then
+			RunService:Set3dRenderingEnabled(false);
+		else
+			RunService:Set3dRenderingEnabled(true);
+		end;
+	end;
+end);
+MasterySettingsSection = Tabs.SettingsTab:CreateSection("Mastery Settings");
+MasteryHealthSlider = Tabs.SettingsTab:CreateSlider({
+	Name = "Mastery Health %",
+	Range = {1, 100}, Increment = 1, CurrentValue = 25,
+	Callback = function(value)
+		_G.MasteryHealth = value;
+	end
+});
+MasteryHealthSlider:Set(25);
+DevilFruitSkillParagraph = Tabs.SettingsTab:CreateLabel("Devil Fruit Skill: ...");
+local FruitSkillList = {
+	"Z",
+	"X",
+	"C",
+	"V",
+	"F",
+}
+MasteryFruitSkillDropdown = Tabs.SettingsTab:CreateDropdown({
+	Name = "Choose Fruit Skill",
+	Options = FruitSkillList,
+	CurrentOption = {"Z", "X", "C"},
+	Multi = true,
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedFruitSkill = option;
+	end
+});
+MasteryFruitSkillDropdown:Select({"Z", "X", "C"})
+GunSkillParagraph = Tabs.SettingsTab:CreateLabel("Gun Skill: ...");
+local GunSkillList = {
+	"Z",
+	"X",
+}
+MasteryGunSkillDropdown = Tabs.SettingsTab:CreateDropdown({
+	Name = "Choose Gun Skill",
+	Options = GunSkillList,
+	CurrentOption = {"Z", "X"},
+	Multi = true,
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedGunSkill = option;
+	end
+});
+MasteryGunSkillDropdown:Select({"Z", "X"})
+OthersSettingsSection = Tabs.SettingsTab:CreateSection("Others");
+AutoSetSpawnPointToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Auto Set Spawn Point",
+	Flag = "AutoSetSpawnPoint",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.AutoSetSpawnPoint = state;
+	end
+});
+spawn(function()
+	while _G.AutoSetSpawnPoint do
+		task.wait(0.1)
+		if _G.AutoSetSpawnPoint then
+			pcall(function()
+				Remotes.CommF_:InvokeServer("SetSpawnPoint");
+			end);
+		end;
+	end;
+end);
+AutoObservationToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Auto Observation",
+	Flag = "AutoObservation",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoObservation = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoObservation then
+			-- if not LocalPlayer.PlayerGui.ScreenGui:FindFirstChild("ImageLabel") then
+				Remotes.CommE:FireServer("Ken", true);
+			-- end;
+		end;
+	end;
+end);
+AutoHakiToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Auto Haki",
+	Flag = "AutoHaki",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoHaki = state;
+	end
+});
+AutoRejoinToggle = Tabs.SettingsTab:CreateToggle({
+	Name = "Auto Rejoin",
+	Flag = "AutoRejoin",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.AutoRejoin = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoRejoin then
+			game.CoreGui.RobloxPromptGui.promptOverlay.ChildAdded:Connect(function(v)
+				if v.Name == "ErrorPrompt" and v:FindFirstChild("MessageArea") and v.MessageArea:FindFirstChild("ErrorFrame") then
+					TeleportService:Teleport(game.PlaceId);
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if wait() then
+			if not Character:FindFirstChild("HasBuso") then
+				Remotes.CommF_:InvokeServer("Buso");
+			end;
+		end;
+	end;
+end);
+WorldSection = Tabs.ItemsTab:CreateSection("World");
+AutoSecondSeaToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Second Sea",
+	Flag = "AutoSecondSea",
+	Desc = "Function Sea 1 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoSecondSea = state;
+		StopTween(_G.AutoSecondSea);
+	end
+});
+AutoThirdSeaToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Third Sea",
+	Flag = "AutoThirdSea",
+	Desc = "Function Sea 2 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoThirdSea = state;
+		StopTween(_G.AutoThirdSea);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoThirdSea and World2 then
+			pcall(function()
+				if LocalPlayer.Data.Level.Value >= 1500 and World2 then
+					if Remotes.CommF_:InvokeServer("ZQuestProgress", "General") == 0 then
+						TweenPlayer(CFrame.new(-1926.3221435547, 12.819851875305, 1738.3092041016));
+						if ((CFrame.new((-1926.3221435547), 12.819851875305, 1738.3092041016)).Position - HumanoidRootPart.Position).Magnitude <= 10 then
+							wait(1.5);
+							Remotes.CommF_:InvokeServer("ZQuestProgress", "Begin");
+						end;
+						wait(1.8);
+						if Enemies:FindFirstChild("rip_indra") then
+							for i, v in pairs(Enemies:GetChildren()) do
+								if v.Name == "rip_indra" then
+									AttackTarget(v, false, function()
+										return _G.AutoThirdSea
+									end)
+								end;
+							end;
+						elseif not Enemies:FindFirstChild("rip_indra") and ((CFrame.new((-26880.93359375), 22.848554611206, 473.18951416016)).Position - HumanoidRootPart.Position).Magnitude <= 1000 then
+							TweenPlayer(CFrame.new(-26880.93359375, 22.848554611206, 473.18951416016));
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoSecondSea and World1 then
+			pcall(function()
+				if MyLevel >= 700 and World1 then
+					if Workspace.Map.Ice.Door.CanCollide == false and Workspace.Map.Ice.Door.Transparency == 1 then
+						local CFrame1 = CFrame.new(4849.29883, 5.65138149, 719.611877);
+						repeat
+							TweenPlayer(CFrame1);
+							wait();
+						until (CFrame1.Position - HumanoidRootPart.Position).Magnitude <= 3 or _G.AutoSecondSea == false;
+						wait(1.1);
+						Remotes.CommF_:InvokeServer("DressrosaQuestProgress", "Detective");
+						wait(0.5);
+						EquipWeapon("Key");
+						repeat
+							TweenPlayer(CFrame.new(1347.7124, 37.3751602, -1325.6488));
+							wait();
+						until (Vector3.new(1347.7124, 37.3751602, (-1325.6488)) - HumanoidRootPart.Position).Magnitude <= 3 or _G.AutoSecondSea == false;
+						wait(0.5);
+					elseif Workspace.Map.Ice.Door.CanCollide == false and Workspace.Map.Ice.Door.Transparency == 1 then
+						if Enemies:FindFirstChild("Ice Admiral") then
+							for i, v in pairs(Enemies:GetChildren()) do
+								if v.Name == "Ice Admiral" then
+									if not v.Humanoid.Health <= 0 then
+										if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+											AttackTarget(v, false, function()
+												return _G.AutoSecondSea
+											end)
+										end;
+									else
+										Remotes.CommF_:InvokeServer("TravelDressrosa");
+									end;
+								end;
+							end;
+						elseif ReplicatedStorage:FindFirstChild("Ice Admiral") then
+							TweenPlayer((ReplicatedStorage:FindFirstChild("Ice Admiral")).HumanoidRootPart.CFrame * CFrame.new(5, 10, 7));
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+FightingStyleSection = Tabs.ItemsTab:CreateSection("Fighting Style");
+AutoSuperHumanToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Super Human",
+	Flag = "AutoSuperHuman",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoSuperHuman = state;
+		StopTween(_G.AutoSuperHuman);
+	end
+});
+AutoDeathStepToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Death Step",
+	Flag = "AutoDeathStep",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDeathStep = state;
+		StopTween(_G.AutoDeathStep);
+	end
+});
+AutoSharkmanKarateToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Sharkman Karate",
+	Flag = "AutoSharkmanKarate",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFishmanKarate = state;
+		StopTween(_G.AutoFishmanKarate);
+	end
+});
+AutoElectricClawToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Electric Claw",
+	Flag = "AutoElectricClaw",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoElectricClaw = state;
+		StopTween(_G.AutoElectricClaw);
+	end
+});
+AutoDragonTalonToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Dragon Talon",
+	Flag = "AutoDragonTalon",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDragonTalon = state;
+		StopTween(_G.AutoDragonTalon);
+	end
+});
+AutoGodHumanToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto God Human",
+	Flag = "AutoGodHuman",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoGodHuman = state;
+		StopTween(_G.AutoGodHuman);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoGodHuman then
+			pcall(function()
+				repeat wait()
+					if Remotes.CommF_:InvokeServer("BuyGodhuman",true) == "Bring me 20 Fish Tails, 20 Magma Ore, 10 Dragon Scales and 10 Mystic Droplets." then
+						if GetCountMaterials("Dragon Scale") < 10 then
+							if World3 then
+								getConfigMaterial("Dragon Scale");
+								_G.AutoFarmMaterial = true;
+							else
+								Remotes.CommF_:InvokeServer("TravelZou")
+							end
+						elseif GetCountMaterials("Fish Tail") < 20 then
+							if World3 then
+								getConfigMaterial("Fish Tail");
+								_G.AutoFarmMaterial = true;
+							else
+								Remotes.CommF_:InvokeServer("TravelZou")
+							end
+						elseif GetCountMaterials("Mystic Droplet") < 10 then
+							if World2 then
+								getConfigMaterial("Mystic Droplet");
+								_G.AutoFarmMaterial = true;
+							else
+								Remotes.CommF_:InvokeServer("TravelDressrosa")
+							end
+						elseif GetCountMaterials("Magma Ore") < 20 then
+							if World2 then
+								getConfigMaterial("Magma Ore");
+								_G.AutoFarmMaterial = true;
+							else
+								Remotes.CommF_:InvokeServer("TravelDressrosa")
+							end  
+						end
+					elseif Remotes.CommF_:InvokeServer("BuyGodhuman",true) == 3 then
+						return nil
+					else
+						Remotes.CommF_:InvokeServer("BuyGodhuman")
+					end
+				until not _G.AutoGodHuman or getBackpack("Godhuman")
+				_G.AutoFarmMaterial = false
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoDragonTalon then
+			repeat wait()
+				if LocalPlayer.Backpack:FindFirstChild("Dragon Claw") or Character:FindFirstChild("Dragon Claw") or LocalPlayer.Backpack:FindFirstChild("Dragon Talon") or Character:FindFirstChild("Dragon Talon") then
+					if LocalPlayer.Backpack:FindFirstChild("Dragon Claw") and (LocalPlayer.Backpack:FindFirstChild("Dragon Claw")).Level.Value >= 400 then
+						Remotes.CommF_:InvokeServer("BuyDragonTalon");
+					end;
+					if Character:FindFirstChild("Dragon Claw") and (Character:FindFirstChild("Dragon Claw")).Level.Value >= 400 then
+						Remotes.CommF_:InvokeServer("BuyDragonTalon");
+					end;
+					if LocalPlayer.Backpack:FindFirstChild("Dragon Claw") and (LocalPlayer.Backpack:FindFirstChild("Dragon Claw")).Level.Value < 400 then
+						_G.SelectedWeapon = "Dragon Claw";
+						_G.AutoFarmBone = true
+					end;
+				else
+					Remotes.CommF_:InvokeServer("BlackbeardReward", "DragonClaw", "2");
+				end;
+			until not _G.AutoDragonTalon or getBackpack("Dragon Talon")
+			_G.AutoFarmBone = false
+		end;
+	end;
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoFishmanKarate then
+				Remotes.CommF_:InvokeServer("BuyFishmanKarate");
+				if string.find(Remotes.CommF_:InvokeServer("BuySharkmanKarate"), "keys") then
+					if Character:FindFirstChild("Water Key") or LocalPlayer.Backpack:FindFirstChild("Water Key") then
+						TweenPlayer(CFrame.new(-2604.6958, 239.432526, -10315.1982, 0.0425701365, 0, -0.999093413, 0, 1, 0, 0.999093413, 0, 0.0425701365));
+						Remotes.CommF_:InvokeServer("BuySharkmanKarate");
+					elseif Character:FindFirstChild("Fishman Karate") and (Character:FindFirstChild("Fishman Karate")).Level.Value >= 400 then
+					else
+						if Enemies:FindFirstChild("Tide Keeper") then
+							for i, v in pairs(Enemies:GetChildren()) do
+								if v.Name == "Tide Keeper" then
+									repeat
+										wait();
+										AutoHaki();
+										EquipWeapon(_G.SelectedWeapon);
+										v.Humanoid.WalkSpeed = 0;
+										v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+										TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+										Attack();
+									until not v.Parent or v.Humanoid.Health <= 0 or _G.AutoFishmanKarate == false or Character:FindFirstChild("Water Key") or LocalPlayer.Backpack:FindFirstChild("Water Key");
+								end;
+							end;
+						else
+							TweenPlayer(CFrame.new(-3570.18652, 123.328949, -11555.9072, 0.465199202, -0.000000013857326, 0.885206044, 0.0000000040332897, 1, 0.0000000135347511, -0.885206044, -0.00000000272606271, 0.465199202));
+							wait(3);
+						end;
+					end;
+				else
+					Remotes.CommF_:InvokeServer("BuySharkmanKarate");
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoElectricClaw then
+				if not getBackpack("Electro") then Remotes.CommF_:InvokeServer("BuyElectro") end        
+				if getBackpack("Electro") and getBackpack("Electro").Level.Value >= 400 then
+					if Remotes.CommF_:InvokeServer("BuyElectricClaw", "Start") == nil then
+						TweenPlayer(CFrame.new(-12548, 337, -7481)) 
+					end
+					Remotes.CommF_:InvokeServer("BuyElectricClaw")
+				elseif getBackpack("Electro") and getBackpack("Electro").Level.Value < 400 then
+					repeat wait() 
+						_G.AutoFarmBone = true
+					until not _G.AutoElectricClaw or getBackpack("Electric Claw")
+					_G.AutoFarmBone = false
+				end    
+			end
+		end;
+	end);
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoDeathStep then
+			repeat wait()
+				if getBackpack("Black Leg") or Character:FindFirstChild("Black Leg") or LocalPlayer.Backpack:FindFirstChild("Death Step") or Character:FindFirstChild("Death Step") then
+					if getBackpack("Black Leg") and (getBackpack("Black Leg")).Level.Value >= 450 then
+						Remotes.CommF_:InvokeServer("BuyDeathStep");
+					end;
+					if Character:FindFirstChild("Black Leg") and (Character:FindFirstChild("Black Leg")).Level.Value >= 450 then
+						Remotes.CommF_:InvokeServer("BuyDeathStep");
+					end;
+					if getBackpack("Black Leg") and (getBackpack("Black Leg")).Level.Value < 450 then
+						_G.SelectedWeapon = "Black Leg";
+						_G.AutoFarmBone = true
+					end;
+				else
+					Remotes.CommF_:InvokeServer("BuyBlackLeg");
+				end;
+			until not _G.AutoDeathStep or getBackpack("Death Step")
+			_G.AutoFarmBone = false
+		end;
+	end;
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.Auto_SuperHuman then
+				local M_Beli = LocalPlayer.Data.Beli.Value
+				local M_Frag = LocalPlayer.Data.Fragments.Value
+				if LocalPlayer:FindFirstChild("WeaponAssetCache") then
+					if not getBackpack("Superhuman") then
+						if not getBackpack("Black Leg") then
+							if (M_Beli >= 150000) then
+								Remotes.CommF_:InvokeServer("BuyBlackLeg")
+							end
+						elseif getBackpack("Black Leg") and getBackpack("Black Leg").Level.Value < 299 then
+							_G.AutoFarmLevel = true
+						elseif getBackpack("Black Leg") and getBackpack("Black Leg").Level.Value >= 300 then
+							_G.AutoFarmLevel = false
+						end
+						if not getBackpack("Electro") then
+							if (M_Beli >= 500000) then
+								Remotes.CommF_:InvokeServer("BuyElectro")
+							end
+						elseif getBackpack("Electro") and getBackpack("Electro").Level.Value < 299 then
+							_G.AutoFarmLevel = true
+						elseif getBackpack("Electro") and getBackpack("Electro").Level.Value >= 300 then
+							_G.AutoFarmLevel = false
+						end
+						if not getBackpack("Fishman Karate") then
+							if (M_Beli >= 750000) then
+								Remotes.CommF_:InvokeServer("BuyFishmanKarate")
+							end
+						elseif getBackpack("Fishman Karate") and getBackpack("Fishman Karate").Level.Value < 299 then
+							_G.AutoFarmLevel = true
+						elseif getBackpack("Fishman Karate") and getBackpack("Fishman Karate").Level.Value >= 300 then
+							_G.AutoFarmLevel = false
+						end
+						if not getBackpack("Dragon Claw") then
+							if (M_Frag >= 1500) then
+								Remotes.CommF_:InvokeServer("BlackbeardReward", "DragonClaw", "2")
+							end
+						elseif getBackpack("Dragon Claw") and getBackpack("Dragon Claw").Level.Value < 299 then
+							_G.AutoFarmLevel = true
+						elseif getBackpack("Dragon Claw") and getBackpack("Dragon Claw").Level.Value >= 300 then
+							_G.AutoFarmLevel = false
+						end
+						Remotes.CommF_:InvokeServer("BuySuperhuman")
+					end
+				end
+			end
+		end;
+	end);
+end);
+GunSwordSection = Tabs.ItemsTab:CreateSection("Gun & Sword");
+AutoGetSaberToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Get Saber",
+	Flag = "AutoGetSaber",
+	Desc = "Function Sea 1 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoSaber = state;
+		StopTween(_G.AutoSaber);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoSaber and World1 and LocalPlayer.Data.Level.Value >= 200 then
+			pcall(function()
+				if Workspace.Map.Jungle.Final.Part.Transparency == 0 then
+					if Workspace.Map.Jungle.QuestPlates.Door.Transparency == 0 then
+						if ((CFrame.new((-1612.55884), 36.9774132, 148.719543, 0.37091279, 0.0000000030717151, (-0.928667724), 0.0000000397099491, 1, 0.0000000191679348, 0.928667724, (-0.0000000439869794), 0.37091279)).Position - HumanoidRootPart.Position).Magnitude <= 100 then
+							TweenPlayer(HumanoidRootPart.CFrame);
+							wait(1);
+							HumanoidRootPart.CFrame = Workspace.Map.Jungle.QuestPlates.Plate1.Button.CFrame;
+							wait(1);
+							HumanoidRootPart.CFrame = Workspace.Map.Jungle.QuestPlates.Plate2.Button.CFrame;
+							wait(1);
+							HumanoidRootPart.CFrame = Workspace.Map.Jungle.QuestPlates.Plate3.Button.CFrame;
+							wait(1);
+							HumanoidRootPart.CFrame = Workspace.Map.Jungle.QuestPlates.Plate4.Button.CFrame;
+							wait(1);
+							HumanoidRootPart.CFrame = Workspace.Map.Jungle.QuestPlates.Plate5.Button.CFrame;
+							wait(1);
+						else
+							TweenPlayer(CFrame.new(-1612.55884, 36.9774132, 148.719543, 0.37091279, 0.0000000030717151, -0.928667724, 0.0000000397099491, 1, 0.0000000191679348, 0.928667724, -0.0000000439869794, 0.37091279));
+						end;
+					elseif Workspace.Map.Desert.Burn.Part.Transparency == 0 then
+						if LocalPlayer.Backpack:FindFirstChild("Torch") or Character:FindFirstChild("Torch") then
+							EquipWeapon("Torch");
+							TweenPlayer(CFrame.new(1114.61475, 5.04679728, 4350.22803, -0.648466587, -0.00000000128799094, 0.761243105, -0.000000000570652914, 1, 0.00000000120584542, -0.761243105, 0.000000000347544882, -0.648466587));
+						else
+							TweenPlayer(CFrame.new(-1610.00757, 11.5049858, 164.001587, 0.984807551, -0.167722285, -0.0449818149, 0.17364943, 0.951244235, 0.254912198, 0.0000342372805, -0.258850515, 0.965917408));
+						end;
+					elseif Remotes.CommF_:InvokeServer("ProQuestProgress", "SickMan") ~= 0 then
+						Remotes.CommF_:InvokeServer("ProQuestProgress", "GetCup");
+						wait(0.5);
+						EquipWeapon("Cup");
+						wait(0.5);
+						Remotes.CommF_:InvokeServer("ProQuestProgress", "FillCup", Character.Cup);
+						wait(0);
+						Remotes.CommF_:InvokeServer("ProQuestProgress", "SickMan");
+					elseif Remotes.CommF_:InvokeServer("ProQuestProgress", "RichSon") == nil then
+						Remotes.CommF_:InvokeServer("ProQuestProgress", "RichSon");
+					elseif Remotes.CommF_:InvokeServer("ProQuestProgress", "RichSon") == 0 then
+						if Enemies:FindFirstChild("Mob Leader") or ReplicatedStorage:FindFirstChild("Mob Leader") then
+							TweenPlayer(CFrame.new(-2967.59521, -4.91089821, 5328.70703, 0.342208564, -0.0227849055, 0.939347804, 0.0251603816, 0.999569714, 0.0150796166, -0.939287126, 0.0184739735, 0.342634559));
+							for i, v in pairs(Enemies:GetChildren()) do
+								if v.Name == "Mob Leader" then
+									if Enemies:FindFirstChild("Mob Leader [Lv. 120] [Boss]") then
+										if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+											AttackTarget(v, false, function()
+												return _G.AutoSaber
+											end)
+										end;
+									end;
+									if ReplicatedStorage:FindFirstChild("Mob Leader") then
+										TweenPlayer((ReplicatedStorage:FindFirstChild("Mob Leader")).HumanoidRootPart.CFrame * Pos);
+									end;
+								end;
+							end;
+						end;
+					elseif Remotes.CommF_:InvokeServer("ProQuestProgress", "RichSon") == 1 then
+						Remotes.CommF_:InvokeServer("ProQuestProgress", "RichSon");
+						wait(0.5);
+						EquipWeapon("Relic");
+						wait(0.5);
+						TweenPlayer(CFrame.new(-1404.91504, 29.9773273, 3.80598116, 0.876514494, 0.00000000566906877, 0.481375456, 0.0000000253851997, 1, -0.0000000579995607, -0.481375456, 0.0000000630572643, 0.876514494));
+					end;
+				elseif Enemies:FindFirstChild("Saber Expert") or ReplicatedStorage:FindFirstChild("Saber Expert") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+							if v.Name == "Saber Expert" then
+								AttackTarget(v, false, function()
+									return _G.AutoSaber
+								end)
+								if v.Humanoid.Health <= 0 then
+									Remotes.CommF_:InvokeServer("ProQuestProgress", "PlaceRelic");
+								end;
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+AutoBuddySwordToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Buddy Sword",
+	Flag = "AutoBuddySword",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoBuddySword = state;
+		StopTween(_G.AutoBuddySword);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoBuddySword and World3 then
+			pcall(function()
+				if Enemies:FindFirstChild("Cake Queen") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Cake Queen" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoBuddySword
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-731.2034301757812, 381.5658874511719, -11198.4951171875));
+				end;
+			end);
+		end;
+	end;
+end);
+function CheckItemCount(itemName, itemCount)
+	for i, v in next, ReplicatedStorage.Remotes.CommF_:InvokeServer("getInventory") do
+		if v.Name == itemName and v.Count >= itemCount then
+			return true;
+		end;
+	end;
+	return false;
+end;
+function DetectChest()
+	local dist = math.huge;
+	local name;
+	for k, v in pairs(Workspace:GetChildren()) do
+		if string.match(v.Name, "Chest") then
+			local magnitude = (v.Position - HumanoidRootPart.Position).magnitude;
+			if magnitude < dist then
+				dist = magnitude;
+				name = v;
+			end;
+		end;
+	end;
+	if not name then
+		for i, v in next, Workspace.Map:GetDescendants() do
+			if v:IsA("Part") and string.find(v.Name, "Chest") then
+				local magnitude = (v.Position - HumanoidRootPart.Position).magnitude;
+				if magnitude < dist then
+					dist = magnitude;
+					name = v;
+				end;
+			end;
+		end;
+	end;
+	return name;
+end;
+local MobBlacklist = {};
+function DetectPartSpawnMob(name)
+	local name1;
+	if string.find(name, "Lv.") then
+		name1 = name:gsub(" %pLv. %d+%p", "");
+	end;
+	for i, v in pairs(Workspace._WorldOrigin.EnemySpawns:GetChildren()) do
+		local stringgsub;
+		if string.find(v.Name, "Lv.") then
+			stringgsub = v.Name:gsub(" %pLv. %d+%p", "");
+		end;
+		if v:IsA("Part") and (stringgsub and stringgsub == name or name == v.Name or name1 and v.Name == name1) then
+			return v;
+		end;
+	end;
+	for i, v in pairs(getnilinstances()) do
+		local stringgsub;
+		if string.find(v.Name, "Lv.") then
+			stringgsub = v.Name:gsub(" %pLv. %d+%p", "");
+		end;
+		if v:IsA("Part") and (stringgsub and stringgsub == name or name == v.Name or name1 and v.Name == name1) then
+			return v;
+		end;
+	end;
+end;
+function TeleportSpawnMob(Path, value)
+	if typeof(Path) == "table" then
+		if #MobBlacklist >= 4 then
+			MobBlacklist = {};
+			return;
+		end;
+		local GetPart;
+		for i, v in next, Path do
+			if not table.find(MobBlacklist, v) then
+				GetPart = DetectPartSpawnMob(v);
+				repeat
+					task.wait();
+					TweenPlayer(GetPart.CFrame * CFrame.new(0, 60, 0));
+				until (GetPart.Position - LocalPlayer.HumanoidRootPart.Position).Magnitude <= 100 or DetectMob(Path) or (not value);
+			end;
+		end;
+	else
+		GetPart = DetectPartSpawnMob(Path);
+		TweenPlayer(GetPart.CFrame * CFrame.new(0, 60, 0));
+	end;
+end;
+function DetectMob(c)
+	local dist = math.huge;
+	local name;
+	for i, v in pairs(Enemies:GetChildren()) do
+		local stringgsub = v.Name:gsub(" %pLv. %d+%p", "");
+		if (typeof(c) == "table" and (table.find(c, v.Name) or table.find(c, stringgsub)) or (v.Name == c or c == stringgsub)) and v:IsA("Model") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") then
+			local magnitude = (v.HumanoidRootPart.Position - HumanoidRootPart.Position).magnitude;
+			if magnitude < dist then
+				dist = magnitude;
+				name = v;
+			end;
+		end;
+	end;
+	return name;
+end;
+function DetectRequestSoulGuitar()
+	local Mob = {};
+	local PlaceId;
+	local NameRemote;
+	if not CheckItemCount("Ectoplasm", 250) then
+		Mob = {
+			"Ship Deckhand [Lv. 1250]",
+			"Ship Steward [Lv. 1300]",
+			"Ship Officer [Lv. 1325]",
+			"Ship Engineer [Lv. 1275]"
+		};
+		PlaceId = 4442272183;
+		NameRemote = "TravelDressrosa";
+	elseif not CheckItemCount("Bones", 500) then
+		Mob = {
+			"Reborn Skeleton [Lv. 1975]",
+			"Demonic Soul [Lv. 2025]",
+			"Living Zombie [Lv. 2000]",
+			"Posessed Mummy [Lv. 2050]"
+		};
+		PlaceId = 7449423635;
+		NameRemote = "TravelZou";
+	end;
+	return Mob, PlaceId, NameRemote;
+end;
+local CommF = Remotes.CommF_;
+function GuitarPuzzleProgress()
+	if not CommF:InvokeServer("GuitarPuzzleProgress", "Check") then
+		if game.Lighting.Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149431" and (game.Lighting.ClockTime > 16 or game.Lighting.ClockTime < 5) then
+			if LocalPlayer:DistanceFromCharacter(Vector3.new(-8654.314453125, 140.9499053955078, 6167.5283203125)) > 50 then
+				TweenPlayer(CFrame.new(-8654.314453125, 140.9499053955078, 6167.5283203125));
+			end;
+			CommF:InvokeServer("gravestoneEvent", 2);
+			CommF:InvokeServer("gravestoneEvent", 2, true);
+			task.wait(1);
+		else
+			Rayfield:Notify({
+				Title = "Notification",
+				Content = "Hop Full Moon",
+				Duration = 5
+			});
+			Hop();
+		end;
+	else
+		if LocalPlayer.PlayerGui.Main.Dialogue.Visible then
+			game.VirtualUser:Button1Down(Vector2.new(0, 0));
+			game.VirtualUser:Button1Down(Vector2.new(0, 0));
+		end;
+		if not (CommF:InvokeServer("GuitarPuzzleProgress", "Check")).Swamp then
+			if ((CFrame.new((-10171.7607421875), 138.62667846679688, 6008.0654296875)).Position - HumanoidRootPart.Position).Magnitude > 100 then
+				toTarget(HumanoidRootPart.Position, (CFrame.new(-10171.7607421875, 138.62667846679688, 6008.0654296875)).Position, CFrame.new(-10171.7607421875, 138.62667846679688 + 20, 6008.0654296875));
+			elseif CountZombie() == 6 then
+				for i, v in pairs(Enemies:GetChildren()) do
+					if v.Name == "Living Zombie [Lv. 2000]" and v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+						repeat
+							task.wait();
+							EquipWeapon(_G.SelectedWeapon);
+							AutoHaki();
+							v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+							PosMon = v.HumanoidRootPart.CFrame;
+							MonFarm = v.Name;
+							TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+							Attack();
+						until v.Humanoid.Health <= 0 or (not v.Parent);
+					end;
+				end;
+			end;
+			return;
+		elseif not (CommF:InvokeServer("GuitarPuzzleProgress", "Check")).Gravestones then
+			if LocalPlayer:DistanceFromCharacter(Vector3.new(-8761.4765625, 142.10487365722656, 6086.07861328125)) > 50 then
+				TweenPlayer(CFrame.new(-8761.4765625, 142.10487365722656, 6086.07861328125));
+			else
+				local ClickSigns = {
+					Workspace.Map["Haunted Castle"].Placard1.Right.ClickDetector,
+					Workspace.Map["Haunted Castle"].Placard2.Right.ClickDetector,
+					Workspace.Map["Haunted Castle"].Placard3.Left.ClickDetector,
+					Workspace.Map["Haunted Castle"].Placard4.Right.ClickDetector,
+					Workspace.Map["Haunted Castle"].Placard5.Left.ClickDetector,
+					Workspace.Map["Haunted Castle"].Placard6.Left.ClickDetector,
+					Workspace.Map["Haunted Castle"].Placard7.Left.ClickDetector
+				};
+				for i, v in pairs(ClickSigns) do
+					fireclickdetector(v);
+				end;
+			end;
+		elseif not (CommF:InvokeServer("GuitarPuzzleProgress", "Check")).Ghost then
+			if LocalPlayer:DistanceFromCharacter(Vector3.new(-9755.6591796875, 271.0661315917969, 6290.61474609375)) > 50 then
+				TweenPlayer(CFrame.new(-9755.6591796875, 271.0661315917969, 6290.61474609375));
+			end;
+			CommF:InvokeServer("GuitarPuzzleProgress", "Ghost");
+			task.wait(3);
+		elseif not (CommF:InvokeServer("GuitarPuzzleProgress", "Check")).Trophies then
+			if LocalPlayer:DistanceFromCharacter(Vector3.new(-9530.0126953125, 6.104853630065918, 6054.83349609375)) > 50 then
+				TweenPlayer(CFrame.new(-9530.0126953125, 6.104853630065918, 6054.83349609375));
+			end;
+			local Tablet = Workspace.Map["Haunted Castle"].Tablet;
+			for i, v in pairs(BlankTablets) do
+				local x = Tablet[v];
+				if x.Line.Position.X ~= 0 then
+					repeat
+						task.wait();
+						fireclickdetector(x.ClickDetector);
+					until x.Line.Position.X == 0;
+				end;
+			end;
+			for i, v in pairs(Trophy) do
+				local x = Workspace.Map["Haunted Castle"].Trophies.Quest[v].Handle.CFrame;
+				x = tostring(x);
+				x = (x:split(", "))[4];
+				local c = "180";
+				if x == "1" or x == "-1" then
+					c = "90";
+				end;
+				if not string.find(tostring(Tablet[i].Line.Rotation.Z), c) then
+					repeat
+						task.wait();
+						fireclickdetector(Tablet[i].ClickDetector);
+					until string.find(tostring(Tablet[i].Line.Rotation.Z), c);
+					print(i, c);
+				end;
+			end;
+		elseif not (CommF:InvokeServer("GuitarPuzzleProgress", "Check")).Pipes then
+			for i, v in pairs(Pipes) do
+				local x = Workspace.Map["Haunted Castle"]["Lab Puzzle"].ColorFloor.Model[i];
+				if x.BrickColor.Name ~= v then
+					repeat
+						task.wait();
+						fireclickdetector(x.ClickDetector);
+					until x.BrickColor.Name == v;
+				end;
+			end;
+		end;
+	end;
+end;
+function AutoSoulGuitar()
+	if Remotes.CommF_:InvokeServer("soulGuitarBuy", true) == "[You already own this item.]" then
+		Rayfield:Notify({
+			Title = "Notification",
+			Content = "You already own this item",
+			Duration = 5
+		});
+		task.wait(5);
+		return;
+	end;
+	if LocalPlayer.Data.Fragments.Value < 5000 then
+		task.wait(2);
+		Rayfield:Notify({
+			Title = "Notification",
+			Content = "Need 5000 Fragments",
+			Duration = 5
+		});
+		return;
+	end;
+	if not CheckItemCount("Ectoplasm", 250) then
+		task.wait(2);
+		Rayfield:Notify({
+			Title = "Notification",
+			Content = "Need 250 Ectoplasm",
+			Duration = 5
+		});
+		return;
+	end;
+	if CheckItemCount("Dark Fragment", 1) and CheckItemCount("Ectoplasm", 250) and CheckItemCount("Bones", 500) then
+		Remotes.CommF_:InvokeServer("soulGuitarBuy", true);
+		Remotes.CommF_:InvokeServer("soulGuitarBuy");
+		if World3 then
+			GuitarPuzzleProgress();
+		else
+			Remotes.CommF_:InvokeServer("TravelZou");
+		end;
+		return;
+	end;
+	if not CheckItemCount("Dark Fragment", 1) then
+		if World2 then
+			if CheckNameBoss("Darkbeard [Lv. 1000] [Raid Boss]") then
+				local v = CheckNameBoss("Darkbeard [Lv. 1000] [Raid Boss]");
+				repeat
+					task.wait();
+					AutoHaki();
+					EquipWeapon(_G.SelectedWeapon);
+					v.Humanoid.WalkSpeed = 0;
+					v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+					TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+					Attack();
+				until v.Humanoid.Health <= 0 or (not v.Parent);
+			elseif Character:FindFirstChild("Fist of Darkness") or LocalPlayer.Backpack:FindFirstChild("Fist of Darkness") then
+				if (Workspace.Map.DarkbeardArena.Summoner.Detection.Position - HumanoidRootPart.Position).Magnitude <= 5 then
+					EquipWeapon("Fist of Darkness");
+					firetouchinterest(Character["Fist of Darkness"].Handle, Workspace.Map.DarkbeardArena.Summoner.Detection, 0);
+					firetouchinterest(Character["Fist of Darkness"].Handle, Workspace.Map.DarkbeardArena.Summoner.Detection, 1);
+					firetouchinterest(HumanoidRootPart, Workspace.Map.DarkbeardArena.Summoner.Detection, 0);
+					firetouchinterest(HumanoidRootPart, Workspace.Map.DarkbeardArena.Summoner.Detection, 1);
+				else
+					TweenPlayer(Workspace.Map.DarkbeardArena.Summoner.Detection.CFrame);
+				end;
+			else
+				local v = DetectChest();
+				repeat
+					task.wait();
+					if (HumanoidRootPart.Position - v.Position).Magnitude <= 2 then
+						firetouchinterest(v, HumanoidRootPart, 0);
+						firetouchinterest(v, HumanoidRootPart, 1);
+					end;
+					if (HumanoidRootPart.Position - v.Position).Magnitude <= 5 then
+						sendKeyEvent("W")
+					end;
+					InstantTp(v.CFrame * CFrame.new(0, 1, 0));
+				until not v or (not v.Parent) or (not _G.AutoSoulGuitar);
+			end;
+		else
+			Remotes.CommF_:InvokeServer("TravelDressrosa");
+		end;
+	else
+		local Mob, PlaceId, NameRemote = DetectRequestSoulGuitar();
+		if game.PlaceId == PlaceId then
+			if not DetectMob(Mob) then
+				TeleportSpawnMob(Mob, _G.AutoSoulGuitar);
+			else
+				local v = DetectMob(Mob);
+				repeat
+					task.wait();
+					EquipWeapon(_G.SelectedWeapon);
+					AutoHaki();
+					v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+					PosMon = v.HumanoidRootPart.CFrame;
+					MonFarm = v.Name;
+					TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+					Attack();
+				until not v or (not v.Parent) or v.Humanoid.Health <= 0 or (not _G.AutoSoulGuitar);
+			end;
+		else
+			Remotes.CommF_:InvokeServer(NameRemote);
+		end;
+	end;
+end;
+AutoSoulGuitarToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Soul Guitar",
+	Flag = "AutoSoulGuitar",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoSoulGuitar = state;
+		StopTween(_G.AutoSoulGuitar);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.AutoSoulGuitar then
+				AutoSoulGuitar();
+			end;
+		end);
+	end;
+end);
+AutoRengokuToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Rengoku",
+	Flag = "AutoRengoku",
+	Desc = "Function Sea 2 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoRengoku = state;
+		StopTween(_G.AutoRengoku);
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoRengoku and World2 then
+				if LocalPlayer.Backpack:FindFirstChild("Hidden Key") or Character:FindFirstChild("Hidden Key") then
+					EquipWeapon("Hidden Key");
+					TweenPlayer(CFrame.new(6571.1201171875, 299.23028564453, -6967.841796875));
+				elseif Enemies:FindFirstChild("Snow Lurker") or Enemies:FindFirstChild("Arctic Warrior") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if (v.Name == "Snow Lurker" or v.Name == "Arctic Warrior") and v.Humanoid.Health > 0 then
+							repeat
+								wait();
+								EquipWeapon(_G.SelectedWeapon);
+								AutoHaki();
+								v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+								PosMon = v.HumanoidRootPart.CFrame;
+								MonFarm = v.Name;
+								TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+								Attack();
+							until LocalPlayer.Backpack:FindFirstChild("Hidden Key") or _G.AutoRengoku == false or (not v.Parent) or v.Humanoid.Health <= 0;
+						end;
+					end;
+				else
+					TweenPlayer(CFrame.new(5439.716796875, 84.420944213867, -6715.1635742188));
+				end;
+			end;
+		end;
+	end);
+end);
+AutoHallowScytheToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Hallow Scythe",
+	Flag = "AutoHallowScythe",
+	Desc = "Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoHallowScythe = state;
+		StopTween(_G.AutoHallowScythe);
+	end
+});
+AutoWardenSwordToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Warden Sword",
+	Flag = "AutoWardenSword",
+	Desc = "Function Sea 1 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoWardenSword = state;
+		StopTween(_G.AutoWardenSword);
+	end
+});
+AutoGetYamaToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Get Yama",
+	Flag = "AutoGetYama",
+	Desc = "Need 30 Elite Hunter, Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoYama = state;
+		StopTween(_G.AutoYama);
+	end
+});
+AutoGetYamaHopToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Get Yama Hop",
+	Flag = "AutoGetYamaHop",
+	Desc = "Hop If Elite Hunter Not Spawn",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoYamaHop = state;
+		StopTween(_G.AutoYamaHop);
+	end
+});
+AutoGetTushitaToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Get Tushita",
+	Flag = "AutoGetTushita",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoTushita = state;
+		StopTween(_G.AutoTushita);
+	end
+});
+CursedDualKatanaParagraph = Tabs.ItemsTab:CreateLabel("Cursed Dual Katana: Status : -");
+spawn(function()  
+	while wait(_G.GlobalDelay) do 
+		if QuestYama_1 == true then 
+			CursedDualKatanaParagraph:Set(tostring("Status : Yama Quest 1")) 
+		elseif QuestYama_2 == true then
+			CursedDualKatanaParagraph:Set(tostring("Status : Yama Quest 2")) 
+		elseif QuestYama_3 == true then
+			CursedDualKatanaParagraph:Set(tostring("Status : Yama Quest 3")) 
+		elseif QuestTushita_1 == true then
+			CursedDualKatanaParagraph:Set(tostring("Status : Tushita Quest 1")) 
+		elseif QuestTushita_2 == true then
+			CursedDualKatanaParagraph:Set(tostring("Status : Tushita Quest 2")) 
+		elseif QuestTushita_3 == true then
+			CursedDualKatanaParagraph:Set(tostring("Status : Tushita Quest 3")) 
+		elseif getBackpack("Cursed Dual Katana") then
+			CursedDualKatanaParagraph:Set(tostring("CDK Done!!"))
+		end 
+	end
+end) 
+AutoGetCursedDualKatanaToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Get CDK",
+	Flag = "AutoGetCDK",
+	Desc = "Last Quest",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoCursedDualKatana = state;
+		StopTween(_G.AutoCursedDualKatana);
+	end
+});
+spawn(function()
+	while wait(_G.GlobalDelay) do
+		pcall(function()
+			if _G.AutoCursedDualKatana then
+				Remotes.CommF_:InvokeServer("CDKQuest", "Progress", "Good")
+				Remotes.CommF_:InvokeServer("CDKQuest", "Progress", "Evil")
+				Remotes.CommF_:InvokeServer("CDKQuest", "StartTrial", "Boss")
+				local v = GetConnectionEnemies("Cursed Skeleton Boss")
+				if v then
+					repeat
+						wait()
+						if LocalPlayer.Character:FindFirstChild("Yama") or LocalPlayer.Backpack:FindFirstChild("Yama") then
+							EquipWeapon("Yama")
+						elseif LocalPlayer.Character:FindFirstChild("Tushita") or LocalPlayer.Backpack:FindFirstChild("Tushita") then
+							EquipWeapon("Tushita")
+						end
+						TweenPlayer(v.HumanoidRootPart.CFrame * CFrame.new(0, 20, 0))
+						AttackTarget(v, false, function()
+							return _G.AutoCursedDualKatana
+						end)
+					until not _G.AutoCursedDualKatana or not v.Parent or v.Humanoid.Health <= 0
+				else
+					TweenPlayer(CFrame.new(-12318.193359375, 601.9518432617188, -6538.662109375))
+				end
+			end
+		end)
+	end
+end)
+
+AutoQuestCursedDualKatanaYamaToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Quest CDK [ Yama ]",
+	Flag = "AutoQuestCDKYama",
+	Desc = "Yama Quest",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoCursedDualKatanaYama = state;
+		StopTween(_G.AutoCursedDualKatanaYama);
+	end
+});
+spawn(
+    function()
+        while wait(_G.GlobalDelay) do
+            pcall(
+                function()
+                    if _G.AutoCursedDualKatanaYama then
+                        if tostring(Remotes.CommF_:InvokeServer("CDKQuest", "OpenDoor")) ~= "opened" then
+                            Remotes.CommF_:InvokeServer("CDKQuest", "OpenDoor")
+                            Remotes.CommF_:InvokeServer("CDKQuest", "OpenDoor", true)
+                        else
+                            if Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Finished"] == nil then
+                                Remotes.CommF_:InvokeServer("CDKQuest", "StartTrial", "Evil")
+                                Remotes.CommF_:InvokeServer("CDKQuest", "StartTrial", "Evil")
+                            elseif Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Finished"] == false then
+                                if
+                                    tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Evil"]) ==
+                                        -3
+                                 then
+                                    QuestYama_1 = true
+                                    QuestYama_2 = false
+                                    QuestYama_3 = false
+                                    repeat
+                                        task.wait()
+                                        if not Enemies:FindFirstChild("Forest Pirate") then
+                                            TweenPlayer(CFrame.new(-13223.521484375, 428.1938171386719, -7766.06787109375))
+                                        else
+                                            local v = GetConnectionEnemies("Forest Pirate")
+                                            if v then
+                                                TweenPlayer(
+                                                    Enemies:FindFirstChild("Forest Pirate").HumanoidRootPart.CFrame
+                                                )
+                                            end
+                                        end
+                                    until tonumber(
+                                        Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Evil"]
+                                    ) == 1 or not _G.AutoCursedDualKatanaYama
+                                elseif
+                                    tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Evil"]) ==
+                                        -4
+                                 then
+                                    QuestYama_1 = false
+                                    QuestYama_2 = true
+                                    QuestYama_3 = false
+                                    for ix, HitMon in pairs(
+                                        LocalPlayer.QuestHaze:GetChildren()
+                                    ) do
+                                        for NameMonHaze, CFramePos in pairs(PosMsList) do
+                                            if string.find(NameMonHaze, HitMon.Name) and HitMon.Value > 0 then
+                                                if
+                                                    (CFramePos.Position - HumanoidRootPart.Position).Magnitude <= 1000 and
+                                                        Enemies:FindFirstChild(NameMonHaze)
+                                                 then
+                                                    for i, v in pairs(Enemies:GetChildren()) do
+                                                        if
+                                                            v:FindFirstChild("HumanoidRootPart") and
+                                                                v:FindFirstChild("Humanoid") and
+                                                                v:FindFirstChild("Humanoid").Health > 0 and
+                                                                v:FindFirstChild("HazeESP")
+                                                         then
+                                                            repeat
+                                                                wait()
+                                                                AttackTarget(v, false, function()
+																	return _G.AutoCursedDualKatanaYama
+																end)
+                                                            until not _G.AutoCursedDualKatanaYama or
+                                                                tonumber(
+                                                                    Remotes.CommF_:InvokeServer(
+                                                                        "CDKQuest",
+                                                                        "Progress"
+                                                                    )["Evil"]
+                                                                ) == 2 or
+                                                                not v:FindFirstChild("HazeESP") or
+                                                                v.Humanoid.Health <= 0
+                                                        end
+                                                    end
+                                                else
+                                                    TweenPlayer(CFramePos)
+                                                end
+                                            end
+                                        end
+                                    end
+                                elseif
+                                    tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Evil"]) ==
+                                        -5
+                                 then
+                                    QuestYama_1 = false
+                                    QuestYama_2 = false
+                                    QuestYama_3 = true
+                                    if workspace.Map:FindFirstChild("HellDimension") then
+                                        if
+                                            (HumanoidRootPart.Position - workspace.Map.HellDimension.Spawn.Position).Magnitude <=
+                                                1000
+                                         then
+                                            for gg, ez in pairs(workspace.Map.HellDimension.Exit:GetChildren()) do
+                                                if tonumber(gg) == 2 then
+                                                    repeat
+                                                        task.wait()
+                                                        HumanoidRootPart.CFrame = workspace.Map.HellDimension.Exit.CFrame
+                                                    until not _G.AutoCursedDualKatanaYama or
+                                                        tonumber(
+                                                            Remotes.CommF_:InvokeServer(
+                                                                "CDKQuest",
+                                                                "Progress"
+                                                            )["Evil"]
+                                                        ) == 3
+                                                end
+                                            end
+                                            EquipWeapon(_G.SelectWeapon)
+                                            if
+                                                tonumber(
+                                                    Remotes.CommF_:InvokeServer("CDKQuest", "Progress")[
+                                                        "Evil"
+                                                    ]
+                                                ) ~= 3
+                                             then
+                                                repeat
+                                                    task.wait()
+                                                    repeat
+                                                        task.wait()
+                                                        TweenPlayer(workspace.Map.HellDimension.Torch1.Particles.CFrame)
+                                                        for i, v in pairs(workspace.Map.HellDimension:GetDescendants()) do
+                                                            if v:IsA("ProximityPrompt") then
+                                                                fireproximityprompt(v)
+                                                            end
+                                                        end
+                                                    until (workspace.Map.HellDimension.Torch1.Particles.Position -
+                                                        HumanoidRootPart.Position).Magnitude < 5
+                                                    wait(2)
+                                                    _G.T1Yama = true
+                                                until not _G.AutoCursedDualKatanaYama or _G.T1Yama or
+                                                    tonumber(
+                                                        Remotes.CommF_:InvokeServer("CDKQuest", "Progress")[
+                                                            "Evil"
+                                                        ]
+                                                    ) == 3
+                                                repeat
+                                                    task.wait()
+                                                    repeat
+                                                        task.wait()
+                                                        TweenPlayer(workspace.Map.HellDimension.Torch2.Particles.CFrame)
+                                                        for i, v in pairs(workspace.Map.HellDimension:GetDescendants()) do
+                                                            if v:IsA("ProximityPrompt") then
+                                                                fireproximityprompt(v)
+                                                            end
+                                                        end
+                                                    until (workspace.Map.HellDimension.Torch2.Particles.Position -
+                                                        HumanoidRootPart.Position).Magnitude < 5
+                                                    wait(2)
+                                                    _G.T2Yama = true
+                                                until _G.T2Yama or _G.AutoCursedDualKatanaYama == false or
+                                                    tonumber(
+                                                        Remotes.CommF_:InvokeServer("CDKQuest", "Progress")[
+                                                            "Evil"
+                                                        ]
+                                                    ) == 3
+                                                repeat
+                                                    wait()
+                                                    repeat
+                                                        task.wait()
+                                                        TweenPlayer(workspace.Map.HellDimension.Torch3.Particles.CFrame)
+                                                        for i, v in pairs(workspace.Map.HellDimension:GetDescendants()) do
+                                                            if v:IsA("ProximityPrompt") then
+                                                                fireproximityprompt(v)
+                                                            end
+                                                        end
+                                                    until (workspace.Map.HellDimension.Torch3.Particles.Position -
+                                                        HumanoidRootPart.Position).Magnitude < 5
+                                                    wait(2)
+                                                    _G.T3Yama = true
+                                                until _G.T3Yama or _G.AutoCursedDualKatanaYama == false or
+                                                    tonumber(
+                                                        Remotes.CommF_:InvokeServer("CDKQuest", "Progress")[
+                                                            "Evil"
+                                                        ]
+                                                    ) == 3
+                                            end
+                                            for i, v in pairs(Enemies:GetChildren()) do
+                                                if
+                                                    (v:FindFirstChild("HumanoidRootPart").Position -
+                                                        workspace.Map.HellDimension.Spawn.Position).Magnitude <= 300
+                                                 then
+                                                    if
+                                                        v:FindFirstChild("HumanoidRootPart") and
+                                                            v:FindFirstChild("Humanoid") and
+                                                            v:FindFirstChild("Humanoid").Health > 0
+                                                     then
+                                                        repeat
+                                                            task.wait()
+                                                            Attack.Kill(v, _G.AutoCursedDualKatanaYama)
+                                                        until not _G.AutoCursedDualKatanaYama or v.Humanoid.Health <= 0 or not v.Parent or
+                                                            tonumber(
+                                                                Remotes.CommF_:InvokeServer(
+                                                                    "CDKQuest",
+                                                                    "Progress"
+                                                                )["Evil"]
+                                                            ) == 3
+                                                    end
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            )
+        end
+    end
+)
+spawn(
+    function()
+        while wait(_G.GlobalDelay) do
+            pcall(
+                function()
+                    if _G.AutoCursedDualKatanaYama then
+                        if tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Evil"]) == -5 then
+                            if
+                                not workspace.Map:FindFirstChild("HellDimension") or
+                                    (HumanoidRootPart.Position - workspace.Map.HellDimension.Spawn.Position).Magnitude > 1000
+                             then
+                                local v = GetConnectionEnemies("Soul Reaper")
+                                if v then
+                                    repeat
+                                        task.wait()
+                                        TweenPlayer(v.HumanoidRootPart.CFrame)
+                                    until v.Humanoid.Health <= 0 or not _G.AutoCursedDualKatanaYama or not v.Parent or
+                                        tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Evil"]) ==
+                                            3 or
+                                        (workspace.Map:FindFirstChild("HellDimension") and
+                                            (Root.Position - workspace.Map.HellDimension.Spawn.Position).Magnitude <=
+                                                1000)
+                                elseif
+                                    LocalPlayer.Backpack:FindFirstChild("Hallow Essence") or
+                                        LocalPlayer.Character:FindFirstChild("Hallow Essence")
+                                 then
+                                    repeat
+                                        TweenPlayer(CFrame.new(-8932.322265625, 146.83154296875, 6062.55078125))
+                                        task.wait()
+                                    until (CFrame.new(-8932.322265625, 146.83154296875, 6062.55078125).Position -
+                                        Root.Position).Magnitude <= 8
+                                    EquipWeapon("Hallow Essence")
+                                elseif
+                                    ReplicatedStorage:FindFirstChild("Soul Reaper") and
+                                        ReplicatedStorage:FindFirstChild("Soul Reaper").Humanoid.Health > 0
+                                 then
+                                    TweenPlayer(ReplicatedStorage:FindFirstChild("Soul Reaper").HumanoidRootPart.CFrame)
+                                else
+                                    if
+                                        Remotes.CommF_:InvokeServer("Bones", "Check") < 50 and
+                                            not Enemies:FindFirstChild("Soul Reaper") and
+                                            not ReplicatedStorage:FindFirstChild("Soul Reaper") and
+                                            not workspace.Map:FindFirstChild("HellDimension")
+                                     then
+                                        if
+                                            Enemies:FindFirstChild("Reborn Skeleton") or
+                                                Enemies:FindFirstChild("Living Zombie") or
+                                                Enemies:FindFirstChild("Domenic Soul") or
+                                                Enemies:FindFirstChild("Posessed Mummy")
+                                         then
+                                            for i, v in pairs(Enemies:GetChildren()) do
+                                                if
+                                                    v.Name == "Reborn Skeleton" or v.Name == "Living Zombie" or
+                                                        v.Name == "Demonic Soul" or
+                                                        v.Name == "Posessed Mummy"
+                                                 then
+                                                    if
+                                                        v:FindFirstChild("HumanoidRootPart") and
+                                                            v:FindFirstChild("Humanoid") and
+                                                            v:FindFirstChild("Humanoid").Health > 0
+                                                     then
+                                                        repeat
+                                                            task.wait()
+                                                            AttackTarget(v, false, function()
+																return _G.AutoCursedDualKatanaYama
+															end)
+                                                        until not _G.AutoCursedDualKatanaYama or v.Humanoid.Health <= 0 or not v.Parent
+                                                    end
+                                                end
+                                            end
+                                        else
+                                            TweenPlayer(CFrame.new(-9515.2255859375, 164.0062255859375, 5785.38330078125))
+                                        end
+                                    else
+                                        Remotes.CommF_:InvokeServer("Bones", "Buy", 1, 1)
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            )
+        end
+    end
+)
+
+
+AutoQuestCursedDualKatanaTushitaToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Quest CDK [ Tushita ]",
+	Flag = "AutoQuestCDKTushita",
+	Desc = "Tushita Quest",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoCursedDualKatanaTushita = state;
+		StopTween(_G.AutoCursedDualKatanaTushita);
+	end
+});
+spawn(
+    function()
+        while wait(_G.GlobalDelay) do
+            pcall(
+                function()
+                    if _G.AutoCursedDualKatanaTushita then
+                        if tostring(Remotes.CommF_:InvokeServer("CDKQuest", "OpenDoor")) ~= "opened" then
+                            wait(.7)
+                            Remotes.CommF_:InvokeServer("CDKQuest", "OpenDoor")
+                            wait(.3)
+                            Remotes.CommF_:InvokeServer("CDKQuest", "OpenDoor", true)
+                        else
+                            if Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Finished"] == nil then
+                                Remotes.CommF_:InvokeServer("CDKQuest", "StartTrial", "Good")
+                            elseif Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Finished"] == false then
+                                if
+                                    tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Good"]) ==
+                                        -3
+                                 then
+                                    QuestTushita_1 = true
+                                    QuestTushita_2 = false
+                                    QuestTushita_3 = false
+                                    repeat
+                                        wait()
+                                        TweenPlayer(CFrame.new(-4602.5107421875, 16.446542739868164, -2880.998046875))
+                                    until (CFrame.new(-4602.5107421875, 16.446542739868164, -2880.998046875).Position -
+                                        HumanoidRootPart.Position).Magnitude <=
+                                        3 or
+                                        not _G.AutoCursedDualKatanaTushita or
+                                        tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Good"]) ==
+                                            1
+                                    if
+                                        (CFrame.new(-4602.5107421875, 16.446542739868164, -2880.998046875).Position -
+                                            HumanoidRootPart.Position).Magnitude <=
+                                            10
+                                     then
+                                        wait(.7)
+                                        Remotes.CommF_:InvokeServer(
+                                            "CDKQuest",
+                                            "BoatQuest",
+                                            workspace.NPCs:FindFirstChild("Luxury Boat Dealer"),
+                                            "Check"
+                                        )
+                                        wait(.5)
+                                        Remotes.CommF_:InvokeServer(
+                                            "CDKQuest",
+                                            "BoatQuest",
+                                            workspace.NPCs:FindFirstChild("Luxury Boat Dealer")
+                                        )
+                                    end
+                                    wait(1)
+                                    repeat
+                                        wait()
+                                        TweenPlayer(CFrame.new(4001.185302734375, 10.089399337768555, -2654.86328125))
+                                    until (CFrame.new(4001.185302734375, 10.089399337768555, -2654.86328125).Position -
+                                        HumanoidRootPart.Position).Magnitude <=
+                                        3 or
+                                        not _G.AutoCursedDualKatanaTushita or
+                                        tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Good"]) ==
+                                            1
+                                    if
+                                        (CFrame.new(4001.185302734375, 10.089399337768555, -2654.86328125).Position -
+                                            HumanoidRootPart.Position).Magnitude <=
+                                            10
+                                     then
+                                        wait(.7)
+                                        Remotes.CommF_:InvokeServer(
+                                            "CDKQuest",
+                                            "BoatQuest",
+                                            workspace.NPCs:FindFirstChild("Luxury Boat Dealer"),
+                                            "Check"
+                                        )
+                                        wait(.5)
+                                        Remotes.CommF_:InvokeServer(
+                                            "CDKQuest",
+                                            "BoatQuest",
+                                            workspace.NPCs:FindFirstChild("Luxury Boat Dealer")
+                                        )
+                                    end
+                                    wait(1)
+                                    repeat
+                                        wait()
+                                        TweenPlayer(CFrame.new(-9530.763671875, 7.245208740234375, -8375.5087890625))
+                                    until (CFrame.new(-9530.763671875, 7.245208740234375, -8375.5087890625).Position -
+                                        HumanoidRootPart.Position).Magnitude <=
+                                        3 or
+                                        not _G.AutoCursedDualKatanaTushita or
+                                        tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Good"]) ==
+                                            1
+                                    if
+                                        (CFrame.new(-9530.763671875, 7.245208740234375, -8375.5087890625).Position -
+                                            HumanoidRootPart.Position).Magnitude <=
+                                            10
+                                     then
+                                        wait(.7)
+                                        Remotes.CommF_:InvokeServer(
+                                            "CDKQuest",
+                                            "BoatQuest",
+                                            workspace.NPCs:FindFirstChild("Luxury Boat Dealer"),
+                                            "Check"
+                                        )
+                                        wait(.5)
+                                        Remotes.CommF_:InvokeServer(
+                                            "CDKQuest",
+                                            "BoatQuest",
+                                            workspace.NPCs:FindFirstChild("Luxury Boat Dealer")
+                                        )
+                                    end
+                                    wait(1)
+                                elseif
+                                    tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Good"]) ==
+                                        -4
+                                 then
+                                    QuestTushita_1 = false
+                                    QuestTushita_2 = true
+                                    QuestTushita_3 = false
+                                    repeat
+                                        wait()
+                                        _G.AutoRaidCastle = true
+                                    until not _G.AutoCursedDualKatanaTushita or
+                                        tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Good"]) ==
+                                            2
+                                    _G.AutoRaidCastle = false
+                                elseif
+                                    tonumber(Remotes.CommF_:InvokeServer("CDKQuest", "Progress")["Good"]) ==
+                                        -5
+                                 then
+                                    QuestTushita_1 = false
+                                    QuestTushita_2 = false
+                                    QuestTushita_3 = true
+                                    if workspace.Enemies:FindFirstChild("Cake Queen") then
+                                        for i, v in pairs(workspace.Enemies:GetChildren()) do
+                                            if v.Name == "Cake Queen" then
+                                                if
+                                                    v:FindFirstChild("Humanoid") and
+                                                        v:FindFirstChild("HumanoidRootPart") and
+                                                        v.Humanoid.Health > 0
+                                                 then
+                                                    repeat
+                                                        wait()
+                                                        AttackTarget(v, false, function()
+															return _G.AutoCursedDualKatanaTushita
+														end)
+                                                    until not _G.AutoCursedDualKatanaTushita or not v.Parent or v.Humanoid.Health <= 0 or
+                                                        tonumber(
+                                                            Remotes.CommF_:InvokeServer(
+                                                                "CDKQuest",
+                                                                "Progress"
+                                                            )["Good"]
+                                                        ) == 3
+                                                end
+                                            end
+                                        end
+                                    elseif
+                                        ReplicatedStorage:FindFirstChild("Cake Queen") and
+                                            ReplicatedStorage:FindFirstChild("Cake Queen").Humanoid.Health > 0
+                                     then
+                                        TweenPlayer(
+                                            ReplicatedStorage:FindFirstChild("Cake Queen").HumanoidRootPart.CFrame *
+                                                CFrame.new(0, 30, 0)
+                                        )
+                                    else
+                                        if
+                                            (HumanoidRootPart.Position -
+                                                workspace.Map.HeavenlyDimension.Spawn.Position).Magnitude <= 1000
+                                         then
+                                            for i, v in pairs(workspace.Map.HeavenlyDimension.Exit:GetChildren()) do
+                                                Ex = i
+                                            end
+                                            if Ex == 2 then
+                                                repeat
+                                                    wait()
+                                                    HumanoidRootPart.CFrame =
+                                                        workspace.Map.HeavenlyDimension.Exit.CFrame
+                                                until not _G.AutoCursedDualKatanaTushita or
+                                                    tonumber(
+                                                        Remotes.CommF_:InvokeServer("CDKQuest", "Progress")[
+                                                            "Good"
+                                                        ]
+                                                    ) == 3
+                                            end
+                                            repeat
+                                                wait()
+                                                repeat
+                                                    wait()
+                                                    TweenPlayer(CFrame.new(-22529.6171875, 5275.77392578125, 3873.5712890625))
+                                                    for i, v in pairs(workspace.Map.HeavenlyDimension:GetDescendants()) do
+                                                        if v:IsA("ProximityPrompt") then
+                                                            fireproximityprompt(v)
+                                                        end
+                                                    end
+                                                until (CFrame.new(-22529.6171875, 5275.77392578125, 3873.5712890625).Position -
+                                                    HumanoidRootPart.Position).Magnitude <
+                                                    5
+                                                wait(2)
+                                                _G.DoneT1 = true
+                                            until not _G.AutoCursedDualKatanaTushita or _G.DoneT1
+                                            repeat
+                                                wait()
+                                                repeat
+                                                    wait()
+                                                    TweenPlayer(CFrame.new(-22637.291015625, 5281.365234375, 3749.28857421875))
+                                                    for i, v in pairs(workspace.Map.HeavenlyDimension:GetDescendants()) do
+                                                        if v:IsA("ProximityPrompt") then
+                                                            fireproximityprompt(v)
+                                                        end
+                                                    end
+                                                until (CFrame.new(-22637.291015625, 5281.365234375, 3749.28857421875).Position -
+                                                    HumanoidRootPart.Position).Magnitude <
+                                                    5
+                                                wait(2)
+                                                _G.DoneT2 = true
+                                            until _G.DoneT2 or _G.AutoCursedDualKatanaTushita == false
+                                            repeat
+                                                wait()
+                                                repeat
+                                                    task.wait()
+                                                    TweenPlayer(
+                                                        CFrame.new(-22791.14453125, 5277.16552734375, 3764.570068359375)
+                                                    )
+                                                    for i, v in pairs(workspace.Map.HeavenlyDimension:GetDescendants()) do
+                                                        if v:IsA("ProximityPrompt") then
+                                                            fireproximityprompt(v)
+                                                        end
+                                                    end
+                                                until (CFrame.new(-22791.14453125, 5277.16552734375, 3764.570068359375).Position -
+                                                    HumanoidRootPart.Position).Magnitude <
+                                                    5
+                                                wait(2)
+                                                _G.DoneT3 = true
+                                            until _G.DoneT3 or _G.AutoCursedDualKatanaTushita == false
+                                            for i, v in pairs(workspace.Enemies:GetChildren()) do
+                                                if
+                                                    (v:FindFirstChild("HumanoidRootPart").Position -
+                                                        CFrame.new(
+                                                            -22695.7012,
+                                                            5270.93652,
+                                                            3814.42847,
+                                                            0.11794927,
+                                                            3.32185834e-08,
+                                                            0.99301964,
+                                                            -8.73070718e-08,
+                                                            1,
+                                                            -2.30819008e-08,
+                                                            -0.99301964,
+                                                            -8.3975138e-08,
+                                                            0.11794927
+                                                        ).Position).Magnitude <= 300
+                                                 then
+                                                    if
+                                                        v:FindFirstChild("HumanoidRootPart") and
+                                                            v:FindFirstChild("Humanoid") and
+                                                            v:FindFirstChild("Humanoid").Health > 0
+                                                     then
+                                                        repeat
+                                                            wait()
+                                                            AttackTarget(v, false, function()
+																return _G.AutoCursedDualKatanaTushita
+															end)
+                                                        until not _G.AutoCursedDualKatanaTushita or v.Humanoid.Health <= 0 or not v.Parent
+                                                    end
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            )
+        end
+    end
+)
+
+AutoDragonTridentToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Dragon Trident",
+	Flag = "AutoDragonTrident",
+	Desc = "Function Sea 2 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDragonTrident = state;
+		StopTween(_G.AutoDragonTrident);
+	end
+});
+AutoDragonTridentToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Greybeard",
+	Flag = "AutoGreybeard",
+	Desc = "Function Sea 1 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoGreybeard = state;
+		StopTween(_G.AutoGreybeard);
+	end
+});
+AutoSharkSawToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Shark Saw",
+	Flag = "AutoSharkSaw",
+	Desc = "Function Sea 1 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoSharkSaw = state;
+		StopTween(_G.AutoSharkSaw);
+	end
+});
+AutoPoleToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Pole",
+	Flag = "AutoPole",
+	Desc = "Function Sea 1 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoPole = state;
+		StopTween(_G.AutoPole);
+	end
+});
+AutoDarkDaggerToggle = Tabs.ItemsTab:CreateToggle({
+	Name = "Auto Dark Dagger",
+	Flag = "AutoDarkDagger",
+	Desc = "Need Spawn Rip Indra, Function Sea 3 Only",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDarkDagger = state;
+		StopTween(_G.AutoDarkDagger);
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoDarkDagger and World3 then
+				if Enemies:FindFirstChild("rip_indra True Form") or Enemies:FindFirstChild("rip_indra") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == ("rip_indra True Form" or v.Name == "rip_indra") and v.Humanoid.Health > 0 and v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+							AttackTarget(v, false, function()
+								return _G.AutoDarkDagger
+							end)
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-5344.822265625, 423.98541259766, -2725.0930175781));
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoPole and World1 then
+			pcall(function()
+				if Enemies:FindFirstChild("Thunder God") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Thunder God" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoPole
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-7748.0185546875, 5606.80615234375, -2305.898681640625));
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoSharkSaw and World1 then
+			pcall(function()
+				if Enemies:FindFirstChild("The Saw") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "The Saw" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoSharkSaw
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-690.33081054688, 15.09425163269, 1582.2380371094));
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoGreybeard and World1 then
+			pcall(function()
+				if Enemies:FindFirstChild("Greybeard") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Greybeard" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoGreybeard
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-5023.38330078125, 28.65203285217285, 4332.3818359375));
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoDragonTrident and World2 then
+			pcall(function()
+				if Enemies:FindFirstChild("Tide Keeper") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Tide Keeper" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoDragonTrident
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(-3914.830322265625, 123.29389190673828, -11516.8642578125));
+				end;
+			end);
+		end;
+	end;
+end);
+function CheckTorch()
+	local a;
+	if not Workspace.Map.Turtle.QuestTorches.Torch1.Particles.Main.Enabled then
+		a = "1";
+	elseif not Workspace.Map.Turtle.QuestTorches.Torch2.Particles.Main.Enabled then
+		a = "2";
+	elseif not Workspace.Map.Turtle.QuestTorches.Torch3.Particles.Main.Enabled then
+		a = "3";
+	elseif not Workspace.Map.Turtle.QuestTorches.Torch4.Particles.Main.Enabled then
+		a = "4";
+	elseif not Workspace.Map.Turtle.QuestTorches.Torch5.Particles.Main.Enabled then
+		a = "5";
+	end;
+	for i, v in next, Workspace.Map.Turtle.QuestTorches:GetChildren() do
+		if v:IsA("MeshPart") and string.find(v.Name, a) and (not v.Particles.Main.Enabled) then
+			return v;
+		end;
+	end;
+end;
+function CheckNameBoss(a)
+	for i, v in next, ReplicatedStorage:GetChildren() do
+		if v:IsA("Model") and (typeof(a) == "table" and table.find(a, v.Name) or v.Name == a) and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+			return v;
+		end;
+	end;
+	for i, v in next, Enemies:GetChildren() do
+		if v:IsA("Model") and (typeof(a) == "table" and table.find(a, v.Name) or v.Name == a) and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+			return v;
+		end;
+	end;
+end;
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoTushita and World3 then
+			pcall(function()
+				if not Workspace.Map.Turtle:FindFirstChild("TushitaGate") then
+					if CheckNameBoss("Longma [Lv. 2000] [Boss]") then
+						local v = CheckNameBoss("Longma [Lv. 2000] [Boss]");
+						repeat
+							task.wait();
+							AutoHaki();
+							EquipWeapon(_G.SelectedWeapon);
+							v.Humanoid.WalkSpeed = 0;
+							v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+							TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+							Attack();
+						until not v or (not v.Parent) or v.Humanoid.Health == 0;
+					end;
+				elseif CheckNameBoss("rip_indra True Form [Lv. 5000] [Raid Boss]") then
+					if not Character:FindFirstChild("Holy Torch") and (not LocalPlayer.Backpack:FindFirstChild("Holy Torch")) then
+						TweenPlayer(Workspace.Map.Waterfall.SecretRoom.Room.Door.Door.Hitbox.CFrame);
+					else
+						EquipWeapon("Holy Torch");
+						if CheckTorch() then
+							TweenPlayer((CheckTorch()).CFrame);
+						end;
+					end;
+				else
+					Rayfield:Notify({
+						Title = "Notification",
+						Content = "Rip Indra Not Spawn",
+						Duration = 5
+					});
+					task.wait(3);
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoYamaHop and World3 then
+			pcall(function()
+				if Remotes.CommF_:InvokeServer("EliteHunter", "Progress") < 30 then
+					if _G.AutoYama then
+						if not ReplicatedStorage:FindFirstChild("Diablo") and (not ReplicatedStorage:FindFirstChild("Deandre")) and (not ReplicatedStorage:FindFirstChild("Urban")) and (not Enemies:FindFirstChild("Diablo")) and (not Enemies:FindFirstChild("Deandre")) and (not Enemies:FindFirstChild("Urban")) then
+							Hop();
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoYama and World3 then
+			if Remotes.CommF_:InvokeServer("EliteHunter", "Progress") >= 30 then
+				repeat
+					wait(0.1);
+					fireclickdetector(Workspace.Map.Waterfall.SealedKatana.Handle.ClickDetector);
+				until LocalPlayer.Backpack:FindFirstChild("Yama") or (not _G.AutoYama);
+			elseif string.find(QuestTitle, "Diablo") or string.find(QuestTitle, "Deandre") or string.find(QuestTitle, "Urban") then
+				if ReplicatedStorage:FindFirstChild("Diablo") and ( ReplicatedStorage:FindFirstChild("Deandre")) and ( ReplicatedStorage:FindFirstChild("Urban")) and ( Enemies:FindFirstChild("Diablo")) and ( Enemies:FindFirstChild("Deandre")) and ( Enemies:FindFirstChild("Urban")) then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Diablo" or v.Name == "Deandre" or v.Name == "Urban" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoYama
+								end)
+							end;
+						end;
+					end;
+				end;
+			else
+				Remotes.CommF_:InvokeServer("EliteHunter");
+			end;
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoWardenSword and World1 then
+			pcall(function()
+				if Enemies:FindFirstChild("Chief Warden") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Chief Warden" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, false, function()
+									return _G.AutoWardenSword
+								end)
+							end;
+						end;
+					end;
+				else
+					UnEquipWeapon(_G.SelectedWeapon);
+					TweenPlayer(CFrame.new(5186.14697265625, 24.86684226989746, 832.1885375976562));
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoHallowScythe then
+			pcall(function()
+				if Enemies:FindFirstChild("Soul Reaper") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if string.find(v.Name, "Soul Reaper") then
+							AttackTarget(v, false, function()
+								return _G.AutoHallowScythe
+							end)
+						end;
+					end;
+				elseif LocalPlayer.Backpack:FindFirstChild("Hallow Essence") or Character:FindFirstChild("Hallow Essence") then
+					repeat
+						TweenPlayer(CFrame.new(-8932.322265625, 146.83154296875, 6062.55078125));
+						wait();
+					until ((CFrame.new((-8932.322265625), 146.83154296875, 6062.55078125)).Position - HumanoidRootPart.Position).Magnitude <= 8;
+					EquipWeapon("Hallow Essence");
+				elseif ReplicatedStorage:FindFirstChild("Soul Reaper") then
+					TweenPlayer((ReplicatedStorage:FindFirstChild("Soul Reaper")).HumanoidRootPart.CFrame * CFrame.new(2, 20, 2));
+				end;
+			end);
+		end;
+	end;
+end);
+StatsSection = Tabs.StatsTab:CreateSection("Stats");
+StatsPointParagraph = Tabs.StatsTab:CreateLabel("Stats: 0");
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			StatsPointParagraph:Set(tostring(tostring(LocalPlayer.Data.Points.Value)));
+		end);
+	end;
+end);
+AutoAddMeleeStats = Tabs.StatsTab:CreateToggle({
+	Name = "Add Melee Stats",
+	Flag = "AddMeleeStats",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AddMeleeStats = state;
+	end
+});
+AutoAddDefenseStats = Tabs.StatsTab:CreateToggle({
+	Name = "Add Defense Stats",
+	Flag = "AddDefenseStats",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AddDefenseStats = state;
+	end
+});
+AutoAddSwordStats = Tabs.StatsTab:CreateToggle({
+	Name = "Add Sword Stats",
+	Flag = "AddSwordStats",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AddSwordStats = state;
+	end
+});
+AutoAddGunStats = Tabs.StatsTab:CreateToggle({
+	Name = "Add Gun Stats",
+	Flag = "AddGunStats",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AddGunStats = state;
+	end
+});
+AutoAddDevilFruitStats = Tabs.StatsTab:CreateToggle({
+	Name = "Add Devil Fruit Stats",
+	Flag = "AddDevilFruitStats",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AddFruitStats = state;
+	end
+});
+StatsPointToAddSlider = Tabs.StatsTab:CreateSlider({
+	Name = "Point",
+	Range = {1, 100}, Increment = 1, CurrentValue = 25,
+	Callback = function(value)
+		_G.PointStats = value;
+	end
+});
+StatsPointToAddSlider:Set(1);
+function addStatsPoint(val)
+	Remotes.CommF_:InvokeServer("AddPoint", val, _G.PointStats);
+end;
+spawn(function()
+	while wait(0.2) do
+		-- if LocalPlayer.Data.Points.Value > _G.PointStats then
+			if _G.AddMeleeStats then
+				addStatsPoint("Melee");
+			end;
+			if _G.AddDefenseStats then
+				addStatsPoint("Defense");
+			end;
+			if _G.AddSwordStats then
+				addStatsPoint("Sword");
+			end;
+			if _G.AddGunStats then
+				addStatsPoint("Gun");
+			end;
+			if _G.AddFruitStats then
+				addStatsPoint("Demon Fruit");
+			end;
+		-- end;
+	end;
+end);
+RaidSection = Tabs.RaidTab:CreateSection("Raid");
+TimeRaidParagraph = Tabs.RaidTab:CreateLabel("Raid Time: -");
+IslandRaidParagraph = Tabs.RaidTab:CreateLabel("Island: -");
+spawn(function()
+	pcall(function()
+		while wait(0.2) do
+			if LocalPlayer.PlayerGui.Main.TopHUDList.RaidTimer.Visible == true then
+				TimeRaidParagraph:Set(tostring(LocalPlayer.PlayerGui.Main.TopHUDList.RaidTimer.Text));
+			else
+				TimeRaidParagraph:Set(tostring("Wait For Raid"));
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait(0.2) do
+			if Workspace.Map.RaidMap:FindFirstChild("RaidIsland5") then
+				IslandRaidParagraph:Set(tostring("🏝️ Island 5"));
+			elseif Workspace.Map.RaidMap:FindFirstChild("RaidIsland4") then
+				IslandRaidParagraph:Set(tostring("🏝️ Island 4"));
+			elseif Workspace.Map.RaidMap:FindFirstChild("RaidIsland3") then
+				IslandRaidParagraph:Set(tostring("🏝️ Island 3"));
+			elseif Workspace.Map.RaidMap:FindFirstChild("RaidIsland2") then
+				IslandRaidParagraph:Set(tostring("🏝️ Island 2"));
+			elseif Workspace.Map.RaidMap:FindFirstChild("RaidIsland1") then
+				IslandRaidParagraph:Set(tostring("🏝️ Island 1"));
+			else
+				IslandRaidParagraph:Set(tostring("Start Raid"));
+			end;
+		end;
+	end);
+end);
+function getMyIslandRaid(island)
+	for i, v in pairs(Workspace._WorldOrigin.Locations:GetChildren()) do
+		if v.Name == island and (v.Position - HumanoidRootPart.Position).Magnitude <= 3000 then
+			return v;
+		end;
+	end;
+	return nil;
+end;
+function NextRaidIsland()
+	local RaidPos = CFrame.new(0, 35, 0);
+	if LocalPlayer.PlayerGui.Main.TopHUDList.RaidTimer.Visible == true then
+		if getMyIslandRaid("Island 5") then
+			TweenPlayer((getMyIslandRaid("Island 5")).CFrame * RaidPos);
+		elseif getMyIslandRaid("Island 4") then
+			TweenPlayer((getMyIslandRaid("Island 4")).CFrame * RaidPos);
+		elseif getMyIslandRaid("Island 3") then
+			TweenPlayer((getMyIslandRaid("Island 3")).CFrame * RaidPos);
+		elseif getMyIslandRaid("Island 2") then
+			TweenPlayer((getMyIslandRaid("Island 2")).CFrame * RaidPos);
+		elseif getMyIslandRaid("Island 1") then
+			TweenPlayer((getMyIslandRaid("Island 1")).CFrame * RaidPos);
+		end;
+	end;
+end;
+function CheckMonRaids()
+	for i, v in pairs(Enemies:GetChildren()) do
+		if (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude <= 500 then
+			return v;
+		end;
+	end;
+	return nil;
+end;
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoRaid and (World2 or World3) then
+				if LocalPlayer.PlayerGui.Main.TopHUDList.RaidTimer.Visible == true then
+					if CheckMonRaids() then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								if (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude <= 500 then
+									pcall(function()
+										AttackTarget(v, false, function()
+											return _G.AutoRaid
+										end)
+									end);
+								else
+									NextRaidIsland();
+								end;
+							end;
+						end;
+					else
+						NextRaidIsland();
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.AutoRaid and (World2 or World3) then
+				if LocalPlayer.PlayerGui.Main.TopHUDList.RaidTimer.Visible == false then
+					if not Workspace.Map.RaidMap:FindFirstChild("RaidIsland1") and LocalPlayer.Backpack:FindFirstChild("Special Microchip") or Character:FindFirstChild("Special Microchip") then
+						if World2 then
+							fireclickdetector(Workspace.Map.CircleIsland.RaidSummon2.Button.Main.ClickDetector);
+						elseif World3 then
+							Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-5083.26025390625, 314.6056823730469, -3175.673095703125));
+							fireclickdetector(Workspace.Map["Boat Castle"].RaidSummon2.Button.Main.ClickDetector);
+						end;
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+Raidslist = {};
+RaidsModule = require(ReplicatedStorage.Raids);
+task.spawn(function()
+	for i, v in pairs(RaidsModule.raids) do
+		table.insert(Raidslist, v);
+	end;
+	for i, v in pairs(RaidsModule.advancedRaids) do
+		table.insert(Raidslist, v);
+	end;
+end);
+ChooseChipRaidDropdown = Tabs.RaidTab:CreateDropdown({
+	Name = "Choose Chip",
+	Options = Raidslist,
+	CurrentOption = {},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedChip = option;
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoRaid and (World2 or World3) then
+				if not LocalPlayer.Backpack:FindFirstChild("Special Microchip") or (not Character:FindFirstChild("Special Microchip")) then
+					if not Workspace._WorldOrigin.Locations:FindFirstChild("Island 1") then
+						Remotes.CommF_:InvokeServer("RaidsNpc", "Select", _G.SelectedChip);
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+AutoRaidToggle = Tabs.RaidTab:CreateToggle({
+	Name = "Auto Raid",
+	Flag = "AutoRaid",
+	Desc = "Complete automatically",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoRaid = state;
+		StopTween(_G.AutoRaid);
+	end
+});
+AutoAwakeningToggle = Tabs.RaidTab:CreateToggle({
+	Name = "Auto Awaken",
+	Flag = "AutoAwaken",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoAwaken = state;
+	end
+});
+spawn(function()
+	while wait(0.2) do
+		if _G.AutoAwaken then
+			pcall(function()
+				Remotes.CommF_:InvokeServer("Awakener", "Awaken");
+			end);
+		end;
+	end;
+end);
+RarityFruits = {
+	Common = {
+		"Rocket Fruit",
+		"Spin Fruit",
+		"Blade Fruit",
+		"Spring Fruit",
+		"Bomb Fruit",
+		"Smoke Fruit",
+		"Spike Fruit"
+	},
+	Uncommon = {
+		"Flame Fruit",
+		"Eagle Fruit",
+		"Ice Fruit",
+		"Sand Fruit",
+		"Diamond Fruit",
+		"Dark Fruit"
+	},
+	Rare = {
+		"Light Fruit",
+		"Rubber Fruit",
+		"Barrier Fruit",
+		"Ghost Fruit",
+		"Magma Fruit"
+	},
+	Legendary = {
+		"Quake Fruit",
+		"Buddha Fruit",
+		"Love Fruit",
+		"Spider Fruit",
+		"Sound Fruit",
+		"Phoenix Fruit",
+		"Portal Fruit",
+		"Rumble Fruit",
+		"Pain Fruit",
+		"Blizzard Fruit",
+		"Creation Fruit"
+	},
+	Mythical = {
+		"Gravity Fruit",
+		"Mammoth Fruit",
+		"T-Rex Fruit",
+		"Dough Fruit",
+		"Shadow Fruit",
+		"Venom Fruit",
+		"Control Fruit",
+		"Gas Fruit",
+		"Spirit Fruit",
+		"Leopard Fruit",
+		"Yeti Fruit",
+		"Kitsune Fruit",
+		"Dragon Fruit",
+		"Tiger Fruit",
+	}
+};
+SelectUnstoreRarityFruits = {
+	"Mythical - Common",
+	"Legendary - Common",
+	"Rare - Common",
+	"Uncommon - Common",
+	"Common"
+};
+UnstoreRarityFruitDropdown = Tabs.RaidTab:CreateDropdown({
+	Name = "Unstore Rarity Fruit",
+	Options = SelectUnstoreRarityFruits,
+	CurrentOption = {},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.UnstoreRarityFruit = option;
+	end
+});
+function CheckUnstoreFruits(rarity)
+	local result = {};
+	for i, v in pairs(RarityFruits) do
+		if rarity == "Mythical - Common" then
+			if i == "Common" or i == "Uncommon" or i == "Rare" or i == "Legendary" or i == "Mythical" then
+				for _, fruit in ipairs(v) do
+					table.insert(result, fruit);
+				end;
+			end;
+		elseif rarity == "Legendary - Common" then
+			if i == "Uncommon" or i == "Rare" or i == "Legendary" or i == "Common" then
+				for _, fruit in ipairs(v) do
+					table.insert(result, fruit);
+				end;
+			end;
+		elseif rarity == "Rare - Common" then
+			if i == "Rare" or i == "Uncommon" or i == "Common" then
+				for _, fruit in ipairs(v) do
+					table.insert(result, fruit);
+				end;
+			end;
+		elseif rarity == "Uncommon - Common" then
+			if i == "Uncommon" or i == "Common" then
+				for _, fruit in ipairs(v) do
+					table.insert(result, fruit);
+				end;
+			end;
+		elseif rarity == "Common" then
+			if i == "Common" then
+				for _, fruit in ipairs(v) do
+					table.insert(result, fruit);
+				end;
+			end;
+		end;
+	end;
+	return result;
+end;
+AutoUnstoreDevilFruitToggle = Tabs.RaidTab:CreateToggle({
+	Name = "Auto Unstore Devil Fruit",
+	Flag = "AutoUnstoreDevilFruit",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.UnstoreDevilFruit = state;
+	end
+});
+function GetFruitsInfo()
+	for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+		if string.find(v.Name, "Fruit") then
+			return true;
+		end;
+	end;
+	for i, v in pairs(Character:GetChildren()) do
+		if string.find(v.Name, "Fruit") then
+			return true;
+		end;
+	end;
+	return false;
+end;
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.UnstoreDevilFruit then
+				local inventory = Remotes.CommF_:InvokeServer("getInventory");
+				for i, v in pairs(inventory) do
+					for z, Res in pairs(CheckUnstoreFruits(_G.UnstoreRarityFruit)) do
+						resfruit = string.gsub(Res, " Fruit", "") .. "-" .. string.gsub(Res, " Fruit", "");
+						if v.Name == resfruit then
+							if not GetFruitsInfo() then
+								Remotes.CommF_:InvokeServer("LoadFruit", resfruit);
+							end;
+						end;
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+TeleportTolabButton = Tabs.RaidTab:CreateButton({
+	Name = "Teleport To Lab",
+	Callback = function()
+		if World2 then
+			TweenPlayer(CFrame.new(-6438.73535, 250.645355, -4501.50684));
+		elseif World3 then
+			TweenPlayer(CFrame.new(-5017.40869, 314.844055, -2823.0127, -0.925743818, 0.0000000448217499, -0.378151238, 0.00000000455503146, 1, 0.000000107377559, 0.378151238, 0.000000097681621, -0.925743818));
+		end;
+	end
+});
+LawRaidSection = Tabs.RaidTab:CreateSection("Law Raid");
+AutoLawRaidToggle = Tabs.RaidTab:CreateToggle({
+	Name = "Auto Law Raid",
+	Flag = "AutoLawRaid",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.LawRaid = value;
+		StopTween(_G.LawRaid);
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.LawRaid then
+				if not Character:FindFirstChild("Microchip") and (not LocalPlayer.Backpack:FindFirstChild("Microchip")) and (not Enemies:FindFirstChild("Order")) and (not ReplicatedStorage:FindFirstChild("Order")) then
+					wait(0.3);
+					Remotes.CommF_:InvokeServer("BlackbeardReward", "Microchip", "1");
+					Remotes.CommF_:InvokeServer("BlackbeardReward", "Microchip", "2");
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.LawRaid then
+				if not Enemies:FindFirstChild("Order") and (not ReplicatedStorage:FindFirstChild("Order")) then
+					if Character:FindFirstChild("Microchip") or LocalPlayer.Backpack:FindFirstChild("Microchip") then
+						fireclickdetector(Workspace.Map.CircleIsland.RaidSummon.Button.Main.ClickDetector);
+					end;
+				end;
+				if ReplicatedStorage:FindFirstChild("Order") or Enemies:FindFirstChild("Order") then
+					if Enemies:FindFirstChild("Order") then
+						for i, v in pairs(Enemies:GetChildren()) do
+							if v.Name == "Order" then
+								AttackTarget(v, false, function()
+									return _G.LawRaid
+								end)
+							end;
+						end;
+					elseif ReplicatedStorage:FindFirstChild("Order") then
+						TweenPlayer(CFrame.new(-6217.2021484375, 28.047645568848, -5053.1357421875));
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+DungeonSection = Tabs.RaidTab:CreateSection("Dungeon");
+TeleportToHubButton = Tabs.RaidTab:CreateButton({
+	Name = "Telpeort To Dungeon Hub",
+	Callback = function()
+		Net:WaitForChild("RF/DungeonNPCNetworkFunction"):InvokeServer("TeleportToDungeonHub", false)
+	end
+})
+AutoAttackMonDungeonToggle = Tabs.RaidTab:CreateToggle({
+	Name = "Auto Attack Mon",
+	Flag = "AutoAttackMon",
+	Desc = "Auto Attack Nearest",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoAttackMonDungeon = state
+		StopTween(_G.AutoAttackMonDungeon)
+	end
+})
+function getHighestFloor()
+	local highest = 0
+	local highestFloor = nil
+
+	for _, v in pairs(workspace.Map.Dungeon:GetChildren()) do
+		local num = tonumber(v.Name)
+		if num and num > highest then
+			highest = num
+			highestFloor = v
+		end
+	end
+
+	return highestFloor
+end
+function getCurrentFloor()
+	local highest = 0
+
+	for _, v in pairs(workspace.Map.Dungeon:GetChildren()) do
+		local num = tonumber(v.Name)
+		if num and num > highest then
+			highest = num
+		end
+	end
+
+	local targetFloor = tostring(highest - 1)
+	return workspace.Map.Dungeon:FindFirstChild(targetFloor)
+end
+
+spawn(function()
+	while wait() do
+		if _G.AutoAttackMonDungeon then
+			pcall(function()
+				if (HumanoidRootPart.Position - getHighestFloor().Root.Position).Magnitude < 2000 then
+					for _, v in pairs(Enemies:GetChildren()) do
+						if v:FindFirstChild("Humanoid")
+						and v:FindFirstChild("HumanoidRootPart")
+						and v.Humanoid.Health > 0
+						and not string.find(v.Name, "Blank Buddy")
+						and (HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude <= 3000 then
+							if string.find(v.Name, "PropHitboxPlaceholder") then
+								NonBlockAttackTarget(v, false, function()
+									return _G.AutoAttackMonDungeon
+								end)
+							elseif v:GetAttribute("IsBoss") == true then
+								NonBlockAttackTarget(v, false, function()
+									return _G.AutoAttackMonDungeon
+								end)
+							else
+								NonBlockAttackTarget(v, false, function()
+									return _G.AutoAttackMonDungeon
+								end)
+							end
+						end
+					end
+				else
+					if _G.AutoNextFloor then
+						firetouchinterest(getCurrentFloor().ExitTeleporter.Root, HumanoidRootPart, 0);
+						firetouchinterest(getCurrentFloor().ExitTeleporter.Root, HumanoidRootPart, 1);
+						wait(0.5)
+					end
+				end
+			end)
+		end
+	end
+end)
+AutoNextFloorToggle = Tabs.RaidTab:CreateToggle({
+	Name = "Auto Next Floor",
+	Flag = "AutoNextFloor",
+	Desc = "Instant Teleport To Highest Floor",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoNextFloor = state
+	end
+})
+AutoReturnToHubToggle = Tabs.RaidTab:CreateToggle({
+	Name = "Auto Return To Hub",
+	Flag = "AutoReturnToHub",
+	Desc = "Return To Hub When Dungeon Done",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoReturnToHub = state
+	end
+})
+spawn(function()
+	while wait() do
+		if _G.AutoReturnToHub then
+			pcall(function()
+				ReplicatedStorage:WaitForChild("DungeonShared"):WaitForChild("ReturnToHub"):FireServer()
+				wait(2)
+			end)
+		end
+	end
+end)
+-- AutoChooseCardToggle = Tabs.RaidTab:CreateToggle({
+-- 	Name = "Auto Choose Card",
+-- 	Desc = "Choose Random Card (Coming Soon)",
+-- 	CurrentValue = false,
+-- 	Callback = function(state)
+-- 		_G.AutoChooseCard = state
+-- 	end
+-- })
+-- function findTextButton(obj)
+-- 	for _, v in ipairs(obj:GetDescendants()) do
+-- 		if v:IsA("TextButton") then
+-- 			return v
+-- 		end
+-- 	end
+-- 	return nil
+-- end
+-- spawn(function()
+-- 	while wait() do
+-- 		if _G.AutoChooseCard then
+-- 			pcall(function()
+-- 				for i, v in pairs(LocalPlayer.PlayerGui:GetChildren()) do
+-- 					if v.Name == "ScreenGui" and #v:GetChildren() > 0 then
+-- 						local btn = findTextButton(v)
+-- 						local displayName = v:FindFirstChild('DisplayName').Text
+-- 						firesignal(btn.MouseButton1Click)
+-- 						btn:Activate()
+-- 					end
+-- 				end
+-- 			end)
+-- 		end
+-- 	end
+-- end)
+TeleportRaceSection = Tabs.RaceTab:CreateSection("Teleport");
+local PlaceV4List = {
+	"Top Of GreatTree",
+	"Timple Of Time",
+	"Lever Pull",
+	"Acient One",
+	"Buy GEar NPC"
+};
+SelectedPlaceDropdown = Tabs.RaceTab:CreateDropdown({
+	Name = "Selected Place",
+	Options = PlaceV4List,
+	CurrentOption = {},
+	Callback = function(value)
+		value = type(value) == "table" and value[1] or value;
+		_G.SelectedV4Place = value;
+	end
+});
+TeleportToPlaceToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Teleport To Place",
+	Flag = "TeleportToPlace",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TeleportToPlace = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.TeleportToPlace then
+			pcall(function()
+				if _G.SelectedV4Place == "Top Of GreatTree" then
+					TweenPlayer(CFrame.new(2947.556884765625, 2281.630615234375, -7213.54931640625));
+				elseif _G.SelectedV4Place == "Timple Of Time" then
+					HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875);
+				elseif _G.SelectedV4Place == "Lever Pull" then
+					local LeverPullPos = CFrame.new(28575.181640625, 14936.6279296875, 72.31636810302734);
+					if (LeverPullPos.Position - HumanoidRootPart.Position).Magnitude >= 1000 then
+						HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875);
+					else
+						TweenPlayer(LeverPullPos);
+					end;
+				elseif _G.SelectedV4Place == "Acient One" then
+					TweenPlayer(CFrame.new(28981.552734375, 14888.4267578125, -120.245849609375));
+				elseif _G.SelectedV4Place == "Buy Gear NPC" then
+					local npcPos = CFrame.new(28981.552734375, 14888.4267578125, - 120.245849609375)
+					if (npcPos.Position - HumanoidRootPart.Position).Magnitude >= 1000 then
+						HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875);
+					else
+						TweenPlayer(npcPos);
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+RaceTabSection = Tabs.RaceTab:CreateSection("Race");
+AutoBuyGearToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Auto Buy Gear",
+	Flag = "AutoBuyGear",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoBuyGear = state;
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			if _G.AutoBuyGear then
+				Remotes:WaitForChild("CommF_"):InvokeServer("UpgradeRace", "Buy");
+			end;
+		end;
+	end);
+end);
+TweenToMirageIslandToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Tween To Mirage Island",
+	Flag = "TweenToMirageIsland",
+	Desc = "Tween to highest point",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TweenToHighestMirage = state;
+	end
+});
+FindBlueGearToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Find Blue Gear",
+	Flag = "FindBlueGear",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.FindBlueGear = state;
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.FindBlueGear then
+				if Workspace.Map:FindFirstChild("MysticIsland") then
+					for i, v in pairs(Workspace.Map.MysticIsland:GetChildren()) do
+						if v:IsA("MeshPart") then
+							if v.Material == Enum.Material.Neon then
+								TweenPlayer(v.CFrame);
+							end;
+						end;
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+LookMoonAbilityToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Look Moon & use Ability",
+	Flag = "LookMoonuseAbility",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.LookMoonAbility = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.LookMoonAbility then
+				wait();
+				local moonDir = game.Lighting:GetMoonDirection();
+				local lookAtPos = Workspace.CurrentCamera.CFrame.p + moonDir * 100;
+				Workspace.CurrentCamera.CFrame = CFrame.lookAt(Workspace.CurrentCamera.CFrame.p, lookAtPos);
+			end;
+		end);
+	end;
+end);
+AutoTrainToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Auto Train",
+	Flag = "AutoTrain",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoTrain = state;
+		StopTween(_G.AutoTrain);
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoTrain then
+				if Character.RaceTransformed.Value == true then
+					StartFarmTrain = false;
+					TweenPlayer(CFrame.new(216.211181640625, 126.9352035522461, -12599.0732421875));
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if StartFarmTrain and World3 then
+			pcall(function()
+				if Enemies:FindFirstChild("Cocoa Warrior") or Enemies:FindFirstChild("Chocolate Bar Battler") or Enemies:FindFirstChild("Sweet Thief") or Enemies:FindFirstChild("Candy Rebel") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Cocoa Warrior" or v.Name == "Chocolate Bar Battler" or v.Name == "Sweet Thief" or v.Name == "Candy Rebel" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return StartFarmTrain
+								end)
+							end;
+						end;
+					end;
+				else
+					TweenPlayer(CFrame.new(216.211181640625, 126.9352035522461, -12599.0732421875));
+				end;
+			end);
+		end;
+	end;
+end);
+spawn(function()
+	pcall(function()
+		while wait(0.2) do
+			if _G.AutoTrain then
+				if Character.RaceTransformed.Value == false then
+					StartFarmTrain = true;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.AutoTrain then
+				if tonumber((Character:WaitForChild("RaceEnergy")).Value) == 1 then
+					if Character.RaceTransformed.Value == false then
+						VirtualInputManager:SendKeyEvent(true, "Y", false, game);
+						wait(0.1);
+						VirtualInputManager:SendKeyEvent(false, "Y", false, game);
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+TeleportToRaceDoorButton = Tabs.RaceTab:CreateButton({
+	Name = "Teleport To Race Door",
+	Callback = function()
+		HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875);
+		wait(0.1);
+		HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875);
+		wait(0.1);
+		HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875);
+		wait(0.1);
+		HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875);
+		wait(0.5);
+		if LocalPlayer.Data.Race.Value == "Human" then
+			TweenPlayer(CFrame.new(29221.822265625, 14890.9755859375, -205.99114990234375));
+		elseif LocalPlayer.Data.Race.Value == "Skypiea" then
+			TweenPlayer(CFrame.new(28960.158203125, 14919.6240234375, 235.03948974609375));
+		elseif LocalPlayer.Data.Race.Value == "Fishman" then
+			TweenPlayer(CFrame.new(28231.17578125, 14890.9755859375, -211.64173889160156));
+		elseif LocalPlayer.Data.Race.Value == "Cyborg" then
+			TweenPlayer(CFrame.new(28502.681640625, 14895.9755859375, -423.7279357910156));
+		elseif LocalPlayer.Data.Race.Value == "Ghoul" then
+			TweenPlayer(CFrame.new(28674.244140625, 14890.6767578125, 445.4310607910156));
+		elseif LocalPlayer.Data.Race.Value == "Mink" then
+			TweenPlayer(CFrame.new(29012.341796875, 14890.9755859375, -380.1492614746094));
+		end;
+	end
+});
+BuyAcientQuestButton = Tabs.RaceTab:CreateButton({
+	Name = "Buy Acient Quest",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("UpgradeRace", "Buy");
+	end
+});
+AutoTrialToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Auto Trial",
+	Flag = "AutoTrial",
+	CurrentValue = false,
+	Callback = function(value)
+		_G.AutoTrial = value;
+		StopTween(_G.AutoTrial);
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoTrial then
+				if LocalPlayer.Data.Race.Value == "Human" then
+					for i, v in pairs(Enemies:GetDescendants()) do
+						if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+							pcall(function()
+								repeat
+									wait(0.1);
+									v.Humanoid.Health = 0;
+								until not _G.AutoTrial or (not v.Parent) or v.Humanoid.Health <= 0;
+							end);
+						end;
+					end;
+				elseif LocalPlayer.Data.Race.Value == "Skypiea" then
+					for i, v in pairs(Workspace.Map.SkyTrial.Model:GetDescendants()) do
+						if v.Name == "snowisland_Cylinder.081" then
+							TweenPlayer(v.CFrame * CFrame.new(0, 0, 0));
+						end;
+					end;
+				elseif LocalPlayer.Data.Race.Value == "Fishman" then
+					for i, v in pairs(Workspace.SeaBeasts.SeaBeast1:GetDescendants()) do
+						if v.Name == "HumanoidRootPart" then
+							repeat
+								wait();
+								TweenPlayer(v.CFrame * CFrame.new(0, 200, 0));
+								useAllSkill();
+							until not _G.AutoTrial or (not v.Parent) or v.Humanoid.Health <= 0 or (not v:FindFirstChild("HumanoidRootPart"));
+						end;
+					end;
+				elseif LocalPlayer.Data.Race.Value == "Cyborg" then
+					TweenPlayer(CFrame.new(28654, 14898.7832, -30, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif LocalPlayer.Data.Race.Value == "Ghoul" then
+					for i, v in pairs(Enemies:GetDescendants()) do
+						if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+							pcall(function()
+								repeat
+									wait(0.1);
+									v.Humanoid.Health = 0;
+								until not _G.AutoTrial or (not v.Parent) or v.Humanoid.Health <= 0;
+							end);
+						end;
+					end;
+				elseif LocalPlayer.Data.Race.Value == "Mink" then
+					for i, v in pairs(Workspace:GetDescendants()) do
+						if v.Name == "StartPoint" then
+							TweenPlayer(v.CFrame * CFrame.new(0, 10, 0));
+						end;
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+AutoKillPlayerAfterTrialToggle = Tabs.RaceTab:CreateToggle({
+	Name = "Auto Kill Player After Trial",
+	Flag = "AutoKillPlayerAfterTrial",
+	CurrentValue = false,
+	Callback = function(value)
+		_G.AutoKillPlayerAfterTrial = value;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoKillPlayerAfterTrial then
+			if LocalPlayer.PlayerGui.Main.Timer.Visible == true then
+				for i, v in pairs(Players:GetPlayers()) do
+					if v ~= LocalPlayer and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+						if (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude <= 500 then
+							if v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health > 0 then
+								repeat
+									wait();
+									EquipWeapon(_G.SelectedWeapon);
+									AutoHaki();
+									TweenPlayer(v.HumanoidRootPart.CFrame * CFrame.new(0, 0, 40));
+									Attack();
+								until not _G.AutoKillPlayerAfterTrial or (not v.Character) or v.Character.Humanoid.Health <= 0;
+							end;
+						end;
+					end;
+				end;
+			end;
+		end;
+	end;
+end);
+WorldTeleportSection = Tabs.TeleportTab:CreateSection("World");
+TeleportToFirstSeaButton = Tabs.TeleportTab:CreateButton({
+	Name = "Teleport To First Sea",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("TravelMain");
+	end
+});
+TeleportToSecondSeaButton = Tabs.TeleportTab:CreateButton({
+	Name = "Teleport To Second Sea",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("TravelDressrosa");
+	end
+});
+TeleportToThirdSeaButton = Tabs.TeleportTab:CreateButton({
+	Name = "Teleport To Third Sea",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("TravelZou");
+	end
+});
+ShopSection = Tabs.ShopTab:CreateSection("Shop");
+AutoBuyLegendarySwordToggle = Tabs.ShopTab:CreateToggle({
+	Name = "Auto Buy Legendary Sword",
+	Flag = "AutoBuyLegendarySword",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoBuyLegendarySword = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoBuyLegendarySword then
+			pcall(function()
+				Remotes.CommF_:InvokeServer("LegendarySwordDealer", "1");
+				Remotes.CommF_:InvokeServer("LegendarySwordDealer", "2");
+				Remotes.CommF_:InvokeServer("LegendarySwordDealer", "3");
+			end);
+		end;
+	end;
+end);
+AutoBuyHakiColorToggle = Tabs.ShopTab:CreateToggle({
+	Name = "Auto Buy Haki Color",
+	Flag = "AutoBuyHakiColor",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoBuyHakiColor = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoBuyHakiColor then
+			Remotes.CommF_:InvokeServer("ColorsDealer", "2");
+		end;
+	end;
+end);
+AbilitiesShopSection = Tabs.ShopTab:CreateSection("Abilities");
+BuyGeppoButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Geppo",
+	Desc = "$10,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyHaki", "Geppo");
+	end
+});
+BuyBusoHaki = Tabs.ShopTab:CreateButton({
+	Name = "Buy Buso Haki",
+	Desc = "$25,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyHaki", "Buso");
+	end
+});
+BuySoruButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Soru",
+	Desc = "$25,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyHaki", "Soru");
+	end
+});
+BuyObservationHakiButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Observation Haki",
+	Desc = "$750,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("KenTalk", "Buy");
+	end
+});
+FightingStyleShopSection = Tabs.ShopTab:CreateSection("Fighting Style");
+BuyBlackLegButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Black Leg",
+	Desc = "$150,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyBlackLeg");
+	end
+});
+BuyElectroButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Electro",
+	Desc = "$550,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyElectro");
+	end
+});
+BuyFishmanKarateButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Fishman Karate",
+	Desc = "$750,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyFishmanKarate");
+	end
+});
+BuyDragonClawButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Dragon Claw",
+	Desc = "ƒ1,500",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "DragonClaw", "1");
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "DragonClaw", "2");
+	end
+});
+BuySuperhumanButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Superhuman",
+	Desc = "$3,000,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuySuperhuman");
+	end
+});
+BuyDeathStepButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Death Step",
+	Desc = "ƒ5,000 $5,000,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyDeathStep");
+	end
+});
+BuySharkmanKarateButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Sharkman Karate",
+	Desc = "ƒ5,000 $2,500,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuySharkmanKarate", true);
+		Remotes.CommF_:InvokeServer("BuySharkmanKarate");
+	end
+});
+BuyElectricClawButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Electric Claw",
+	Desc = "ƒ5,000 $3,000,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyElectricClaw");
+	end
+});
+BuyDragonTalonButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Dragon Talon",
+	Desc = "ƒ5,000 $3,000,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyDragonTalon");
+	end
+});
+BuyGodHumanButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy God Human",
+	Desc = "ƒ5,000 $5,000,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyGodhuman");
+	end
+});
+BuySanguineArtButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Sanguine Art",
+	Desc = "ƒ5,000 $5,000,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuySanguineArt", true);
+		Remotes.CommF_:InvokeServer("BuySanguineArt");
+	end
+});
+SwordShopSection = Tabs.ShopTab:CreateSection("Sword");
+BuyCutlassButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Cutlass",
+	Desc = "$1,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Cutlass");
+	end
+});
+BuyKatanaButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Katana",
+	Desc = "$1,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Katana");
+	end
+});
+BuyIronMaceButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Iron Mace",
+	Desc = "$25,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Iron Mace");
+	end
+});
+BuyDualKatanaButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Dual Katana",
+	Desc = "$12,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Dual Katana");
+	end
+});
+BuyTripleKatanaButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Triple Katana",
+	Desc = "$60,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Triple Katana");
+	end
+});
+BuyPipeButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Pipe",
+	Desc = "$100,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Pipe");
+	end
+});
+BuyDualHeadedBladeButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Dual Headed Blade",
+	Desc = "$400,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Dual-Headed Blade");
+	end
+});
+BuyBisentoButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Bisento",
+	Desc = "$1,200,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Bisento");
+	end
+});
+BuySoulCaneButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Soul Cane",
+	Desc = "$1,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Soul Cane");
+	end
+});
+GunShopSection = Tabs.ShopTab:CreateSection("Gun");
+BuySlingshotButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Slingshot",
+	Desc = "$5,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Slingshot");
+	end
+});
+BuyMusketButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Musket",
+	Desc = "$8,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Musket");
+	end
+});
+BuyFintlockButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Flintlock",
+	Desc = "$10,500",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Flintlock");
+	end
+});
+BuyRefinedFintlockButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Refined Fintlock",
+	Desc = "$60,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Refined Fintlock");
+	end
+});
+BuyCanonButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Cannon",
+	Desc = "$100,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Cannon");
+	end
+});
+BuyKabuchaButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Kabucha",
+	Desc = "ƒ1,500",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "Slingshot", "1");
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "Slingshot", "2");
+	end
+});
+StatsShopSection = Tabs.ShopTab:CreateSection("Stats");
+ResetStatsShopButton = Tabs.ShopTab:CreateButton({
+	Name = "Reset Stats",
+	Desc = "ƒ2,500",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "Refund", "1");
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "Refund", "2");
+	end
+});
+RandomRaceShopButton = Tabs.ShopTab:CreateButton({
+	Name = "Random Race",
+	Desc = "ƒ3,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "Reroll", "1");
+		Remotes.CommF_:InvokeServer("BlackbeardReward", "Reroll", "2");
+	end
+});
+AccessoriesShopSection = Tabs.ShopTab:CreateSection("Accessories");
+BuyBlackCapeButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Black Cape",
+	Desc = "$50,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Black Cape");
+	end
+});
+BuySwordsmanHatButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Swordsman Hat",
+	Desc = "$150,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Swordsman Hat");
+	end
+});
+BuyTomoeRingButton = Tabs.ShopTab:CreateButton({
+	Name = "Buy Tomoe Ring",
+	Desc = "$500,000",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("BuyItem", "Tomoe Ring");
+	end
+});
+CombatTabSection = Tabs.CombatTab:CreateSection("Combat");
+PlayerInServerTotalParagraph = Tabs.CombatTab:CreateLabel("Players In Server: 0");
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			for i, v in pairs(Players:GetPlayers()) do
+				if i == 12 then
+					PlayerInServerTotalParagraph:Set(tostring(i .. " / " .. "12" .. "(Max)"));
+				elseif i == 1 then
+					PlayerInServerTotalParagraph:Set(tostring(i .. " / " .. "12"));
+				else
+					PlayerInServerTotalParagraph:Set(tostring(i .. " / " .. "12"));
+				end;
+			end;
+		end);
+	end;
+end);
+PlayerList = {};
+task.spawn(function()
+	for i, v in pairs(Players:GetChildren()) do
+		table.insert(PlayerList, v.Name);
+	end;
+end);
+SelectedPlayerDropdown = Tabs.CombatTab:CreateDropdown({
+	Name = "Choose Player",
+	Flag = "ChoosePlayer",
+	Options = PlayerList,
+	Value = tostring(PlayerList[1]),
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedPlayer = option;
+	end
+});
+RefreshPlayerButton = Tabs.CombatTab:CreateButton({
+	Name = "Refresh Player",
+	Callback = function()
+		PlayerList = {};
+		for i, v in pairs(Players:GetChildren()) do
+			table.insert(PlayerList, v.Name);
+		end;
+		SelectedPlayerDropdown:Refresh(PlayerList);
+	end
+});
+SpectatePlayerToggle = Tabs.CombatTab:CreateToggle({
+	Name = "Spectate Player",
+	Flag = "SpectatePlayer",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.SpectatePlys = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.SpectatePlys then
+			pcall(function()
+				repeat
+					wait(0.1);
+					Workspace.Camera.CameraSubject = (Players:FindFirstChild(_G.SelectedPlayer)).Character.Humanoid;
+				until _G.SpectatePlys == false or (not Players:FindFirstChild(_G.SelectedPlayer));
+				Workspace.Camera.CameraSubject = Character.Humanoid;
+			end);
+		end;
+	end;
+end);
+TeleportToPlayerToggle = Tabs.CombatTab:CreateToggle({
+	Name = "Teleport To Player",
+	Flag = "TeleportToPlayer",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TeleportToPlayer = value;
+		pcall(function()
+			if _G.TeleportToPlayer then
+				repeat
+					TweenPlayer(Players[_G.SelectedPlayer].HumanoidRootPart.CFrame);
+					wait();
+				until _G.TeleportToPlayer == false or (not Players:FindFirstChild(_G.SelectedPlayer));
+			end;
+			StopTween(_G.TeleportToPlayer);
+		end);
+	end
+});
+TeleportIslandSection = Tabs.TeleportTab:CreateSection("Island");
+IslandList = {};
+task.spawn(function()
+	if World1 then
+		IslandList = {
+			"WindMill",
+			"Marine",
+			"Middle Town",
+			"Jungle",
+			"Pirate Village",
+			"Desert",
+			"Snow Island",
+			"MarineFord",
+			"Colosseum",
+			"Sky Island 1",
+			"Sky Island 2",
+			"Sky Island 3",
+			"Prison",
+			"Magma Village",
+			"Under Water Island",
+			"Fountain City",
+			"Shank Room",
+			"Mob Island"
+		};
+	elseif World2 then
+		IslandList = {
+			"The Cafe",
+			"Frist Spot",
+			"Dark Area",
+			"Flamingo Mansion",
+			"Flamingo Room",
+			"Green Zone",
+			"Factory",
+			"Colossuim",
+			"Zombie Island",
+			"Two Snow Mountain",
+			"Punk Hazard",
+			"Cursed Ship",
+			"Ice Castle",
+			"Forgotten Island",
+			"Ussop Island",
+			"Mini Sky Island"
+		};
+	elseif World3 then
+		IslandList = {
+			"Mansion",
+			"Port Town",
+			"Great Tree",
+			"Castle On The Sea",
+			"MiniSky",
+			"Hydra Island",
+			"Floating Turtle",
+			"Haunted Castle",
+			"Ice Cream Island",
+			"Peanut Island",
+			"Cake Island",
+			"Cocoa Island",
+			"Candy Island",
+			"Tiki Outpost",
+			"Dragon Dojo"
+		};
+	end;
+end);
+SelectedTeleportIslandDropdown = Tabs.TeleportTab:CreateDropdown({
+	Name = "Choose Island",
+	Flag = "ChooseIsland",
+	Options = IslandList,
+	Value = IslandList[1],
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectIsland = option;
+	end
+});
+SelectedTeleportIslandDropdown:Select(IslandList[1]);
+AutoTeleportToIslandToggle = Tabs.TeleportTab:CreateToggle({
+	Name = "Teleport To Island",
+	Flag = "TeleportToIsland",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TeleportIsland = state;
+		if _G.TeleportIsland then
+			repeat
+				wait();
+				if _G.SelectIsland == "WindMill" then
+					TweenPlayer(CFrame.new(979.79895019531, 16.516613006592, 1429.0466308594));
+				elseif _G.SelectIsland == "Marine" then
+					TweenPlayer(CFrame.new(-2566.4296875, 6.8556680679321, 2045.2561035156));
+				elseif _G.SelectIsland == "Middle Town" then
+					TweenPlayer(CFrame.new(-690.33081054688, 15.09425163269, 1582.2380371094));
+				elseif _G.SelectIsland == "Jungle" then
+					TweenPlayer(CFrame.new(-1612.7957763672, 36.852081298828, 149.12843322754));
+				elseif _G.SelectIsland == "Pirate Village" then
+					TweenPlayer(CFrame.new(-1181.3093261719, 4.7514905929565, 3803.5456542969));
+				elseif _G.SelectIsland == "Desert" then
+					TweenPlayer(CFrame.new(944.15789794922, 20.919729232788, 4373.3002929688));
+				elseif _G.SelectIsland == "Snow Island" then
+					TweenPlayer(CFrame.new(1347.8067626953, 104.66806030273, -1319.7370605469));
+				elseif _G.SelectIsland == "MarineFord" then
+					TweenPlayer(CFrame.new(-4914.8212890625, 50.963626861572, 4281.0278320313));
+				elseif _G.SelectIsland == "Colosseum" then
+					TweenPlayer(CFrame.new(-1427.6203613281, 7.2881078720093, -2792.7722167969));
+				elseif _G.SelectIsland == "Sky Island 1" then
+					TweenPlayer(CFrame.new(-4869.1025390625, 733.46051025391, -2667.0180664063));
+				elseif _G.SelectIsland == "Sky Island 2" then
+					Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-4607.82275, 872.54248, -1667.55688));
+				elseif _G.SelectIsland == "Sky Island 3" then
+					Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-7894.6176757813, 5547.1416015625, -380.29119873047));
+				elseif _G.SelectIsland == "Prison" then
+					TweenPlayer(CFrame.new(4875.330078125, 5.6519818305969, 734.85021972656));
+				elseif _G.SelectIsland == "Magma Village" then
+					TweenPlayer(CFrame.new(-5247.7163085938, 12.883934020996, 8504.96875));
+				elseif _G.SelectIsland == "Under Water Island" then
+					Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(61163.8515625, 11.6796875, 1819.7841796875));
+				elseif _G.SelectIsland == "Fountain City" then
+					TweenPlayer(CFrame.new(5127.1284179688, 59.501365661621, 4105.4458007813));
+				elseif _G.SelectIsland == "Shank Room" then
+					TweenPlayer(CFrame.new(-1442.16553, 29.8788261, -28.3547478));
+				elseif _G.SelectIsland == "Mob Island" then
+					TweenPlayer(CFrame.new(-2850.20068, 7.39224768, 5354.99268));
+				elseif _G.SelectIsland == "The Cafe" then
+					TweenPlayer(CFrame.new(-380.47927856445, 77.220390319824, 255.82550048828));
+				elseif _G.SelectIsland == "Frist Spot" then
+					TweenPlayer(CFrame.new(-11.311455726624, 29.276733398438, 2771.5224609375));
+				elseif _G.SelectIsland == "Dark Area" then
+					TweenPlayer(CFrame.new(3780.0302734375, 22.652164459229, -3498.5859375));
+				elseif _G.SelectIsland == "Flamingo Mansion" then
+					TweenPlayer(CFrame.new(-483.73370361328, 332.0383605957, 595.32708740234));
+				elseif _G.SelectIsland == "Flamingo Room" then
+					TweenPlayer(CFrame.new(2284.4140625, 15.152037620544, 875.72534179688));
+				elseif _G.SelectIsland == "Green Zone" then
+					TweenPlayer(CFrame.new(-2448.5300292969, 73.016105651855, -3210.6306152344));
+				elseif _G.SelectIsland == "Factory" then
+					TweenPlayer(CFrame.new(424.12698364258, 211.16171264648, -427.54049682617));
+				elseif _G.SelectIsland == "Colossuim" then
+					TweenPlayer(CFrame.new(-1503.6224365234, 219.7956237793, 1369.3101806641));
+				elseif _G.SelectIsland == "Zombie Island" then
+					TweenPlayer(CFrame.new(-5622.033203125, 492.19604492188, -781.78552246094));
+				elseif _G.SelectIsland == "Two Snow Mountain" then
+					TweenPlayer(CFrame.new(753.14288330078, 408.23559570313, -5274.6147460938));
+				elseif _G.SelectIsland == "Punk Hazard" then
+					TweenPlayer(CFrame.new(-6127.654296875, 15.951762199402, -5040.2861328125));
+				elseif _G.SelectIsland == "Cursed Ship" then
+					TweenPlayer(CFrame.new(923.40197753906, 125.05712890625, 32885.875));
+				elseif _G.SelectIsland == "Ice Castle" then
+					TweenPlayer(CFrame.new(6148.4116210938, 294.38687133789, -6741.1166992188));
+				elseif _G.SelectIsland == "Forgotten Island" then
+					TweenPlayer(CFrame.new(-3032.7641601563, 317.89672851563, -10075.373046875));
+				elseif _G.SelectIsland == "Ussop Island" then
+					TweenPlayer(CFrame.new(4816.8618164063, 8.4599885940552, 2863.8195800781));
+				elseif _G.SelectIsland == "Mini Sky Island" then
+					TweenPlayer(CFrame.new(-288.74060058594, 49326.31640625, -35248.59375));
+				elseif _G.SelectIsland == "Great Tree" then
+					TweenPlayer(CFrame.new(2681.2736816406, 1682.8092041016, -7190.9853515625));
+				elseif _G.SelectIsland == "Castle On The Sea" then
+					Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-5083.26025390625, 314.6056823730469, -3175.673095703125));
+				elseif _G.SelectIsland == "MiniSky" then
+					TweenPlayer(CFrame.new(-260.65557861328, 49325.8046875, -35253.5703125));
+				elseif _G.SelectIsland == "Port Town" then
+					TweenPlayer(CFrame.new(-290.7376708984375, 6.729952812194824, 5343.5537109375));
+				elseif _G.SelectIsland == "Hydra Island" then
+					TweenPlayer(CFrame.new(5291.24951, 1005.4433, 393.762421, 0.994222522, 0.00000000945717726, -0.10733854, -0.00000000708227299, 1, 0.0000000225065655, 0.10733854, -0.0000000216163336, 0.994222522));
+				elseif _G.SelectIsland == "Floating Turtle" then
+					TweenPlayer(CFrame.new(-13274.528320313, 531.82073974609, -7579.22265625));
+				elseif _G.SelectIsland == "Mansion" then
+					Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(-12471.169921875, 374.94024658203, -7551.677734375));
+				elseif _G.SelectIsland == "Haunted Castle" then
+					TweenPlayer(CFrame.new(-9515.3720703125, 164.00624084473, 5786.0610351562));
+				elseif _G.SelectIsland == "Ice Cream Island" then
+					TweenPlayer(CFrame.new(-902.56817626953, 79.93204498291, -10988.84765625));
+				elseif _G.SelectIsland == "Peanut Island" then
+					TweenPlayer(CFrame.new(-2062.7475585938, 50.473892211914, -10232.568359375));
+				elseif _G.SelectIsland == "Cake Island" then
+					TweenPlayer(CFrame.new(-1884.7747802734375, 19.327526092529297, -11666.8974609375));
+				elseif _G.SelectIsland == "Cocoa Island" then
+					TweenPlayer(CFrame.new(87.94276428222656, 73.55451202392578, -12319.46484375));
+				elseif _G.SelectIsland == "Candy Island" then
+					TweenPlayer(CFrame.new(-1014.4241943359375, 149.11068725585938, -14555.962890625));
+				elseif _G.SelectIsland == "Tiki Outpost" then
+					TweenPlayer(CFrame.new(-16218.6826, 9.08636189, 445.618408, -0.0610186495, 0.00000000110512588, -0.99813664, -0.0000000183458475, 1, 0.00000000222871765, 0.99813664, 0.0000000184476558, -0.0610186495));
+				elseif _G.SelectIsland == "Dragon Dojo" then
+					TweenPlayer(CFrame.new(5743.31934, 1206.90991, 936.011047, 0.475779682, -0.00000000366404773, -0.879564524, 0.0000000254969592, 1, 0.00000000962622693, 0.879564524, -0.000000027006184, 0.475779682));
+				end;
+			until not _G.TeleportIsland;
+		end;
+		StopTween(_G.TeleportIsland);
+	end
+});
+TeleportNpcSection = Tabs.TeleportTab:CreateSection("Npc");
+NpcList = {};
+task.spawn(function()
+	if World1 then
+		NpcList = {
+			"Random Devil Fruit",
+			"Blox Fruits Dealer",
+			"Remove Devil Fruit",
+			"Ability Teacher",
+			"Dark Step",
+			"Electro",
+			"Fishman Karate"
+		};
+	elseif World2 then
+		NpcList = {
+			"Dargon Berath",
+			"Mtsterious Man",
+			"Mysterious Scientist",
+			"Awakening Expert",
+			"Nerd",
+			"Bar Manager",
+			"Blox Fruits Dealer",
+			"Trevor",
+			"Enhancement Editor",
+			"Pirate Recruiter",
+			"Marines Recruiter",
+			"Chemist",
+			"Cyborg",
+			"Ghoul Mark",
+			"Guashiem",
+			"El Admin",
+			"El Rodolfo",
+			"Arowe"
+		};
+	elseif World3 then
+		NpcList = {
+			"Blox Fruits Dealer",
+			"Remove Devil Fruit",
+			"Horned Man",
+			"Hungey Man",
+			"Previous Hero",
+			"Butler",
+			"Lunoven",
+			"Trevor",
+			"Elite Hunter",
+			"Player Hunter",
+			"Uzoth"
+		};
+	end;
+end);
+SelectedNpcTeleport = Tabs.TeleportTab:CreateDropdown({
+	Name = "Choose Npc",
+	Flag = "ChooseNpc",
+	Options = NpcList,
+	Value = NpcList[1],
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectNPC = option;
+	end
+});
+SelectedNpcTeleport:Select(NpcList[1]);
+TeleportToNpcToggle = Tabs.TeleportTab:CreateToggle({
+	Name = "Teleport To Npc",
+	Flag = "TeleportToNpc",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TeleportNPC = state;
+		if _G.TeleportNPC then
+			repeat
+				wait();
+				if _G.SelectNPC == "Dargon Berath" then
+					TweenPlayer(CFrame.new(703.372986, 186.985519, 654.522034, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Mtsterious Man" then
+					TweenPlayer(CFrame.new(-2574.43335, 1627.92371, -3739.35767, 0.378697902, -0.00000000906400288, 0.92552036, -0.00000000895582009, 1, 0.0000000134578926, -0.92552036, -0.0000000133852689, 0.378697902));
+				elseif _G.SelectNPC == "Mysterious Scientist" then
+					TweenPlayer(CFrame.new(-6437.87793, 250.645355, -4498.92773, 0.502376854, -0.0000000101223634, -0.864648759, 0.0000000234106086, 1, 0.00000000189508653, 0.864648759, -0.0000000211940012, 0.502376854));
+				elseif _G.SelectNPC == "Awakening Expert" then
+					TweenPlayer(CFrame.new(-408.098846, 16.0459061, 247.432846, 0.028394036, 0.000000000617599138, 0.999596894, -0.00000000557905944, 1, -0.000000000459372484, -0.999596894, -0.00000000556376767, 0.028394036));
+				elseif _G.SelectNPC == "Nerd" then
+					TweenPlayer(CFrame.new(-401.783722, 73.0859299, 262.306702, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Bar Manager" then
+					TweenPlayer(CFrame.new(-385.84726, 73.0458984, 316.088806, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Blox Fruits Dealer" then
+					TweenPlayer(CFrame.new(-450.725464, 73.0458984, 355.636902, -0.780352175, -0.000000027266168, 0.625340283, 0.00000000978516468, 1, 0.0000000558128797, -0.625340283, 0.0000000496727601, -0.780352175));
+				elseif _G.SelectNPC == "Trevor" then
+					TweenPlayer(CFrame.new(-341.498322, 331.886444, 643.024963, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Plokster" then
+					TweenPlayer(CFrame.new(-1885.16016, 88.3838196, -1912.28723, -0.513468027, 0, 0.858108759, 0, 1, 0, -0.858108759, 0, -0.513468027));
+				elseif _G.SelectNPC == "Enhancement Editor" then
+					TweenPlayer(CFrame.new(-346.820221, 72.9856339, 1194.36218, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Pirate Recruiter" then
+					TweenPlayer(CFrame.new(-428.072998, 72.9495239, 1445.32422, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Marines Recruiter" then
+					TweenPlayer(CFrame.new(-1349.77295, 72.9853363, -1045.12964, 0.866493046, 0, -0.499189168, 0, 1, 0, 0.499189168, 0, 0.866493046));
+				elseif _G.SelectNPC == "Chemist" then
+					TweenPlayer(CFrame.new(-2777.45288, 72.9919434, -3572.25732, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Ghoul Mark" then
+					TweenPlayer(CFrame.new(635.172546, 125.976357, 33219.832, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Cyborg" then
+					TweenPlayer(CFrame.new(629.146851, 312.307373, -531.624146, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Guashiem" then
+					TweenPlayer(CFrame.new(937.953003, 181.083359, 33277.9297, 1, -0.0000000860126406, 0.0000000000000000381773896, 0.0000000860126406, 1, -0.000000000000000189969598, -0.000000000000000038177373, 0.000000000000000189969598, 1));
+				elseif _G.SelectNPC == "El Admin" then
+					TweenPlayer(CFrame.new(1322.80835, 126.345039, 33135.8789, 0.988783717, -0.0000000869797603, -0.149354503, 0.0000000862223786, 1, -0.0000000115461916, 0.149354503, -0.00000000146101409, 0.988783717));
+				elseif _G.SelectNPC == "El Rodolfo" then
+					TweenPlayer(CFrame.new(941.228699, 40.4686775, 32778.9922, -0.818029106, -0.0000000119524382, 0.575176775, -0.0000000128741648, 1, 0.00000000247053866, -0.575176775, -0.00000000538394795, -0.818029106));
+				elseif _G.SelectNPC == "Arowe" then
+					TweenPlayer(CFrame.new(-1994.51038, 125.519142, -72.2622986, -0.16715166, -0.0000000655417338, -0.985931218, -0.0000000713315558, 1, -0.0000000543836585, 0.985931218, 0.0000000612376851, -0.16715166));
+				elseif _G.SelectNPC == "Random Devil Fruit" then
+					TweenPlayer(CFrame.new(-1436.19727, 61.8777695, 4.75247526, -0.557794094, 0.0000000274216543, 0.829979479, 0.0000000583273234, 1, 0.00000000616037932, -0.829979479, 0.0000000518467118, -0.557794094));
+				elseif _G.SelectNPC == "Blox Fruits Dealer" then
+					TweenPlayer(CFrame.new(-923.255066, 7.67800522, 1608.61011, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Remove Devil Fruit" then
+					TweenPlayer(CFrame.new(5664.80469, 64.677681, 867.85907, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Ability Teacher" then
+					TweenPlayer(CFrame.new(-1057.67822, 9.65220833, 1799.49146, -0.865874112, -0.0000000926330159, 0.500262439, -0.0000000733759435, 1, 0.00000005816689, -0.500262439, 0.0000000136579752, -0.865874112));
+				elseif _G.SelectNPC == "Dark Step" then
+					TweenPlayer(CFrame.new(-987.873047, 13.7778397, 3989.4978, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Electro" then
+					TweenPlayer(CFrame.new(-5389.49561, 13.283, -2149.80151, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Fishman Karate" then
+					TweenPlayer(CFrame.new(61581.8047, 18.8965912, 987.832703, 1, 0, 0, 0, 1, 0, 0, 0, 1));
+				elseif _G.SelectNPC == "Random Devil Fruit" then
+					TweenPlayer(CFrame.new(-12491, 337, -7449));
+				elseif _G.SelectNPC == "Blox Fruits Dealer" then
+					TweenPlayer(CFrame.new(-12511, 337, -7448));
+				elseif _G.SelectNPC == "Remove Devil Fruit" then
+					TweenPlayer(CFrame.new(-5571, 1089, -2661));
+				elseif _G.SelectNPC == "Horned Man" then
+					TweenPlayer(CFrame.new(-11890, 931, -8760));
+				elseif _G.SelectNPC == "Hungey Man" then
+					TweenPlayer(CFrame.new(-10919, 624, -10268));
+				elseif _G.SelectNPC == "Previous Hero" then
+					TweenPlayer(CFrame.new(-10368, 332, -10128));
+				elseif _G.SelectNPC == "Butler" then
+					TweenPlayer(CFrame.new(-5125, 316, -3130));
+				elseif _G.SelectNPC == "Lunoven" then
+					TweenPlayer(CFrame.new(-5117, 316, -3093));
+				elseif _G.SelectNPC == "Elite Hunter" then
+					TweenPlayer(CFrame.new(-5420, 314, -2828));
+				elseif _G.SelectNPC == "Player Hunter" then
+					TweenPlayer(CFrame.new(-5559, 314, -2840));
+				elseif _G.SelectNPC == "Uzoth" then
+					TweenPlayer(CFrame.new(-9785, 852, 6667));
+				end;
+			until not _G.TeleportNPC;
+		end;
+		StopTween(_G.TeleportNPC);
+	end
+});
+EspSection = Tabs.EspTab:CreateSection("Esp");
+EspPlayerToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Player",
+	Flag = "EspPlayer",
+	Desc = "Highlight Player",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspPlayer = state;
+		InitEspPlayer()
+	end
+});
+EspChestToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Chest",
+	Flag = "EspChest",
+	Desc = "Highlight Chest",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspChest = state;
+		InitEspChest()
+	end
+});
+EspDevilFruitToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Devil Fruit",
+	Flag = "EspDevilFruit",
+	Desc = "Highlight Devil Fruit",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspDevilfruit = state;
+		InitEspDevilFruit()
+	end
+});
+EspRealFruitToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Real Fruit",
+	Flag = "EspRealFruit",
+	Desc = "Highlight Real Fruit",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspRealFruit = state;
+		InitEspRealFruit()
+	end
+})
+EspFlowerToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Flower",
+	Flag = "EspFlower",
+	Desc = "Highlight Flower",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspFlower = state;
+		InitEspFlower()
+	end
+});
+EspIslandToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Island",
+	Flag = "EspIsland",
+	Desc = "Highlight Island",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspIsland = state;
+		InitEspIsland()
+	end
+});
+EspNpcToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Npc",
+	Flag = "EspNpc",
+	Desc = "Highlight Npc",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspNpc = state;
+		InitEspNpc()
+	end
+});
+EspSeaBeastToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Sea Beast",
+	Flag = "EspSeaBeast",
+	Desc = "Highlight SeaBeast",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspSeabeast = state;
+		InitEspSeabeast()
+	end
+});
+EspMonsterToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Monster",
+	Flag = "EspMonster",
+	Desc = "Highlight Monster",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspMonster = state;
+		InitEspMonster()
+	end
+});
+EspMirageIslandToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Mirage Island",
+	Flag = "EspMirageIsland",
+	Desc = "Highlight Mirage Island",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspMirage = state;
+		InitEspMirage()
+	end
+});
+EspKitsuneIslandToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Kitsune Island",
+	Flag = "EspKitsuneIsland",
+	Desc = "Highlight Kitsune Island",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspKitsune = state;
+		InitEspKitsune()
+	end
+});
+EspFrozenDimensionToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Frozen Dimension",
+	Flag = "EspFrozenDimension",
+	Desc = "Highlight Frozen Dimension",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspFrozen = state;
+		InitEspFrozen()
+	end
+});
+EspPrehistoricIslandToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Prehistoric Island",
+	Flag = "EspPrehistoricIsland",
+	Desc = "Highlight Prehistoric Island",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspPrehistoric = state;
+		InitEspPRehistoric()
+	end
+});
+EspGearToggle = Tabs.EspTab:CreateToggle({
+	Name = "Esp Gear",
+	Flag = "EspGear",
+	Desc = "Highlight Gear",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.EspGear = state;
+		InitEspGear()
+	end
+});
+VolcanicMagnetSection = Tabs.DragonDojoTab:CreateSection("Volcanic Magnet");
+AutoFarmBlazeEmberToggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Auto Farm Blaze Ember",
+	Flag = "AutoFarmBlazeEmber",
+	Desc = "Auto Compleate Quest + Collect Blaze Ember [ Sea 3 Only ]",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmBlazeEmber = state;
+		StopTween(_G.AutoFarmBlazeEmber);
+	end
+});
+function getBlazeEmberQuest()
+	local ResQuest = (((ReplicatedStorage:WaitForChild("Modules")):WaitForChild("Net")):WaitForChild("RF/DragonHunter")):InvokeServer({
+		Context = "Check"
+	});
+	if ResQuest then
+		for key, value in pairs(ResQuest) do
+			if key == "Text" then
+				return value;
+			end;
+		end;
+	end;
+end;
+function getRequestQuest()
+	local Req = (((ReplicatedStorage:WaitForChild("Modules")):WaitForChild("Net")):WaitForChild("RF/DragonHunter")):InvokeServer({
+		Context = "RequestQuest"
+	});
+	return Req;
+end;
+function getIsOnQuest()
+	local ResQuest = (((ReplicatedStorage:WaitForChild("Modules")):WaitForChild("Net")):WaitForChild("RF/DragonHunter")):InvokeServer({
+		Context = "Check"
+	});
+	if ResQuest then
+		for key, value in pairs(ResQuest) do
+			if key == "Text" then
+				if string.find(value, "Venomous Assailant") or string.find(value, "Hydra Enforcer") or string.find(value, "Destroy 10 trees") then
+					return true;
+				end;
+			end;
+		end;
+	end;
+	return false;
+end;
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmBlazeEmber then
+			pcall(function()
+				if not _G.OnBlazeQuest and (not getIsOnQuest()) then
+					local DragonHunterPos = CFrame.new(5864.86377, 1209.55066, 812.775024, 0.879059196, 0.00000000381980803, 0.476712614, -0.0000000131110456, 1, 0.0000000161639893, -0.476712614, -0.0000000204593036, 0.879059196);
+					TweenPlayer(DragonHunterPos);
+					(((ReplicatedStorage:WaitForChild("Modules")):WaitForChild("Net")):WaitForChild("RF/DragonHunter")):InvokeServer({
+						Context = "RequestQuest"
+					});
+				end;
+				SaveBlazeEmberQuest();
+				_G.OnBlazeQuest = true;
+			end);
+		end;
+	end;
+end);
+function SaveBlazeEmberQuest()
+	if string.find(getBlazeEmberQuest(), "Venomous Assailant") then
+		_G.BlazeEmberQuest = "Venomous Assailant";
+	elseif string.find(getBlazeEmberQuest(), "Hydra Enforcer") then
+		_G.BlazeEmberQuest = "Hydra Enforcer";
+	elseif string.find(getBlazeEmberQuest(), "Destroy 10 trees") then
+		_G.BlazeEmberQuest = "Destroy 10 trees";
+	end;
+end;
+_G.OnBlazeQuest = false;
+spawn(function()
+	while wait(0.2) do
+		if isQuestCompleated() then
+			_G.OnBlazeQuest = false;
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmBlazeEmber then
+			pcall(function()
+				if _G.BlazeEmberQuest == "Venomous Assailant" and _G.OnBlazeQuest then
+					autoKillVenemousAssailant();
+				elseif _G.BlazeEmberQuest == "Hydra Enforcer" and _G.OnBlazeQuest then
+					autoKillHydraEnforcer();
+				elseif _G.BlazeEmberQuest == "Destroy 10 trees" and _G.OnBlazeQuest then
+					autoDestroyHydraTrees();
+				end;
+			end);
+		end;
+	end;
+end);
+function isQuestCompleated()
+	for i, v in pairs(LocalPlayer.PlayerGui.Notifications:GetChildren()) do
+		for _, Notif in pairs(v:GetChildren()) do
+			if string.find(Notif.Text, "Task completed!") or string.find(Notif.Text, "Head back to the Dojo") then
+				return true;
+			end;
+		end;
+	end;
+	return false;
+end;
+function CollectBlazeEmber()
+	InstantTp(((Workspace:WaitForChild("EmberTemplate")):FindFirstChild("Part")).CFrame);
+end;
+function autoKillVenemousAssailant()
+	if not Enemies:FindFirstChild("Venomous Assailant") then
+		TweenPlayer(CFrame.new(4789.29639, 1078.59082, 962.764099, -0.381989956, 0.0000000198627319, 0.924166501, 0.0000000126859874, 1, -0.0000000162490341, -0.924166501, 0.00000000551699708, -0.381989956));
+	else
+		for i, v in pairs(Enemies:GetChildren()) do
+			if v.Name == "Venomous Assailant" then
+				if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+					repeat
+						wait();
+						AutoHaki();
+						EquipWeapon(_G.SelectedWeapon);
+						v.Humanoid.WalkSpeed = 0;
+						v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+						PosMon = v.HumanoidRootPart.CFrame;
+						MonFarm = v.Name;
+						TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+						Attack();
+					until not v.Parent or v.Humanoid.Health <= 0 or (not _G.AutoFarmBlazeEmber) or (not _G.OnBlazeQuest);
+				end;
+			end;
+		end;
+	end;
+end;
+function autoKillHydraEnforcer()
+	if not Enemies:FindFirstChild("Hydra Enforcer") then
+		TweenPlayer(CFrame.new(4789.29639, 1078.59082, 962.764099, -0.381989956, 0.0000000198627319, 0.924166501, 0.0000000126859874, 1, -0.0000000162490341, -0.924166501, 0.00000000551699708, -0.381989956));
+	else
+		for i, v in pairs(Enemies:GetChildren()) do
+			if v.Name == "Hydra Enforcer" then
+				if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+					repeat
+						wait();
+						AutoHaki();
+						EquipWeapon(_G.SelectedWeapon);
+						v.Humanoid.WalkSpeed = 0;
+						v.HumanoidRootPart.Size = Vector3.new(1, 1, 1);
+						PosMon = v.HumanoidRootPart.CFrame;
+						MonFarm = v.Name;
+						TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+						Attack();
+					until not v.Parent or v.Humanoid.Health <= 0 or (not _G.AutoFarmBlazeEmber) or (not _G.OnBlazeQuest);
+				end;
+			end;
+		end;
+	end;
+end;
+function autoDestroyHydraTrees()
+	local Pos1 = CFrame.new(5260.28223, 1004.24329, 347.062622, 0.923247099, -0.00000000370291953, 0.384206682, -0.000000000671108058, 1, 0.0000000112505019, -0.384206682, -0.0000000106448379, 0.923247099);
+	local Pos2 = CFrame.new(5237.94775, 1004.24329, 429.596344, 0.371416599, 0.00000000207420636, 0.92846632, 0.00000000476562345, 1, -0.00000000414041734, -0.92846632, 0.00000000596254068, 0.371416599);
+	local Pos3 = CFrame.new(5320.87793, 1004.24329, 439.152954, 0.136340275, -0.0000000995428806, -0.990662038, 0.0000000610136723, 1, -0.0000000920841288, 0.990662038, -0.0000000478891593, 0.136340275);
+	local Pos4 = CFrame.new(5346.70752, 1004.24329, 359.389008, 0.296962529, 0.0000000642768185, -0.954889119, -0.0000000737323518, 1, 0.0000000443832349, 0.954889119, 0.0000000572260639, 0.296962529);
+	local myPos = HumanoidRootPart.CFrame;
+	if (myPos.Position - Pos1.Position).Magnitude <= 3 then
+		useAllSkill();
+	else
+		TweenPlayer(Pos1);
+	end;
+	if (myPos.Position - Pos2.Position).Magnitude <= 3 then
+		useAllSkill();
+	else
+		TweenPlayer(Pos2);
+	end;
+	if (myPos.Position - Pos3.Position).Magnitude <= 3 then
+		useAllSkill();
+	else
+		TweenPlayer(Pos3);
+	end;
+	if (myPos.Position - Pos4.Position).Magnitude <= 3 then
+		useAllSkill();
+	else
+		TweenPlayer(Pos4);
+	end;
+end;
+DoneSkillGun = false;
+DoneSkillSword = false;
+DoneSkillFruit = false;
+DoneSkillMelee = false;
+function useAllSkill()
+	local toolLevel = Character:FindFirstChild(LocalPlayer.Data.DevilFruit.Value).Level.Value;
+	if DoneSkillFruit == false then
+		EquipWeapon(getWeapon("Blox Fruit"))
+		sendKeyEvent("Z")
+		sendKeyEvent("X")
+		sendKeyEvent("C")
+		sendKeyEvent("V")
+		sendKeyEvent("F")
+		DoneSkillFruit = true;
+	end;
+	if DoneSkillMelee == false then
+		EquipWeapon(getWeapon("Melee"))
+		sendKeyEvent("Z")
+		sendKeyEvent("X")
+		sendKeyEvent("C")
+		sendKeyEvent("V")
+		DoneSkillMelee = true;
+	end;
+	if DoneSkillSword == false then
+		EquipWeapon(getWeapon("Sword"))
+		sendKeyEvent("Z")
+		sendKeyEvent("X")
+		DoneSkillSword = true;
+	end;
+	if DoneSkillGun == false then
+		EquipWeapon(getWeapon("Gun"))
+		sendKeyEvent("Z")
+		sendKeyEvent("X")
+		DoneSkillGun = true;
+	end;
+	DoneSkillGun = false;
+	DoneSkillSword = false;
+	DoneSkillFruit = false;
+	DoneSkillMelee = false;
+end;
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoFarmBlazeEmber then
+			pcall(function()
+				if (Workspace:WaitForChild("EmberTemplate")):FindFirstChild("Part") then
+					CollectBlazeEmber();
+				end;
+			end);
+		end;
+	end;
+end);
+CraftVolcanicMagnetButton = Tabs.DragonDojoTab:CreateButton({
+	Name = "Craft Volcanic Magnet",
+	Callback = function()
+		Remotes:WaitForChild("CommF_"):InvokeServer("CraftItem", "Craft", "Volcanic Magnet");
+	end
+});
+
+
+DracoTrialSection = Tabs.DragonDojoTab:CreateSection("Draco Trial");
+
+function getLevelDracoQuest()
+  local args = {[1] = {NPC = "Dragon Wizard", Command = "Upgrade"}};
+  return Net:FindFirstChild("RF/InteractDragonQuest"):InvokeServer(unpack(args))
+end
+
+UpgradeDracoTrialToggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Upgrade Draco Trial",
+	Flag = "UpgradeDracoTrial",
+	Desc = "Teleport and Upgrade Draco Trial",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.UpgradeDracoTrial = state;
+		StopTween(_G.UpgradeDracoTrial);
+	end
+});
+
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.UpgradeDracoTrial then     
+				if getLevelDracoQuest() == false then
+					return nil
+				elseif getLevelDracoQuest() == true then
+				if (CFrame.new(5814.42724609375, 1208.3267822265625, 884.5785522460938).Position - HumanoidRootPart.Position).Magnitude >= 5 then
+						TweenPlayer(CFrame.new(5814.42724609375, 1208.3267822265625, 884.5785522460938));
+					else
+						local args = {[1] = {NPC = "Dragon Wizard", Command = "Upgrade"}};
+						Net:FindFirstChild("RF/InteractDragonQuest"):InvokeServer(unpack(args));
+					end
+				end
+			end
+		end)
+	end
+end)
+
+AutoDracoV1Toggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Auto Draco V1",
+	Flag = "AutoDracoV1",
+	Desc = "Get Dragon Egg & Black Belt",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDracoV1 = state;
+		StopTween(_G.AutoDracoV1);
+	end
+});
+
+spawn(function()
+	while wait(_G.GlobalDelay) do
+		pcall(function()
+			if _G.AutoDracoV1 then     
+				if GetCountMaterials("Dragon Egg") <= 0 then
+					_G.SummonPrehistoricIsland = true
+					_G.AutoDefendVolcano = true
+					_G.AutoCollectDragonEgg = true
+				else
+					_G.SummonPrehistoricIsland = false
+					_G.AutoDefendVolcano = false
+					_G.AutoCollectDragonEgg = false
+				end
+			end
+		end)
+	end
+end)
+
+AutoDracoV2Toggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Auto Draco V2",
+	Flag = "AutoDracoV2",
+	Desc = "Collect Fire Flowers",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDracoV2 = state;
+		StopTween(_G.AutoDracoV2);
+	end
+});
+
+spawn(function()
+	while wait(_G.GlobalDelay) do
+		pcall(function()
+			if _G.AutoDracoV2 then     
+				local FireFlower = workspace:FindFirstChild("FireFlowers")
+				if FireFlower then
+					for i, v in pairs(FireFlower:GetChildren()) do
+						if (v:IsA("Model") and v.PrimaryPart) then
+							local FlowerPos = v.PrimaryPart.Position;
+							local Magnited = (FlowerPos - HumanoidRootPart.Position).Magnitude;
+							if (Magnited <= 3) then
+								VirtualInputManager:SendKeyEvent(true, "E", false, game);
+								wait(1.5);
+								VirtualInputManager:SendKeyEvent(false, "E", false, game);
+							else
+								TweenPlayer(CFrame.new(FlowerPos));
+							end
+						end
+					end
+				end
+			end
+		end)
+	end
+end)
+
+AutoDracoV3Toggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Auto Draco V3",
+	Flag = "AutoDracoV3",
+	Desc = "Sail Boat & Attack Terrorshark",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDracoV3 = state;
+		StopTween(_G.AutoDracoV3);
+	end
+});
+
+spawn(function()
+	while wait(_G.GlobalDelay) do
+		pcall(function()
+			if _G.AutoDracoV3 then     
+				local dragonWizardQuest = false
+				if dragonWizardQuest then
+					print("Teleport and Talk To Dragon Wizard ")
+					_G.SailBoat = false
+					_G.AutoTerrorShark = false
+					_G.SelectedZone = "Zone 5"
+				else
+					_G.SailBoat = true
+					_G.AutoTerrorShark = true
+					_G.SelectedZone = "Inf"
+				end
+			end
+		end)
+	end
+end)
+
+TeleportToDracoTrialsToggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Teleport To Draco Trials",
+	Flag = "TeleportToDracoTrials",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TeleportToDracoTrials = state;
+		StopTween(_G.TeleportToDracoTrials);
+	end
+});
+
+spawn(function()
+	while wait(_G.GlobalDelay) do
+		if _G.TeleportToDracoTrials then
+			local Door = workspace.Map.PrehistoricIsland:FindFirstChild("TrialTeleport");
+			if (Door and Door:IsA("Part")) then
+				TweenPlayer(CFrame.new(Door.Position))
+			end
+		end
+	end
+end)
+
+SwapDracoRaceToggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Swap Draco Race",
+	Flag = "SwapDracoRace",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.SwapDracoRace = state;
+		StopTween(_G.SwapDracoRace);
+	end
+});
+
+spawn(function()
+	while wait(_G.GlobalDelay) do
+		if _G.SwapDracoRace then
+			local npcPos = CFrame.new(5814.42724609375, 1208.3267822265625, 884.5785522460938)
+			if (npcPos.Position - HumanoidRootPart.Position).Magnitude >= 3 then
+				TweenPlayer(npcPos);
+			else
+				local args = {[1] = {NPC = "Dragon Wizard",Command = "DragonRace"}};
+				Net:FindFirstChild("RF/InteractDragonQuest"):InvokeServer(unpack(args));
+			end
+		end
+	end
+end)
+
+UpgradeDragonTalonToggle = Tabs.DragonDojoTab:CreateToggle({
+	Name = "Upgrade Dragon Talon",
+	Flag = "UpgradeDragonTalon",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.UpgradeDragonTalon = state;
+		StopTween(_G.UpgradeDragonTalon);
+	end
+});
+
+spawn(function()
+	while wait(_G.GlobalDelay) do
+		if _G.UpgradeDragonTalon then
+			local npcPos = CFrame.new(5661.89014, 1211.31909, 864.836731, 0.811413169, -1.36805838e-08, -0.584473014, 4.75227395e-08, 1, 4.25682458e-08, 0.584473014, -6.23161966e-08, 0.811413169)
+			if (npcPos.Position - HumanoidRootPart.Position).Magnitude >= 3 then
+				TweenPlayer(npcPos);
+			else
+				local args = {[1] = {NPC = "Uzoth", Command = "Upgrade"}};
+				Net:FindFirstChild("RF/InteractDragonQuest"):InvokeServer(unpack(args));
+			end
+		end
+	end
+end)
+
+local SailBoatSection = Tabs.SeaEventTab:CreateSection("Sail Boat");
+local BoatList = {
+	"Guardian",
+	"Beast Hunter",
+	"PirateGrandBrigade",
+	"MarineGrandBrigade",
+	"PirateBrigade",
+	"MarineBrigade",
+	"PirateSloop",
+	"MarineSloop"
+};
+local ZoneList = {
+	"Zone 1",
+	"Zone 2",
+	"Zone 3",
+	"Zone 4",
+	"Zone 5",
+	"Zone 6",
+	"Inf"
+};
+ChooseBoatDropdown = Tabs.SeaEventTab:CreateDropdown({
+	Name = "Choose Boat",
+	Options = BoatList,
+	CurrentOption = {"Guardian"},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedBoat = option;
+	end
+});
+ChooseZoneDropdown = Tabs.SeaEventTab:CreateDropdown({
+	Name = "Choose Zone",
+	Options = ZoneList,
+	CurrentOption = {"Zone 5"},
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.SelectedZone = option;
+	end
+});
+BoatTweenSpeedSlider = Tabs.SeaEventTab:CreateSlider({
+	Name = "Boat Tween Speed",
+	Range = {50, 350}, Increment = 1, CurrentValue = 300,
+	Callback = function(value)
+		_G.BoatTweenSpeed = value;
+	end
+});
+BoatTweenSpeedSlider:Set(300);
+AutoSailBoatToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Sail Boat",
+	Flag = "SailBoat",
+	Desc = "Auto Sail Boat & Kill Enemies",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.SailBoat = state;
+		StopTween(_G.SailBoat);
+		if not _G.SailBoat then
+			_G.SeaSkill = false;
+			Skillaimbot = false;
+		end;
+	end
+});
+local CFrameSelectedZone;
+spawn(function()
+	pcall(function()
+		while wait(0.2) do
+			if _G.SelectedZone == "Zone 1" then
+				CFrameSelectedZone = CFrame.new(-21998.375, 30.0006084, -682.309143, 0.120013528, 0.00690158736, 0.99274826, -0.0574118942, 0.998350561, -0.000000000236509201, -0.991110802, -0.0569955558, 0.120211802);
+			elseif _G.SelectedZone == "Zone 2" then
+				CFrameSelectedZone = CFrame.new(-26779.5215, 30.0005474, -822.858032, 0.307457417, 0.019647358, 0.951358974, -0.0637726262, 0.997964442, -0.000000000415334017, -0.949422479, -0.0606706589, 0.308084518);
+			elseif _G.SelectedZone == "Zone 3" then
+				CFrameSelectedZone = CFrame.new(-31171.957, 30.0001011, -2256.93774, 0.37637493, 0.0150483791, 0.926345229, -0.0399504974, 0.999201655, 0.0000000000270896673, -0.925605655, -0.0370079502, 0.376675636);
+			elseif _G.SelectedZone == "Zone 4" then
+				CFrameSelectedZone = CFrame.new(-34054.6875, 30.2187767, -2560.12012, 0.0935864747, -0.00122954219, 0.995610416, 0.0624034069, 0.998040259, -0.00463332096, -0.993653536, 0.062563099, 0.0934797972);
+			elseif _G.SelectedZone == "Zone 5" then
+				CFrameSelectedZone = CFrame.new(-38887.5547, 30.0004578, -2162.99023, -0.188895494, -0.00704088295, 0.981971979, -0.0372481011, 0.999306023, -0.00000000139882339, -0.981290519, -0.0365765914, -0.189026669);
+			elseif _G.SelectedZone == "Zone 6" then
+				CFrameSelectedZone = CFrame.new(-44541.7617, 30.0003204, -1244.8584, -0.0844199061, -0.00553312758, 0.9964149, -0.0654025897, 0.997858942, 0.000000000202319411, -0.99428153, -0.0651681125, -0.0846010372);
+			elseif _G.SelectedZone == "Inf" then
+				CFrameSelectedZone = CFrame.new(-148073.359, 8.99999523, 7721.05078, -0.0825930536, -0.00000154416148, 0.996583343, -0.000018696026, 1, -0.000000000000391858095, -0.996583343, -0.0000186321486, -0.0825930536);
+			end;
+		end;
+	end);
+end);
+function CheckBoat()
+	for i, v in pairs(Workspace.Boats:GetChildren()) do
+		if v.Name == _G.SelectedBoat then
+			for _, child in pairs(v:GetChildren()) do
+				if child.Name == "MyBoatEsp" then
+					return v;
+				end;
+			end;
+		end;
+	end;
+	return false;
+end;
+function CheckEnemiesBoat()
+	if Enemies:FindFirstChild("FishBoat") or Enemies:FindFirstChild("PirateBrigade") or Enemies:FindFirstChild("PirateGrandBrigade") then
+		return true;
+	end;
+	return false;
+end;
+function CheckShark()
+	for i, v in pairs(Enemies:GetChildren()) do
+		if v.Name == "Shark" and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+			if Enemies:FindFirstChild("Shark") then
+				if (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude <= 200 then
+					return true;
+				end;
+			end;
+		end;
+	end;
+	return false;
+end;
+function CheckPiranha()
+	for i, v in pairs(Enemies:GetChildren()) do
+		if v.Name == "Piranha" and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+			if Enemies:FindFirstChild("Piranha") then
+				if (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude <= 200 then
+					return true;
+				end;
+			end;
+		end;
+	end;
+	return false;
+end;
+function AddEsp(Name, Parent)
+	local BillboardGui = Instance.new("BillboardGui");
+	BillboardGui.Parent = Parent;
+	BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+	BillboardGui.Active = true;
+	BillboardGui.Name = Name;
+	BillboardGui.AlwaysOnTop = true;
+	BillboardGui.LightInfluence = 1;
+	BillboardGui.Size = UDim2.new(0, 200, 0, 50);
+	BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0);
+	local TextLabel = Instance.new("TextLabel");
+	TextLabel.Parent = BillboardGui;
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+	TextLabel.BackgroundTransparency = 1;
+	TextLabel.Size = UDim2.new(1, 0, 1, 0);
+	TextLabel.Font = Enum.Font.GothamBold;
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255);
+	TextLabel.TextSize = 15;
+	TextLabel.Text = "";
+end;
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.SailBoat then
+				if not CheckBoat() then
+					local BuyBoatCFrame = CFrame.new(-16927.451171875, 9.0863618850708, 433.8642883300781);
+					if (BuyBoatCFrame.Position - HumanoidRootPart.Position).Magnitude > 2000 then
+						BTP(BuyBoatCFrame);
+					else
+						BuyBoat = TweenPlayer(BuyBoatCFrame);
+					end;
+					if ((CFrame.new((-16927.451171875), 9.0863618850708, 433.8642883300781)).Position - HumanoidRootPart.Position).Magnitude <= 10 then
+						if BuyBoat then
+							BuyBoat:Stop();
+						end;
+						Remotes.CommF_:InvokeServer("BuyBoat", _G.SelectedBoat);
+						for i, v in pairs(Workspace.Boats:GetChildren()) do
+							if v.Name == _G.SelectedBoat then
+								if (v.VehicleSeat.CFrame.Position - HumanoidRootPart.Position).Magnitude <= 100 then
+									AddEsp("MyBoatEsp", v);
+								end;
+							end;
+						end;
+						wait(1);
+					end;
+				elseif CheckBoat() then
+					for i, v in pairs(Workspace.Boats:GetChildren()) do
+						if v.Name == _G.SelectedBoat then
+							if v:FindFirstChild("MyBoatEsp") then
+								if (Character:WaitForChild("Humanoid")).Sit == false then
+									if CheckShark() and _G.AutoFarmShark or Enemies:FindFirstChild("Terrorshark") and _G.AutoFarmTerrorshark or CheckPiranha() and _G.AutoFarmPiranha or Enemies:FindFirstChild("Fish Crew Member") and _G.AutoFarmFishCrewMember or Enemies:FindFirstChild("FishBoat") and _G.AutoFarmGhostShip or Enemies:FindFirstChild("PirateBrigade") and _G.AutoFarmPirateBrigade or Enemies:FindFirstChild("PirateGrandBrigade") and _G.AutoFarmPirateGrandBrigade or CheckSeaBeast() and _G.AutoFarmSeabeast then
+										if stoppos then
+											stoppos:Stop();
+										end;
+									else
+										stoppos = TweenPlayer(v.VehicleSeat.CFrame * CFrame.new(0, 1, 0));
+									end;
+								else
+									repeat
+										wait();
+										StopTweenBoat = TweenBoat(CFrameSelectedZone);
+									until CheckShark() and _G.AutoFarmShark or Enemies:FindFirstChild("Terrorshark") and _G.AutoFarmTerrorshark or CheckPiranha() and _G.AutoFarmPiranha or Enemies:FindFirstChild("Fish Crew Member") and _G.AutoFarmFishCrewMember or Enemies:FindFirstChild("FishBoat") and _G.AutoFarmGhostShip or Enemies:FindFirstChild("PirateBrigade") and _G.AutoFarmPirateBrigade or Enemies:FindFirstChild("PirateGrandBrigade") and _G.AutoFarmPirateGrandBrigade or CheckSeaBeast() and _G.AutoFarmSeabeast or (Character:WaitForChild("Humanoid")).Sit == false or _G.SailBoat == false;
+									if StopTweenBoat then
+										StopTweenBoat:Stop();
+									end;
+									VirtualInputManager:SendKeyEvent(true, 32, false, game);
+									wait(0.1);
+									VirtualInputManager:SendKeyEvent(false, 32, false, game);
+								end;
+							end;
+						end;
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.SailBoat then
+				if CheckShark() and _G.AutoFarmShark or Enemies:FindFirstChild("Terrorshark") and _G.AutoFarmTerrorshark or CheckPiranha() and _G.AutoFarmPiranha or Enemies:FindFirstChild("Fish Crew Member") and _G.AutoFarmFishCrewMember or Enemies:FindFirstChild("FishBoat") and _G.AutoFarmGhostShip or Enemies:FindFirstChild("PirateBrigade") and _G.AutoFarmPirateBrigade or Enemies:FindFirstChild("PirateGrandBrigade") and _G.AutoFarmPirateGrandBrigade or CheckSeaBeast() and _G.AutoFarmSeabeast then
+					if Character.Humanoid.Sit == true then
+						VirtualInputManager:SendKeyEvent(true, 32, false, game);
+						wait(0.1);
+						VirtualInputManager:SendKeyEvent(false, 32, false, game);
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.SailBoat then
+			pcall(function()
+				if _G.SailBoat and Enemies:FindFirstChild("Fish Crew Member") and _G.AutoFarmFishCrewMember then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if Enemies:FindFirstChild("Fish Crew Member") then
+							if v.Name == "Fish Crew Member" then
+								if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+									repeat
+										wait();
+										AutoHaki();
+										EquipWeapon(_G.SelectedWeapon);
+										TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+										_G.SeaSkill = false;
+										Attack();
+									until not _G.AutoFarmFishCrewMember or (not v.Parent) or v.Humanoid.Health <= 0;
+								end;
+							end;
+						end;
+					end;
+				elseif _G.SailBoat and Enemies:FindFirstChild("FishBoat") and _G.AutoFarmGhostShip then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if Enemies:FindFirstChild("FishBoat") then
+							repeat
+								wait();
+								local BoatCFrame = v.Engine.CFrame;
+								if (BoatCFrame.Position - HumanoidRootPart.Position).Magnitude <= 50 then
+									_G.SeaSkill = true;
+								else
+									_G.SeaSkill = false;
+								end;
+								TweenPlayer(BoatCFrame);
+								AutoHaki();
+								Skillaimbot = true;
+								AimSkill = v.Engine.CFrame * CFrame.new(0, (-15), 0);
+								AimBotSkillPosition = AimSkill.Position;
+							until not v.Parent or v.Health < 0 or (not Enemies:FindFirstChild("FishBoat")) or (not v:FindFirstChild("Engine")) or (not _G.AutoFarmGhostShip);
+							Skillaimbot = false;
+							_G.SeaSkill = false;
+						end;
+					end;
+				elseif _G.SailBoat and Enemies:FindFirstChild("PirateGrandBrigade") and _G.AutoFarmPirateGrandBrigade then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if Enemies:FindFirstChild("PirateGrandBrigade") then
+							repeat
+								wait();
+								local BoatCFrame = v.Engine.CFrame;
+								AutoHaki();
+								if (BoatCFrame.Position - HumanoidRootPart.Position).Magnitude <= 50 then
+									_G.SeaSkill = true;
+								else
+									_G.SeaSkill = false;
+								end;
+								TweenPlayer(BoatCFrame);
+								Skillaimbot = true;
+								AimSkill = v.Engine.CFrame * CFrame.new(0, (-15), 0);
+								AimBotSkillPosition = AimSkill.Position;
+							until not v.Parent or v.Health.Value < 0 or (not Enemies:FindFirstChild("PirateGrandBrigade")) or (not v:FindFirstChild("Engine")) or (not _G.AutoFarmPirateGrandBrigade);
+							Skillaimbot = false;
+							_G.SeaSkill = false;
+						end;
+					end;
+				elseif _G.SailBoat and Enemies:FindFirstChild("PirateBrigade") and _G.AutoFarmPirateBrigade then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if Enemies:FindFirstChild("PirateBrigade") then
+							repeat
+								wait();
+								local BoatCFrame = v.Engine.CFrame;
+								if (BoatCFrame.Position - HumanoidRootPart.Position).Magnitude <= 50 then
+									_G.SeaSkill = true;
+								else
+									_G.SeaSkill = false;
+								end;
+								TweenPlayer(BoatCFrame);
+								Skillaimbot = true;
+								AutoHaki();
+								AimSkill = v.Engine.CFrame * CFrame.new(0, (-15), 0);
+								AimBotSkillPosition = AimSkill.Position;
+							until not v.Parent or v.Health.Value < 0 or (not Enemies:FindFirstChild("PirateBrigade")) or (not v:FindFirstChild("Engine")) or (not _G.AutoFarmPirateBrigade);
+							Skillaimbot = false;
+							_G.SeaSkill = false;
+						end;
+					end;
+				elseif _G.SailBoat and CheckSeaBeast() and _G.AutoFarmSeabeast then
+					if Workspace:FindFirstChild("SeaBeasts") then
+						for i, v in pairs(Workspace.SeaBeasts:GetChildren()) do
+							if CheckSeaBeast() then
+								repeat
+									wait();
+									CFrameSeaBeast = v.HumanoidRootPart.CFrame * CFrame.new(0, 400, 0);
+									if (CFrameSeaBeast.Position - HumanoidRootPart.CFrame.Position).Magnitude <= 400 then
+										_G.SeaSkill = true;
+									else
+										_G.SeaSkill = false;
+									end;
+									AutoHaki();
+									Skillaimbot = true;
+									AimBotSkillPosition = v.HumanoidRootPart.CFrame.Position;
+									if DodgeSeabeasts() then
+										TweenPlayer(v.HumanoidRootPart.CFrame * CFrame.new(math.random((-200), 300), 400, math.random((-200), 300)));
+									else
+										TweenPlayer(v.HumanoidRootPart.CFrame * CFrame.new(0, 400, 0));
+									end;
+								until not _G.AutoFarmSeabeast or CheckSeaBeast() == false or (not v:FindFirstChild("Humanoid")) or (not v:FindFirstChild("HumanoidRootPart")) or v.Humanoid.Health <= 0 or (not v.Parent);
+								Skillaimbot = false;
+								_G.SeaSkill = false;
+							else
+								Skillaimbot = false;
+								_G.SeaSkill = false;
+							end;
+						end;
+					end;
+				elseif _G.SailBoat and Enemies:FindFirstChild("Terrorshark") and _G.AutoFarmTerrorshark then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if Enemies:FindFirstChild("Terrorshark") then
+							if v.Name == "Terrorshark" then
+								if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+									repeat
+										wait();
+										AutoHaki();
+										EquipWeapon(_G.SelectedWeapon);
+										_G.SeaSkill = false;
+										TweenPlayer(v.HumanoidRootPart.CFrame * CFrame.new(0, 50, 0));
+										Attack();
+									until not _G.AutoFarmTerrorshark or (not v.Parent) or v.Humanoid.Health <= 0;
+								end;
+							end;
+						end;
+					end;
+				elseif _G.SailBoat and CheckPiranha() and _G.AutoFarmPiranha then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if Enemies:FindFirstChild("Piranha") then
+							if v.Name == "Piranha" then
+								if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+									repeat
+										wait();
+										AutoHaki();
+										EquipWeapon(_G.SelectedWeapon);
+										TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+										_G.SeaSkill = false;
+										Attack();
+									until not _G.AutoFarmPiranha or (not v.Parent) or v.Humanoid.Health <= 0;
+								end;
+							end;
+						end;
+					end;
+				elseif _G.SailBoat and CheckShark() and _G.AutoFarmShark then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if Enemies:FindFirstChild("Shark") then
+							if v.Name == "Shark" then
+								if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+									repeat
+										wait();
+										AutoHaki();
+										EquipWeapon(_G.SelectedWeapon);
+										TweenPlayer(v.HumanoidRootPart.CFrame * Pos);
+										_G.SeaSkill = false;
+										Attack();
+									until not _G.AutoFarmShark or (not v.Parent) or v.Humanoid.Health <= 0;
+								end;
+							end;
+						end;
+					end;
+				else
+					Skillaimbot = false;
+					_G.SeaSkill = false;
+					UnEquipWeapon(_G.SelectedWeapon);
+				end;
+			end);
+		end;
+	end;
+end);
+function DodgeSeabeasts()
+	local seaBeastsFolder = Workspace.SeaBeasts;
+	for _, seaBeast in pairs(seaBeastsFolder:GetChildren()) do
+		if seaBeast:FindFirstChild("Humanoid") and seaBeast:FindFirstChild("Anims") then
+			local humanoid = seaBeast.Humanoid;
+			local animator = humanoid:FindFirstChildOfClass("Animator") or humanoid;
+			for _, anim in pairs(seaBeast.Anims:GetChildren()) do
+				if anim:IsA("Animation") then
+					if anim.AnimationId == "rbxassetid://8708221792" or anim.AnimationId == "rbxassetid://8708222556" or anim.AnimationId == "rbxassetid://8708223619" or anim.AnimationId == "rbxassetid://8708225668" then
+						for _, animationTrack in pairs(animator:GetPlayingAnimationTracks()) do
+							if animationTrack.Animation.AnimationId == anim.AnimationId then
+								if animationTrack.IsPlaying then
+									return true;
+								else
+									return false;
+								end;
+							end;
+						end;
+					end;
+				end;
+			end;
+		end;
+	end;
+end;
+SeaEventEnemiesSection = Tabs.SeaEventTab:CreateSection("Enemies");
+AutoFarmSharkToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Shark",
+	Flag = "AutoFarmShark",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmShark = state;
+		StopTween(_G.AutoFarmShark);
+	end
+});
+AutoFarmPiranhaToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Piranha",
+	Flag = "AutoFarmPiranha",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmPiranha = state;
+		StopTween(_G.AutoFarmPiranha);
+	end
+});
+AutoFarmFishCrewMemberToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Fish Crew Member",
+	Flag = "AutoFarmFishCrewMember",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmFishCrewMember = state;
+		StopTween(_G.AutoFarmFishCrewMember);
+	end
+});
+SeaEventBoatSection = Tabs.SeaEventTab:CreateSection("Boat");
+AutoFarmGhostShipToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Ghost Ship",
+	Flag = "AutoFarmGhostShip",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmGhostShip = state;
+		StopTween(_G.AutoFarmGhostShip);
+	end
+});
+AutoFarmPirateBrigadeToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Pirate Brigade",
+	Flag = "AutoFarmPirateBrigade",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmPirateBrigade = state;
+		StopTween(_G.AutoFarmPirateBrigade);
+	end
+});
+AutoFarmPirateGrandBrigadeToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Pirate Grand Brigade",
+	Flag = "AutoFarmPirateGrandBrigade",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmPirateGrandBrigade = state;
+		StopTween(_G.AutoFarmPirateGrandBrigade);
+	end
+});
+SeaEventBossSection = Tabs.SeaEventTab:CreateSection("Boss");
+AutoFarmTerrorsharkToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Terrorshark",
+	Flag = "AutoFarmTerrorshark",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmTerrorshark = state;
+		StopTween(_G.AutoFarmTerrorshark);
+	end
+});
+AutoFarmSeabeastsToggle = Tabs.SeaEventTab:CreateToggle({
+	Name = "Auto Farm Seabeasts",
+	Flag = "AutoFarmSeabeasts",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoFarmSeabeast = state;
+		StopTween(_G.AutoFarmSeabeast);
+	end
+});
+
+
+PrehistoricSection = Tabs.SeaStackTab:CreateSection("Prehistoric");
+spawn(function()
+	pcall(function()
+		while wait(0.2) do
+			if Workspace.Map:FindFirstChild("MysticIsland") then
+				MirageStatusSeaStackParagraph:Set(tostring("🏝️ Mirage Island Spawning"));
+			else
+				MirageStatusSeaStackParagraph:Set(tostring("🏝️ Mirage Island Not Spawn"));
+			end;
+			if Workspace.Map:FindFirstChild("KitsuneIsland") then
+				KitsuneStatusSeaStackParagraph:Set(tostring("⛩️ Kitsune Island Spawning"));
+			else
+				KitsuneStatusSeaStackParagraph:Set(tostring("⛩️ Kitsune Island Not Spawn"));
+			end;
+			if Workspace.Map:FindFirstChild("FrozenDimension") then
+				FrozenStatusSeaStackParagraph:Set(tostring("❄️ Frozen Dimension Spawning"));
+			else
+				FrozenStatusSeaStackParagraph:Set(tostring("❄️ Frozen Dimension Not Spawn"));
+			end;
+			if Workspace.Map:FindFirstChild("PrehistoricIsland") then
+				PrehistoricStatusSeaStackParagraph:Set(tostring("🦴 Prehistoric Island Spawning"));
+			else
+				PrehistoricStatusSeaStackParagraph:Set(tostring("🦴 Prehistoric Island Not Spawn"));
+			end;
+		end;
+	end);
+end);
+PrehistoricStatusSeaStackParagraph = Tabs.SeaStackTab:CreateLabel("Prehistoric Status: -");
+AutoSummonPrehistoricIslandToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Prehistoric Island",
+	Flag = "AutoPrehistoricIsland",
+	Desc = "Sailing To Lv 6 Danger Until the Prehistoric Island Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.SummonPrehistoricIsland = state;
+		StopTween(_G.SummonPrehistoricIsland);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.SummonPrehistoricIsland and World3 then
+				if not Workspace.Boats:FindFirstChild(_G.SelectedBoat) then
+					local BuyBoatCFrame = CFrame.new(-16927.451171875, 9.0863618850708, 433.8642883300781);
+					if (BuyBoatCFrame.Position - HumanoidRootPart.Position).Magnitude > 2000 then
+						BTP(BuyBoatCFrame);
+					else
+						BuyBoat = TweenPlayer(BuyBoatCFrame);
+					end;
+					if ((CFrame.new((-16927.451171875), 9.0863618850708, 433.8642883300781)).Position - HumanoidRootPart.Position).Magnitude <= 10 then
+						if BuyBoat then
+							BuyBoat:Stop();
+						end;
+						Remotes.CommF_:InvokeServer("BuyBoat", _G.SelectedBoat);
+						wait(1);
+					end;
+				elseif Workspace.Boats:FindFirstChild(_G.SelectedBoat) then
+					repeat
+						wait();
+						if (Character:WaitForChild("Humanoid")).Sit == false then
+							if TweenBoatPrehistoric then
+								TweenBoatPrehistoric:Stop();
+							end;
+							local stoppos = TweenPlayer((Workspace.Boats:FindFirstChild(_G.SelectedBoat)).VehicleSeat.CFrame * CFrame.new(0, 1, 0));
+						elseif (Character:WaitForChild("Humanoid")).Sit == true then
+							TweenBoatPrehistoric = TweenBoat(CFrame.new(-148073.359, 8.99999523, 7721.05078, -0.0825930536, -0.00000154416148, 0.996583343, -0.000018696026, 1, -0.000000000000391858095, -0.996583343, -0.0000186321486, -0.0825930536));
+						end;
+					until not _G.SummonPrehistoricIsland or Workspace.Map:FindFirstChild("PrehistoricIsland")
+					if TweenBoatPrehistoric then
+						TweenBoatPrehistoric:Stop();
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+TweenToPrehistoricIslandToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Teleport To Prehistoric Island",
+	Flag = "TeleportToPrehistoricIsland",
+	Desc = "Tween To Prehistoric Island When It Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TweenToPrehistoricIsland = state;
+		StopTween(_G.TweenToPrehistoricIsland);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.TweenToPrehistoricIsland then
+			pcall(function()
+				if Workspace.Map:FindFirstChild("PrehistoricIsland") then
+					TweenPlayer((Workspace.Map:FindFirstChild("PrehistoricIsland")).CFrame);
+				end;
+			end);
+		end;
+	end;
+end);
+AutoKillLavaGolemToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Kill Lava Golem",
+	Flag = "AutoKillLavaGolem",
+	Desc = "Teleport and Kill Lava Golem",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoKillLavaGolem = state;
+		StopTween(_G.AutoKillLavaGolem);
+	end
+});
+AutoCollectBoneToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Collect Bone",
+	Flag = "AutoCollectBone",
+	Desc = "Auto Collect Dino Bone",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoCollectBone = state;
+		StopTween(_G.AutoCollectBone);
+	end
+});
+AutoCollectDragonEggToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Collect Egg",
+	Flag = "AutoCollectEgg",
+	Desc = "Auto Collect Dragon Egg",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoCollectDragonEgg = state;
+		StopTween(_G.AutoCollectDragonEgg);
+	end
+});
+AutoDefendVolcanoToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Defend Volcano",
+	Flag = "AutoDefendVolcano",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoDefendVolcano = state;
+		StopTween(_G.AutoDefendVolcano);
+	end
+});
+spawn(function()
+    while wait() do
+        if _G.AutoCollectDragonEgg and World3 then
+            local eggFolder = Workspace.Map.PrehistoricIsland.Core.SpawnedDragonEggs:GetChildren();
+            if (#eggFolder > 0) then
+                local egg = eggFolder[math.random(1, #eggFolder)];
+                if (egg:IsA("Model") and egg.PrimaryPart) then
+                    TweenPlayer(egg.PrimaryPart.CFrame);
+                    local eggPos = egg.PrimaryPart.Position;
+                    local dist = (HumanoidRootPart.Position - eggPos).Magnitude;
+                    if (dist <= 1) then
+                        VirtualInputManager:SendKeyEvent(true, "E", false, game);
+                        wait(1.5);
+                        VirtualInputManager:SendKeyEvent(false, "E", false, game);
+                    end
+                end
+            end
+        end
+    end
+end);
+
+spawn(function()
+    while wait() do
+        if _G.AutoCollectBone and World3 then
+            for i, v in pairs(workspace:GetDescendants()) do
+                if (v:IsA("BasePart") and (v.Name == "DinoBone")) then
+                    TweenPlayer(CFrame.new(v.Position));
+                end
+            end
+        end
+    end
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoKillLavaGolem and World3 then
+			pcall(function()
+				if Enemies:FindFirstChild("Lava Golem") then
+					for i, v in pairs(Enemies:GetChildren()) do
+						if v.Name == "Lava Golem" then
+							if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+								AttackTarget(v, true, function()
+									return _G.AutoKillLavaGolem
+								end)
+							end;
+						end;
+					end;
+				end;
+			end);
+		end;
+	end;
+end);
+
+function removeSpawnedLava()
+    local interiorLava = Workspace.Map.PrehistoricIsland.Core:FindFirstChild("InteriorLava");
+    if (interiorLava and interiorLava:IsA("Model")) then
+        interiorLava:Destroy();
+    end
+    local prehistoricIsland = Workspace.Map:FindFirstChild("PrehistoricIsland");
+    if prehistoricIsland then
+        for i, v in pairs(prehistoricIsland:GetDescendants()) do
+            if ((v:IsA("Part") or v:IsA("MeshPart")) and v.Name:lower():find("lava")) then
+                v:Destroy();
+            end
+        end
+    end
+end
+local function findActiveRock()
+    local VolcanoRocks = Workspace.Map.PrehistoricIsland.Core.VolcanoRocks;
+    for i, v in pairs(VolcanoRocks:GetChildren()) do
+        if v:IsA("Model") then
+            local rock = v:FindFirstChild("volcanorock");
+            if (rock and rock:IsA("MeshPart")) then
+                local rockColor = rock.Color;
+                if ((rockColor == Color3.fromRGB(185, 53, 56)) or (rockColor == Color3.fromRGB(185, 53, 57))) then
+                    return rock;
+                end
+            end
+        end
+    end
+    return nil;
+end
+spawn(function()
+    while wait() do
+        if _G.AutoDefendVolcano and World3 then
+            AutoHaki();
+            pcall(removeSpawnedLava);
+            local rock = findActiveRock();
+            if rock then
+                TweenPlayer(CFrame.new(rock.Position + Vector3.new(0, 0, 0)));
+                local rockColor = rock.Color;
+                if ((rockColor ~= Color3.fromRGB(185, 53, 56)) and (rockColor ~= Color3.fromRGB(185, 53, 57))) then
+                    rock = findActiveRock();
+                else
+                    local rockDistance = ((HumanoidRootPart.Position - rock.Position) - Vector3.new(0, 0, 0)).Magnitude;
+                    if (rockDistance <= 1) then
+                        useAllSkill()
+                    end
+                end
+            end
+        end
+    end
+end);
+FrozenDimensionSection = Tabs.SeaStackTab:CreateSection("Frozen Dimension")
+FrozenStatusSeaStackParagraph = Tabs.SeaStackTab:CreateLabel("Frozen Status: -");
+AutoSummonFrozenDimensionToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Frozen Dimension",
+	Flag = "AutoFrozenDimension",
+	Desc = "Sailing To Infinite Danger Until the Frozen Deimension Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.SummonForzenDimension = state;
+		StopTween(_G.SummonForzenDimension);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.SummonForzenDimension and World3 then
+				if not Workspace.Boats:FindFirstChild(_G.SelectedBoat) then
+					local BuyBoatCFrame = CFrame.new(-16927.451171875, 9.0863618850708, 433.8642883300781);
+					if (BuyBoatCFrame.Position - HumanoidRootPart.Position).Magnitude > 2000 then
+						BTP(BuyBoatCFrame);
+					else
+						BuyBoat = TweenPlayer(BuyBoatCFrame);
+					end;
+					if ((CFrame.new((-16927.451171875), 9.0863618850708, 433.8642883300781)).Position - HumanoidRootPart.Position).Magnitude <= 10 then
+						if BuyBoat then
+							BuyBoat:Stop();
+						end;
+						Remotes.CommF_:InvokeServer("BuyBoat", _G.SelectedBoat);
+						wait(1);
+					end;
+				elseif Workspace.Boats:FindFirstChild(_G.SelectedBoat) then
+					repeat
+						wait();
+						if (Character:WaitForChild("Humanoid")).Sit == false then
+							if TweenBoatFrozen then
+								TweenBoatFrozen:Stop();
+							end;
+							local stoppos = TweenPlayer((Workspace.Boats:FindFirstChild(_G.SelectedBoat)).VehicleSeat.CFrame * CFrame.new(0, 1, 0));
+						elseif (Character:WaitForChild("Humanoid")).Sit == true then
+							TweenBoatFrozen = TweenBoat(CFrame.new(-148073.359, 8.99999523, 7721.05078, -0.0825930536, -0.00000154416148, 0.996583343, -0.000018696026, 1, -0.000000000000391858095, -0.996583343, -0.0000186321486, -0.0825930536));
+						end;
+					until not _G.SummonForzenDimension or Workspace.Map:FindFirstChild("FrozenDimension")
+					if TweenBoatFrozen then
+						TweenBoatFrozen:Stop();
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+TweenToFrozenDimensionToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Teleport To Frozen Dimension",
+	Flag = "TeleportToFrozenDimension",
+	Desc = "Tween To Frozen Dimension When It Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TweenToFrozenDimension = state;
+		StopTween(_G.TweenToFrozenDimension);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.TweenToFrozenDimension then
+			pcall(function()
+				repeat
+					wait();
+					TweenPlayer((Workspace.Map:FindFirstChild("FrozenDimension")).CFrame);
+				until not _G.TweenToFrozenDimension;
+			end);
+		end;
+	end;
+end);
+BribeLeviathanStatusParagraph = Tabs.SeaStackTab:CreateLabel("Leviathan Status: 0");
+BribeLeviathanButton = Tabs.SeaStackTab:CreateButton({
+	Name = "Bribe Leviathan",
+	Callback = function()
+		local Status = Remotes.CommF_:InvokeServer("InfoLeviathan", "2");
+		BribeLeviathanStatusParagraph:Set(tostring(Status));
+	end
+});
+AutoAttackLeviathanToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Leviathan",
+	Flag = "AutoLeviathan",
+	Desc = "Attack Leviathan",
+	Callback = function(state)
+		_G.AutoLeviathan = state
+	end
+})
+KitsuneIslandSection = Tabs.SeaStackTab:CreateSection("Kitsune Island")
+KitsuneStatusSeaStackParagraph = Tabs.SeaStackTab:CreateLabel("Kitsune Status: -");
+AutoSummonKitsuneIslandToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Kitsune Island",
+	Flag = "AutoKitsuneIsland",
+	Desc = "Sailing To Lv 6 Danger Until the Kitsune Island Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.SummonKitsuneIsland = state;
+		StopTween(_G.SummonKitsuneIsland);
+	end
+});
+TweenToKitsuneIslandToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Kitsune Island",
+	Flag = "AutoKitsuneIsland",
+	Desc = "Tween To Kitsune Island When It Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TweenToKitsuneIsland = state;
+		StopTween(_G.TweenToKitsuneIsland);
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.TweenToKitsuneIsland and World3 then
+			if Workspace.Map:FindFirstChild("KitsuneIsland") then
+				TweenPlayer(Workspace.Map.KitsuneIsland.ShrineActive.NeonShrinePart.CFrame * CFrame.new(0, 0, 10));
+			end;
+		end;
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.SummonKitsuneIsland and World3 then
+				if not Workspace.Boats:FindFirstChild(_G.SelectedBoat) then
+					local BuyBoatCFrame = CFrame.new(-16927.451171875, 9.0863618850708, 433.8642883300781);
+					if (BuyBoatCFrame.Position - HumanoidRootPart.Position).Magnitude > 2000 then
+						BTP(BuyBoatCFrame);
+					else
+						BuyBoatKitsune = TweenPlayer(BuyBoatCFrame);
+					end;
+					if ((CFrame.new((-16927.451171875), 9.0863618850708, 433.8642883300781)).Position - HumanoidRootPart.Position).Magnitude <= 10 then
+						if BuyBoatKitsune then
+							BuyBoatKitsune:Stop();
+						end;
+						Remotes.CommF_:InvokeServer("BuyBoat", _G.SelectedBoat);
+						wait(1);
+					end;
+				elseif Workspace.Boats:FindFirstChild(_G.SelectedBoat) then
+					repeat
+						wait();
+						if (Character:WaitForChild("Humanoid")).Sit == false then
+							if TweenBoatKitsune then
+								TweenBoatKitsune:Stop();
+							end;
+							local stoppos = TweenPlayer((Workspace.Boats:FindFirstChild(_G.SelectedBoat)).VehicleSeat.CFrame * CFrame.new(0, 1, 0));
+						elseif (Character:WaitForChild("Humanoid")).Sit == true then
+							TweenBoatKitsune = TweenBoat(CFrame.new(-44541.7617, 30.0003204, -1244.8584, -0.0844199061, -0.00553312758, 0.9964149, -0.0654025897, 0.997858942, 0.000000000202319411, -0.99428153, -0.0651681125, -0.0846010372));
+						end;
+					until not _G.SummonKitsuneIsland or Workspace.Map:FindFirstChild("KitsuneIsland")
+					if TweenBoatKitsune then
+						TweenBoatKitsune:Stop();
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+AutoCollectAzureEmberToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Collect Azure Ember",
+	Flag = "AutoCollectAzureEmber",
+	Desc = "Tween To Azure Ember When it Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoCollectAzureEmber = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoCollectAzureEmber and World3 then
+			pcall(function()
+				if Workspace:FindFirstChild("AttachedAzureEmber") then
+					TweenPlayer(((Workspace:WaitForChild("EmberTemplate")):FindFirstChild("Part")).CFrame);
+				end;
+			end);
+		end;
+	end;
+end);
+SetAzureEmberSlider = Tabs.SeaStackTab:CreateSlider({
+	Name = "Set Azure Ember",
+	Desc ="Value To Trade Azure Ember",
+	Range = {1, 25}, Increment = 1, CurrentValue = 0,
+	Callback = function(value)
+		_G.SetAzureEmber = value;
+	end
+});
+SetAzureEmberSlider:Set(25)
+AutoTradeAzureEmberToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Trade Azure Ember",
+	Flag = "AutoTradeAzureEmber",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoTradeAzureEmber = state;
+	end
+});
+function GetCountMaterials(MaterialName)
+	local Inventory = Remotes.CommF_:InvokeServer("getInventory");
+	for i, v in pairs(Inventory) do
+		if v.Name == MaterialName then
+			return v.Count;
+		end;
+	end;
+end;
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.AutoTradeAzureEmber and World3 then
+			pcall(function()
+				local AzureAvilable = GetCountMaterials("Azure Ember");
+				if AzureAvilable >= _G.SetAzureEmber then
+					(ReplicatedStorage.Modules.Net:FindFirstChild("RF/KitsuneStatuePray")):InvokeServer();
+					Remotes.CommF_:InvokeServer("KitsuneStatuePray");
+				end;
+			end);
+		end;
+	end;
+end);
+MirageIslandSection = Tabs.SeaStackTab:CreateSection("Mirage Island")
+MirageStatusSeaStackParagraph = Tabs.SeaStackTab:CreateLabel("Mirage Status: -");
+TweenToMirageIslandToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Mirage Island",
+	Flag = "AutoMirageIsland",
+	Desc = "Tween To Mirage Island When it Appears",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TweenToMirageIsland = state;
+		StopTween(_G.TweenToMirageIsland);
+	end
+});
+function GetHighestPoint()
+	for i, v in pairs(Workspace.Map.MysticIsland:GetDescendants()) do
+		if v:IsA("MeshPart") then
+			if v.MeshId == "rbxassetid://6745037796" then
+				return v;
+			end;
+		end;
+	end;
+end;
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.TweenToHighestMirage then
+				if Workspace.Map:FindFirstChild("MysticIsland") then
+					TweenPlayer((GetHighestPoint()).CFrame * CFrame.new(0, 211.88, 0));
+				end;
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.TweenToMirageIsland then
+				if Workspace.Map:FindFirstChild("MysticIsland") then
+					TweenPlayer((GetHighestPoint()).CFrame * CFrame.new(0, 211.88, 0));
+				end;
+			end;
+		end;
+	end);
+end);
+SeaBeastSeaStackSection = Tabs.SeaStackTab:CreateSection("Sea Beasts");
+AutoAttackSeaBeastsToggle = Tabs.SeaStackTab:CreateToggle({
+	Name = "Auto Attack Seabeasts",
+	Flag = "AutoAttackSeabeasts",
+	Desc = "Teleport and Attack Seabeasts",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoAttackSeabeasts = state;
+		StopTween(_G.AutoAttackSeabeasts);
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoAttackSeabeasts and (World2 or World3) then
+				if Workspace:FindFirstChild("SeaBeasts") then
+					for i, v in pairs(Workspace.SeaBeasts:GetChildren()) do
+						if CheckSeaBeast() then
+							repeat
+								wait();
+								CFrameSeaBeast = v.HumanoidRootPart.CFrame * CFrame.new(0, 200, 0);
+								if (CFrameSeaBeast.Position - HumanoidRootPart.CFrame.Position).Magnitude <= 400 then
+									_G.SeaSkill = true;
+								else
+									_G.SeaSkill = false;
+								end;
+								AutoHaki();
+								Skillaimbot = true;
+								AimBotSkillPosition = v.HumanoidRootPart.CFrame.Position;
+								if SBAttacking then
+									TweenPlayer(CFrameSeaBeast * CFrame.new(math.random(100, 300), 100, math.random(100, 300)));
+								else
+									TweenPlayer(CFrameSeaBeast * CFrame.new(0, 100, 0));
+								end;
+							until not _G.AutoAttackSeabeasts or CheckSeaBeast() == false or (not v:FindFirstChild("Humanoid")) or (not v:FindFirstChild("HumanoidRootPart")) or v.Humanoid.Health < 0 or (not v.Parent);
+							Skillaimbot = false;
+							_G.SeaSkill = false;
+						else
+							Skillaimbot = false;
+							_G.SeaSkill = false;
+						end;
+					end;
+				end;
+			end;
+		end;
+	end);
+end);
+SettingSeaSection = Tabs.SeaSettingsTab:CreateSection("Settings");
+LightningToggle = Tabs.SeaSettingsTab:CreateToggle({
+	Name = "Lightning",
+	Flag = "Lightning",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.Lighting = state;
+	end
+});
+RunService.Heartbeat:Connect(function()
+	local Lighting = game:GetService("Lighting");
+	if _G.Lightning then
+		Lighting.ClockTime = 12;
+	end;
+end);
+IncreaseSpeedBoatToggle = Tabs.SeaSettingsTab:CreateToggle({
+	Name = "Increase Speed Boat",
+	Flag = "IncreaseSpeedBoat",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.IncreaseSpeedBoat = state;
+	end
+});
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			local vehicleSeats = {};
+			for i, v in pairs(Workspace.Boats:GetDescendants()) do
+				if v:IsA("VehicleSeat") then
+					table.insert(vehicleSeats, v);
+				end;
+			end;
+			if _G.IncreaseSpeedBoat then
+				for _, v in pairs(vehicleSeats) do
+					v.MaxSpeed = 350;
+				end;
+			else
+				for _, v in pairs(vehicleSeats) do
+					v.MaxSpeed = 150;
+				end;
+			end;
+		end);
+	end;
+end);
+NoClipRockToggle = Tabs.SeaSettingsTab:CreateToggle({
+	Name = "No Clip Rock",
+	Flag = "NoClipRock",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.NoClipRock = state;
+	end
+});
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			for i, boat in pairs(Workspace.Boats:GetChildren()) do
+				for _, v in pairs(Workspace.Boats[boat.Name]:GetDescendants()) do
+					if v:IsA("BasePart") then
+						if _G.NoClipRock or _G.SailBoat then
+							v.CanCollide = false;
+						else
+							v.CanCollide = true;
+						end;
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+SettingSeaSection = Tabs.SeaSettingsTab:CreateSection("Tools");
+UseDevilFruitSkillToggle = Tabs.SeaSettingsTab:CreateToggle({
+	Name = "Use Devil Fruit Skill",
+	Flag = "UseDevilFruitSkill",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.UseDevilFruitSkill = state;
+	end
+});
+UseMeleeSkillToggle = Tabs.SeaSettingsTab:CreateToggle({
+	Name = "Use Melee Skill",
+	Flag = "UseMeleeSkill",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.UseMeleeSkill = state;
+	end
+});
+UseSwordSkillToggle = Tabs.SeaSettingsTab:CreateToggle({
+	Name = "Use Sword Skill",
+	Flag = "UseSwordSkill",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.UseSwordSkill = state;
+	end
+});
+UseGunSkillToggle = Tabs.SeaSettingsTab:CreateToggle({
+	Name = "Use Gun Skill",
+	Flag = "UseGunSkill",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.UseGunSkill = state;
+	end
+});
+DevilFruitSkillSection = Tabs.SeaSettingsTab:CreateSection("Devil Fruit Skill");
+DevilFruiSKillSeaEventDropdown = Tabs.SeaSettingsTab:CreateDropdown({
+	Name = "Select Devil Fruit Skill",
+	Options = FruitSkillList,
+	CurrentOption = {"Z", "X", "C"},
+	Multi = true,
+	Callback = function(value)
+		value = type(value) == "table" and value[1] or value;
+		_G.DevilFruitSkillSeaEvent = value;
+	end
+});
+DevilFruiSKillSeaEventDropdown:Select({"Z", "X", "C"})
+MeleeSkillSection = Tabs.SeaSettingsTab:CreateSection("Melee Skill");
+local MeleeSkillList = {
+	"Z",
+	"X",
+	"C",
+	"V"
+};
+MeleeSkillSeaEventDropdown = Tabs.SeaSettingsTab:CreateDropdown({
+	Name = "Select Melee Skill",
+	Options = MeleeSkillList,
+	CurrentOption = {"Z", "X", "C", "V"},
+	Multi = true,
+	Callback = function(value)
+		value = type(value) == "table" and value[1] or value;
+		_G.MeleeSkillSeaEvent = value;
+	end
+});
+MeleeSkillSeaEventDropdown:Select({"Z", "X", "C", "V"})
+DoneSkillGun = false;
+DoneSkillSword = false;
+DoneSkillFruit = false;
+DoneSkillMelee = false;
+spawn(function()
+	while wait() do
+		wait(0.1);
+		pcall(function()
+			if _G.SeaSkill then
+				if _G.UseDevilFruitSkill and DoneSkillFruit == false then
+					EquipWeapon(getWeapon("Blox Fruit"))
+					for i, v in pairs(_G.DevilFruitSkillSeaEvent) do
+						sendKeyEvent(v)
+						wait(0.1)
+					end;
+					DoneSkillFruit = true;
+				end;
+				if _G.UseMeleeSkill and DoneSkillMelee == false then
+					EquipWeapon(getWeapon("Melee"))
+					for i, v in pairs(_G.MeleeSkillSeaEvent) do
+						sendKeyEvent(v)
+						wait(0.1)
+					end;
+					DoneSkillMelee = true;
+				end;
+				if _G.UseSwordSkill and DoneSkillSword == false then
+					EquipWeapon(getWeapon("Sword"));
+					sendKeyEvent("Z");
+					wait(0.1);
+					sendKeyEvent("X");
+					DoneSkillSword = true;
+				end;
+				if _G.UseGunSkill and DoneSkillGun == false then
+					EquipWeapon(getWeapon("Gun"))
+					sendKeyEvent("Z");
+					wait(0.1);
+					sendKeyEvent("X");
+					DoneSkillGun = true;
+				end;
+				DoneSkillGun = false;
+				DoneSkillSword = false;
+				DoneSkillFruit = false;
+				DoneSkillMelee = false;
+			end;
+		end);
+	end;
+end);
+function CheckSeaBeast()
+	if Workspace:FindFirstChild("SeaBeasts") then
+		for i, v in pairs(Workspace.SeaBeasts:GetChildren()) do
+			if v:FindFirstChild("Humanoid") or v:FindFirstChild("HumanoidRootPart") or v.Humanoid.Health < 0 then
+				return true;
+			end;
+		end;
+	end;
+	return false;
+end;
+local gg = getrawmetatable(game);
+local old = gg.__namecall;
+setreadonly(gg, false);
+gg.__namecall = newcclosure(function(...)
+	local method = getnamecallmethod();
+	local args = {
+		...
+	};
+	if tostring(method) == "FireServer" then
+		if tostring(args[1]) == "RemoteEvent" then
+			if tostring(args[2]) ~= "true" and tostring(args[2]) ~= "false" then
+				if Skillaimbot then
+					args[2] = AimBotSkillPosition;
+					return old(unpack(args));
+				end;
+			end;
+		end;
+	end;
+	return old(...);
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if UseSkill then
+				for _, skill in pairs(_G.SelectedFruitSkill) do
+					sendKeyEvent(skill)
+					wait(0.1)
+				end;
+			end;
+		end);
+	end;
+end);
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if UseGunSkill then
+				for _, skill in pairs(_G.SelectedGunSkill) do
+					sendKeyEvent(skill)
+					wait(0.1)
+				end;
+			end;
+		end);
+	end;
+end);
+LocalPlayerSection = Tabs.LocalPlayerTab:CreateSection("Local Player");
+AutoActiveRaceV3Toggle = Tabs.LocalPlayerTab:CreateToggle({
+	Name = "Active Race V3",
+	Flag = "ActiveRaceV3",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.ActiveRaceV3 = state;
+	end
+});
+AutoActiveRaceV4Toggle = Tabs.LocalPlayerTab:CreateToggle({
+	Name = "Active Race V4",
+	Flag = "ActiveRaceV4",
+	CurrentValue = true,
+	Callback = function(state)
+		_G.ActiveRaceV4 = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.ActiveRaceV4 then
+			if tonumber((Character:WaitForChild("RaceEnergy")).Value) == 1 then
+				if Character.RaceTransformed.Value == false then
+					VirtualInputManager:SendKeyEvent(true, "Y", false, game);
+					wait(0.1);
+					VirtualInputManager:SendKeyEvent(false, "Y", false, game);
+				end;
+			end;
+		end;
+	end;
+end);
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.ActiveRaceV3 then
+				Remotes.CommE:FireServer("ActivateAbility");
+			end;
+		end;
+	end);
+end);
+WalkOnWaterToggle = Tabs.LocalPlayerTab:CreateToggle({
+	Name = "Walk On Water",
+	Flag = "WalkOnWater",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.WalkOnWater = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		pcall(function()
+			if _G.WalkOnWater then
+				Workspace.Map["WaterBase-Plane"].Size = Vector3.new(1000, 112, 1000);
+			else
+				Workspace.Map["WaterBase-Plane"].Size = Vector3.new(1000, 80, 1000);
+			end;
+		end);
+	end;
+end);
+NoClipPlayerToggle = Tabs.LocalPlayerTab:CreateToggle({
+	Name = "No Clip",
+	Flag = "NoClip",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.NoClip = state;
+	end
+});
+FruitSection = Tabs.FruitTab:CreateSection("Fruit");
+AutoRandomFruitToggle = Tabs.FruitTab:CreateToggle({
+	Name = "Auto Random Fruit",
+	Flag = "AutoRandomFruit",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoRandomFruit = state;
+	end
+});
+spawn(function()
+	pcall(function()
+		while wait() do
+			wait(_G.GlobalDelay)
+			if _G.AutoRandomFruit then
+				Remotes.CommF_:InvokeServer("Cousin", "Buy");
+			end;
+		end;
+	end);
+end);
+SelectStoreRarityFruits = {
+	"Common - Mythical",
+	"Uncommon - Mythical",
+	"Rare - Mythical",
+	"Legendary - Mythical",
+	"Mythical"
+};
+StoreRarityFruitDropdown = Tabs.FruitTab:CreateDropdown({
+	Name = "Store Rarity Fruit",
+	Flag = "StoreRarityFruit",
+	Options = SelectStoreRarityFruits,
+	Value = SelectStoreRarityFruits[1],
+	Callback = function(option)
+		option = type(option) == "table" and option[1] or option;
+		_G.StoreRarityFruit = option;
+	end
+});
+function CheckStoreFruits()
+	for i, v in pairs(RarityFruits) do
+		if _G.StoreRarityFruit == "Common - Mythical" then
+			if i == "Common" or i == "Uncommon" or i == "Rare" or i == "Legendary" or i == "Mythical" then
+				for _, fruit in ipairs(v) do
+					table.insert(ResultStoreFruits, fruit);
+				end;
+			end;
+		elseif _G.StoreRarityFruit == "Uncommon - Mythical" then
+			if i == "Uncommon" or i == "Rare" or i == "Legendary" or i == "Mythical" then
+				for _, fruit in ipairs(v) do
+					table.insert(ResultStoreFruits, fruit);
+				end;
+			end;
+		elseif _G.StoreRarityFruit == "Rare - Mythical" then
+			if i == "Rare" or i == "Legendary" or i == "Mythical" then
+				for _, fruit in ipairs(v) do
+					table.insert(ResultStoreFruits, fruit);
+				end;
+			end;
+		elseif _G.StoreRarityFruit == "Legendary - Mythical" then
+			if i == "Legendary" or i == "Mythical" then
+				for _, fruit in ipairs(v) do
+					table.insert(ResultStoreFruits, fruit);
+				end;
+			end;
+		elseif _G.StoreRarityFruit == "Mythical" then
+			if i == "Mythical" then
+				for _, fruit in ipairs(v) do
+					table.insert(ResultStoreFruits, fruit);
+				end;
+			end;
+		end;
+	end;
+end;
+AutoStoreFruitToggle = Tabs.FruitTab:CreateToggle({
+	Name = "Auto Store Fruit",
+	Flag = "AutoStoreFruit",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.AutoStoreFruit = state;
+	end
+});
+spawn(function()
+	while wait(0.2) do
+		pcall(function()
+			if _G.AutoStoreFruit then
+				for i, v in pairs(LocalPlayer.Backpack:GetChildren()) do
+					if string.find(v.Name, "Fruit") then
+						ResultStoreFruits = {};
+						CheckStoreFruits();
+						for z, Res in pairs(ResultStoreFruits) do
+							if v.Name == Res then
+								local NameFruit = v.Name;
+								local FirstNameFruit = string.gsub(v.Name, " Fruit", "");
+								if LocalPlayer.Backpack:FindFirstChild(NameFruit) then
+									Remotes.CommF_:InvokeServer("StoreFruit", FirstNameFruit .. "-" .. FirstNameFruit, LocalPlayer.Backpack:FindFirstChild(NameFruit));
+								end;
+							end;
+						end;
+					end;
+				end;
+			end;
+		end);
+	end;
+end);
+FruitNotification = Tabs.FruitTab:CreateToggle({
+	Name = "Fruit Notification",
+	Flag = "FruitNotification",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.FruitNotification = value;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(5);
+		if _G.FruitNotification then
+			for i, v in pairs(Workspace:GetChildren()) do
+				if string.find(v.Name, "Fruit") then
+					Rayfield:Notify({
+						Title = "Fruit found",
+						Content = v.Name,
+						Duration = 3
+					});
+				end;
+			end;
+		end;
+	end;
+end);
+TeleportToFruitToggle = Tabs.FruitTab:CreateToggle({
+	Name = "Teleport To Fruit",
+	Flag = "TeleportToFruit",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TeleportToFruit = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.TeleportToFruit then
+			for i, v in pairs(Workspace:GetChildren()) do
+				if string.find(v.Name, "Fruit") then
+					HumanoidRootPart.CFrame = v.Handle.CFrame;
+				end;
+			end;
+		end;
+	end;
+end);
+TweenToFruitToggle = Tabs.FruitTab:CreateToggle({
+	Name = "Tween To Fruit",
+	Flag = "TweenToFruit",
+	CurrentValue = false,
+	Callback = function(state)
+		_G.TweenToFruit = state;
+	end
+});
+spawn(function()
+	while wait() do
+		wait(_G.GlobalDelay)
+		if _G.TweenToFruit then
+			for i, v in pairs(Workspace:GetChildren()) do
+				if string.find(v.Name, "Fruit") then
+					TweenPlayer(v.Handle.CFrame);
+				end;
+			end;
+		end;
+	end;
+end);
+GrabFruitButton = Tabs.FruitTab:CreateButton({
+	Name = "Grab Fruit",
+	Callback = function()
+		for i, v in pairs(Workspace:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Handle.CFrame = HumanoidRootPart.CFrame;
+			end;
+		end;
+	end
+});
+VisualSection = Tabs.FruitTab:CreateSection("Visual");
+function RainFruit()
+	for i, v in pairs((game:GetObjects("rbxassetid://14759368201"))[1]:GetChildren()) do
+		v.Parent = Workspace.Map;
+		v:MoveTo(Character.PrimaryPart.Position + Vector3.new(math.random((-50), 50), 100, math.random((-50), 50)));
+		if v.Fruit:FindFirstChild("AnimationController") then
+			((v.Fruit:FindFirstChild("AnimationController")):LoadAnimation(v.Fruit:FindFirstChild("Idle"))):Play();
+		end;
+		v.Handle.Touched:Connect(function(x)
+			if x.Parent == Character then
+				v.Parent = LocalPlayer.Backpack;
+				Character.Humanoid:EquipTool(v);
+			end;
+		end);
+	end;
+end;
+RainFruitButton = Tabs.FruitTab:CreateButton({
+	Name = "Rain Fruit",
+	Callback = function()
+		RainFruit();
+	end
+});
+TeamSection = Tabs.MiscTab:CreateSection("Teams");
+JoinPiratesTeamButton = Tabs.MiscTab:CreateButton({
+	Name = "Join Pirates Team",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("SetTeam", "Pirates");
+	end
+});
+JoinMarinesTeamButton = Tabs.MiscTab:CreateButton({
+	Name = "Join Marines Team",
+	Callback = function()
+		Remotes.CommF_:InvokeServer("SetTeam", "Marines");
+	end
+});
+CodeSection = Tabs.MiscTab:CreateSection("Codes");
+local codeList = {
+	"KITTGAMING",
+	"ENYU_IS_PRO",
+	"FUDD10",
+	"BIGNEWS",
+	"THEGREATACE",
+	"SUB2GAMERROBOT_EXP1",
+	"STRAWHATMAIME",
+	"SUB2OFFICIALNOOBIE",
+	"SUB2NOOBMASTER123",
+	"SUB2DAIGROCK",
+	"AXIORE",
+	"TANTAIGAMIMG",
+	"STRAWHATMAINE",
+	"JCWK",
+	"FUDD10_V2",
+	"SUB2FER999",
+	"MAGICBIS",
+	"TY_FOR_WATCHING",
+	"STARCODEHEO"
+};
+function redeemCode(code)
+	Remotes.Redeem:InvokeServer(code);
+end;
+local RedeemAllCodesButton = Tabs.MiscTab:CreateButton({
+	Name = "Redeem All Codes",
+	Callback = function()
+		for i, v in pairs(codeList) do
+			redeemCode(v);
+		end;
+	end
+});
+GraphicMiscSection = Tabs.MiscTab:CreateSection("Graphics");
+function boostFps()
+	local decalsyeeted = true;
+	local g = game;
+	local w = g.Workspace;
+	local l = g.Lighting;
+	local t = w.Terrain;
+	(settings()).Rendering.QualityLevel = "Level01";
+	for i, v in pairs(g:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+			v.Material = "Plastic";
+			v.Reflectance = 0;
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+			v.Transparency = 1;
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+			v.Lifetime = NumberRange.new(0);
+		elseif v:IsA("Explosion") then
+			v.BlastPressure = 1;
+			v.BlastRadius = 1;
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+			v.Enabled = false;
+		end;
+	end;
+end;
+FpsBoostButton = Tabs.MiscTab:CreateButton({
+	Name = "Fps Boost",
+	Callback = function()
+		boostFps();
+	end
+});
+RemoveFogButton = Tabs.MiscTab:CreateButton({
+	Name = "Remove Fog",
+	Callback = function()
+		(game:GetService("Lighting")).LightingLayers:Destroy();
+		(game:GetService("Lighting")).Sky:Destroy();
+		game.Lighting.FogEnd = 9000000000;
+	end
+});
+RemoveLavaButton = Tabs.MiscTab:CreateButton({
+	Name = "Remove Lava",
+	Callback = function()
+		for i, v in pairs(Workspace:GetDescendants()) do
+			if v.Name == "Lava" then
+				v:Destroy();
+			end;
+		end;
+		for i, v in pairs(ReplicatedStorage:GetDescendants()) do
+			if v.Name == "Lava" then
+				v:Destroy();
+			end;
+		end;
+	end
+});
+ServerTabSection = Tabs.ServerTab:CreateSection("Server");
+RejoinServerButton = Tabs.ServerTab:CreateButton({
+	Name = "Rejoin (same server)",
+	Callback = function()
+		serverFunctions.Rejoin()
+	end
+});
+ServerHopButton = Tabs.ServerTab:CreateButton({
+	Name = "Server Hop (random)",
+	Callback = function()
+		serverFunctions.Hop()
+	end
+});
+ServerHopLowButton = Tabs.ServerTab:CreateButton({
+	Name = "Server Hop (low player)",
+	Callback = function()
+		serverFunctions.HopLowPlayer()
+	end
+});
+JobIdParagraph = Tabs.ServerTab:CreateLabel("Job ID: ...");
+CopyJobIdButton = Tabs.ServerTab:CreateButton({
+	Name = "Copy Job ID",
+	Callback = function()
+		setclipboard(game.JobId);
+	end
+});
+EnterJobIdInput = Tabs.ServerTab:CreateInput({
+	Name = "Enter Job ID",
+	Flag = "EnterJobID",
+	PlaceholderText = "Type here...",
+	Callback = function(value)
+		_G.JobId = value;
+	end
+});
+JoinJobIdButton = Tabs.ServerTab:CreateButton({
+	Name = "Join Job ID",
+	Callback = function()
+		serverFunctions.JoinJobId(_G.JobId)
+	end
+});
+StatusServerSection = Tabs.ServerTab:CreateSection("Status Server");
+MoonServerParagraph = Tabs.ServerTab:CreateLabel("Moon Server: -");
+KitsuneStatusParagraph = Tabs.ServerTab:CreateLabel("Kitsune Status: -");
+FrozenStatusParagraph = Tabs.ServerTab:CreateLabel("Frozen Status: -");
+MirageStatusParagraph = Tabs.ServerTab:CreateLabel("Mirage Status: -");
+HakiDealerStatusParagraph = Tabs.ServerTab:CreateLabel("Haki Dealer Status: -");
+PrehistoricStatusParagraph = Tabs.ServerTab:CreateLabel("Prehistoric Status: -");
+spawn(function()
+	while task.wait(1) do
+		pcall(function()
+			if (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149431" then
+				MoonServerParagraph:Set(tostring("🌕 Full Moon 100%"));
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149052" then
+				MoonServerParagraph:Set(tostring("🌖 Full Moon 75%"));
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709143733" then
+				MoonServerParagraph:Set(tostring("🌗 Full Moon 50%"));
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709150401" then
+				MoonServerParagraph:Set(tostring("🌘 Full Moon 25%"));
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149680" then
+				MoonServerParagraph:Set(tostring("🌘 Full Moon 15%"));
+			else
+				MoonServerParagraph:Set(tostring("🌑 Full Moon 0%"));
+			end;
+		end);
+	end;
+end);
+spawn(function()
+	pcall(function()
+		while wait(1) do
+			if World3 then
+				if Workspace.Map:FindFirstChild("KitsuneIsland") then
+					KitsuneStatusParagraph:Set(tostring("⛩️ Kitsune Island is Spawning"));
+				else
+					KitsuneStatusParagraph:Set(tostring("⛩️ Kitsune Island Not Spawn"));
+				end;
+			else
+				KitsuneStatusParagraph:Set(tostring("World 3 Only"));
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait(1) do
+			if World3 then
+				if Workspace.Map:FindFirstChild("PrehistoricIsland") then
+					PrehistoricStatusParagraph:Set(tostring("🦴 Prehistoric Island is Spawning"));
+				else
+					PrehistoricStatusParagraph:Set(tostring("🦴 Prehistoric Island Not Spawn"));
+				end;
+			else
+				PrehistoricStatusParagraph:Set(tostring("World 3 Only"));
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait(1) do
+			if Workspace.Map:FindFirstChild("FrozenDimension") then
+				FrozenStatusParagraph:Set(tostring("❄️ Frozen Dimension Spawning"));
+			else
+				FrozenStatusParagraph:Set(tostring("❄️ Frozen Dimension Not Spawn"));
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	pcall(function()
+		while wait(1) do
+			if World2 or World3 then
+				if Workspace.Map:FindFirstChild("MysticIsland") then
+					MirageStatusParagraph:Set(tostring("🏝️ Mirage Island is Spawning"));
+				else
+					MirageStatusParagraph:Set(tostring("🏝️ Mirage Island Not Spawn"));
+				end;
+			else
+				MirageStatusParagraph:Set(tostring("World 3 Only"));
+			end;
+		end;
+	end);
+end);
+spawn(function()
+	while wait(1) do
+		pcall(function()
+			local response = Remotes:WaitForChild("CommF_"):InvokeServer("ColorsDealer", "1");
+			if response then
+				HakiDealerStatusParagraph:Set(tostring("🟢 Master Of Auras Spawning"));
+			else
+				HakiDealerStatusParagraph:Set(tostring("🔴 Master Of Auras Not Spawn"));
+			end;
+		end);
+	end;
+end);
